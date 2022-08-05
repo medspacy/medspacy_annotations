@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="628045.txt">
+    <annotation>
+        <mention id="EHOST_Instance_24415" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="207" end="214" />
+        <spannedText>hypoxia</spannedText>
+        <creationDate>Fri Aug 05 09:02:02 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24415">
+        <mentionClass id="Symptom">hypoxia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24416" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="537" end="544" />
+        <spannedText>hypoxic</spannedText>
+        <creationDate>Fri Aug 05 09:04:16 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24416">
+        <mentionClass id="Symptom">hypoxic</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24417" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="774" end="777" />
+        <spannedText>SOB</spannedText>
+        <creationDate>Fri Aug 05 09:04:26 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24417">
+        <mentionClass id="Symptom">SOB</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24418" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="822" end="841" />
+        <spannedText>nonproductive cough</spannedText>
+        <creationDate>Fri Aug 05 09:04:32 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24418">
+        <mentionClass id="Symptom">nonproductive cough</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24419" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="876" end="886" />
+        <spannedText>Chest pain</spannedText>
+        <creationDate>Fri Aug 05 09:04:35 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24419">
+        <mentionClass id="Symptom">Chest pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24420" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="888" end="893" />
+        <spannedText>fever</spannedText>
+        <creationDate>Fri Aug 05 09:04:36 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24420">
+        <mentionClass id="Symptom">fever</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24421" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="895" end="901" />
+        <spannedText>nausea</spannedText>
+        <creationDate>Fri Aug 05 09:04:37 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24421">
+        <mentionClass id="Symptom">nausea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24422" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="903" end="912" />
+        <spannedText>vomitting</spannedText>
+        <creationDate>Fri Aug 05 09:04:39 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24422">
+        <mentionClass id="Symptom">vomitting</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24423" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="914" end="926" />
+        <spannedText>palpitations</spannedText>
+        <creationDate>Fri Aug 05 09:04:40 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24423">
+        <mentionClass id="Symptom">palpitations</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24424" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="928" end="937" />
+        <spannedText>orthopnea</spannedText>
+        <creationDate>Fri Aug 05 09:04:41 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24424">
+        <mentionClass id="Symptom">orthopnea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24425" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="946" end="949" />
+        <spannedText>PND</spannedText>
+        <creationDate>Fri Aug 05 09:04:44 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24425">
+        <mentionClass id="Symptom">PND</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24426" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1548" end="1555" />
+        <spannedText>dyspnea</spannedText>
+        <creationDate>Fri Aug 05 09:05:47 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24426">
+        <mentionClass id="Symptom">dyspnea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24427" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2859" end="2864" />
+        <spannedText>fever</spannedText>
+        <creationDate>Fri Aug 05 09:06:01 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24427">
+        <mentionClass id="Symptom">fever</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24428" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2866" end="2872" />
+        <spannedText>chills</spannedText>
+        <creationDate>Fri Aug 05 09:06:03 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24428">
+        <mentionClass id="Symptom">chills</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24429" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2874" end="2886" />
+        <spannedText>night sweats</spannedText>
+        <creationDate>Fri Aug 05 09:06:04 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24429">
+        <mentionClass id="Symptom">night sweats</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24430" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2895" end="2906" />
+        <spannedText>weight loss</spannedText>
+        <creationDate>Fri Aug 05 09:06:11 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24430">
+        <mentionClass id="Symptom">weight loss</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24431" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2926" end="2934" />
+        <spannedText>headache</spannedText>
+        <creationDate>Fri Aug 05 09:06:14 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24431">
+        <mentionClass id="Symptom">headache</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24432" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2936" end="2952" />
+        <spannedText>sinus tenderness</spannedText>
+        <creationDate>Fri Aug 05 09:06:16 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24432">
+        <mentionClass id="Symptom">sinus tenderness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24433" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2954" end="2964" />
+        <spannedText>rhinorrhea</spannedText>
+        <creationDate>Fri Aug 05 09:06:17 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24433">
+        <mentionClass id="Symptom">rhinorrhea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24434" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2968" end="2978" />
+        <spannedText>congestion</spannedText>
+        <creationDate>Fri Aug 05 09:06:18 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24434">
+        <mentionClass id="Symptom">congestion</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24435" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2990" end="2998" />
+        <spannedText>wheezing</spannedText>
+        <creationDate>Fri Aug 05 09:06:20 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24435">
+        <mentionClass id="Symptom">wheezing</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24436" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3007" end="3017" />
+        <spannedText>chest pain</spannedText>
+        <creationDate>Fri Aug 05 09:06:22 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24436">
+        <mentionClass id="Symptom">chest pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24437" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3019" end="3033" />
+        <spannedText>chest pressure</spannedText>
+        <creationDate>Fri Aug 05 09:06:23 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24437">
+        <mentionClass id="Symptom">chest pressure</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24438" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3035" end="3047" />
+        <spannedText>palpitations</spannedText>
+        <creationDate>Fri Aug 05 09:06:24 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24438">
+        <mentionClass id="Symptom">palpitations</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24439" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3052" end="3060" />
+        <spannedText>weakness</spannedText>
+        <creationDate>Fri Aug 05 09:06:26 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24439">
+        <mentionClass id="Symptom">weakness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24440" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3072" end="3078" />
+        <spannedText>nausea</spannedText>
+        <creationDate>Fri Aug 05 09:06:28 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24440">
+        <mentionClass id="Symptom">nausea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24441" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3080" end="3088" />
+        <spannedText>vomiting</spannedText>
+        <creationDate>Fri Aug 05 09:06:29 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24441">
+        <mentionClass id="Symptom">vomiting</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24442" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3090" end="3098" />
+        <spannedText>diarrhea</spannedText>
+        <creationDate>Fri Aug 05 09:06:30 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24442">
+        <mentionClass id="Symptom">diarrhea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24443" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3100" end="3112" />
+        <spannedText>constipation</spannedText>
+        <creationDate>Fri Aug 05 09:06:31 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24443">
+        <mentionClass id="Symptom">constipation</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24444" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3114" end="3128" />
+        <spannedText>abdominal pain</spannedText>
+        <creationDate>Fri Aug 05 09:06:33 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24444">
+        <mentionClass id="Symptom">abdominal pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24445" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3168" end="3175" />
+        <spannedText>dysuria</spannedText>
+        <creationDate>Fri Aug 05 09:06:40 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24445">
+        <mentionClass id="Symptom">dysuria</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24446" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3177" end="3186" />
+        <spannedText>frequency</spannedText>
+        <creationDate>Fri Aug 05 09:06:44 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24446">
+        <mentionClass id="Symptom">frequency</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24447" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3191" end="3198" />
+        <spannedText>urgency</spannedText>
+        <creationDate>Fri Aug 05 09:06:45 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24447">
+        <mentionClass id="Symptom">urgency</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24448" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3210" end="3221" />
+        <spannedText>arthralgias</spannedText>
+        <creationDate>Fri Aug 05 09:06:50 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24448">
+        <mentionClass id="Symptom">arthralgias</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24449" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3225" end="3233" />
+        <spannedText>myalgias</spannedText>
+        <creationDate>Fri Aug 05 09:06:51 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24449">
+        <mentionClass id="Symptom">myalgias</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24450" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3242" end="3248" />
+        <spannedText>rashes</spannedText>
+        <creationDate>Fri Aug 05 09:06:53 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24450">
+        <mentionClass id="Symptom">rashes</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24451" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4340" end="4354" />
+        <spannedText>acute distress</spannedText>
+        <creationDate>Fri Aug 05 09:07:06 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24451">
+        <mentionClass id="Symptom">acute distress</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24452" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4479" end="4485" />
+        <spannedText>wheeze</spannedText>
+        <creationDate>Fri Aug 05 09:07:14 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24452">
+        <mentionClass id="Symptom">wheeze</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24453" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4489" end="4496" />
+        <spannedText>rhonchi</spannedText>
+        <creationDate>Fri Aug 05 09:07:15 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24453">
+        <mentionClass id="Symptom">rhonchi</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24454" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4750" end="4758" />
+        <spannedText>clubbing</spannedText>
+        <creationDate>Fri Aug 05 09:07:30 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24454">
+        <mentionClass id="Symptom">clubbing</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24455" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4760" end="4768" />
+        <spannedText>cyanosis</spannedText>
+        <creationDate>Fri Aug 05 09:07:31 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24455">
+        <mentionClass id="Symptom">cyanosis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24456" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4853" end="4858" />
+        <spannedText>edema</spannedText>
+        <creationDate>Fri Aug 05 09:07:40 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24456">
+        <mentionClass id="Symptom">edema</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24457" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6329" end="6336" />
+        <spannedText>hypoxia</spannedText>
+        <creationDate>Fri Aug 05 09:07:47 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24457">
+        <mentionClass id="Symptom">hypoxia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24458" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6348" end="6355" />
+        <spannedText>Hypoxia</spannedText>
+        <creationDate>Fri Aug 05 09:07:51 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24458">
+        <mentionClass id="Symptom">Hypoxia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24459" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6356" end="6373" />
+        <spannedText>Pleural effusions</spannedText>
+        <creationDate>Fri Aug 05 09:07:53 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24459">
+        <mentionClass id="Symptom">Pleural effusions</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24460" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6445" end="6454" />
+        <spannedText>effusions</spannedText>
+        <creationDate>Fri Aug 05 09:08:01 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24460">
+        <mentionClass id="Symptom">effusions</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24461" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6651" end="6656" />
+        <spannedText>edema</spannedText>
+        <creationDate>Fri Aug 05 09:08:10 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24461">
+        <mentionClass id="Symptom">edema</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24462" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="7074" end="7086" />
+        <spannedText>LLE swelling</spannedText>
+        <creationDate>Fri Aug 05 09:08:25 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24462">
+        <mentionClass id="Symptom">LLE swelling</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24463" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="20" end="24" />
+        <spannedText>HPI:</spannedText>
+        <creationDate>Fri Aug 05 09:09:15 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24463">
+        <mentionClass id="SectionHeader_HasSymptom">HPI:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24464" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="25" end="2807" />
+        <spannedText>89 yo Female with minimal past medical history now s/p Left hip replacement on [**2177-4-7**] at NEBH, and transferred to [**Hospital **] rehab on [**4-11**] now presents with hypoxia. Per documentation, patient had uneventful hospital course except for hypertension for which she was transiently on clonidine and now on norvasc, and fluid retention for which she was placed on lasix 40 [**Hospital1 **] and just transitioned to lasix 20 daily yesterday. At rehab today patient was noted to be hypoxic to 70s on RA. EMS was called and she was noted to be saturating in low 80s on RA. She was started on 5L and improved to 93% and transferrred to [**Hospital1 1**]. . Patient feels generally well, but noticed some mild SOB at rest this morning. She also reports a nonproductive cough for "several days". She denies Chest pain, fever, nausea, vomitting, palpitations, orthopnea, and PND. . At [**Hospital1 1**] ED, initial vitals were 98.2, 155/73, 85, 16, 87 RA. EKG was unremarkable. CXR showed bilateraly effusions, with a small consolidation on the right. CTA was negative for PE, but did show large effusions. On the way back from CT, patient desaturated to low 90s on 5L NC. She received 40 mg of Lasix IV and put out 1.5 L. She was placed on a NRB and saturations improved to the mid 90s. She received Ceftriaxone 1 g IVx1, Azithromycin 500 mg IV x1, and tylenol. On transfer, VS were 86, 135/79, 98 NRB. . In the ICU, patient reports some mild dyspnea at rest but otherwise feels well. Allergies: Last dose of Antibiotics: Infusions: Other ICU medications: Other medications: Celebrex 200 mg daily Omperazole 40 mg daily Coumadin 3mg for 4-6 weeks post op Lasix 20 mg daily (Just decreased from 40 mg [**Hospital1 **] yesterday) Mgoxide 400 mg [**Hospital1 **] MVI Oxycodone 5 mg TID prn Acetaminophen 650 mg TID prn Amlodipine 5 mg daily Artificial tears prn Calcium carbonate 650 mg [**Hospital1 **] Vitamin D 50,000 weekly Potassium Chloride SR 10 meq daily Senna 2 tab daily Simvistatin 20 mg daily Bisacodyl 10 mg PR Zofran 4 mg po TID prn Past medical history: Family history: Social History: NO CARDIAC OR PULMONARY HISTORY Chronic pain Osteoarthritis Hypertension Nicotine dependence Short term memory loss S/p Left hip arthroplasty S/p Right knee arthroplasty S/p Right tibial fracture S/p tonsillectomy S/p bladder suspension Nephew with DM. Mother with CAD ("angina"). No CVA history. Lives with husband on [**Name (NI) **]. Daughter in [**Name2 (NI) 4318**]. Quit smoking 1 week ago, but previously smoked less than 1ppd x 50 years. No illicit drug use or alcohol use.</spannedText>
+        <creationDate>Fri Aug 05 09:09:40 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24464">
+        <mentionClass id="Symptom_Section">89 yo Female with minimal past medical history now s/p Left hip replacement on [**2177-4-7**] at NEBH, and transferred to [**Hospital **] rehab on [**4-11**] now presents with hypoxia. Per documentation, patient had uneventful hospital course except for hypertension for which she was transiently on clonidine and now on norvasc, and fluid retention for which she was placed on lasix 40 [**Hospital1 **] and just transitioned to lasix 20 daily yesterday. At rehab today patient was noted to be hypoxic to 70s on RA. EMS was called and she was noted to be saturating in low 80s on RA. She was started on 5L and improved to 93% and transferrred to [**Hospital1 1**]. . Patient feels generally well, but noticed some mild SOB at rest this morning. She also reports a nonproductive cough for "several days". She denies Chest pain, fever, nausea, vomitting, palpitations, orthopnea, and PND. . At [**Hospital1 1**] ED, initial vitals were 98.2, 155/73, 85, 16, 87 RA. EKG was unremarkable. CXR showed bilateraly effusions, with a small consolidation on the right. CTA was negative for PE, but did show large effusions. On the way back from CT, patient desaturated to low 90s on 5L NC. She received 40 mg of Lasix IV and put out 1.5 L. She was placed on a NRB and saturations improved to the mid 90s. She received Ceftriaxone 1 g IVx1, Azithromycin 500 mg IV x1, and tylenol. On transfer, VS were 86, 135/79, 98 NRB. . In the ICU, patient reports some mild dyspnea at rest but otherwise feels well. Allergies: Last dose of Antibiotics: Infusions: Other ICU medications: Other medications: Celebrex 200 mg daily Omperazole 40 mg daily Coumadin 3mg for 4-6 weeks post op Lasix 20 mg daily (Just decreased from 40 mg [**Hospital1 **] yesterday) Mgoxide 400 mg [**Hospital1 **] MVI Oxycodone 5 mg TID prn Acetaminophen 650 mg TID prn Amlodipine 5 mg daily Artificial tears prn Calcium carbonate 650 mg [**Hospital1 **] Vitamin D 50,000 weekly Potassium Chloride SR 10 meq daily Senna 2 tab daily Simvistatin 20 mg daily Bisacodyl 10 mg PR Zofran 4 mg po TID prn Past medical history: Family history: Social History: NO CARDIAC OR PULMONARY HISTORY Chronic pain Osteoarthritis Hypertension Nicotine dependence Short term memory loss S/p Left hip arthroplasty S/p Right knee arthroplasty S/p Right tibial fracture S/p tonsillectomy S/p bladder suspension Nephew with DM. Mother with CAD ("angina"). No CVA history. Lives with husband on [**Name (NI) **]. Daughter in [**Name2 (NI) 4318**]. Quit smoking 1 week ago, but previously smoked less than 1ppd x 50 years. No illicit drug use or alcohol use.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24465" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2811" end="2829" />
+        <spannedText>Review of systems:</spannedText>
+        <creationDate>Fri Aug 05 09:09:45 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24465">
+        <mentionClass id="SectionHeader_HasSymptom">Review of systems:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24466" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2834" end="3265" />
+        <spannedText>+) Per HPI (-) Denies fever, chills, night sweats, recent weight loss or gain. Denies headache, sinus tenderness, rhinorrhea or congestion. Denies wheezing. Denies chest pain, chest pressure, palpitations, or weakness. Denies nausea, vomiting, diarrhea, constipation, abdominal pain, or changes in bowel habits. Denies dysuria, frequency, or urgency. Denies arthralgias or myalgias. Denies rashes or skin changes.</spannedText>
+        <creationDate>Fri Aug 05 09:09:51 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24466">
+        <mentionClass id="Symptom_Section">+) Per HPI (-) Denies fever, chills, night sweats, recent weight loss or gain. Denies headache, sinus tenderness, rhinorrhea or congestion. Denies wheezing. Denies chest pain, chest pressure, palpitations, or weakness. Denies nausea, vomiting, diarrhea, constipation, abdominal pain, or changes in bowel habits. Denies dysuria, frequency, or urgency. Denies arthralgias or myalgias. Denies rashes or skin changes.</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

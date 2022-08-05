@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="456788.txt">
+    <annotation>
+        <mention id="EHOST_Instance_24103" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="54" end="62" />
+        <spannedText>headache</spannedText>
+        <creationDate>Thu Aug 04 12:16:58 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24103">
+        <mentionClass id="Symptom">headache</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24104" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="64" end="73" />
+        <spannedText>neck pain</spannedText>
+        <creationDate>Thu Aug 04 12:17:00 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24104">
+        <mentionClass id="Symptom">neck pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24105" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3244" end="3254" />
+        <spannedText>Overweight</spannedText>
+        <creationDate>Thu Aug 04 12:17:33 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24105">
+        <mentionClass id="Symptom">Overweight</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24106" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3257" end="3262" />
+        <spannedText>Obese</spannedText>
+        <creationDate>Thu Aug 04 12:17:35 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24106">
+        <mentionClass id="Symptom">Obese</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24107" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3476" end="3481" />
+        <spannedText>Obese</spannedText>
+        <creationDate>Thu Aug 04 12:17:47 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24107">
+        <mentionClass id="Symptom">Obese</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24108" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3504" end="3509" />
+        <spannedText>Edema</spannedText>
+        <creationDate>Thu Aug 04 12:17:51 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24108">
+        <mentionClass id="Symptom">Edema</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24109" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5376" end="5384" />
+        <spannedText>headache</spannedText>
+        <creationDate>Thu Aug 04 12:20:37 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24109">
+        <mentionClass id="Symptom">headache</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24110" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5389" end="5398" />
+        <spannedText>neck pain</spannedText>
+        <creationDate>Thu Aug 04 12:20:40 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24110">
+        <mentionClass id="Symptom">neck pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24111" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="8" end="12" />
+        <spannedText>HPI:</spannedText>
+        <creationDate>Thu Aug 04 12:21:40 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24111">
+        <mentionClass id="SectionHeader_HasSymptom">HPI:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24112" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="16" end="608" />
+        <spannedText>81F who transferred from OSH with c/o headache, neck pain found to have SAH, cardiac arrest at OSH. Chief complaint: SAH, NSTEMI PMHx: PMH: CAD s/p CABG, HTN, high cholesterol PSH: CABG, hysterectomy, cholecystectomy Current medications: Acetaminophen 4. Bisacodyl 5. Calcium Gluconate 6. CefazoLIN 7. Chlorhexidine Gluconate 0.12% Oral Rinse 8. Famotidine 9. Insulin 10. Magnesium Sulfate 11. Metoprolol Tartrate 12. Nimodipine 13. Norepinephrine 14. Phenytoin 15. Phenytoin 16. Pneumococcal Vac Polyvalent 17. Potassium Chloride 18. Propofol 19. Senna</spannedText>
+        <creationDate>Thu Aug 04 12:21:51 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24112">
+        <mentionClass id="Symptom_Section">81F who transferred from OSH with c/o headache, neck pain found to have SAH, cardiac arrest at OSH. Chief complaint: SAH, NSTEMI PMHx: PMH: CAD s/p CABG, HTN, high cholesterol PSH: CABG, hysterectomy, cholecystectomy Current medications: Acetaminophen 4. Bisacodyl 5. Calcium Gluconate 6. CefazoLIN 7. Chlorhexidine Gluconate 0.12% Oral Rinse 8. Famotidine 9. Insulin 10. Magnesium Sulfate 11. Metoprolol Tartrate 12. Nimodipine 13. Norepinephrine 14. Phenytoin 15. Phenytoin 16. Pneumococcal Vac Polyvalent 17. Potassium Chloride 18. Propofol 19. Senna</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24113" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5317" end="5337" />
+        <spannedText>Assessment and Plan:</spannedText>
+        <creationDate>Thu Aug 04 12:22:27 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24113">
+        <mentionClass id="SectionHeader_HasSymptom">Assessment and Plan:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24114" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5338" end="6939" />
+        <spannedText>81F who transferred from OSH with c/o headache, neck pain found to have SAH, cardiac arrest at OSH. Neurologic: Neuro checks Q: 1 hr, Phenytoin - therapeutic, Ventriculostomy, Pain controlled, s/p B EVD's set at 10cm above tragus, dilantin for proph, SBP&lt;140mmHg, nimodipine prophylaxis Cardiovascular: Beta-blocker, NSTEMI, serial CM's, SBP&lt;140mmHg, metoprolol, no ASA, echo today Pulmonary: Cont ETT, (Ventilator mode: CMV), HOB&gt;30 Gastrointestinal / Abdomen: NPO, H2blocker Nutrition: NPO Renal: Foley, Adequate UO, monitor UOP Hematology: monitor hct Endocrine: RISS, better controlled today Infectious Disease: cefazolin while EVD in place Lines / Tubes / Drains: Foley, aline, RIJ CVL, EVDx2, ETT Wounds: Dry dressings Imaging: CXR today, CT scan head today Fluids: NS, Potassium Chloride, NS + KCL at 75/hr Consults: Neuro surgery, Cardiology Billing Diagnosis: Acute MI / Ischemia, (Hemorrhage, NOS: Sub-arachnoid); Respiratory Failure. ICU Care Nutrition: Comments: NPO Glycemic Control: Regular insulin sliding scale Lines: Arterial Line - [**2107-5-29**] 04:47 PM Multi Lumen - [**2107-5-29**] 04:48 PM ICP Catheter - [**2107-5-29**] 05:00 PM Prophylaxis: DVT: Boots Stress ulcer: H2 blocker VAP bundle: HOB elevation, Mouth care, Daily wake up, RSBI Comments: Communication: Patient discussed on interdisciplinary rounds , Family meeting planning, ICU consent signed Comments: Code status: Full code Disposition: ICU Total time spent: 32 minutes Patient is critically ill</spannedText>
+        <creationDate>Thu Aug 04 12:22:34 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24114">
+        <mentionClass id="Symptom_Section">81F who transferred from OSH with c/o headache, neck pain found to have SAH, cardiac arrest at OSH. Neurologic: Neuro checks Q: 1 hr, Phenytoin - therapeutic, Ventriculostomy, Pain controlled, s/p B EVD's set at 10cm above tragus, dilantin for proph, SBP&lt;140mmHg, nimodipine prophylaxis Cardiovascular: Beta-blocker, NSTEMI, serial CM's, SBP&lt;140mmHg, metoprolol, no ASA, echo today Pulmonary: Cont ETT, (Ventilator mode: CMV), HOB&gt;30 Gastrointestinal / Abdomen: NPO, H2blocker Nutrition: NPO Renal: Foley, Adequate UO, monitor UOP Hematology: monitor hct Endocrine: RISS, better controlled today Infectious Disease: cefazolin while EVD in place Lines / Tubes / Drains: Foley, aline, RIJ CVL, EVDx2, ETT Wounds: Dry dressings Imaging: CXR today, CT scan head today Fluids: NS, Potassium Chloride, NS + KCL at 75/hr Consults: Neuro surgery, Cardiology Billing Diagnosis: Acute MI / Ischemia, (Hemorrhage, NOS: Sub-arachnoid); Respiratory Failure. ICU Care Nutrition: Comments: NPO Glycemic Control: Regular insulin sliding scale Lines: Arterial Line - [**2107-5-29**] 04:47 PM Multi Lumen - [**2107-5-29**] 04:48 PM ICP Catheter - [**2107-5-29**] 05:00 PM Prophylaxis: DVT: Boots Stress ulcer: H2 blocker VAP bundle: HOB elevation, Mouth care, Daily wake up, RSBI Comments: Communication: Patient discussed on interdisciplinary rounds , Family meeting planning, ICU consent signed Comments: Code status: Full code Disposition: ICU Total time spent: 32 minutes Patient is critically ill</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

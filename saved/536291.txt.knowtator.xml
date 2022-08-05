@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="536291.txt">
+    <annotation>
+        <mention id="EHOST_Instance_24236" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="203" end="221" />
+        <spannedText>rectal bleeding</spannedText>
+        <creationDate>Thu Aug 04 14:54:28 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24236">
+        <mentionClass id="Symptom">rectal bleeding</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24237" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3841" end="3851" />
+        <spannedText>Overweight</spannedText>
+        <creationDate>Thu Aug 04 14:55:01 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24237">
+        <mentionClass id="Symptom">Overweight</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24238" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3854" end="3859" />
+        <spannedText>Obese</spannedText>
+        <creationDate>Thu Aug 04 14:55:02 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24238">
+        <mentionClass id="Symptom">Obese</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24239" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5668" end="5674" />
+        <spannedText>fevers</spannedText>
+        <creationDate>Thu Aug 04 14:58:50 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24239">
+        <mentionClass id="Symptom">fevers</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24240" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6124" end="6135" />
+        <spannedText>tachycardic</spannedText>
+        <creationDate>Thu Aug 04 15:01:26 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24240">
+        <mentionClass id="Symptom">tachycardic</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24241" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="9" end="13" />
+        <spannedText>HPI:</spannedText>
+        <creationDate>Thu Aug 04 15:02:34 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24241">
+        <mentionClass id="SectionHeader_HasSymptom">HPI:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24242" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="17" end="1236" />
+        <spannedText>40F s/p unwitness fall in bathroom, found to have SAH on CTOH Chief complaint: Sub Arachnoid Hemmorhage PMHx: possible COPD (family reports chronic cough), recent episode of rectal bleeding apparently negative source found by colonoscopy Current medications: 1. 2. 3. 4. Acetaminophen 5. Artificial Tear Ointment 6. Artificial Tears 7. Aspirin 8. Bisacodyl 9. Calcium Gluconate 10. Chlorhexidine Gluconate 0.12% Oral Rinse 11. Clopidogrel 12. Docusate Sodium (Liquid) 13. Famotidine 14. Fentanyl Citrate 15. Heparin 16. Ibuprofen 17. Insulin 18. Labetalol 19. LeVETiracetam 20. Magnesium Sulfate 21. Metoprolol Tartrate 22. Metoprolol Tartrate 23. Nafcillin 24. Nimodipine 25. Nitroglycerin 26. Potassium Chloride 27. Potassium Phosphate 28. Propofol 29. Senna 30. Sodium Chloride 0.9% Flush 31. Sodium Chloride 0.9% Flush 32. Sodium Chloride 0.9% Flush 24 Hour Events: MULTI LUMEN - START [**2172-10-8**] 12:55 PM ARTERIAL LINE - START [**2172-10-8**] 07:00 PM femoral aline placed in IR SHEATH - START [**2172-10-8**] 07:00 PM sheath placed in IR for L MCA stenting MULTI LUMEN - STOP [**2172-10-9**] 04:00 AM FEVER - 102.7 F - [**2172-10-8**] 09:00 PM</spannedText>
+        <creationDate>Thu Aug 04 15:02:46 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24242">
+        <mentionClass id="Symptom_Section">40F s/p unwitness fall in bathroom, found to have SAH on CTOH Chief complaint: Sub Arachnoid Hemmorhage PMHx: possible COPD (family reports chronic cough), recent episode of rectal bleeding apparently negative source found by colonoscopy Current medications: 1. 2. 3. 4. Acetaminophen 5. Artificial Tear Ointment 6. Artificial Tears 7. Aspirin 8. Bisacodyl 9. Calcium Gluconate 10. Chlorhexidine Gluconate 0.12% Oral Rinse 11. Clopidogrel 12. Docusate Sodium (Liquid) 13. Famotidine 14. Fentanyl Citrate 15. Heparin 16. Ibuprofen 17. Insulin 18. Labetalol 19. LeVETiracetam 20. Magnesium Sulfate 21. Metoprolol Tartrate 22. Metoprolol Tartrate 23. Nafcillin 24. Nimodipine 25. Nitroglycerin 26. Potassium Chloride 27. Potassium Phosphate 28. Propofol 29. Senna 30. Sodium Chloride 0.9% Flush 31. Sodium Chloride 0.9% Flush 32. Sodium Chloride 0.9% Flush 24 Hour Events: MULTI LUMEN - START [**2172-10-8**] 12:55 PM ARTERIAL LINE - START [**2172-10-8**] 07:00 PM femoral aline placed in IR SHEATH - START [**2172-10-8**] 07:00 PM sheath placed in IR for L MCA stenting MULTI LUMEN - STOP [**2172-10-9**] 04:00 AM FEVER - 102.7 F - [**2172-10-8**] 09:00 PM</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24243" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5549" end="5569" />
+        <spannedText>Assessment and Plan:</spannedText>
+        <creationDate>Thu Aug 04 15:03:06 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24243">
+        <mentionClass id="SectionHeader_HasSymptom">Assessment and Plan:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24244" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5570" end="7614" />
+        <spannedText>40yo female w/ subarachnoid hemmorhage with continued elevated ICPs, now s/p hemicraniectomy w/fevers on broad abx coverage. Neurologic: per NSurg: Neuro check q1hr, on Keppra 1000mg'', Ventricle drain @ 20cm h20 - clamp if ICP&lt;20, keep SBP 140-160, Angio demonstrated spasm, went to Angio for stenting Pain: tylenol, motrin, morphine IV prn Heperin 500 units overnight, will begin plavix in am, and ASA 325 daily Plan for Angiogram in AM Possible start a low dose integrelin infusion Cardiovascular: Aspirin, hypertensive, tachycardic, will continue [**Last Name (LF) 521**], [**First Name3 (LF) 116**] increase dosage. on labetelol drip, started on plavix 75' and ASA 325' Pulmonary: Intubated, plan for trach w/[**Doctor Last Name 412**] today, keep PC02 35-40, MSSA PNA tx'd with Nafcillin - end [**10-9**]. Gastrointestinal / Abdomen: soft, Famotidine prophylaxis, sending 3x Cdiff Nutrition: TF running, goal 70cc/h Renal: monitor UOP, lyte repletion PRN. 11kg increase from baseline will begin lasix with goal to keep net neutral Hematology: monitor Hct, s/p 3upRBC ([**10-6**]) Endocrine: RISS Infectious Disease: Nafcillin for MSSA pneumonia, last dose today Lines / Tubes / Drains: L subclavian CVL ETT, Foley, Ventriculostomy Wounds: Imaging: Fluids: KVO Consults: Neuro surgery Billing Diagnosis: (Hemorrhage, NOS: Sub-arachnoid) ICU Care Nutrition: Replete with Fiber (Full) - [**2172-10-8**] 11:10 PM 50 mL/hour Glycemic Control: Regular insulin sliding scale Lines: ICP Catheter - [**2172-10-1**] 12:00 AM Multi Lumen - [**2172-10-8**] 12:55 PM Arterial Line - [**2172-10-8**] 07:00 PM Sheath - [**2172-10-8**] 07:00 PM Prophylaxis: DVT: Boots, SQ UF Heparin Stress ulcer: H2 blocker VAP bundle: HOB elevation, Mouth care, Daily wake up, RSBI Comments: Communication: ICU consent signed Comments: Code status: Full code Disposition: ICU Total time spent: 32 Patient is critically ill</spannedText>
+        <creationDate>Thu Aug 04 15:03:23 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24244">
+        <mentionClass id="Symptom_Section">40yo female w/ subarachnoid hemmorhage with continued elevated ICPs, now s/p hemicraniectomy w/fevers on broad abx coverage. Neurologic: per NSurg: Neuro check q1hr, on Keppra 1000mg'', Ventricle drain @ 20cm h20 - clamp if ICP&lt;20, keep SBP 140-160, Angio demonstrated spasm, went to Angio for stenting Pain: tylenol, motrin, morphine IV prn Heperin 500 units overnight, will begin plavix in am, and ASA 325 daily Plan for Angiogram in AM Possible start a low dose integrelin infusion Cardiovascular: Aspirin, hypertensive, tachycardic, will continue [**Last Name (LF) 521**], [**First Name3 (LF) 116**] increase dosage. on labetelol drip, started on plavix 75' and ASA 325' Pulmonary: Intubated, plan for trach w/[**Doctor Last Name 412**] today, keep PC02 35-40, MSSA PNA tx'd with Nafcillin - end [**10-9**]. Gastrointestinal / Abdomen: soft, Famotidine prophylaxis, sending 3x Cdiff Nutrition: TF running, goal 70cc/h Renal: monitor UOP, lyte repletion PRN. 11kg increase from baseline will begin lasix with goal to keep net neutral Hematology: monitor Hct, s/p 3upRBC ([**10-6**]) Endocrine: RISS Infectious Disease: Nafcillin for MSSA pneumonia, last dose today Lines / Tubes / Drains: L subclavian CVL ETT, Foley, Ventriculostomy Wounds: Imaging: Fluids: KVO Consults: Neuro surgery Billing Diagnosis: (Hemorrhage, NOS: Sub-arachnoid) ICU Care Nutrition: Replete with Fiber (Full) - [**2172-10-8**] 11:10 PM 50 mL/hour Glycemic Control: Regular insulin sliding scale Lines: ICP Catheter - [**2172-10-1**] 12:00 AM Multi Lumen - [**2172-10-8**] 12:55 PM Arterial Line - [**2172-10-8**] 07:00 PM Sheath - [**2172-10-8**] 07:00 PM Prophylaxis: DVT: Boots, SQ UF Heparin Stress ulcer: H2 blocker VAP bundle: HOB elevation, Mouth care, Daily wake up, RSBI Comments: Communication: ICU consent signed Comments: Code status: Full code Disposition: ICU Total time spent: 32 Patient is critically ill</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24245" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4112" end="4141" />
+        <spannedText>Left Extremities: (Edema: 2+)</spannedText>
+        <creationDate>Thu Aug 04 15:10:21 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24245">
+        <mentionClass id="Symptom">Left Extremities: (Edema: 2+)</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="33137.txt">
+    <annotation>
+        <mention id="EHOST_Instance_23773" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="771" end="782" />
+        <spannedText>disoriented</spannedText>
+        <creationDate>Wed Aug 03 11:39:39 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23773">
+        <mentionClass id="Symptom">disoriented</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23774" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="787" end="795" />
+        <spannedText>confused</spannedText>
+        <creationDate>Wed Aug 03 11:39:41 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23774">
+        <mentionClass id="Symptom">confused</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23775" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="926" end="946" />
+        <spannedText>bifrontal contusions</spannedText>
+        <creationDate>Wed Aug 03 11:40:13 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23775">
+        <mentionClass id="Symptom">bifrontal contusions</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23776" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1499" end="1520" />
+        <spannedText>periorbital echymosis</spannedText>
+        <creationDate>Wed Aug 03 11:41:17 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23776">
+        <mentionClass id="Symptom">periorbital echymosis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23777" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2938" end="2970" />
+        <spannedText>mod R frontal subgaleal hematoma</spannedText>
+        <creationDate>Wed Aug 03 11:42:21 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23777">
+        <mentionClass id="Symptom">mod R frontal subgaleal hematoma</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23778" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3049" end="3080" />
+        <spannedText>frontal hemoarrhagic contusions</spannedText>
+        <creationDate>Wed Aug 03 11:43:29 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23778">
+        <mentionClass id="Symptom">frontal hemoarrhagic contusions</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23779" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3082" end="3109" />
+        <spannedText>sm SDH along falx/tentorium</spannedText>
+        <creationDate>Wed Aug 03 11:43:38 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23779">
+        <mentionClass id="Symptom">sm SDH along falx/tentorium</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23780" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3112" end="3156" />
+        <spannedText>mild intravent ext of hemorrhage s hydroceph</spannedText>
+        <creationDate>Wed Aug 03 11:43:46 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23780">
+        <mentionClass id="Symptom">mild intravent ext of hemorrhage s hydroceph</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23781" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3161" end="3171" />
+        <spannedText>herniation</spannedText>
+        <creationDate>Wed Aug 03 11:43:50 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23781">
+        <mentionClass id="Symptom">herniation</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23782" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3227" end="3265" />
+        <spannedText>frontal hemorrhagic contusions c edema</spannedText>
+        <creationDate>Wed Aug 03 11:44:00 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23782">
+        <mentionClass id="Symptom">frontal hemorrhagic contusions c edema</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23783" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3275" end="3326" />
+        <spannedText>hemorrhagic contusions in R vertex &amp; b/l temp lobes</spannedText>
+        <creationDate>Wed Aug 03 11:44:18 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23783">
+        <mentionClass id="Symptom">hemorrhagic contusions in R vertex &amp; b/l temp lobes</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23784" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3431" end="3440" />
+        <spannedText>hydroceph</spannedText>
+        <creationDate>Wed Aug 03 11:44:54 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23784">
+        <mentionClass id="Symptom">hydroceph</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23785" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3455" end="3465" />
+        <spannedText>infarction</spannedText>
+        <creationDate>Wed Aug 03 11:44:58 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23785">
+        <mentionClass id="Symptom">infarction</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23786" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3511" end="3526" />
+        <spannedText>spinal stenosis</spannedText>
+        <creationDate>Wed Aug 03 11:45:12 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23786">
+        <mentionClass id="Symptom">spinal stenosis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23787" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3494" end="3510" />
+        <spannedText>cord compression</spannedText>
+        <creationDate>Wed Aug 03 11:45:14 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23787">
+        <mentionClass id="Symptom">cord compression</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23788" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3528" end="3562" />
+        <spannedText>subarachnoid blood in spinal canal</spannedText>
+        <creationDate>Wed Aug 03 11:45:22 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23788">
+        <mentionClass id="Symptom">subarachnoid blood in spinal canal</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23789" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3687" end="3707" />
+        <spannedText>R temporal contusion</spannedText>
+        <creationDate>Wed Aug 03 11:45:46 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23789">
+        <mentionClass id="Symptom">R temporal contusion</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23790" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3803" end="3823" />
+        <spannedText>subdural hemorrhages</spannedText>
+        <creationDate>Wed Aug 03 11:46:07 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23790">
+        <mentionClass id="Symptom">subdural hemorrhages</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23791" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5022" end="5046" />
+        <spannedText>lower extremity weakness</spannedText>
+        <creationDate>Wed Aug 03 11:48:46 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23791">
+        <mentionClass id="Symptom">lower extremity weakness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23792" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5405" end="5415" />
+        <spannedText>anisocoria</spannedText>
+        <creationDate>Wed Aug 03 11:49:11 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23792">
+        <mentionClass id="Symptom">anisocoria</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23793" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5922" end="5962" />
+        <spannedText>reflexes were decreased in his right leg</spannedText>
+        <creationDate>Wed Aug 03 11:49:58 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23793">
+        <mentionClass id="Symptom">reflexes were decreased in his right leg</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23794" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6359" end="6402" />
+        <spannedText>decreased movement in his lower extremities</spannedText>
+        <creationDate>Wed Aug 03 11:50:16 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23794">
+        <mentionClass id="Symptom">decreased movement in his lower extremities</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23795" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6480" end="6513" />
+        <spannedText>incontinent of bladder and bowels</spannedText>
+        <creationDate>Wed Aug 03 11:50:24 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23795">
+        <mentionClass id="Symptom">incontinent of bladder and bowels</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23796" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="405" end="985" />
+        <spannedText>History of Present Illness: The patient is a 68M who was apparently taking down [**Holiday **] decorations when he had an unwitnessed fall in his garage. The patient was not seen until approximately 3hours later when he was found standing by his family. He was alert and speaking but confused per family report. The family brought him to an OSH where he found to be disoriented and confused with a body temperature of 88F. The patient was sedatedand intubated and transferred to [**Hospital1 18**] after CT Head revealed bifrontal contusions and 2.5mm SDH in middle cranial fossa.</spannedText>
+        <creationDate>Wed Aug 03 11:51:25 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23796">
+        <mentionClass id="Symptom_Section">History of Present Illness: The patient is a 68M who was apparently taking down [**Holiday **] decorations when he had an unwitnessed fall in his garage. The patient was not seen until approximately 3hours later when he was found standing by his family. He was alert and speaking but confused per family report. The family brought him to an OSH where he found to be disoriented and confused with a body temperature of 88F. The patient was sedatedand intubated and transferred to [**Hospital1 18**] after CT Head revealed bifrontal contusions and 2.5mm SDH in middle cranial fossa.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23797" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="405" end="432" />
+        <spannedText>History of Present Illness:</spannedText>
+        <creationDate>Wed Aug 03 11:51:28 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23797">
+        <mentionClass id="SectionHeader_HasSymptom">History of Present Illness:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23798" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1393" end="1719" />
+        <spannedText>Physical Exam: On admission: 99.8 R 92 156/88 16 100% (vent) Gen: intubated, sedated Eyes: PERLA 4--&gt;3, R periorbital echymosis ENT: TM clear, intubated, good condensation Respiratory: breath sounds equal bilaterally Cardiovascular: normal rate, regular rhtm Abdomen: soft, non-tender, pelvis stable Skin: posterior head lac .</spannedText>
+        <creationDate>Wed Aug 03 11:51:36 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23798">
+        <mentionClass id="Symptom_Section">Physical Exam: On admission: 99.8 R 92 156/88 16 100% (vent) Gen: intubated, sedated Eyes: PERLA 4--&gt;3, R periorbital echymosis ENT: TM clear, intubated, good condensation Respiratory: breath sounds equal bilaterally Cardiovascular: normal rate, regular rhtm Abdomen: soft, non-tender, pelvis stable Skin: posterior head lac .</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23799" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1393" end="1407" />
+        <spannedText>Physical Exam:</spannedText>
+        <creationDate>Wed Aug 03 11:51:38 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23799">
+        <mentionClass id="SectionHeader_HasSymptom">Physical Exam:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23800" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2847" end="3987" />
+        <spannedText>pertinent imaging: CT C-spine [**1-13**]: neg CT torso [**1-13**]: neg CT head [**1-13**]: mod R frontal subgaleal hematoma, R frontal bone fx c sup sag sutural diastasis &amp; ext into occipital bone, b/l frontal hemoarrhagic contusions, sm SDH along falx/tentorium, ?mild intravent ext of hemorrhage s hydroceph, no herniation CT head [**1-14**]: no change MRI head [**1-14**]: b/l frontal hemorrhagic contusions c edema, smaller hemorrhagic contusions in R vertex &amp; b/l temp lobes, bld in post horns of lat vent, 4th vent, interpeduncular fossa, sm L parasag SDH, b/l parietal SAH, no hydroceph/midline shift/infarction MRI TL spine [**1-14**]: no cord compression/spinal stenosis. subarachnoid blood in spinal canal MRI C spine [**1-14**]: No fx or cord compression, mild [**Last Name (un) **] dz CT head [**1-16**]: no significant change. R temporal contusion slightly more conspicuous. CT head [**1-17**]: no interval change in contusions, subarachnoid, subdural hemorrhages. unchanged mass effect. MR L spine [**2170-1-22**]: Evolution of the stable volume of blood within the thecal sac. No evidence of new canal or foraminal stenoses.</spannedText>
+        <creationDate>Wed Aug 03 11:51:45 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23800">
+        <mentionClass id="Symptom_Section">pertinent imaging: CT C-spine [**1-13**]: neg CT torso [**1-13**]: neg CT head [**1-13**]: mod R frontal subgaleal hematoma, R frontal bone fx c sup sag sutural diastasis &amp; ext into occipital bone, b/l frontal hemoarrhagic contusions, sm SDH along falx/tentorium, ?mild intravent ext of hemorrhage s hydroceph, no herniation CT head [**1-14**]: no change MRI head [**1-14**]: b/l frontal hemorrhagic contusions c edema, smaller hemorrhagic contusions in R vertex &amp; b/l temp lobes, bld in post horns of lat vent, 4th vent, interpeduncular fossa, sm L parasag SDH, b/l parietal SAH, no hydroceph/midline shift/infarction MRI TL spine [**1-14**]: no cord compression/spinal stenosis. subarachnoid blood in spinal canal MRI C spine [**1-14**]: No fx or cord compression, mild [**Last Name (un) **] dz CT head [**1-16**]: no significant change. R temporal contusion slightly more conspicuous. CT head [**1-17**]: no interval change in contusions, subarachnoid, subdural hemorrhages. unchanged mass effect. MR L spine [**2170-1-22**]: Evolution of the stable volume of blood within the thecal sac. No evidence of new canal or foraminal stenoses.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23801" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2847" end="2865" />
+        <spannedText>pertinent imaging:</spannedText>
+        <creationDate>Wed Aug 03 11:51:48 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23801">
+        <mentionClass id="SectionHeader_HasSymptom">pertinent imaging:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23802" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3990" end="6718" />
+        <spannedText>Brief Hospital Course: The patient was brought to the [**Hospital1 18**] emergency department as a basic trauma on [**2170-1-13**], and had CT head, C-spine, chest, abdomen, and pelvis as detailed above. He was admitted to the TICU, with Dr. [**First Name4 (NamePattern1) 518**] [**Last Name (NamePattern1) 519**], Attending Physician. [**Name10 (NameIs) **] Neurosurgery team was immediately consulted regarding his subdural hematoma. He was loaded with dilantin, and a repeat head CT was performed the subsequent day, [**2170-1-14**], which did not demonstrate any change. On [**2170-1-14**] he remained intubated on propofol gtt in the TICU. He continued to have q1hour neuro checks, but his neuro exam was inconsistent. There was question whether he was moving his lower extremities at all. A MRI Head, T and L spine was performed at night. Subarachnoid blood was seen in the spinal canal, but it was not felt to be impinging on the cord. On [**2170-1-15**] he was extubated, and neurology was consulted due to concern for lower extremity weakness. Recommendations by neurology were to continue dilantin and to start manitol to reduce ICP. On [**2170-1-16**], he was found to be A&amp;O x1 only and a repeat head CT showed no significant change. On [**2170-1-17**] patient was taken to the OR for IVC and PEG tube placement which was performed without complication however postoperative the patient developed anisocoria with dilation of the right pupil which resolved spontaneously. Another repeat head CT was negative. TF were also started on [**2170-1-17**] and were advanced to goal on [**2170-1-19**]. Patient was extubated on [**2170-1-19**] and the mannitol was discontinued. Was transfered to the floor on [**2170-1-20**] and screening for rehab was undertaken. Patient had physical therapy work with him allowing him to be able to go from the bed to the chair. On [**2170-1-22**] the neurology team felt as though his reflexes were decreased in his right leg and an MRI was done which showed no acute processes. Per neurology, his dilantin may be weaned at rehab. Patient will need to schedule an appointment with neurology to be followed as an outpatient. On [**2170-1-23**] patient was deemed stable for discharge. Upon discharge patient was tolerated tube feeds at goal, was able to tolerate being transferred from the bed to chair, continued to have decreased movement in his lower extremities and had no other acute surgical issues. He is oriented x1 when awake. He is incontinent of bladder and bowels, and requires a diaper. On discharge his SaO2 was 100% on 2L. This may be weaned as tolerated. Patient will be transferred to a rehabilitation facility and will follow up in clinic in [**1-10**] weeks.</spannedText>
+        <creationDate>Wed Aug 03 11:51:57 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23802">
+        <mentionClass id="Symptom_Section">Brief Hospital Course: The patient was brought to the [**Hospital1 18**] emergency department as a basic trauma on [**2170-1-13**], and had CT head, C-spine, chest, abdomen, and pelvis as detailed above. He was admitted to the TICU, with Dr. [**First Name4 (NamePattern1) 518**] [**Last Name (NamePattern1) 519**], Attending Physician. [**Name10 (NameIs) **] Neurosurgery team was immediately consulted regarding his subdural hematoma. He was loaded with dilantin, and a repeat head CT was performed the subsequent day, [**2170-1-14**], which did not demonstrate any change. On [**2170-1-14**] he remained intubated on propofol gtt in the TICU. He continued to have q1hour neuro checks, but his neuro exam was inconsistent. There was question whether he was moving his lower extremities at all. A MRI Head, T and L spine was performed at night. Subarachnoid blood was seen in the spinal canal, but it was not felt to be impinging on the cord. On [**2170-1-15**] he was extubated, and neurology was consulted due to concern for lower extremity weakness. Recommendations by neurology were to continue dilantin and to start manitol to reduce ICP. On [**2170-1-16**], he was found to be A&amp;O x1 only and a repeat head CT showed no significant change. On [**2170-1-17**] patient was taken to the OR for IVC and PEG tube placement which was performed without complication however postoperative the patient developed anisocoria with dilation of the right pupil which resolved spontaneously. Another repeat head CT was negative. TF were also started on [**2170-1-17**] and were advanced to goal on [**2170-1-19**]. Patient was extubated on [**2170-1-19**] and the mannitol was discontinued. Was transfered to the floor on [**2170-1-20**] and screening for rehab was undertaken. Patient had physical therapy work with him allowing him to be able to go from the bed to the chair. On [**2170-1-22**] the neurology team felt as though his reflexes were decreased in his right leg and an MRI was done which showed no acute processes. Per neurology, his dilantin may be weaned at rehab. Patient will need to schedule an appointment with neurology to be followed as an outpatient. On [**2170-1-23**] patient was deemed stable for discharge. Upon discharge patient was tolerated tube feeds at goal, was able to tolerate being transferred from the bed to chair, continued to have decreased movement in his lower extremities and had no other acute surgical issues. He is oriented x1 when awake. He is incontinent of bladder and bowels, and requires a diaper. On discharge his SaO2 was 100% on 2L. This may be weaned as tolerated. Patient will be transferred to a rehabilitation facility and will follow up in clinic in [**1-10**] weeks.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23803" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3990" end="4012" />
+        <spannedText>Brief Hospital Course:</spannedText>
+        <creationDate>Wed Aug 03 11:52:01 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23803">
+        <mentionClass id="SectionHeader_HasSymptom">Brief Hospital Course:</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="5585.txt">
+    <annotation>
+        <mention id="EHOST_Instance_24258" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="155" end="170" />
+        <spannedText>Left chest pain</spannedText>
+        <creationDate>Thu Aug 04 15:11:53 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24258">
+        <mentionClass id="Symptom">Left chest pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24259" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="175" end="194" />
+        <spannedText>left sided weakness</spannedText>
+        <creationDate>Thu Aug 04 15:11:55 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24259">
+        <mentionClass id="Symptom">left sided weakness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24260" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="390" end="400" />
+        <spannedText>chest pain</spannedText>
+        <creationDate>Thu Aug 04 15:12:11 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24260">
+        <mentionClass id="Symptom">chest pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24261" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="405" end="422" />
+        <spannedText>left arm weakness</spannedText>
+        <creationDate>Thu Aug 04 15:12:12 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24261">
+        <mentionClass id="Symptom">left arm weakness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24262" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="428" end="438" />
+        <spannedText>chest pain</spannedText>
+        <creationDate>Thu Aug 04 15:12:14 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24262">
+        <mentionClass id="Symptom">chest pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24263" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="596" end="613" />
+        <spannedText>left arm weakness</spannedText>
+        <creationDate>Thu Aug 04 15:12:29 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24263">
+        <mentionClass id="Symptom">left arm weakness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24264" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="656" end="673" />
+        <spannedText>left arm weakness</spannedText>
+        <creationDate>Thu Aug 04 15:12:33 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24264">
+        <mentionClass id="Symptom">left arm weakness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24265" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1098" end="1102" />
+        <spannedText>pain</spannedText>
+        <creationDate>Thu Aug 04 15:12:49 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24265">
+        <mentionClass id="Symptom">pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24266" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1104" end="1112" />
+        <spannedText>weakness</spannedText>
+        <creationDate>Thu Aug 04 15:12:51 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24266">
+        <mentionClass id="Symptom">weakness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24267" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1117" end="1146" />
+        <spannedText>paresthesias of the left face</spannedText>
+        <creationDate>Thu Aug 04 15:12:53 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24267">
+        <mentionClass id="Symptom">paresthesias of the left face</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24268" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1148" end="1210" />
+        <spannedText>upper and lower extremities with residual diminished sensation</spannedText>
+        <creationDate>Thu Aug 04 15:13:01 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24268">
+        <mentionClass id="Symptom">upper and lower extremities with residual diminished sensation</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24269" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1231" end="1238" />
+        <spannedText>dyspnea</spannedText>
+        <creationDate>Thu Aug 04 15:13:04 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24269">
+        <mentionClass id="Symptom">dyspnea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24270" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1240" end="1254" />
+        <spannedText>visual changes</spannedText>
+        <creationDate>Thu Aug 04 15:13:05 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24270">
+        <mentionClass id="Symptom">visual changes</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24271" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1256" end="1277" />
+        <spannedText>loss of consciousness</spannedText>
+        <creationDate>Thu Aug 04 15:13:07 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24271">
+        <mentionClass id="Symptom">loss of consciousness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24272" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1279" end="1286" />
+        <spannedText>aphasia</spannedText>
+        <creationDate>Thu Aug 04 15:13:08 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24272">
+        <mentionClass id="Symptom">aphasia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24273" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1288" end="1297" />
+        <spannedText>hematuria</spannedText>
+        <creationDate>Thu Aug 04 15:13:10 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24273">
+        <mentionClass id="Symptom">hematuria</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24274" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1299" end="1306" />
+        <spannedText>dysuria</spannedText>
+        <creationDate>Thu Aug 04 15:13:11 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24274">
+        <mentionClass id="Symptom">dysuria</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24275" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1308" end="1317" />
+        <spannedText>neck pain</spannedText>
+        <creationDate>Thu Aug 04 15:13:12 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24275">
+        <mentionClass id="Symptom">neck pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24276" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1813" end="1820" />
+        <spannedText>obesity</spannedText>
+        <creationDate>Thu Aug 04 15:13:31 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24276">
+        <mentionClass id="Symptom">obesity</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24277" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1960" end="1970" />
+        <spannedText>depression</spannedText>
+        <creationDate>Thu Aug 04 15:13:39 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24277">
+        <mentionClass id="Symptom">depression</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24278" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2711" end="2716" />
+        <spannedText>Obese</spannedText>
+        <creationDate>Thu Aug 04 15:14:05 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24278">
+        <mentionClass id="Symptom">Obese</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24279" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2879" end="2893" />
+        <spannedText>carotid bruits</spannedText>
+        <creationDate>Thu Aug 04 15:14:15 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24279">
+        <mentionClass id="Symptom">carotid bruits</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24280" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2898" end="2923" />
+        <spannedText>jugular venous distension</spannedText>
+        <creationDate>Thu Aug 04 15:14:22 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24280">
+        <mentionClass id="Symptom">jugular venous distension</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24281" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2928" end="2943" />
+        <spannedText>lymphadenopathy</spannedText>
+        <creationDate>Thu Aug 04 15:14:24 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24281">
+        <mentionClass id="Symptom">lymphadenopathy</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24282" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3109" end="3114" />
+        <spannedText>obese</spannedText>
+        <creationDate>Thu Aug 04 15:14:34 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24282">
+        <mentionClass id="Symptom">obese</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24283" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4032" end="4060" />
+        <spannedText>left ventricular hypertrophy</spannedText>
+        <creationDate>Thu Aug 04 15:16:03 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24283">
+        <mentionClass id="Symptom">left ventricular hypertrophy</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24284" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4637" end="4644" />
+        <spannedText>apraxia</spannedText>
+        <creationDate>Thu Aug 04 15:16:23 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24284">
+        <mentionClass id="Symptom">apraxia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24285" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4646" end="4653" />
+        <spannedText>agnosia</spannedText>
+        <creationDate>Thu Aug 04 15:16:24 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24285">
+        <mentionClass id="Symptom">agnosia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24286" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4658" end="4665" />
+        <spannedText>neglect</spannedText>
+        <creationDate>Thu Aug 04 15:16:25 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24286">
+        <mentionClass id="Symptom">neglect</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24287" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4612" end="4622" />
+        <spannedText>dysarthria</spannedText>
+        <creationDate>Thu Aug 04 15:16:27 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24287">
+        <mentionClass id="Symptom">dysarthria</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24288" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4689" end="4711" />
+        <spannedText>left to right mismatch</spannedText>
+        <creationDate>Thu Aug 04 15:16:33 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24288">
+        <mentionClass id="Symptom">left to right mismatch</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24289" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4893" end="4924" />
+        <spannedText>decreased vibration at the toes</spannedText>
+        <creationDate>Thu Aug 04 15:16:46 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24289">
+        <mentionClass id="Symptom">decreased vibration at the toes</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24290" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5115" end="5137" />
+        <spannedText>adventitious movements</spannedText>
+        <creationDate>Thu Aug 04 15:23:16 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24290">
+        <mentionClass id="Symptom">adventitious movements</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24291" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5141" end="5150" />
+        <spannedText>asterixis</spannedText>
+        <creationDate>Thu Aug 04 15:23:18 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24291">
+        <mentionClass id="Symptom">asterixis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24292" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5078" end="5092" />
+        <spannedText>fasciculations</spannedText>
+        <creationDate>Thu Aug 04 15:23:20 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24292">
+        <mentionClass id="Symptom">fasciculations</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24293" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4976" end="5017" />
+        <spannedText>wasting of the thenar muscles on the left</spannedText>
+        <creationDate>Thu Aug 04 15:23:37 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24293">
+        <mentionClass id="Symptom">wasting of the thenar muscles on the left</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24294" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5022" end="5036" />
+        <spannedText>bilateral EDBs</spannedText>
+        <creationDate>Thu Aug 04 15:23:40 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24294">
+        <mentionClass id="Symptom">bilateral EDBs</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24295" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5372" end="5415" />
+        <spannedText>Reflexes absent, biceps, brachials, triceps</spannedText>
+        <creationDate>Thu Aug 04 15:24:11 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24295">
+        <mentionClass id="Symptom">Reflexes absent, biceps, brachials, triceps</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24296" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5796" end="5815" />
+        <spannedText>left sided weakness</spannedText>
+        <creationDate>Thu Aug 04 15:24:35 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24296">
+        <mentionClass id="Symptom">left sided weakness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24297" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6152" end="6164" />
+        <spannedText>dysrhythmias</spannedText>
+        <creationDate>Thu Aug 04 15:25:08 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24297">
+        <mentionClass id="Symptom">dysrhythmias</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24298" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6981" end="7002" />
+        <spannedText>renal insufficiencies</spannedText>
+        <creationDate>Thu Aug 04 15:25:45 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24298">
+        <mentionClass id="Symptom">renal insufficiencies</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24299" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5903" end="5928" />
+        <spannedText>peripheral polyneuropathy</spannedText>
+        <creationDate>Thu Aug 04 15:25:50 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24299">
+        <mentionClass id="Symptom">peripheral polyneuropathy</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24300" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="7028" end="7047" />
+        <spannedText>renal insufficiency</spannedText>
+        <creationDate>Thu Aug 04 15:26:03 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24300">
+        <mentionClass id="Symptom">renal insufficiency</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24301" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="7063" end="7083" />
+        <spannedText>diabetic nephropathy</spannedText>
+        <creationDate>Thu Aug 04 15:30:33 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24301">
+        <mentionClass id="Symptom">diabetic nephropathy</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24302" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="7980" end="7988" />
+        <spannedText>headache</spannedText>
+        <creationDate>Thu Aug 04 16:06:49 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24302">
+        <mentionClass id="Symptom">headache</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24303" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="8299" end="8315" />
+        <spannedText>ischemic attacks</spannedText>
+        <creationDate>Thu Aug 04 16:07:08 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24303">
+        <mentionClass id="Symptom">ischemic attacks</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24304" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="8410" end="8429" />
+        <spannedText>renal insufficiency</spannedText>
+        <creationDate>Thu Aug 04 16:07:32 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24304">
+        <mentionClass id="Symptom">renal insufficiency</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24305" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="8472" end="8483" />
+        <spannedText>nephropathy</spannedText>
+        <creationDate>Thu Aug 04 16:07:40 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24305">
+        <mentionClass id="Symptom">nephropathy</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24306" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="8496" end="8503" />
+        <spannedText>obesity</spannedText>
+        <creationDate>Thu Aug 04 16:07:43 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24306">
+        <mentionClass id="Symptom">obesity</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24307" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="197" end="224" />
+        <spannedText>HISTORY OF PRESENT ILLNESS:</spannedText>
+        <creationDate>Thu Aug 04 16:08:05 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24307">
+        <mentionClass id="SectionHeader_HasSymptom">HISTORY OF PRESENT ILLNESS:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24308" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="226" end="1609" />
+        <spannedText>This is a 57 year-old female with diabetes, hypertension, renal insufficiency and a known carotid stenosis of 79% by ultrasound on [**2125-7-13**] who complains of chest pain and left arm weakness. The chest pain awoke the patient from her sleep. The patient was awakened from her sleep with a sharp radiating pain to the left forehead, shoulder and arm associated with left arm weakness. The patient has had previous episodes of left arm weakness lasting several minutes. The first onset was [**2125-6-26**]. At that time she was seen by her primary care physician and begun on aspirin. Her statin dosing was increased and she was referred for carotid ultrasound and an echocardiogram. Patient had a repeat episode on [**2125-7-13**] and was encouraged to come to the emergency room but did not. The patient had a third episode on the night of admission. The patient had pain, weakness and paresthesias of the left face, upper and lower extremities with residual diminished sensation. The patient denies dyspnea, visual changes, loss of consciousness, aphasia, hematuria, dysuria, neck pain. Patient was initially evaluated in the emergency room and had an electrocardiogram, a head CT and vascular was consulted. Patient was begun on IV heparin drip at 1,000 units per hour and the coagulations were monitored. She is now admitted to the vascular service for definitive treatment.</spannedText>
+        <creationDate>Thu Aug 04 16:08:09 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24308">
+        <mentionClass id="Symptom_Section">This is a 57 year-old female with diabetes, hypertension, renal insufficiency and a known carotid stenosis of 79% by ultrasound on [**2125-7-13**] who complains of chest pain and left arm weakness. The chest pain awoke the patient from her sleep. The patient was awakened from her sleep with a sharp radiating pain to the left forehead, shoulder and arm associated with left arm weakness. The patient has had previous episodes of left arm weakness lasting several minutes. The first onset was [**2125-6-26**]. At that time she was seen by her primary care physician and begun on aspirin. Her statin dosing was increased and she was referred for carotid ultrasound and an echocardiogram. Patient had a repeat episode on [**2125-7-13**] and was encouraged to come to the emergency room but did not. The patient had a third episode on the night of admission. The patient had pain, weakness and paresthesias of the left face, upper and lower extremities with residual diminished sensation. The patient denies dyspnea, visual changes, loss of consciousness, aphasia, hematuria, dysuria, neck pain. Patient was initially evaluated in the emergency room and had an electrocardiogram, a head CT and vascular was consulted. Patient was begun on IV heparin drip at 1,000 units per hour and the coagulations were monitored. She is now admitted to the vascular service for definitive treatment.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24309" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1610" end="1631" />
+        <spannedText>PAST MEDICAL HISTORY:</spannedText>
+        <creationDate>Thu Aug 04 16:08:13 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24309">
+        <mentionClass id="SectionHeader_HasSymptom">PAST MEDICAL HISTORY:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24310" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1633" end="2033" />
+        <spannedText>Chronic renal insufficiency with a baseline creatinine between 1.8 and 2.3. Right carotid artery stenosis. Hypertension. Type 2 diabetes mellitus, noninsulin dependent. History of obesity, status post gastric bypass in [**2113**]. History of hyperlipidemia on statins. History of vitamin B deficiency, supplemented. History of depression, stable. History of osteoarthritis with spinal canal stenosis.</spannedText>
+        <creationDate>Thu Aug 04 16:08:16 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24310">
+        <mentionClass id="Symptom_Section">Chronic renal insufficiency with a baseline creatinine between 1.8 and 2.3. Right carotid artery stenosis. Hypertension. Type 2 diabetes mellitus, noninsulin dependent. History of obesity, status post gastric bypass in [**2113**]. History of hyperlipidemia on statins. History of vitamin B deficiency, supplemented. History of depression, stable. History of osteoarthritis with spinal canal stenosis.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24311" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2568" end="2589" />
+        <spannedText>PHYSICAL EXAMINATION:</spannedText>
+        <creationDate>Thu Aug 04 16:08:22 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24311">
+        <mentionClass id="SectionHeader_HasSymptom">PHYSICAL EXAMINATION:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24312" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2591" end="3414" />
+        <spannedText>Vital signs: 98.9, 60, 16, blood pressure 156/92 to 186/70, oxygen saturation 95% on 100% room air. General appearance: Obese African American female sitting in bed wearing a wig. Speech is clear. Head, eyes, ears, nose and throat examination is unremarkable. Neck is thick. There are no carotid bruits, no jugular venous distension. No lymphadenopathy. Cardiovascular examination is regular rate and rhythm with normal S1 and S2. Lungs are clear to auscultation without adventitious sounds. Abdominal examination was obese with bowel sounds, nontender, nondistended. A large ventral incision well healed. Rectal examination showed normal tone, guaiac negative. Neurologic examination: Cranial nerves 2 through 12 are grossly intact. There is normal sensation. Deep tendon reflexes are 2+. Lower extremity strength is 4+/5.</spannedText>
+        <creationDate>Thu Aug 04 16:08:25 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24312">
+        <mentionClass id="Symptom_Section">Vital signs: 98.9, 60, 16, blood pressure 156/92 to 186/70, oxygen saturation 95% on 100% room air. General appearance: Obese African American female sitting in bed wearing a wig. Speech is clear. Head, eyes, ears, nose and throat examination is unremarkable. Neck is thick. There are no carotid bruits, no jugular venous distension. No lymphadenopathy. Cardiovascular examination is regular rate and rhythm with normal S1 and S2. Lungs are clear to auscultation without adventitious sounds. Abdominal examination was obese with bowel sounds, nontender, nondistended. A large ventral incision well healed. Rectal examination showed normal tone, guaiac negative. Neurologic examination: Cranial nerves 2 through 12 are grossly intact. There is normal sensation. Deep tendon reflexes are 2+. Lower extremity strength is 4+/5.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24313" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3416" end="3432" />
+        <spannedText>HOSPITAL COURSE:</spannedText>
+        <creationDate>Thu Aug 04 16:08:30 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24313">
+        <mentionClass id="SectionHeader_HasSymptom">HOSPITAL COURSE:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24314" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3434" end="8223" />
+        <spannedText>The patient was initially evaluated in the emergency room. An echocardiogram was done and it was negative for atrial septal defect, PFO, ejection fraction was greater than 55%. She has moderate pulmonary hypertension. A PMIBI done on [**2125-1-30**] was negative for ischemic. A head CT done was without hemorrhage or acute process. White count was 9.0, hematocrit 35.2, platelets 213,000. BUN 51, creatinine 3.0. Urine electrolytes were creatinine 33, sodium 99, potassium 11. [**Doctor Last Name **] was 6.25. CK MB, troponins 192, 4 and less than 0.1. Electrocardiogram was normal sinus rhythm, left ventricular hypertrophy. The patient was maintained n.p.o. Electrolytes were repleted. Her blood pressure was controlled with metoprolol. Goal blood pressure 120s to 140s. Patient was continued on heparin drip. Neurology was consulted. The neurologic examination - mental status - the patient is clear, awake, pleasant but slightly blunted affect. She is oriented to person, place, time and president. She has good attention span. She is able to recall in 10 seconds. Her language is fluent with good comprehension, repetition. Naming and [**Location (un) 1131**] intact. No dysarthria. There was no apraxia, agnosia, no neglect. Able to calculate. No left to right mismatch. Registration is 3 out 3. Object recall is 3 out 3 objects after three minutes. Cranial nerves are intact. Sensory is normal touch, proprioception and pinprick are normal. There is decreased vibration at the toes. No extinction to double stimulus. Motor: There is wasting of the thenar muscles on the left and bilateral EDBs. Increased leg tone is mild. There is no fasciculations or drift. There is no adventitious movements or asterixis. Strength is [**4-5**] on the right. The toe is [**3-6**]. On the left the deltoids are [**3-6**]. Triceps [**3-6**]. Biceps are [**4-5**]. Hamstrings are [**3-6**]. DF and PFs are [**4-5**]. Toes, E and F are [**3-5**]. Reflexes absent, biceps, brachials, triceps. Patellar is 2+. Arch is 0. Toes are down on the right. On the left the biceps, brachial are absent. The triceps are 2+. The patellar is 2+. The arch is 0 and the toes are downward. Normal finger to nose and heel to shin and RAMs. Feet slight antalgic gait, unable to tandem, no Romberg. Impression: This patient with multiple vascular risk factors with two transient episodes of left sided weakness and right internal carotid artery occlusion on an outpatient basis. Patient has subtle peripheral polyneuropathy which is probably secondary to diabetes or her vitamin B12 deficiency. Stroke is high on the differential considering her symptoms. Recommendations: MRI. Auto brachial latent blood pressure. Telemetry overnight to rule out dysrhythmias. Consider a transesophageal echocardiogram since the transthoracic echocardiogram was normal. They also recommended the patient be encouraged to follow up with the neurology clinic for evaluation of her peripheral neuropathy versus radiculopathy. An MRI of the brain was obtained which was negative for acute infarct and an MRI of the circle of [**Location (un) 431**] demonstrates flow in the major branch of circulation. The study is collaborative to the ultrasound which demonstrates a 70 to 79% right internal carotid artery stenosis and a left internal carotid artery stenosis without stenosis. There is antegrade vertebral flow bilaterally. Patient underwent a right carotid endarterectomy without incident on [**2125-7-18**]. During her hospitalization she was followed by the renal service for her chronic renal insufficiencies. They felt the patient's renal insufficiency was related to diabetic nephropathy and hypertension, question renal vascular hypertension as well. Recommended a urine protein-creatinine ratio which was sent at the time of dictation, an MRA which was scheduled at the time of dictation. Dr. [**Last Name (STitle) **] recommended changing the beta blockade from atenolol to Toprol. Would considering adding [**First Name8 (NamePattern2) **] [**Last Name (un) **] but after discussing with him this will be done on follow up. Patient's postoperative course was unremarkable. At the time of discharge the patient was neurologically stable. Renal function was stable. She was discharged to home. She should follow up with Dr. [**Last Name (STitle) **] in three weeks time. She should follow up with Dr. [**Last Name (STitle) **] in the renal service. Post discharge she should call for an appointment. Aspirin 81 mg q day was started. The patient was instructed to call us should the headache not relieve with Tylenol. She should not drive until seen in follow up. She may otherwise take a shower. She should continue her medications as directed. The patient should call for her renal appointment at [**Telephone/Fax (1) 60**].</spannedText>
+        <creationDate>Thu Aug 04 16:08:37 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24314">
+        <mentionClass id="Symptom_Section">The patient was initially evaluated in the emergency room. An echocardiogram was done and it was negative for atrial septal defect, PFO, ejection fraction was greater than 55%. She has moderate pulmonary hypertension. A PMIBI done on [**2125-1-30**] was negative for ischemic. A head CT done was without hemorrhage or acute process. White count was 9.0, hematocrit 35.2, platelets 213,000. BUN 51, creatinine 3.0. Urine electrolytes were creatinine 33, sodium 99, potassium 11. [**Doctor Last Name **] was 6.25. CK MB, troponins 192, 4 and less than 0.1. Electrocardiogram was normal sinus rhythm, left ventricular hypertrophy. The patient was maintained n.p.o. Electrolytes were repleted. Her blood pressure was controlled with metoprolol. Goal blood pressure 120s to 140s. Patient was continued on heparin drip. Neurology was consulted. The neurologic examination - mental status - the patient is clear, awake, pleasant but slightly blunted affect. She is oriented to person, place, time and president. She has good attention span. She is able to recall in 10 seconds. Her language is fluent with good comprehension, repetition. Naming and [**Location (un) 1131**] intact. No dysarthria. There was no apraxia, agnosia, no neglect. Able to calculate. No left to right mismatch. Registration is 3 out 3. Object recall is 3 out 3 objects after three minutes. Cranial nerves are intact. Sensory is normal touch, proprioception and pinprick are normal. There is decreased vibration at the toes. No extinction to double stimulus. Motor: There is wasting of the thenar muscles on the left and bilateral EDBs. Increased leg tone is mild. There is no fasciculations or drift. There is no adventitious movements or asterixis. Strength is [**4-5**] on the right. The toe is [**3-6**]. On the left the deltoids are [**3-6**]. Triceps [**3-6**]. Biceps are [**4-5**]. Hamstrings are [**3-6**]. DF and PFs are [**4-5**]. Toes, E and F are [**3-5**]. Reflexes absent, biceps, brachials, triceps. Patellar is 2+. Arch is 0. Toes are down on the right. On the left the biceps, brachial are absent. The triceps are 2+. The patellar is 2+. The arch is 0 and the toes are downward. Normal finger to nose and heel to shin and RAMs. Feet slight antalgic gait, unable to tandem, no Romberg. Impression: This patient with multiple vascular risk factors with two transient episodes of left sided weakness and right internal carotid artery occlusion on an outpatient basis. Patient has subtle peripheral polyneuropathy which is probably secondary to diabetes or her vitamin B12 deficiency. Stroke is high on the differential considering her symptoms. Recommendations: MRI. Auto brachial latent blood pressure. Telemetry overnight to rule out dysrhythmias. Consider a transesophageal echocardiogram since the transthoracic echocardiogram was normal. They also recommended the patient be encouraged to follow up with the neurology clinic for evaluation of her peripheral neuropathy versus radiculopathy. An MRI of the brain was obtained which was negative for acute infarct and an MRI of the circle of [**Location (un) 431**] demonstrates flow in the major branch of circulation. The study is collaborative to the ultrasound which demonstrates a 70 to 79% right internal carotid artery stenosis and a left internal carotid artery stenosis without stenosis. There is antegrade vertebral flow bilaterally. Patient underwent a right carotid endarterectomy without incident on [**2125-7-18**]. During her hospitalization she was followed by the renal service for her chronic renal insufficiencies. They felt the patient's renal insufficiency was related to diabetic nephropathy and hypertension, question renal vascular hypertension as well. Recommended a urine protein-creatinine ratio which was sent at the time of dictation, an MRA which was scheduled at the time of dictation. Dr. [**Last Name (STitle) **] recommended changing the beta blockade from atenolol to Toprol. Would considering adding [**First Name8 (NamePattern2) **] [**Last Name (un) **] but after discussing with him this will be done on follow up. Patient's postoperative course was unremarkable. At the time of discharge the patient was neurologically stable. Renal function was stable. She was discharged to home. She should follow up with Dr. [**Last Name (STitle) **] in three weeks time. She should follow up with Dr. [**Last Name (STitle) **] in the renal service. Post discharge she should call for an appointment. Aspirin 81 mg q day was started. The patient was instructed to call us should the headache not relieve with Tylenol. She should not drive until seen in follow up. She may otherwise take a shower. She should continue her medications as directed. The patient should call for her renal appointment at [**Telephone/Fax (1) 60**].</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24315" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="8225" end="8245" />
+        <spannedText>DISCHARGE DIAGNOSES:</spannedText>
+        <creationDate>Thu Aug 04 16:08:42 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24315">
+        <mentionClass id="SectionHeader_HasSymptom">DISCHARGE DIAGNOSES:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24316" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="8247" end="8690" />
+        <spannedText>Carotid artery stenosis with a history of transient ischemic attacks, status post right carotid endarterectomy. History of hypertension, uncontrolled with chronic renal insufficiency. Type 2 diabetes, insulin dependent, with nephropathy. History of obesity, status post gastric bypass surgery. History of hyperlipidemia on alrestatin. History of vitamin B12 deficiency, supplemented. History of ostearthritis and spinal canal stenosis, stable.</spannedText>
+        <creationDate>Thu Aug 04 16:08:45 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24316">
+        <mentionClass id="Symptom_Section">Carotid artery stenosis with a history of transient ischemic attacks, status post right carotid endarterectomy. History of hypertension, uncontrolled with chronic renal insufficiency. Type 2 diabetes, insulin dependent, with nephropathy. History of obesity, status post gastric bypass surgery. History of hyperlipidemia on alrestatin. History of vitamin B12 deficiency, supplemented. History of ostearthritis and spinal canal stenosis, stable.</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

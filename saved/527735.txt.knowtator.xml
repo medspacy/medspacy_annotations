@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="527735.txt">
+    <annotation>
+        <mention id="EHOST_Instance_24232" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3245" end="3252" />
+        <spannedText>Seizure</spannedText>
+        <creationDate>Thu Aug 04 14:42:46 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24232">
+        <mentionClass id="Symptom">Seizure</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24233" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3410" end="3428" />
+        <spannedText>Suicideal ideation</spannedText>
+        <creationDate>Thu Aug 04 14:43:03 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24233">
+        <mentionClass id="Symptom">Suicideal ideation</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24234" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2904" end="2923" />
+        <spannedText>Assessment and Plan</spannedText>
+        <creationDate>Thu Aug 04 14:43:30 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24234">
+        <mentionClass id="SectionHeader_HasSymptom">Assessment and Plan</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24235" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2927" end="4276" />
+        <spannedText>42 yo M with unknown past medical history presents with apparent intentional drug overdose, with likely phenytoin and TCAs, now s/p intubation for airwary protection. . # Altered mental status: Resolved, and appears to be related to poly-drug overdose. TCA positive on Serum tox, but no EKG changes. Seizure less likely given dilantin level. - Appreciate Toxicology input - Crystalloid IVFs - Trend daily lytes - Continuing to monitor on tele . # Suicideal ideation: Per report patient was attempted to hurt himself by taking a "handful of pills". - F/u with psychiatry - Pt awake and conversant now - Per psych, Pt can be Section 12 when medically stable . # FEN: On regular diet - 500cc bolus for mild tachycardia (pt feels thirsty) # Prophylaxis: Subcutaneous heparin # Access: peripherals x2 # Communication: None. No response at family phone numbers. Will call family per patent s request today # Code: Full presumed # Disposition: call out to medicine before bed availability on psychiatry floor. ICU Care Nutrition: Glycemic Control: Lines: 22 Gauge - [**2181-3-15**] 06:48 PM 20 Gauge - [**2181-3-16**] 08:00 AM Prophylaxis: DVT: Stress ulcer: VAP: Comments: Communication: Comments: Code status: Full code Disposition:</spannedText>
+        <creationDate>Thu Aug 04 14:43:35 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24235">
+        <mentionClass id="Symptom_Section">42 yo M with unknown past medical history presents with apparent intentional drug overdose, with likely phenytoin and TCAs, now s/p intubation for airwary protection. . # Altered mental status: Resolved, and appears to be related to poly-drug overdose. TCA positive on Serum tox, but no EKG changes. Seizure less likely given dilantin level. - Appreciate Toxicology input - Crystalloid IVFs - Trend daily lytes - Continuing to monitor on tele . # Suicideal ideation: Per report patient was attempted to hurt himself by taking a "handful of pills". - F/u with psychiatry - Pt awake and conversant now - Per psych, Pt can be Section 12 when medically stable . # FEN: On regular diet - 500cc bolus for mild tachycardia (pt feels thirsty) # Prophylaxis: Subcutaneous heparin # Access: peripherals x2 # Communication: None. No response at family phone numbers. Will call family per patent s request today # Code: Full presumed # Disposition: call out to medicine before bed availability on psychiatry floor. ICU Care Nutrition: Glycemic Control: Lines: 22 Gauge - [**2181-3-15**] 06:48 PM 20 Gauge - [**2181-3-16**] 08:00 AM Prophylaxis: DVT: Stress ulcer: VAP: Comments: Communication: Comments: Code status: Full code Disposition:</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

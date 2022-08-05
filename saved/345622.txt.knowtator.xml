@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="345622.txt">
+    <annotation>
+        <mention id="EHOST_Instance_23839" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1021" end="1028" />
+        <spannedText>Fatigue</spannedText>
+        <creationDate>Wed Aug 03 12:05:48 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23839">
+        <mentionClass id="Symptom">Fatigue</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23840" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1054" end="1064" />
+        <spannedText>Chest pain</spannedText>
+        <creationDate>Wed Aug 03 12:05:50 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23840">
+        <mentionClass id="Symptom">Chest pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23841" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1087" end="1094" />
+        <spannedText>Dyspnea</spannedText>
+        <creationDate>Wed Aug 03 12:05:51 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23841">
+        <mentionClass id="Symptom">Dyspnea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23842" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1122" end="1136" />
+        <spannedText>Abdominal pain</spannedText>
+        <creationDate>Wed Aug 03 12:05:53 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23842">
+        <mentionClass id="Symptom">Abdominal pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23843" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2983" end="3015" />
+        <spannedText>decreased breath sounds on right</spannedText>
+        <creationDate>Wed Aug 03 12:06:23 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23843">
+        <mentionClass id="Symptom">decreased breath sounds on right</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23844" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4514" end="4526" />
+        <spannedText>septic shock</spannedText>
+        <creationDate>Wed Aug 03 12:06:39 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23844">
+        <mentionClass id="Symptom">septic shock</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23845" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5360" end="5388" />
+        <spannedText>right-sided pleural effusion</spannedText>
+        <creationDate>Wed Aug 03 12:07:06 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23845">
+        <mentionClass id="Symptom">right-sided pleural effusion</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23846" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="0" end="1331" />
+        <spannedText>Chief Complaint: VT sepsis I saw and examined the patient, and was physically present with the ICU Resident for key portions of the services provided. I agree with his / her note above, including assessment and plan. HPI: 24 Hour Events: no complaints this morning. Still some episodes of VT Allergies: Levofloxacin Hives; Cefazolin Nausea/Vomiting Coreg (Oral) (Carvedilol) fatigue; Dopamine ventricular tac Last dose of Antibiotics: Piperacillin/Tazobactam (Zosyn) - [**2131-9-30**] 06:00 AM Vancomycin - [**2131-9-30**] 11:30 AM Infusions: Lidocaine - 1 mg/min Other ICU medications: Enoxaparin (Lovenox) - [**2131-9-30**] 11:30 AM Furosemide (Lasix) - [**2131-9-30**] 11:30 AM Other medications: Changes to medical and family history: PMH, SH, FH and ROS are unchanged from Admission except where noted above and below Review of systems is unchanged from admission except as noted below Review of systems: Constitutional: Fatigue Cardiovascular: No(t) Chest pain Respiratory: No(t) Dyspnea Gastrointestinal: No(t) Abdominal pain Genitourinary: Foley Heme / Lymph: Anemia Pain: No pain / appears comfortable Flowsheet Data as of [**2131-9-30**] 01:30 PM Vital signs Hemodynamic monitoring Fluid balance</spannedText>
+        <creationDate>Wed Aug 03 12:07:30 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23846">
+        <mentionClass id="Symptom_Section">Chief Complaint: VT sepsis I saw and examined the patient, and was physically present with the ICU Resident for key portions of the services provided. I agree with his / her note above, including assessment and plan. HPI: 24 Hour Events: no complaints this morning. Still some episodes of VT Allergies: Levofloxacin Hives; Cefazolin Nausea/Vomiting Coreg (Oral) (Carvedilol) fatigue; Dopamine ventricular tac Last dose of Antibiotics: Piperacillin/Tazobactam (Zosyn) - [**2131-9-30**] 06:00 AM Vancomycin - [**2131-9-30**] 11:30 AM Infusions: Lidocaine - 1 mg/min Other ICU medications: Enoxaparin (Lovenox) - [**2131-9-30**] 11:30 AM Furosemide (Lasix) - [**2131-9-30**] 11:30 AM Other medications: Changes to medical and family history: PMH, SH, FH and ROS are unchanged from Admission except where noted above and below Review of systems is unchanged from admission except as noted below Review of systems: Constitutional: Fatigue Cardiovascular: No(t) Chest pain Respiratory: No(t) Dyspnea Gastrointestinal: No(t) Abdominal pain Genitourinary: Foley Heme / Lymph: Anemia Pain: No pain / appears comfortable Flowsheet Data as of [**2131-9-30**] 01:30 PM Vital signs Hemodynamic monitoring Fluid balance</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23847" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="0" end="16" />
+        <spannedText>Chief Complaint:</spannedText>
+        <creationDate>Wed Aug 03 12:07:37 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23847">
+        <mentionClass id="SectionHeader_HasSymptom">Chief Complaint:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23848" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4452" end="6063" />
+        <spannedText>Assessment and Plan 67-year-old man admitted with apparent septic shock, though no cultures positive to date. Most likely source was stump infection. PMH is quite complicated (including polycythemia, h/[**Initials (NamePattern4) **] [**Last Name (NamePattern4) **], [**First Name3 (LF) 300**] 20%, VT s/p ablation). Other major issue has included VT, which broke on lidocaine. 1. Refractory Vtach: restarted on lidocaine, which seems to have helped. Planned for VT ablation on Monday. 2. Sepsis. Not clear precisely what source is. Suspect that stump infection was major culprit; appreciate vascular s help. C diff has been a [**Last Name 551**] problem for him before. If decompensates, further imaging, evaluation, and possible ID consult. 3. Resp Distress: has resolved. He is stable on 5L n/c. Would eventually consider thoracentesis for right-sided pleural effusion but would wait for VT ablation. 4. Cardiomyopathy: continue present rx 5. ARF on CRF: stable at present 6. Hypercoagulability: on LMWH. Hold before EP procedure. Remaining issues as per housestaff notes Patient is critically ill. ICU Care Nutrition: NPO p MN Glycemic Control: Lines: 18 Gauge - [**2131-9-25**] 09:15 PM 20 Gauge - [**2131-9-25**] 09:15 PM Multi Lumen - [**2131-9-26**] 12:00 AM Prophylaxis: DVT: Boots, SQ UF Heparin Stress ulcer: PPI VAP: Comments: Communication: Comments: Code status: Full code Disposition :ICU Total time spent: 35 minutes Patient is critically ill</spannedText>
+        <creationDate>Wed Aug 03 12:07:59 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23848">
+        <mentionClass id="Symptom_Section">Assessment and Plan 67-year-old man admitted with apparent septic shock, though no cultures positive to date. Most likely source was stump infection. PMH is quite complicated (including polycythemia, h/[**Initials (NamePattern4) **] [**Last Name (NamePattern4) **], [**First Name3 (LF) 300**] 20%, VT s/p ablation). Other major issue has included VT, which broke on lidocaine. 1. Refractory Vtach: restarted on lidocaine, which seems to have helped. Planned for VT ablation on Monday. 2. Sepsis. Not clear precisely what source is. Suspect that stump infection was major culprit; appreciate vascular s help. C diff has been a [**Last Name 551**] problem for him before. If decompensates, further imaging, evaluation, and possible ID consult. 3. Resp Distress: has resolved. He is stable on 5L n/c. Would eventually consider thoracentesis for right-sided pleural effusion but would wait for VT ablation. 4. Cardiomyopathy: continue present rx 5. ARF on CRF: stable at present 6. Hypercoagulability: on LMWH. Hold before EP procedure. Remaining issues as per housestaff notes Patient is critically ill. ICU Care Nutrition: NPO p MN Glycemic Control: Lines: 18 Gauge - [**2131-9-25**] 09:15 PM 20 Gauge - [**2131-9-25**] 09:15 PM Multi Lumen - [**2131-9-26**] 12:00 AM Prophylaxis: DVT: Boots, SQ UF Heparin Stress ulcer: PPI VAP: Comments: Communication: Comments: Code status: Full code Disposition :ICU Total time spent: 35 minutes Patient is critically ill</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23849" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4452" end="4471" />
+        <spannedText>Assessment and Plan</spannedText>
+        <creationDate>Wed Aug 03 12:08:04 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23849">
+        <mentionClass id="SectionHeader_HasSymptom">Assessment and Plan</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="45725.txt">
+    <annotation>
+        <mention id="EHOST_Instance_24131" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="257" end="276" />
+        <spannedText>atrial fibrillation</spannedText>
+        <creationDate>Thu Aug 04 12:31:22 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24131">
+        <mentionClass id="Symptom">atrial fibrillation</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24132" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="574" end="597" />
+        <spannedText>breathing was irregular</spannedText>
+        <creationDate>Thu Aug 04 12:31:57 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24132">
+        <mentionClass id="Symptom">breathing was irregular</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24133" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="733" end="752" />
+        <spannedText>Atrial fibrillation</spannedText>
+        <creationDate>Thu Aug 04 12:32:34 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24133">
+        <mentionClass id="Symptom">Atrial fibrillation</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24134" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1402" end="1416" />
+        <spannedText>carotid bruits</spannedText>
+        <creationDate>Thu Aug 04 12:33:37 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24134">
+        <mentionClass id="Symptom">carotid bruits</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24135" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1554" end="1562" />
+        <spannedText>clubbing</spannedText>
+        <creationDate>Thu Aug 04 12:33:45 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24135">
+        <mentionClass id="Symptom">clubbing</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24136" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1564" end="1572" />
+        <spannedText>cyanosis</spannedText>
+        <creationDate>Thu Aug 04 12:33:47 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24136">
+        <mentionClass id="Symptom">cyanosis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24137" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1576" end="1581" />
+        <spannedText>edema</spannedText>
+        <creationDate>Thu Aug 04 12:33:48 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24137">
+        <mentionClass id="Symptom">edema</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24138" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2510" end="2530" />
+        <spannedText>respiratory distress</spannedText>
+        <creationDate>Thu Aug 04 12:34:57 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24138">
+        <mentionClass id="Symptom">respiratory distress</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24139" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3098" end="3104" />
+        <spannedText>fevers</spannedText>
+        <creationDate>Thu Aug 04 12:35:49 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24139">
+        <mentionClass id="Symptom">fevers</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24140" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3223" end="3228" />
+        <spannedText>fever</spannedText>
+        <creationDate>Thu Aug 04 12:35:55 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24140">
+        <mentionClass id="Symptom">fever</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24141" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3701" end="3709" />
+        <spannedText>Dementia</spannedText>
+        <creationDate>Thu Aug 04 12:36:38 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24141">
+        <mentionClass id="Symptom">Dementia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24142" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="841" end="849" />
+        <spannedText>Dementia</spannedText>
+        <creationDate>Thu Aug 04 12:36:45 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24142">
+        <mentionClass id="Symptom">Dementia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24143" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="218" end="226" />
+        <spannedText>dementia</spannedText>
+        <creationDate>Thu Aug 04 12:36:51 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24143">
+        <mentionClass id="Symptom">dementia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24144" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3672" end="3680" />
+        <spannedText>Seizures</spannedText>
+        <creationDate>Thu Aug 04 12:37:47 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24144">
+        <mentionClass id="Symptom">Seizures</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24145" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="136" end="167" />
+        <spannedText>HISTORY OF THE PRESENT ILLNESS:</spannedText>
+        <creationDate>Thu Aug 04 14:20:19 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24145">
+        <mentionClass id="SectionHeader_HasSymptom">HISTORY OF THE PRESENT ILLNESS:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24146" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="169" end="705" />
+        <spannedText>The patient is a 78-year-old woman with advanced dementia with coronary artery disease, atrial fibrillation, hypertension, who presents after being found unresponsive. At baseline, she requires assistance with feeding and bathing. She says only one or two words. She walks in her home with a cane. Today, she took a nap around 2:00 p.m. Her husband tried to wake her but couldn't and thought that her breathing was irregular. He called 9-1-1 and she was taken to [**Hospital3 **] Emergency Room where she was intubated and sedated.</spannedText>
+        <creationDate>Thu Aug 04 14:20:22 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24146">
+        <mentionClass id="Symptom_Section">The patient is a 78-year-old woman with advanced dementia with coronary artery disease, atrial fibrillation, hypertension, who presents after being found unresponsive. At baseline, she requires assistance with feeding and bathing. She says only one or two words. She walks in her home with a cane. Today, she took a nap around 2:00 p.m. Her husband tried to wake her but couldn't and thought that her breathing was irregular. He called 9-1-1 and she was taken to [**Hospital3 **] Emergency Room where she was intubated and sedated.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24147" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="707" end="728" />
+        <spannedText>PAST MEDICAL HISTORY:</spannedText>
+        <creationDate>Thu Aug 04 14:20:27 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24147">
+        <mentionClass id="SectionHeader_HasSymptom">PAST MEDICAL HISTORY:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24148" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="729" end="933" />
+        <spannedText>1. Atrial fibrillation, INR 3.7 last Thursday. 2. Hypertension, long-standing. 3. CAD, status post CABG. 4. Dementia, followed by Dr. [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) **].</spannedText>
+        <creationDate>Thu Aug 04 14:20:31 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24148">
+        <mentionClass id="Symptom_Section">1. Atrial fibrillation, INR 3.7 last Thursday. 2. Hypertension, long-standing. 3. CAD, status post CABG. 4. Dementia, followed by Dr. [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) **].</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24149" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1257" end="1291" />
+        <spannedText>PHYSICAL EXAMINATION ON ADMISSION:</spannedText>
+        <creationDate>Thu Aug 04 14:20:36 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24149">
+        <mentionClass id="SectionHeader_HasSymptom">PHYSICAL EXAMINATION ON ADMISSION:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24150" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1293" end="2149" />
+        <spannedText>Vital signs: Blood pressure 200/80, heart rate 65. She appeared comfortable. The oropharynx was clear. No carotid bruits. No JVD. No thyromegaly. Cardiac: Notable for a regular rate and rhythm. Chest: Clear. Abdomen: Benign. Extremities: She had no clubbing, cyanosis or edema. Neurologic: She was intubated and sedated, not responding to voice or sternal rub. She was moving the right leg spontaneously but not the other extremities. Her dolls eye was positive in a horizontal direction. Pupils were reactive with positive corneal reflexes. Face was symmetric with a positive gag. She had increased tone in the left arm and leg. Hyperreflexic in the left arm and leg with an extensor plantar response on the right, 2+ reflexes with plantar response that was flexor. She grimaces to pain and attempts to withdrawal all four extremities.</spannedText>
+        <creationDate>Thu Aug 04 14:20:40 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24150">
+        <mentionClass id="Symptom_Section">Vital signs: Blood pressure 200/80, heart rate 65. She appeared comfortable. The oropharynx was clear. No carotid bruits. No JVD. No thyromegaly. Cardiac: Notable for a regular rate and rhythm. Chest: Clear. Abdomen: Benign. Extremities: She had no clubbing, cyanosis or edema. Neurologic: She was intubated and sedated, not responding to voice or sternal rub. She was moving the right leg spontaneously but not the other extremities. Her dolls eye was positive in a horizontal direction. Pupils were reactive with positive corneal reflexes. Face was symmetric with a positive gag. She had increased tone in the left arm and leg. Hyperreflexic in the left arm and leg with an extensor plantar response on the right, 2+ reflexes with plantar response that was flexor. She grimaces to pain and attempts to withdrawal all four extremities.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24151" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2416" end="2432" />
+        <spannedText>HOSPITAL COURSE:</spannedText>
+        <creationDate>Thu Aug 04 14:20:46 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24151">
+        <mentionClass id="SectionHeader_HasSymptom">HOSPITAL COURSE:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24152" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2434" end="3602" />
+        <spannedText>The patient is a 78-year-old woman who was found unresponsive and went into respiratory distress. As part of her workup, she had a head CT showing evidence of a possible right anterior cerebral artery stroke. She was intubated on arrival to the Emergency Room. She was admitted to the Neurointensive Care Unit. Initially, her blood pressure was allowed to autoregulate. She eventually was started on a labetalol drip for her blood pressure. She had episodes of seizures during admission treated with Ativan. She reverted on Dilantin. She was transfused to keep her hematocrit elevated. She was started on levofloxacin for pneumonia. She continued to have fevers initially. She was on anticoagulation for prosthetic heart valve. Over time, she continued to have leukocytosis and fever. She was started on vancomycin which was then discontinued after no significant improvement in her care. They decided to make her DNR/DNI. The patient began to have movement of the right side spontaneously, however, she continued to have decerebrate-like posturing on the left. Eventually, she was successfully extubated and she was discharged to home with hospice care.</spannedText>
+        <creationDate>Thu Aug 04 14:20:51 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24152">
+        <mentionClass id="Symptom_Section">The patient is a 78-year-old woman who was found unresponsive and went into respiratory distress. As part of her workup, she had a head CT showing evidence of a possible right anterior cerebral artery stroke. She was intubated on arrival to the Emergency Room. She was admitted to the Neurointensive Care Unit. Initially, her blood pressure was allowed to autoregulate. She eventually was started on a labetalol drip for her blood pressure. She had episodes of seizures during admission treated with Ativan. She reverted on Dilantin. She was transfused to keep her hematocrit elevated. She was started on levofloxacin for pneumonia. She continued to have fevers initially. She was on anticoagulation for prosthetic heart valve. Over time, she continued to have leukocytosis and fever. She was started on vancomycin which was then discontinued after no significant improvement in her care. They decided to make her DNR/DNI. The patient began to have movement of the right side spontaneously, however, she continued to have decerebrate-like posturing on the left. Eventually, she was successfully extubated and she was discharged to home with hospice care.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24153" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3604" end="3624" />
+        <spannedText>DISCHARGE DIAGNOSIS:</spannedText>
+        <creationDate>Thu Aug 04 14:20:55 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24153">
+        <mentionClass id="SectionHeader_HasSymptom">DISCHARGE DIAGNOSIS:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24154" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3625" end="3764" />
+        <spannedText>1. Right anterior cerebral artery stroke. 2. Seizures. 3. Pneumonia. 4. Dementia. 5. Coronary artery disease. 6. Atrial fibrillation.</spannedText>
+        <creationDate>Thu Aug 04 14:20:58 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24154">
+        <mentionClass id="Symptom_Section">1. Right anterior cerebral artery stroke. 2. Seizures. 3. Pneumonia. 4. Dementia. 5. Coronary artery disease. 6. Atrial fibrillation.</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

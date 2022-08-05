@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="679566.txt">
+    <annotation>
+        <mention id="EHOST_Instance_24484" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3647" end="3666" />
+        <spannedText>atrial fibrillation</spannedText>
+        <creationDate>Fri Aug 05 09:20:37 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24484">
+        <mentionClass id="Symptom">atrial fibrillation</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24485" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3676" end="3703" />
+        <spannedText>hypoxic respiratory failure</spannedText>
+        <creationDate>Fri Aug 05 09:20:50 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24485">
+        <mentionClass id="Symptom">hypoxic respiratory failure</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24486" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3758" end="3785" />
+        <spannedText>Hypoxic respiratory failure</spannedText>
+        <creationDate>Fri Aug 05 09:20:53 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24486">
+        <mentionClass id="Symptom">Hypoxic respiratory failure</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24487" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4130" end="4134" />
+        <spannedText>Afib</spannedText>
+        <creationDate>Fri Aug 05 09:22:43 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24487">
+        <mentionClass id="Symptom">Afib</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24488" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3540" end="3559" />
+        <spannedText>Assessment and Plan</spannedText>
+        <creationDate>Fri Aug 05 09:23:16 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24488">
+        <mentionClass id="SectionHeader_HasSymptom">Assessment and Plan</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24489" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3563" end="4764" />
+        <spannedText>76 M w/Rheumatoid Arthritis on Humira and Methotrexate, diastolic heart failure, atrial fibrillation with p/w hypoxic respiratory failure s/p VATS and Lingula/LLL biopsy, bx c/w UIP. #. Hypoxic respiratory failure: continue with 6L NC oxygen, titrate as tolerated. -change liquid bactrim to po -f/u sputum cultures -d/c steroids -uptitrate O2 prior to patient moving -appreciate thoracics involvement; pt with worsening PTX after pneumostat placed thus placed on suction now on water seal with plan to go home on water seal #. Afib: - continue dig for rate control - restart metoprolol 12.5 mg po TID for rate control #. Rheumatoid arthritis: - hold methotrexate and humira #. Macrocytic Anemia: Unclear etiology. Consider anemia of chronic disease. MTX could be contributory. B12 and folate WNL. - trend hct for now - guaiac all stools #. CHF: rate control as above, preserved EF # Nutrition: - pleasure feeds # Dispo: family meeting, d/w palliative care home w/ hospice; plan for home with hospice tomorrow ICU Care Nutrition: thickened liquids Glycemic Control: Lines: 20 Gauge - [**2120-6-5**] 04:00 PM</spannedText>
+        <creationDate>Fri Aug 05 09:23:25 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24489">
+        <mentionClass id="Symptom_Section">76 M w/Rheumatoid Arthritis on Humira and Methotrexate, diastolic heart failure, atrial fibrillation with p/w hypoxic respiratory failure s/p VATS and Lingula/LLL biopsy, bx c/w UIP. #. Hypoxic respiratory failure: continue with 6L NC oxygen, titrate as tolerated. -change liquid bactrim to po -f/u sputum cultures -d/c steroids -uptitrate O2 prior to patient moving -appreciate thoracics involvement; pt with worsening PTX after pneumostat placed thus placed on suction now on water seal with plan to go home on water seal #. Afib: - continue dig for rate control - restart metoprolol 12.5 mg po TID for rate control #. Rheumatoid arthritis: - hold methotrexate and humira #. Macrocytic Anemia: Unclear etiology. Consider anemia of chronic disease. MTX could be contributory. B12 and folate WNL. - trend hct for now - guaiac all stools #. CHF: rate control as above, preserved EF # Nutrition: - pleasure feeds # Dispo: family meeting, d/w palliative care home w/ hospice; plan for home with hospice tomorrow ICU Care Nutrition: thickened liquids Glycemic Control: Lines: 20 Gauge - [**2120-6-5**] 04:00 PM</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+
