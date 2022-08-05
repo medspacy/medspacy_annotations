@@ -1,0 +1,503 @@
+Admission Date:  [**2144-6-12**]              Discharge Date:   [**2144-7-16**]
+
+Date of Birth:  [**2082-7-14**]             Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Dilantin / Heparin Agents
+
+Attending:[**First Name3 (LF) 2181**]
+Chief Complaint:
+Primary:
+1. Hypotension
+2. Diarrhea
+
+Secondary:
+1.ESRD on HD:
+2. Hepatitis B
+3. Alcoholic cirrhosis
+4. Anemia
+5.Seizure Disorder
+6. Alcohol withdrawl
+7. Gout
+8. L knee replacement
+9. HTN
+10. peri-op afib many years ago
+11. hypothyroidism
+12. Pleural effusion status post decortication in [**9-5**]
+13. h/o MRSA line infection.
+14. Past Surgical Hx: Notable for abdominal trauma from a stab
+wound and he underwent open exploration at that time. It is
+unclear as to what the results of that were.
+
+Major Surgical or Invasive Procedure:
+[**2144-6-12**] - Placment of right femoral catheter
+[**2144-6-18**] - Placement of left femoral 12 french triple lumen
+temporary dialysis catheter
+[**2144-6-18**] - Removal of left tunneled IJ hemodialysis catheter
+[**2144-6-21**] - Thoracentesis of right pleural effusion
+[**2144-6-26**] - Placement of a tunneled Left IJ 14.5-French HD
+catheter
+[**2144-6-26**] - Removal of L femoral temporary HD catheter
+[**2144-6-26**] - Placement of Left PICC line
+[**2144-7-7**] - Removal of Left PICC line
+[**2144-7-7**] - Placement of Right PICC line
+[**2144-7-11**] - Removal of Right PICC line secondary to displacement
+[**2144-7-13**] - Attempted placement of Right IJ line, attempted
+placement of right femoral line
+[**2144-7-13**] - Placement of Left femoral central line
+
+
+History of Present Illness:
+61 M with h/o ESRD on HD, Etoh cirrhosis, hep B and hep C,
+seizure d/o, gout, HTN, line infections, recently d/c'd after
+admit for 1 week history of diarrhea, now readmitted from HD for
+hypotension, continued diarrhea. Prior to last admit, pt had 1
+week of yellow watery stool, non-bloody, non-black, occuring
+about six times/day, worse at night.  At that time, he denied
+nausea/vomiting, fever, chills, abdominal pain, chest pain, or
+SOB, hematemesis, recent laxatives or antibiotics.  C.diff was
+sent from the NH was negative.  He did note progressive leg
+weakness over several months, and RN at the NH reported
+progressive mental status decline since [**10-6**], with lethargy,
+psychomotor retardation and confusion. During recent admit,
+patient had a CT of the abdomen that showed thickening of the
+ascending and transverse colon c/w colitis.  Stool cultures
+including ova + parasites, and C.diff were sent which came back
+negative.  He was transiently on Levo/Flagyl but these were
+discontinued after negative stool culture.  By HD#4, he was
+forming more formed stool, and in fact his stool became too hard
+and so he was re-started on a stool softener colace. It was felt
+that he likely had a viral enterocolitis, or less likely, an
+ischemic colitis from possible hypotensive episode during HD
+session. Another possibility was a viral enteritis causing
+hypovolemia, then the resulting hypotension causing ischemic
+colitis.  New acute onset of inflammatory bowel disease was
+thought very unlikely. Patient was not felt to warrant a
+colonoscopy at the time, as he improved on conservative
+management.
+.
+Since his discharge [**2144-6-8**], 4d PTA, the patient has had
+recurrence of his diarrhea, which he says only seemed to slow
+down somewhat but never went away. He is not clear what
+medicines he has been getting at [**Hospital1 11851**], including if he has
+gotten any laxatives or stool softeners. He has been on a BRAT
+diet, so presumably they have held his laxatives as well.
+.
+Patient was at HD today, with initial BP 134/74, which fell to
+84/40. 300cc of NS was given, which brought up the BP to 92/60,
+but then it fell to 71/45. Pt had 2.5h of HD, stopped early.
+Received a total of 2100cc NS, and even with this and in T-[**Doctor Last Name **]
+SBP remained in 80s. Denied CP, SOB. When EMS arrived, BP 115/80
+sitting and 96/64 lying flat. Was admitted for dehydration from
+continued diarrhea. BP in ED ranged 107-119/56-77, HR ranged
+58-70.
+
+
+Past Medical History:
+ESRD on HD: L Hickman tunneled catheter.
+Hepatitis B
+Etoh cirrhosis
+Anemia
+Seizure Disorder
+Alcohol withdrawl
+Gout
+L knee replacement
+HTN
+peri-op afib many years ago
+hypothyroidism
+Pleural effusion status post decortication in [**9-5**]
+h/o MRSA line infection.
+
+Past Surgical Hx: Notable for abdominal trauma from a stab
+wound and he underwent open exploration at that time. It is
+unclear as to what the results of that were.
+
+
+Social History:
+Patient lives at [**Hospital3 **] home ([**Telephone/Fax (1) 25015**]).  His
+wife died eight years ago from complications of intravenous drug
+abuse. He worked as a carpenter or painter and quit eleven years
+ago. He used to drink at least a pint of alcohol/day for many
+years.  He denies tobacco or any other drugs currently.
+- Patient reports he has a son and daughter, both of whom live
+in [**Name (NI) 4565**]. Patient reports he is estranged from his children
+and adamently reports he does not want them to be part of his
+care, nor does he want them contact[**Name (NI) **].
+
+
+Family History:
+Non-contributory
+
+Physical Exam:
+Physical Exam:
+Vitals: 97.2   118/60   66   18   95%onRA   76.4kg
+GEN: Well nourished, breathing comfortably, not in pain, NAD,
+slow to respond
+SKIN: no frank jaundice, though right arm with extensive
+ecchymoses and yellowing, plus one laceration over forearm
+HEENT: PERRL, EOMI, anicteric, dry MM, OP clear, +tongue fascic
+Neck: Supple, no cervical LAD, no JVD
+COR: RRR, nl S1, S2, [**2-9**] syst murmur at apex, no rub/gallop
+LUNGS: rales [**1-5**] way up bilaterally; poor air movement
+throughout
+ABD: mildly obese, nondistended, decreased bowel sounds, tender
+to deep palp in all four quadrants as well as with tapping of
+ribs over liver; no guarding/rebound
+RECTAL: trace guaiac positive in the ED
+EXT: tender bilateral knees to palpation and passive range of
+motion.
+NEURO: inattentive, oriented x 3, slow to respond, fluent,
+tangential, intact comprehension.  CNII-XII intact. [**5-7**]
+strength, sensation to LT intact; +asterixis
+
+
+Pertinent Results:
+Admit labs:
+[**2144-6-12**] 01:15PM   WBC-4.0 RBC-3.96* HGB-12.1* HCT-40.2 MCV-102*
+MCH-30.6 MCHC-30.1* RDW-18.7*
+[**2144-6-12**] 01:15PM   PLT COUNT-92*
+
+[**2144-6-12**] 03:15PM   GLUCOSE-98 UREA N-7 CREAT-2.6* SODIUM-143
+POTASSIUM-3.8 CHLORIDE-109* TOTAL CO2-23 ANION GAP-15
+[**2144-6-12**] 01:15PM   CALCIUM-6.6* PHOSPHATE-2.5* MAGNESIUM-1.6
+[**2144-6-12**] 01:15PM   GLUCOSE-91 UREA N-7 CREAT-2.5*# SODIUM-139
+POTASSIUM-5.8* CHLORIDE-107 TOTAL CO2-22 ANION GAP-16
+
+[**2144-6-12**] 03:15PM   ALT(SGPT)-20 ALK PHOS-175* AMYLASE-27 TOT
+BILI-0.8
+[**2144-6-12**] 03:15PM   LIPASE-12
+[**2144-6-12**] 03:15PM   ALBUMIN-2.2*
+
+Discharge Labs:
+[**2144-7-15**]:
+WBC-13.1* Hgb-8.4* Hct-26.8* Plt-61*# s/p transfusion for
+platelet count of 22  59% Neutrophils, 25 bands
+.
+Coags: 14.5*1 43.6*     1.4
+.
+Chem-7: Glu-45* BUN-33* Cr-3.6* Na-144 K-4.3 Cl-107 HCO3-24
+AG-17
+.
+[**2144-6-21**] Heparin dependent antibody - positive
+[**2144-6-24**] Heparin dependent antibody - Negative
+[**2144-6-24**] Serotonin Release Assay - Negative
+.
+[**2144-6-14**]: C. Diff toxin A - negative
+[**2144-6-14**]: C. Diff toxin B - negative
+[**2144-7-1**]: C. Diff toxin A - positive
+[**2144-7-1**]: C. Diff toxin B negative
+[**2144-7-1**] Blood cxs: No growth
+[**2144-7-2**] Blood cxs: No growth
+[**2144-7-5**] Blood cxs: No growth
+.
+ABGs:
+[**2144-7-13**]: 7.32 / 228* / 45  / 24
+[**2144-7-13**]: 7.30 / 193* / 46* /24
+[**2144-7-14**]: 7.27 / 126* / 49* /23
+.
+Reports:
+[**2144-6-12**] Radiology CHEST (PORTABLE AP)AP UPRIGHT VIEW OF THE
+CHEST: A central line is unchanged, terminating at the
+aortocaval junction. The cardiac and mediastinal contours are
+stable. A right-sided pleural effusion with associated
+atelectasis is again demonstrated and not significantly changed
+compared to the prior study. No evidence of pneumothorax.
+IMPRESSION: No significant interval change compared to the
+radiograph of [**2144-6-3**].
+.
+[**2144-6-12**] Radiology CT ABDOMEN PELVIS:
+CT OF THE ABDOMEN WITH IV CONTRAST: A right-sided pleural
+effusion and bilateral lower lobe multifocal patchy opacities
+are again demonstrated not significantly changed compared to the
+prior study. The liver, gallbladder, pancreas, spleen, stomach,
+and adrenal glands are unremarkable. The kidneys are atrophic.
+Enhancement of the renal parenchyma is noted. There is wall
+edema/thickening of the ascending colon. There is apparent wall
+thickening of the transverse colon as well that was also
+demonstrated on the prior study. The splenic flexure and
+descending colon is under-filled, however there also appears to
+be wall edema affecting these locations as well. Note is made of
+free fluid tracking along the pericolic gutters, increased
+compared to the prior study. The appendix appears less enlarged
+compared to the prior study. The small bowel is grossly
+unremarkable and of normal caliber. There are no pathologically
+enlarged mesenteric or retroperitoneal lymph nodes.
+CT OF THE ABDOMEN WITH IV CONTRAST
+IMPRESSION: 1. Unchanged appearance of the chest compared to the
+prior study with a right-sided pleural effusion and patchy
+multifocal opacities.
+2. Wall edema/thickening of the ascending and transverse colon
+and possibly descending colon consistent with colitis with
+interval increase in free fluid tracking along the pericolic
+gutters. Differential diagnosis includes infectious,
+inflammatory, and ischemic etiologies.
+.
+[**2144-6-14**] Port Chest: 1) Persistent small curvilinear opacity at
+the left apex, which may reflect a small pneumothorax.
+2) Stable moderate to large partially loculated right pleural
+effusion with adjacent opacities in the right middle and lower
+lobes.
+.
+[**2144-6-18**] Port Chest: Persisting moderate right-sided pleural
+effusion with progression of associated consolidation, which
+given the clinical history is likely consistent with pneumonia.
+No other significant interval change.
+.
+[**2144-7-6**]: Left UE US- Partially occlusive thrombus in the left
+internal jugular vein. Possible partially occlusive thrombus in
+the left basilic vein along the PICC.
+.
+[**2144-7-8**]: Portable Abdomen: 1. No free air. 2. Ill-defined
+nodular density at the left lung base, likely infectious or
+inflammatory in etiology given that it was not present on the
+recent prior exam. Followup recommended.
+
+[**2144-7-13**]: Port Chest: 1.  Stable position of left internal
+jugular venous access catheter.  A right- sided PICC has been
+removed. 2.  Increase in the patchy opacities at the left base.
+Stable opacity at the right base.  Findings could be consistent
+with aspiration. 3.  Bilateral pleural effusions, right greater
+than left.
+.
+[**2144-7-14**]: pORT CHEST: IMPRESSION:  No short interval change.  No
+pneumonia or overt fluid overload.
+
+
+Brief Hospital Course:
+1)Hypotension/Sepsis: Pt has low baseline bp, likely related to
+his ESLD.  A day after the sigmoidoscopy, he underwent HD where
+he was afebrile and stable, and was transported to the GI suite
+for possible colonoscopy but developed severe rigor and fever.
+He was hypotensive to 40-90's fluctuating.  Dopamine was started
+on the floor in addition to fluid boluses, and pt was
+transferred to the MICU.  BCx grew E.Coli resistant to
+quinolones.  He was initially on Ceftriaxone and Vancomycin but
+was tailored to Ceftriaxone.  He was later transferred to the
+floor where his BP was stable at SBP 90-110's.  He also has
+adrenal insufficiency from long term use of prednsione for gout.
+ So he received stress dose steroids of fludrocortisone and
+hydrocortisone since the hypotensive espisode.  He was treated
+with ceftriaxone for the E.Coli sepsis.  The source was thought
+to be either from sigmoidiscopy or line related as he had
+femoral line in his right groin as well as tunneled HD line in
+his left IJ.  After temporary HD line was placed in the left
+groin, both of the old lines were removed.  Serial surveillance
+cultures have been negative. Plan at this point was to place a
+tunneled HD catheter by IR. Placement of this catheter was
+complicated by the fact that patient was having mental status
+change and did not have a health care proxy. After discussion
+with ethics, it was thought that placement of these catheters
+was medically necessary and both a tunneled Left HD catheter and
+left PICC line were placed. The left groin catheter was removed
+at this point. On [**2144-6-28**], the patient was noted to have a brief
+desaturation on the floor down to about 89% on room air, which
+increased to 98-99% with non-rebreather. The patient was then
+successfully weaned down to low-flow nasal canula. At this
+point, the patient had completed ceftriaxone for his previous E.
+Coli bactermiea, but was already receiving Flagyl for a possible
+previous aspiration. Blood cultures were sent. The patient was
+noted the day following to have a leukocytosis, which was also
+accompanied by abdominal pain. A [**Name (NI) 5283**] sono was negative and a
+port chest and KUB did not demonstrate any evidence of disease
+including free air. In the setting of this leukocytosis, the
+patient again became hypotensive and was empirically started on
+Vancomycin IV and Zosyn. Additionally, C. Diff toxin was sent
+which was positive depite having received 9+ days of Flagyl. The
+patient was additioanlly started on PO Vancomycin and the Flagyl
+was discontinued. The patient, who previously had been weaned
+back down to 10mg PO qd of prednisone was again brought to his
+stress dose steroid of 100mg hydrocortisone qd for possible
+adrenal insufficiency. The patient was additionally given 1 unit
+PRBC for low Hct. In the setting of continued GI output, the
+patient additionally had a rectal tube placed on [**2144-7-5**] to
+avoid contamination of his sacral decubitus ulcer. On [**2144-7-6**],
+patient's left arm was noted to be particularly swollen. A LUE
+US revealed partial obstruction of the left IJ and Left basilic
+vein. The patient's PICC was pulled and the patient was started
+on an IV Heparin drip. The patient was scheduled to have an
+additional PICC placed the following day. THat evening, the
+patient was noted to have some epistaxis without hemodynamic
+compromise and the Heparin Drip was immediatley stopped. The
+patient was given 1 unit of blood overnight. The patient was
+fairly stable on the floor with SBP 100-110 with plans of
+possible discharge back to nursing facility, as this was what
+patient repeatedly told medical team he wished to do. On the
+morning of [**2143-7-14**], the patient was seen in the a.m. and found
+to be disoriented, confused and audibly gurgling. The patient
+was ordered for a portable chest film, but was with satisfactory
+O2 sats on NC. While in HD, team was called as patient had
+acutely decompensated since his arrival. He was with mental
+deteriation and O2 sats to the high 70's and 80's. The patient
+was placed on a non-rebreather, an ABG and stat port film were
+performed and the MICU team was called to evaluate the patient.
+As the patient was DNR/DNI it was determined that the patient
+may recieve pressors if necessary in the unit, but at most could
+receive bi-PAP or CPAP for ventilatory support. Through the
+course of the day the patient was attempted to be weaned back to
+NC 5-6L, which failed. The patient was placed back on 100% O2 on
+non-rebreather, but was maintaining BP 90-110 without pressors.
+In the few days prior to these desaturations the patient was
+additionally becoming frequently hypoglycemic. The patient was
+not receiving insulin, and was given amps of dextrose as needed
+for hypoglycemic episodes as well as basal fluids with D5.
+Overnight, the patient was seen by the nightteam, with similar
+report of O2 desat and gurgling. Upon suction, frank blood was
+suctioned through a nasal trach tube. The patient was
+immediately given 1 unit of platelets for hrombocytopenia and
+the patient previously that evening had received i unit of FFP
+for an elevated INR. AM labs revealed that the patient had
+25bands and was currently unweanable from 100% non-rebreather.
+- [**2144-7-15**] Prior conversations with the patient when he was
+lucid revealed that the patient was willing to continue
+hemodialysis, but only if he was able to go back to his
+retirement home for treatment. The patient reported clearly to
+the medical team he did not want to stay in the hospital
+indefinitely on hemodialysis and he did not want to die in the
+hospital, with his life being prolonged on hemodialysis. The
+patient had reported he wished to be DNR/DNI and did not want
+his estranged family involved in his care. At the time of the
+most recent events above, the medical team including all
+particpiating physicians, nurses, and case manager discussed the
+case and what they thought the patient would have wanted given
+his condition, his poor prognosis, and poor chance of ever going
+back to retirement home with a qulaity of life he would have
+wanted. Given the above and his recent medical decompensation,
+thought likely to represent sepsis and DIC, the decision was
+made, agreed upon by all healthcare workers involed in his care,
+that Mr. [**Known lastname 52065**] would not have wanted continued aggressive
+medical management. The decision was made to place the patient
+on comfort care, and all medical treatments including blood
+draws and HD were stopped. On [**2144-7-15**] the patient was placed on
+a morphine drip titrated to comfort. On the morning of [**2144-7-16**],
+the patient was noted to be demonstrating an agonal breathing
+pattern. The patient quitely passed away within a few hours
+without incident.
+
+1)Colitis: The patient was recently admitted for the same
+symptoms.  On last admission, all stool studies were negative
+and his diarrhea slowly resolved.  He presented again with
+persistent diarrhea.  CT of the abdomen showing wall thickening
+of the ascending, transverse, and descending colon.  Again, all
+of the stool studies were negative including C.diff toxin A and
+B upon admission.  He underwent sigmoidoscopy which showed
+multiple patchy erythematous and edematous area but etiology was
+inconclusive.  The plan was to send him for colonoscopy but
+patient became septic with E. Coli bactermiea s/p sigmoidoscopy
+for which he was treated with ceftriaxone. After resolution of
+his septic episode, the patient continued to have diarrhea
+during his hospital stay, accompanied as well by abdominal pain.
+Despite additional treatment with Flagyl, which had been started
+for a likely aspiration PNA, the patient's C. diff toxin A
+became positive on [**2144-7-1**]. The patient was additionally started
+on PO Vancomycin at this time 125mg po q6h for treatment of
+likely C. Diff Colitis. The patient was additionally given
+questrum 4 gm PO QID to help solidify his bowel movements. The
+patient was additionally found during his stay to have frequent
+contamination of his sacral decubitus ulcer with feces. Because
+of this, a rectal tube was placed while the patient experienced
+diarrhea to avoid contamination of his open wound. Over the
+course of about a week, the patient's bowel movements became
+less freqient and better formed. The patient was with resolution
+of his diarrhea, without a rectal tube, and had his questrum
+dosing decreased to tid until the events as noted above.
+.
+3)Pneumonia: CXR in MICU suggestive of possible PNA as well as
+worsening right side pleural effusion which was tapped.  The
+pleural fluid was consistent with exudate by Light's criteria
+and is likely parapneumonic.  He likely had aspiration pneumonia
+in the ICU while his mental status was altered.  Flagyl was
+added in addition to Ceftriaxone to cover for anerobes for
+pneumonia as well as empiric coverage for GI flora. Remainder of
+hospital course is as noted above
+.
+4)Thrombocytopenia: He has a baseline thrombocytopenia from
+chronic liver disease.  However, he had a drop in plt count to
+the 40's.  HIT antibody was sent which came back positive.
+Repeat HIT was negative as was Serotonin Release Assay.
+.
+5)Mental Status: progressively declining mental status since
+last [**Month (only) 359**]; unclear etiology.  He became more confused and
+disoriented after the MICU stay which was thoguht to be ICU
+psychosis and toxic-metabolic picture.  Remainder of hospital
+course as above
+.
+6)Social: Pt has no family member to contact and no health care
+proxy.  His only contact of record is a friend/neighbor.  Ethics
+consult was otained to define a long term care as he is clearly
+DNR/DNI.  Also he may need a legal guardianship. Remainder of
+hospital course is as above.
+
+7)Nutrition: Pt with albumin of 1.8 primarily from persistent
+diarrhea and decreased po intake from inumerous NPO
+peri-procedure and ICU stay. Paient was started and weaner from
+TPN during stay. remainder of hospital course as above
+
+8)Gout: Pt with long standing use of prednisone 10 mg qd for
+chronic gout.  This was discouraged by Rheumatology back in
+[**2143-10-4**] but has not been tapered.
+
+9)Hypothyroid: His synthroid dose was just increased to 50 mcg
+qd on last admission. Was continued during stay.
+
+10)CODE: DNR/DNI-well documented. [**Hospital **] hospital course as
+above, deceased on [**2144-7-16**]
+
+Medications on Admission:
+1. Folic Acid 1 mg Tablet Sig: One (1) Tablet PO DAILY (Daily).
+
+2. B Complex-Vitamin C-Folic Acid 1 mg Capsule Sig: One (1) Cap
+PO DAILY (Daily).
+3. Pantoprazole Sodium 40 mg Tablet, Delayed Release (E.C.) Sig:
+
+One (1) Tablet, Delayed Release (E.C.) PO Q24H (every 24 hours).
+
+4. Levetiracetam 500 mg Tablet Sig: One (1) Tablet PO QD ().
+5. Thiamine HCl 100 mg Tablet Sig: One (1) Tablet PO DAILY
+(Daily).
+6. Divalproex Sodium 500 mg Tablet, Delayed Release (E.C.) Sig:
+One (1) Tablet, Delayed Release (E.C.) PO BID (2 times a day).
+7. Divalproex Sodium 250 mg Tablet, Delayed Release (E.C.) Sig:
+One (1) Tablet, Delayed Release (E.C.) PO DAILY (Daily).
+8. Sodium Bicarbonate 650 mg Tablet Sig: One (1) Tablet PO BID
+(2 times a day).
+9. Hydrocodone-Acetaminophen 5-500 mg Tablet Sig: 1-2 Tablets PO
+
+Q8H (every 8 hours) as needed.
+10. Ibuprofen 400 mg Tablet Sig: One (1) Tablet PO Q8H (every 8
+hours) as needed.
+11. Epoetin Alfa 10,000 unit/mL Solution Sig: One (1)  Injection
+
+ASDIR (AS DIRECTED): qMWF at dialysis.
+12. Prednisone 1 mg Tablet Sig: as directed Tablet PO DAILY
+(Daily): On prednisone taper: take 9 mg qd for 1 week, then
+taper by 1 mg/week.
+13. Levothyroxine Sodium 50 mcg Tablet Sig: One (1) Tablet PO
+DAILY (Daily).
+14. Colace 100 mg Capsule Sig: One (1) Capsule PO twice a day.
+
+Discharge Medications:
+None
+
+Discharge Disposition:
+Extended Care
+
+Facility:
+[**Hospital 11851**] Healthcare - [**Location (un) 620**]
+
+Discharge Diagnosis:
+1. Hypotension
+2. Diarrhea
+
+
+Discharge Condition:
+Deceased
+
+Discharge Instructions:
+None
+
+Followup Instructions:
+None
+
+

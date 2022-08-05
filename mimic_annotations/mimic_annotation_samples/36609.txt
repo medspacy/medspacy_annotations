@@ -1,0 +1,230 @@
+Admission Date:  [**2108-8-11**]              Discharge Date:   [**2108-8-16**]
+
+Date of Birth:  [**2088-10-11**]             Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:[**First Name3 (LF) 30**]
+Chief Complaint:
+Bilateral Pulmonary Emboli
+
+Major Surgical or Invasive Procedure:
+None
+
+History of Present Illness:
+History of Present Illness: 19 yo female with no past medical
+history transferred from [**Hospital 1474**] hospital for bilateral PEs.
+She was at the gym this morning, began to feel faint and
+lightheaded, and on the way to the bathroom, she lost
+consciousness. She thinks she may have been unconscious for
+about a minute or so, and subsequently EMS was called and she
+was transferred to [**Hospital1 1474**]. She denies any dyspnea or chest
+pain prior to or after the syncopal event. She denies symptoms
+of lower or upper extremity swelling. At [**Hospital1 1474**], she had a
+positive d-dimer, then had a CTA chest which showed large right
+sided PE obstructing the distal main right pulmonary artery, as
+well as other segmental right arteries, and segmental left
+arteries as well. She was bolused with heparin there, and
+started on a heparin gtt at 1050 units/hr and was transferred to
+[**Hospital1 18**] for further management.
+.
+In the ED, initial vs were: 99.5, 143/107, 18, 97%2L. Her
+initial labs showed a normal chemistry and CBC, but a trop of
+0.09. She had a re-read of the CT which showed the same findings
+as above. Her vitals prior to transfer were 98.1, 85, 134/84,
+24, 97%2L. She was given 850 cc of IVFs while she was in the ED.
+
+.
+Pt denies chest pain, shortness of breath, pleuritic pain. She
+denies any other symptoms. She denies lightheadedness or
+dizziness at this time. She reports using OCPs, but denies
+smoking history. Her mother was diagnosed with a RUE DVT 1.5 yrs
+ago with subsequent PE and was treated with anticoagulation.
+Patient has been on OCPs for about 6 months. Of note, she just
+started period today. She denies any recent trauma, no MVAs, no
+recent surgeries, no melena, no seizure history.
+
+
+Past Medical History:
+None
+
+Social History:
+ Is a student studying phlebotomy and radiology. She denies
+tobacco or drug use. She denies ETOH use. Not sexually active at
+this time.
+
+Family History:
+Mother with PE 1.5 yrs ago as well as RUE DVT after
+thrombophlebitis secondary to IV post partum. Paternal
+Grandmother with PE, paternal great uncle #1 with DVT, paternal
+great uncle #2 with PE, Maternal Grandfather with CVA
+
+Physical Exam:
+Vitals: T: BP: P: R: 18 O2:
+General: Alert, oriented, no acute distress
+HEENT: Sclera anicteric, MMM, oropharynx clear, PERRL, EOMI
+Neck: supple, JVP not elevated, no LAD
+Lungs: Clear to auscultation bilaterally, no wheezes, rales,
+ronchi
+CV: Tachycardic with regular rhythm, normal S1 + S2, no murmurs,
+rubs, gallops
+Abdomen: soft, non-tender, non-distended, bowel sounds present,
+no rebound tenderness or guarding, no organomegaly
+Ext: Warm, well perfused, 2+ pulses, no clubbing, cyanosis or
+edema
+Neuro: a/ox3, CNs [**3-15**] intact, strength and sensation intact
+throughout
+
+
+Pertinent Results:
+[**2108-8-11**] 08:33PM URINE  UCG-NEGATIVE
+[**2108-8-11**] 08:33PM   WBC-11.9* RBC-4.60 HGB-13.0 HCT-37.8 MCV-82
+MCH-28.3 MCHC-34.4 RDW-12.5
+[**2108-8-11**] 08:33PM   PLT COUNT-174
+[**2108-8-11**] 07:57PM   GLUCOSE-87 UREA N-8 CREAT-0.6 SODIUM-140
+POTASSIUM-3.6 CHLORIDE-104 TOTAL CO2-22 ANION GAP-18
+[**2108-8-11**] 07:57PM   CK(CPK)-65
+[**2108-8-11**] 07:57PM   CK-MB-NotDone cTropnT-0.08*
+[**2108-8-11**] 07:57PM   CALCIUM-8.7 PHOSPHATE-3.7 MAGNESIUM-1.9
+[**2108-8-11**] 07:57PM   PT-13.3 PTT-83.0* INR(PT)-1.1
+[**2108-8-11**] 02:10PM   CK-MB-NotDone proBNP-194*
+UCx negative
+
+BILAT LOWER EXT VEINS Study Date of [**2108-8-11**] 4:46 PM
+IMPRESSION:  No evidence of DVT.
+
+CTA CHEST W&W/O C&RECONS, NON-CORONARY Study Date of [**2108-8-11**]
+IMPRESSION: Extensive bilateral pulmonary emboli involving the
+left and right main pulmonary arteries and branches as
+characterized above with evidence of right heart strain. These
+findings should be correlated
+with echocardiography.
+
+Echo:
+IMPRESSION: Dilated and hypokinetic right ventricle with
+evidence of pressure/volume overload. Mild pulmonary artery
+hypertension (may be underestimated). Normal left ventricular
+function. No significant valvular abnormality seen.
+
+Right 3rd finger xray: FINDINGS: There is a fracture involving
+the volar base of the middle phalanx
+of the long finger. This is at the expected attachment of the
+flexor
+digitorum superficialis tendon.
+
+
+Brief Hospital Course:
+Assessment and Plan: This is a 19 year old with no PMH transfer
+from [**Hospital1 1474**] with bilateral PE's.
+.
+# Massive Pulmonary Embolism: patient was noted to have syncopal
+episode while at the gym yesterday, and was taken to [**Hospital 1474**]
+hospital where she was found to have b/l PEs. She was
+transferred to [**Hospital1 18**] and initially was admitted to the MICU. Pt
+did have evidence of right heart strain on both transthoracic
+echocardiogram and by EKG. Pt remained hemodynamically stable
+and the decision was made against lysis with TPA. Pt was
+therefore transferred to the floor several hours later.
+Bilateral lower extremity ultrasounds did not show evidence of
+DVT. Pt was anticoagulated with heparin gtt throughout her stay
+and was bridged to coumadin with 48 hours of overlap (when both
+her INR and PTT were therapeutic). She was discharged on
+coumadin.
+.
+Pt's only risk factors for PE are FH of clotting and oral
+contraceptives. Pt did not take her contraceptives while in the
+hospital and was advised to not take oral contraceptives in the
+future. She was also advised to discuss all future contraceptive
+decisions (aside from condoms) with her hematologist as other
+hormonal contraceptives can also carry an increased risk of
+clotting. Pt will follow up with  with her primary care doctor
+(who will follow her INR) and hematologist.
+.
+#S/P FALL: Pt had syncopal episode at gym without hitting her
+head. She did have swelling and pain in her right third finger
+which was found to have a non-displaced avulsion fracture.
+Plastic surgery saw her and gave her a brace for the finger. She
+will follow-up in hand clinic.
+.
+
+
+Medications on Admission:
+[**Female First Name (un) **] (drospirenone and ethinyl estradiol) x 6 months
+
+Discharge Medications:
+1. Warfarin 2 mg Tablet Sig: Two (2) Tablet PO at bedtime.
+Disp:*60 Tablet(s)* Refills:*2*
+2. Acetaminophen 500 mg Tablet Sig: 1-2 Tablets PO Q6H (every 6
+hours) as needed for pain: Let the doctor who is monitoring your
+warfarin (coumadin) know how much acetaminophen (tylenol) you
+are taking. Do not take more than 4 g in a day.
+
+
+Discharge Disposition:
+Home
+
+Discharge Diagnosis:
+Primary Diagnosis: Pulmonary Emboli, R middle finger fracture
+Secondary Diagnoses: none
+
+
+Discharge Condition:
+good; ambulating, breathing without difficulty; requiring low
+activity level to avoid tachycardia
+
+
+Discharge Instructions:
+You were admitted to [**Hospital1 **] Hospital because of
+several clots in the arteries that go to your lungs (pulmonary
+arteries). We looked at your heart with ultrasound (called an
+echocardiogram) and monitored your heart rate while you were
+here; both the echocardiogram and your heart rate made us think
+that your heart is having to work harder than usual to pump
+blood through your lung arteries. This means that when you go
+home you need to be very calm, walk slowly, not exercise or lift
+heavy things, and not go to work until either your primary care
+doctor or your hematologist says that you are well enough to do
+those things.
+
+You were started on several medicines (heparin and coumadin)
+which help to prevent the clots from growing. At this point, the
+coumadin levels are high enough to prevent further clotting
+without the heparin (which you can only get in the hospital), so
+we are sending you home on the coumadin alone.
+
+You should take 4mg of coumadin every day in the evening until
+you see your doctor [**First Name (Titles) **] [**Last Name (Titles) 2974**]. He will check your coumadin level
+(called an INR) and then he may increase or decrease your dose
+based on the blood test. Make sure you discuss your INR and your
+coumadin dose before you leave his office on [**Last Name (Titles) 2974**]. If your INR
+is not back by the time you leave his office, please make sure
+you know what time to call the office to find out what your
+coumadin dose should be. They should also be able to tell you
+when your next blood test will be (probably sometime next week).
+
+
+Please return to the hospital for fainting or shortness of
+breath. Please call your doctor or return to the hospital for
+chest pain or lightheadedness or any other symptoms which are
+concerning to you.
+
+Followup Instructions:
+You have already made appointments with your primary care doctor
+for [**2108-8-17**].
+
+Go to the hand clinic to follow up for your finger fracture; you
+have an appointment for [**2108-8-21**] at 9 am, [**Location (un) **] of the
+[**Hospital Ward Name 23**] Clinical Center; call [**Telephone/Fax (1) 3009**] if you need to change
+this appointment or if you need more information.
+
+You also have the following appointment in the hematology dept
+at [**Hospital3 **] Deaconness:
+Provider: [**First Name11 (Name Pattern1) 1730**] [**Last Name (NamePattern4) 5056**], MD Phone:[**Telephone/Fax (1) 22**]
+Date/Time:[**2108-9-21**] 9:30
+
+
+
+Completed by:[**2108-8-19**]

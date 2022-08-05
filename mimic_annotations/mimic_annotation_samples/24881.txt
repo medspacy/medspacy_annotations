@@ -1,0 +1,168 @@
+Admission Date: [**2150-8-21**]        Discharge Date: [**2150-9-5**]
+
+Date of Birth:  [**2150-8-21**]        Sex:  F
+
+Service:  NB
+
+
+HISTORY OF PRESENT ILLNESS:  [**Known lastname 14552**] [**Known lastname 8320**] is a former 2.76-
+kilogram product of a 35-6/7-weeks gestation pregnancy born
+to a 29-year-old G1, P0 woman. Prenatal screens: Blood type A-
+positive, antibody negative, rubella immune, RPR nonreactive,
+hepatitis B surface antigen negative, group B Strep status
+negative.
+
+Antenatal history notable for estimated date of confinement
+of [**2150-9-18**]. Primary C-section was performed for
+known breech presentation and elevated maternal blood
+pressure. Artificial rupture of membranes occurred at the
+time of delivery. The mother received antibiotics prior to
+delivery. There was no fever or other sepsis risk factors.
+Infant emerged with good tone and spontaneous respirations.
+She required blow-by oxygen. Apgars were 8 at 1 minute and 9
+at 5 minutes. She was transferred to the neonatal intensive
+care unit for further treatment of her respiratory distress.
+
+PHYSICAL EXAM UPON ADMISSION TO THE NEONATAL INTENSIVE CARE
+UNIT:  Weight 2.76 kilograms, length 45.5 cm, head
+circumference 31 cm. General: Near term infant with
+respiratory distress. Head, eyes, ears, nose, and throat:
+Anterior fontanel soft and flat, nondysmorphic facies.
+Palate: Intact. Neck and mouth: Normal. No nasal flaring.
+Chest: Mild intercostal retractions, fair breath sounds
+bilaterally. Cardiovascular: Well perfused, regular rate and
+rhythm, no murmur. Femoral pulses: Normal. Normal S1, S2.
+Abdomen: Soft, nondistended, no organomegaly, no masses.
+Bowel sounds: Active. Anus: Patent. Umbilical cord: Intact.
+GU: Normal female genitalia. Normal spine, hips, and
+clavicles. Neurological: Active and alert, responsive to
+stimuli. Tone: Appropriate for gestational age. Moving all
+extremities. Suck, root, gag reflexes: Intact.
+
+HOSPITAL COURSE BY SYSTEMS INCLUDING PERTINENT LABORATORY
+DATA:
+1.  Respiratory: [**Known lastname 14552**] had worsening grunting, flaring,
+    and retracting. She was initially on nasal cannula O2,
+    but was transitioned to continuous positive airway
+    pressure. She continued to require 50-60% oxygen and with
+    her increased work of breathing, was electively intubated
+    and received 2 doses of surfactant. She self-extubated on
+    day of life #3. She had increasing respiratory distress
+    and was found to have a left pneumothorax on chest x-ray.
+    This was treated with thoracentesis and eventual chest
+    tube placement.
+
+By day of life #5, she had weaned to nasal cannula O2. The
+chest tube was removed on [**2150-8-27**]. She transitioned
+to room air on day of life #7 and continued in room air
+through the rest of her neonatal intensive care unit
+admission. Chest x-rays were consistent with surfactant
+deficiency.
+
+At the time of discharge, she was breathing comfortably in
+room air with a respiratory rate of 30-60 breaths per minute.
+
+1.  Cardiovascular: [**Known lastname 14552**] has maintained normal heart
+    rates and blood pressures. A murmur was noted on day of
+    life #2. An electrocardiogram was obtained and was within
+    normal limits. [**Known lastname 14552**] was evaluated by the cardiology
+    consult team from [**Hospital3 1810**]. They recommend
+    followup 1 month after discharge. An echocardiogram was not
+    felt to be indicated. At the time of
+    discharge, the murmur remained audible at the left
+    sternal border. Baseline heart rate is 130-150 beats per
+    minute. Recent blood pressure was 79/44 with a mean of
+    53.
+
+1.  Fluid, electrolytes, and nutrition: [**Known lastname 14552**] was
+    initially NPO and maintained on intravenous fluids.
+    Enteral feeds were started on day of life #4 and
+    gradually advanced to full volume. At the time of
+    discharge, she is ad-lib p.o. feeding Enfamil 24 calories
+    per ounce. Weight on the day of discharge is 2.7
+    kilograms. Serum electrolytes were checked on the 1st
+    week of life and were within normal limits.
+
+1.  Infectious disease: Due to the unknown etiology of the
+    respiratory distress, [**Known lastname 14552**] was evaluated for sepsis.
+    A complete blood count drawn upon admission to the
+    neonatal intensive care unit was within normal limits. A
+    blood culture was obtained prior to starting intravenous
+    antibiotics. The blood culture was no growth at 48 hours
+    and the antibiotics were discontinued.
+
+1.  Hematological: Hematocrit at birth was 48.6%. [**Known lastname 14552**]
+    did not receive any transfusions of blood products.
+
+1.  Gastrointestinal: [**Known lastname 14552**] required treatment for
+    unconjugated hyperbilirubinemia with phototherapy. Peak
+    serum bilirubin occurred on day of life #4, total of
+    13.6/0.3 mg per deciliter direct. She was treated with
+    phototherapy for approximately 3 days. Rebound bilirubin
+    on [**2150-8-30**] was 10.7/0.5 mg per deciliter direct.
+
+1.  Neurological: [**Known lastname 14552**] has maintained a normal
+    neurological exam, and there were no neurological
+    concerns at the time of discharge.
+
+1.  Sensory: Audiology. Hearing screening was performed with
+    automated auditory brainstem responses. [**Known lastname 14552**] passed
+    in both ears.
+
+CONDITION AT DISCHARGE:  Good.
+
+DISCHARGE DISPOSITION:  Is home with the parents. The primary
+pediatrician is Dr. [**First Name8 (NamePattern2) 62593**] [**Name (STitle) **], [**Hospital 620**] Pediatrics, [**Last Name (NamePattern1) 62594**], [**Location (un) 620**], [**Numeric Identifier 46003**], phone #[**Telephone/Fax (1) 37814**].
+
+CARE AND RECOMMENDATIONS AT THE TIME OF DISCHARGE:
+1.  Feeding: Ad-lib p.o. feeding Enfamil 24 calories per
+    ounce.
+2.  No medications.
+3.  Car seat position screening was performed. [**Known lastname 14552**] was
+    observed in her car seat for 90 minutes without any
+    episodes of oxygen desaturation or bradycardia.
+4.  State newborn screen initially was sent on day of life
+    #3. The 170-H-P were elevated. A repeat screen was sent
+    on [**2150-9-2**] and the results remain pending at the
+    time of discharge.
+5.  Immunizations received. Hepatitis B vaccine was
+    administered on [**2150-9-2**].
+6.  Immediate recommended: Synagis RSV prophylaxis should be
+    considered from [**Month (only) **] through [**Month (only) 958**] for infants who
+    meet any of the following 3 criteria: 1. Born at less
+    than 32 weeks; 2. Born between 32 and 35 weeks with 2 of
+    the following: Daycare during the RSV season, a smoker in
+    the household, neuromuscular disease, airway
+    abnormalities, or school-age siblings; or 3. With chronic
+    lung disease.
+7. The patient was born in breech position. In accordance with
+AAP guidelines, a hip ultraosund is suggested during early
+infancy.
+
+Influenza immunization is recommended annually in the fall
+for all infants once they reach 6 months of age. Before this
+age and for the first 24 months of the child's life,
+immunization against influenza is recommended for household
+contacts and out-of-home caregivers.
+
+FOLLOW-UP APPOINTMENTS:
+1.  Appointment with Dr. [**First Name (STitle) **], primary pediatrician within 3
+    days of discharge.
+2.  Pediatric cardiology 1 month.
+
+DISCHARGE DIAGNOSES:
+1.  Prematurity at 35-6/7 weeks gestation.
+2.  Respiratory distress syndrome.
+3.  Suspicion for sepsis ruled out.
+4.  Left pneumothorax.
+5.  Unconjugated hyperbilirubinemia.
+
+
+
+                       [**First Name11 (Name Pattern1) 1154**] [**Last Name (NamePattern4) 62595**], MD [**MD Number(2) 56585**]
+
+Dictated By:[**Last Name (Titles) **]
+MEDQUIST36
+D:  [**2150-9-5**] 04:51:45
+T:  [**2150-9-5**] 07:12:10
+Job#:  [**Job Number 62596**]

@@ -1,0 +1,359 @@
+Admission Date:  [**2132-4-9**]              Discharge Date:   [**2132-4-16**]
+
+Date of Birth:  [**2058-10-26**]             Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:[**First Name3 (LF) 800**]
+Chief Complaint:
+- altered mental status, hypoxia, fever
+
+Major Surgical or Invasive Procedure:
+- none
+
+
+History of Present Illness:
+On admission:
+72 year old female with CAD, CHF, COPD presenting with altered
+mental status, hypoxia and fever. Recurrent admissions for
+hypercarbic resp failure and PNA. last admission early late
+[**Month (only) **]/early [**Month (only) 956**], and has been home from rehab x approx 3
+weeks.
+.
+On the day of admission, the patient was noted to be more
+lethargic than usual by her health aide, afebrile, no cough. Per
+daughter, using nasal bipap at night, NC oxygen 3.5L all day
+(baseline sats 86-92%). By report, not her self yesterday,
+walking with walker and slumped to ground witnessed, no head
+strike. Today more lethargic. Pt presented to the ED initially
+afebrile, but later spiked to 102.8. She received CTX 1 g and
+Levaquin 750, Solumedrol 125. An initial VBG showed 7.34/72/45.
+She was placed on CPAP 10/5 with a sat of 95% and an ABG:
+7.26/78/89/37. Pt is DNR/DNI.
+.
+Upon arrival to the MICU, pt was somnolent, on CPAP, no
+complaints via daughter who interprets for her.
+
+
+Past Medical History:
+- CAD; s/p 4 vessel CABG in [**2119**]
+- CHF; EF 55%, mild AS
+- obesity hypoventilation syndrome
+- obstructive sleep apnea
+- DM2
+- ventricular tachycardia; s/p ICD in [**2127**]
+- hypothyroidism
+- schizophrenia
+
+
+Social History:
+- lives in [**Hospital3 **] alone w/home health aide
+- daily visits from daughter
+- smoked 1.5 ppd X 30 years, quit in [**2123**]
+- at baseline can do most ADLs (wash face, comb hair, etc)
+
+Family History:
+- mother died of MI (age unknown)
+
+Physical Exam:
+On transfer to the Medicine floor from the ICU:
+Vitals (floor): T:97.5  BP:119/50  HR:80  RR:35  O2:88% 3.5L
+FS:424
+(exam limited by lack of cooperation)
+Gen: alert, vocalizing loudly in Farsi
+HEENT: EOMI, nasal cannula
+CV: RRR, 2+ distal pulses
+Resp: moderate air flow, clear to auscultation of frontal fields
+Abd: soft, obese, tympanic, no TTP
+Ext: no edema
+Neuro/Psych: alert, mildly agitated, responds to questions but
+no direct answers, perseverating on blood draws, people trying
+to kill her, etc.
+
+
+Pertinent Results:
+[**2132-4-9**] WBC-11.8 Hgb-10.5 Hct-31.4 Plt Ct-207
+[**2132-4-9**] Neuts-87.7 Lymphs-7.6 Monos-3.2 Eos-1.3 Baso-0.3
+[**2132-4-10**] WBC-8.9 Hgb-9.5 Hct-28.8 Plt Ct-191
+[**2132-4-15**] WBC-6.8 Hgb-10.4 Hct-31.5 Plt Ct-195
+.
+[**2132-4-9**] Glucose-300 UreaN-33 Creat-1.3 Na-137 K-3.9 Cl-90
+HCO3-38
+[**2132-4-11**] Glucose-88 UreaN-28 Creat-0.9 Na-145 K-3.2 Cl-103
+HCO3-35
+[**2132-4-15**] Glucose-204 UreaN-27 Creat-1.0 Na-136 K-4.0 Cl-93
+HCO3-35
+.
+[**2132-4-9**] ALT-12 AST-15 LD(LDH)-190 CK(CPK)-18* AlkPhos-71
+TotBili-0.3
+[**2132-4-9**] Lipase-24
+.
+[**2132-4-9**] proBNP-380
+[**2132-4-9**] cTropnT-<0.01
+[**2132-4-10**] cTropnT-<0.01
+.
+[**2132-4-9**] Type-MIX FiO2-20 pO2-45 pCO2-72 pH-7.34 calTCO2-41 Base
+XS-9
+[**2132-4-10**] Type-ART Temp-36.3 Rates-/20 FiO2-30 pO2-80 pCO2-56
+pH-7.33 calTCO2-31 Base XS-1 Intubat-NOT INTUBA
+.
+CXR ([**4-9**]): Markedly limited study due to motion artifact.
+[**Month/Year (2) **] left basilar atelectasis, cardiomegaly, prominent
+hilar vessels. Recommend repeat radiograph for further
+evaluation if needed
+.
+CXR:
+IMPRESSION: AP and lateral chest compared to [**4-9**]: Severe
+enlargement of the cardiac silhouette has worsened consistent
+with progressive cardiomegaly and/or pericardial effusion.
+Pulmonary vascular congestion is moderate, not appreciably
+changed since [**4-9**] and mediastinal
+veins are only mildly dilated. No appreciable pleural effusion
+is present and there is no consolidation to suggest pneumonia.
+Transvenous right ventricular pacer defibrillator lead is
+continuous from the left axillary pacemaker.
+.
+ECHOCARDIOGRAM:
+The left atrium is mildly dilated. No atrial septal defect is
+seen by 2D or color Doppler. There is mild symmetric left
+ventricular hypertrophy. The left ventricular cavity size is top
+normal/borderline dilated. Due to suboptimal technical quality,
+a focal wall motion abnormality cannot be fully excluded.
+Overall left ventricular systolic function is normal (LVEF>55%).
+There is no ventricular septal defect. The aortic valve leaflets
+(3) are mildly thickened but aortic stenosis is not present. No
+aortic regurgitation is seen. The mitral valve appears
+structurally normal with trivial mitral regurgitation. The
+pulmonary artery systolic pressure could not be determined.
+There is an anterior space which most likely represents a fat
+pad. Compared with the prior study (images reviewed) of
+[**2132-3-5**], LV systolic funciton has improved. If clinically
+indicated, a repeat study with echo contrast (Definity) may aid
+in a more accurate assessment of regional and global LV
+function.
+
+Brief Hospital Course:
+MICU Course:
+She was initially admitted to the medical ICU due to hypoxia and
+an increased oxygen requirement in the ED. Sedating medications
+were held due to her sedation and lethargy, and she was given
+steroids and started on antibiotics (vancomycin/Zosyn/Levaquin)
+for a possible healthcare associated pneumonia and COPD
+exacerbation, since she was at risk due to her underlying
+pulmonary status and recent prolonged stay in a rehabilitation
+facility. She was placed on CPAP overnight. The following day,
+her oxygenation had improved, as had her sedation/lethargy.
+However, she became quite agitated; this was thought to be due
+to having had her usual anti-psychotic medications held, as well
+as the administration of steroids. At that time, she was deemed
+medically stable for transfer to the regular Medicine floor.
+.
+.
+Hospital Course:
+*)Fever/hypoxia - initial CXR was sub-optimal due to her body
+habitus and movement during the exam. Repeat imaging showed a
+possible retrocardiac infiltrate vs. increased pulmonary
+congestion. As she remained afebrile during her hospital course,
+antibiotics were narrowed to levofloxacin only, and she had
+completed an 8-day course prior to discharge.
+.
+*)Altered mental status - likely related to fever, dehydration,
+and a possible shift in acid-base balance due to recently added
+medications (diuretics). Mental status improved with CPAP and
+improved oxygenation. Recently added medications were initially
+held, although furosemide was later re-started at a lower dose
+once her mental status had improved and stabilized.
+.
+*)COPD/OSA - she is a chronic CO2 retainer, but her oxygenation
+improved after maintenance with CPAP at night and supplemental
+oxygen during the day. On discharge she was maintaining her
+baseline oxygen saturation on her usual level of supplemental
+oxygen.
+.
+*)CHF - diuretics were initially held due to concern that a
+derangement of her acid/base balance was contributing to her
+altered mental status. A later CXR was concerning for possible
+increase in fluid, and as her mental status had normalized, she
+was re-started on furosemide at a lower dose than prior, which
+she tolerated well. An echocardiogram was performed to evaluate
+possibly increased cardiomegaly on CXR, and showed improved
+function from her prior echo.
+.
+*)ARF - creatinine on admission was 1.3, which normalized to her
+baseline of 1.0 after gentle IV fluids in the ICU. This was
+likely due to pre-renal azotemia/dehydration in the setting of
+infection.
+.
+*)Schizophrenia - after recovery of her mental status, was
+initially quite agitated, with an increase in paranoid
+delusions. Was re-started on the anti-psychotic medications that
+had been held due to her sedation. Over the following few days,
+her agitation decreased and on discharge she was at her
+baseline. This was confirmed by her daughter, who was a daily
+visitor. [**Name (NI) **] medication regimen was discussed with her
+outpatient psychiatrist, and he will follow up with her.
+.
+*)CAD - she had one episode of chest pain during her
+hospitalization, but based on her symptoms and the physical exam
+at that time (with tenderness to palpation over the chest wall)
+this was thought to be more likely musculoskeletal and/or
+respiratory in nature. An ECG did not show any significant
+changes from prior. Her symptoms improved with a nebulizer
+treatment and medications for her chronic musculoskeletal pain.
+She was otherwise kept on her home medication regimen.
+.
+*)DM - FS were quite elevated during her hospital course, up to
+the low 400's in the morning on several occasions. She was given
+insulin glargine and a sliding scale while hospitalized, due to
+better titration of insulin while initially NPO and with
+possible underlying infection. However, she has not used insulin
+at home and already has a lengthy list of medications, so she
+was discharged on her home oral hypoglycemic and will follow up
+shortly with her primary care doctor.
+.
+*)Chronic neck/back pain/headache -  has been a longstanding
+issue for her. Of note, she does have a sizeable (5-6cm) lipoma
+at her right posterior neck, but it is quite soft and not
+clearly compressing anything. Her pain was reasonably controlled
+with Tylenol and ibuprofen around-the-clock, Ultram, and a
+lidocaine patch. She was started on Zonegran to help manage her
+chronic headaches; this may be titrated up. A limited course of
+ibuprofen was discussed with her daughter, as this can cause
+problems if used long-term.
+.
+*)Hypothyroidism her home dose of levothyroxine was continued.
+
+Medications on Admission:
+- risperdal 2 mg po qhs --> changed to Invega ER 3mg qAM
+- atorvastatin 10 mg po qhs
+- Advair
+- Abilify 40 mg qhs
+- Spiriva qam
+- duoneb prn
+- aspirin 81 mg daily
+- Lasix 100 mg qam
+- spirolocatone 25 q AM
+- acetazolamide 250mg q AM
+- medroxyprogesterone 10 mg daily
+- glyburide 5 mg [**Hospital1 **]
+- levothyroxine 125 mcg daily
+- Zoloft 75 mg daily
+- Phoslo 2 cap qac
+- metoprolol SR 25 mg qam
+- Zyprexa when restless
+- nitroglycerin prn
+
+Discharge Medications:
+1. Fluticasone 50 mcg/Actuation Spray, Suspension Sig: One (1)
+Spray Nasal [**Hospital1 **] (2 times a day).
+2. Aspirin 81 mg Tablet, Chewable Sig: One (1) Tablet, Chewable
+PO DAILY (Daily).
+3. Levothyroxine 125 mcg Tablet Sig: One (1) Tablet PO DAILY
+(Daily).
+4. Albuterol 90 mcg/Actuation Aerosol Sig: 2-4 Puffs Inhalation
+Q4H (every 4 hours).
+5. Fluticasone-Salmeterol 250-50 mcg/Dose Disk with Device Sig:
+[**2-1**] Disk with Devices Inhalation [**Hospital1 **] (2 times a day).
+6. Sertraline 50 mg Tablet Sig: 1.5 Tablets PO DAILY (Daily).
+7. Simvastatin 10 mg Tablet Sig: Two (2) Tablet PO DAILY
+(Daily).
+8. Aripiprazole 10 mg Tablet Sig: Four (4) Tablet PO HS (at
+bedtime).
+9. Risperidone 2 mg Tablet Sig: One (1) Tablet PO HS (at
+bedtime).
+10. Acetaminophen 500 mg Tablet Sig: Two (2) Tablet PO Q6H
+(every 6 hours).
+11. Lactulose 10 gram/15 mL Syrup Sig: Thirty (30) ML PO TID (3
+times a day) as needed.
+12. Zonisamide 100 mg Capsule Sig: One (1) Capsule PO DAILY
+(Daily).
+13. Pantoprazole 40 mg Tablet, Delayed Release (E.C.) Sig: One
+(1) Tablet, Delayed Release (E.C.) PO Q24H (every 24 hours).
+14. Bisacodyl 5 mg Tablet, Delayed Release (E.C.) Sig: Two (2)
+Tablet, Delayed Release (E.C.) PO DAILY (Daily) as needed.
+15. Docusate Sodium 100 mg Capsule Sig: One (1) Capsule PO BID
+(2 times a day).
+16. Furosemide 80 mg Tablet Sig: One (1) Tablet PO DAILY
+(Daily).
+17. Tramadol 50 mg Tablet Sig: One (1) Tablet PO Q6H (every 6
+hours) as needed.
+18. Ibuprofen 600 mg Tablet Sig: One (1) Tablet PO Q6H (every 6
+hours) for 4 days.
+Disp:*16 Tablet(s)* Refills:*0*
+19. Senna 8.6 mg Tablet Sig: One (1) Tablet PO BID (2 times a
+day).
+20. Lidocaine 5 %(700 mg/patch) Adhesive Patch, Medicated Sig:
+One (1) Adhesive Patch, Medicated Topical DAILY (Daily).
+21. Glyburide 5 mg Tablet Sig: One (1) Tablet PO twice a day.
+
+
+Discharge Disposition:
+Home With Service
+
+Facility:
+[**Hospital1 **] Family & [**Hospital1 1926**] Services
+
+Discharge Diagnosis:
+- pneumonia
+- chronic obstructive pulmonary disease
+- obstructive sleep apnea
+- schizophrenia
+.
+- coronary artery disease
+- congestive heart failure
+- diabetes mellitus
+- hypothyroidism
+
+
+Discharge Condition:
+- improved/stable
+
+
+Discharge Instructions:
+You were hospitalized for difficulty breathing and
+sleepiness/lethargy. This improved when you were given help with
+breathing (CPAP) and treated for pneumonia. You were also given
+medications to help with your chronic headache and neck pain.
+Please follow up with your primary care doctor, as well as with
+your psychiatrist. Please use your CPAP machine every night.
+.
+Medication Changes:
+- you were given insulin instead of glyburide for your diabetes
+- you may resume your usual dose of glyburide when you go home
+- you completed a full course of antibiotics
+- Risperdal was given instead of Invega --> please continue this
+- Zonegran was started
+- Lasix was reduced from 100 mg to 80 mg daily
+.
+Weigh yourself every morning, [**Name8 (MD) 138**] MD if weight increases by
+more than 3 lbs. Adhere to a 2 gram sodium diet. Please call
+your doctor for the following: fever, increased difficulty
+breathing, chest pain, confusion, lethargy, severe or increasing
+pain, numbness/weakness of your arms or legs, new or concerning
+symptoms.
+
+
+Followup Instructions:
+1) Primary Care
+[**Name6 (MD) **] [**Name8 (MD) 65266**], MD   Phone:[**Telephone/Fax (1) 2205**]   Date/Time:[**2132-4-18**]
+1:15pm
+.
+Please go to this appointment as follow up from your
+hospitalization. If you are planning to change your primary care
+doctor, you may call [**Hospital3 **] at [**Telephone/Fax (1) 250**].
+.
+Please also make a follow up appointment with your psychiatrist,
+Dr. [**Last Name (STitle) **] [**Name (STitle) 12696**] at [**Telephone/Fax (1) 65267**]. A message has been left with
+him, but you will need to call to make an appointment within the
+next month.
+.
+Addendum --> has a f/u appointment with Dr. [**Last Name (STitle) 12696**] on [**4-23**];
+app't. date/time/contact information printed out and given to
+her daughter.
+
+
+                             [**First Name11 (Name Pattern1) **] [**Last Name (NamePattern4) 810**] MD, [**MD Number(3) 811**]
+

@@ -1,0 +1,128 @@
+Chief Complaint:
+   24 Hour Events:
+   - Fentanyl patch increased to 50 mcg for feeling of SOB.
+   - Methylpred was transitioned to PO prednisone.
+   - Patient was offered palleative care, but declined.
+   - GNR in sputum and currently on Zosyn.  If she will go to rehab/LTAC,
+   she may need a PICC
+   Allergies:
+   Tetracyclines
+   Unknown;
+   Last dose of Antibiotics:
+   Piperacillin/Tazobactam (Zosyn) - [**2206-5-2**] 09:00 PM
+   Vancomycin - [**2206-5-3**] 08:05 AM
+   Azithromycin - [**2206-5-3**] 10:28 AM
+   Piperacillin - [**2206-5-5**] 12:00 AM
+   Infusions:
+   Other ICU medications:
+   Lansoprazole (Prevacid) - [**2206-5-4**] 08:45 AM
+   Heparin Sodium (Prophylaxis) - [**2206-5-4**] 08:45 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2206-5-5**] 06:51 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.1
+   Tcurrent: 37.2
+C (98.9
+   HR: 107 (102 - 131) bpm
+   BP: 129/68(83) {129/57(75) - 158/91(106)} mmHg
+   RR: 22 (14 - 29) insp/min
+   SpO2: 91%
+   Heart rhythm: ST (Sinus Tachycardia)
+             Total In:
+                                                                  1,780 mL
+                                                                    229 mL
+   PO:
+                                                                    740 mL
+                                                                     60 mL
+   TF:
+   IVF:
+                                                                  1,040 mL
+                                                                    169 mL
+   Blood products:
+   Total out:
+                                                                    751 mL
+                                                                    305 mL
+   Urine:
+                                                                    751 mL
+                                                                    305 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,029 mL
+                                                                    -77 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 91%
+   ABG: ////
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   496 K/uL
+   11.0 g/dL
+   141 mg/dL
+   1.2 mg/dL
+   34 mEq/L
+   5.2 mEq/L
+   43 mg/dL
+   98 mEq/L
+   141 mEq/L
+   34.3 %
+   16.1 K/uL
+        [image002.jpg]
+                             [**2206-5-2**]  11:41 AM
+                             [**2206-5-2**]  09:52 PM
+                             [**2206-5-3**]  03:12 AM
+                             [**2206-5-3**]  10:29 AM
+                             [**2206-5-4**]  02:23 AM
+   WBC
+   17.3
+   16.1
+   Hct
+   33.9
+   34.3
+   Plt
+   463
+   496
+   Cr
+   1.1
+   1.2
+   TCO2
+   34
+   36
+   35
+   Glucose
+   138
+   141
+   Other labs: PT / PTT / INR:12.4/22.6/1.0, Lactic Acid:1.1 mmol/L,
+   Ca++:9.1 mg/dL, Mg++:2.5 mg/dL, PO4:3.4 mg/dL
+   Assessment and Plan
+ PAIN CONTROL (ACUTE PAIN, CHRONIC PAIN)
+ PNEUMONIA, BACTERIAL, COMMUNITY ACQUIRED (CAP)
+ IMPAIRED SKIN INTEGRITY
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2206-5-2**] 09:00 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:

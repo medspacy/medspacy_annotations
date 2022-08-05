@@ -1,0 +1,153 @@
+HPI:
+   32M s/p rollover MVC, unrestrained driver, prolonged extrication. Pt
+   initially GCS 15 then intubated s/p Narcan and tx to [**Hospital1 5**]. Pt has h/o
+   of heroin/cocaine abuse.
+   Injuries:
+   type 2 dens fx
+   R C2 transverse foramen fx
+   L C7 TP fx
+   L orbital wall and max sinus fx
+   nasal bone, nasal septum fx
+   Lip lac and L traumatic cataract
+   Chief complaint:
+   s/p trauma
+   PMHx:
+   PMH: h/o Hep C (no active infxn per family), IVDA, ?thyroid
+   PSH: none per mother
+   [**Name (NI) **]: unknown
+   Soc: Significant IVDA hx (heroine), tobacco use, +benzos/opiates(most
+   likely from OSH and intubation) and cocaine in urine tox, no
+   significant EtOH hx per family
+   Acute Pain
+   Assessment:
+   Pt c/o [**6-2**] pain in neck with movement.
+   Action:
+   Dilaudid PO.
+   Response:
+   Pt fell asleep for several hours after dose. Easy to arouse and without
+   moving neck has no c/o pain.
+   Plan:
+   Continue pain med as needed.
+   Trauma, s/p
+   Assessment:
+   L eye red with periorbital edema. Pupil fixed at 5mm and oval. Pt
+   states he can see from that eye during early am exam. Face remains
+   mildly swollen [**1-25**] facial fractures. L corner of lip with sutures and
+   approximate 3cm sutured lac to L eyelid.
+   Action:
+   Metal eye patch (no pad underneath per optho) to L eye.  OOB to chair.
+   Tolerating po diet.
+   Response:
+   Cooperative with therapy.
+   Plan:
+   Plastics will take pt to OR next week for repair of facial fractures.
+   Cervical fracture (without Spinal Cord Injury)
+   Assessment:
+   Pt has type II dens fracture, R transverse process fx of C2 and L
+   transverse fx of C7. Nondisplaced.
+   Action:
+   [**Location (un) 408**] J collar.
+   Response:
+   Cooperative with care.
+   Plan:
+   [**Location (un) 408**] J collar for 8-12 weeks with f/u exam and imaging in 2 weeks.
+   .H/O intravenous drug abuse (IVDU, IVDA)
+   Assessment:
+   Pt has h/o of heroin use and per family quit 5 years ago. Pt admits to
+   relapsing and has been using both heroin and cocaine for the last 3
+   months. Recent track marks present on both arms.
+   Action:
+   Valium [**Hospital1 **] and clonidine patch for possible withdrawl.
+   Response:
+   No signs of withdrawl.
+   Plan:
+   Consider decreasing benzos.
+   Demographics
+   Attending MD:
+   [**Doctor Last Name **] [**Doctor First Name **] J.
+   Admit diagnosis:
+   MOTOR VEHICLE ACCIDENT
+   Code status:
+   Full code
+   Height:
+   Admission weight:
+   74 kg
+   Daily weight:
+   74.8 kg
+   Allergies/Reactions:
+   No Known Drug Allergies
+   Precautions:
+   PMH:  Smoker
+   CV-PMH:
+   Additional history: polysubstance abuse with h/o heroin use but had
+   been clean x 5 years per family. As of last month pt has "pulled away
+   from" them. + cocaine in urine. Family denies ETOH.
+   Broken nose.
+   H/o hep C with interferon therapy
+   Surgery / Procedure and date:
+   Latest Vital Signs and I/O
+   Non-invasive BP:
+   S:130
+   D:71
+   Temperature:
+   98
+   Arterial BP:
+   S:
+   D:
+   Respiratory rate:
+   15 insp/min
+   Heart Rate:
+   108 bpm
+   Heart rhythm:
+   SR (Sinus Rhythm)
+   O2 delivery device:
+   None
+   O2 saturation:
+   97% %
+   O2 flow:
+   15 L/min
+   FiO2 set:
+   60% %
+   24h total in:
+   890 mL
+   24h total out:
+   700 mL
+   Pertinent Lab Results:
+   Sodium:
+   138 mEq/L
+   [**2173-9-30**] 02:31 AM
+   Potassium:
+   3.9 mEq/L
+   [**2173-9-30**] 02:31 AM
+   Chloride:
+   100 mEq/L
+   [**2173-9-30**] 02:31 AM
+   CO2:
+   29 mEq/L
+   [**2173-9-30**] 02:31 AM
+   BUN:
+   12 mg/dL
+   [**2173-9-30**] 02:31 AM
+   Creatinine:
+   0.8 mg/dL
+   [**2173-9-30**] 02:31 AM
+   Glucose:
+   100 mg/dL
+   [**2173-9-30**] 02:31 AM
+   Hematocrit:
+   40.0 %
+   [**2173-9-30**] 02:31 AM
+   Finger Stick Glucose:
+   135
+   [**2173-9-30**] 04:00 PM
+   Valuables / Signature
+   Patient valuables: none
+   Other valuables:
+   Clothes:  Sent home with:
+   Wallet / Money:
+   No money / wallet
+   Cash / Credit cards sent home with:
+   Jewelry:
+   Transferred from: [**Hospital 654**]
+   Transferred to: CC604
+   Date & time of Transfer:  [**2173-9-30**] at 1700

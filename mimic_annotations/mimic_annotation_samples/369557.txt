@@ -1,0 +1,207 @@
+TITLE:
+   CVICU
+   HPI:
+   [**4-14**] POD 2
+   48M s/p CABGx5 (LIMA>LAD, SVG>D2, SVG>OM1>OM2, SVG>PDA), MV repair
+   (28mm [**Company **] ring), bronchoscopy, and mediastinal lymph node
+   dissection/biopsy
+   EF    Wt 144   Cr
+   PMH: Ischemic cardiomyopathy (baseline EF 30%), CAD s/p LAD stent with
+   known RCA occlusion, hyperlipidemia, MR, DM with neuropathy, h/o NSVT,
+   asthma
+   [**Last Name (un) 574**]: atorvastatin 60', carvedilol 25", furosemide 40 prn, enalapril 10
+   mg qam, 20 mg qpm, spironolactone 25', metformin 850"
+   Current medications:
+   Acetaminophen, Albuterol-Ipratropium, Aspirin, Atorvastatin,
+   Beclomethasone Dipropionate, Ciprofloxacin, Docusate Sodium, Fentanyl
+   Citrate, Furosemide, Insulin, Norepinephrine, Piperacillin-Tazobactam,
+   Ranitidine, Vancomycin
+   24 Hour Events:
+   Remained in ICU intubated,on milirone and levophed
+   Weaned off Epi, milirone and levo decreased
+   Attempted to wean ventilator but hypoxia requiring increased peep and
+   recruitment
+   Sedation adjusted
+   Started on coverage for question pneumonia
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2174-4-13**] 08:06 PM
+   Ciprofloxacin - [**2174-4-13**] 10:14 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2174-4-14**] 04:09 AM
+   Infusions:
+   Fentanyl (Concentrate) - 75 mcg/hour
+   Insulin - Regular - 6 units/hour
+   Norepinephrine - 0.04 mcg/Kg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2174-4-13**] 08:45 AM
+   Midazolam (Versed) - [**2174-4-13**] 11:10 AM
+   Insulin - Regular - [**2174-4-14**] 06:25 AM
+   Other medications:
+   Flowsheet Data as of  [**2174-4-14**] 07:37 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                             Since [**77**] a.m.
+   HR: 77 (77 - 93) bpm
+   BP: 107/56(71) {83/48(61) - 112/64(76)} mmHg
+   RR: 21 (13 - 24) insp/min
+   SPO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 74 Inch
+   CVP: 18 (10 - 29) mmHg
+   PAP: (42 mmHg) / (21 mmHg)
+   CO/CI (Fick): (10.1 L/min) / (3.9 L/min/m2)
+   CO/CI (CCO): (6.8 L/min) / (2.8 L/min/m2)
+   SvO2: 72%
+   Mixed Venous O2% sat: 65 - 65
+   Total In:
+                                                                  3,619 mL
+                                                                    667 mL
+   PO:
+   Tube feeding:
+   IV Fluid:
+                                                                  3,439 mL
+                                                                    667 mL
+   Blood products:
+   Total out:
+                                                                  3,806 mL
+                                                                  1,465 mL
+   Urine:
+                                                                  3,221 mL
+                                                                  1,285 mL
+   NG:
+                                                                    300 mL
+                                                                    150 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                   -187 mL
+                                                                   -798 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CPAP/PSV+ApnVol
+   Vt (Set): 600 (600 - 600) mL
+   Vt (Spontaneous): 752 (0 - 752) mL
+   PS : 5 cmH2O
+   RR (Set): 16
+   RR (Spontaneous): 15
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   RSBI: 46
+   PIP: 11 cmH2O
+   Plateau: 19 cmH2O
+   SPO2: 99%
+   ABG: 7.46/38/123/24/3
+   Ve: 10.1 L/min
+   PaO2 / FiO2: 246
+   Physical Examination
+   General Appearance: No acute distress
+   HEENT: PERRL
+   Cardiovascular: (Rhythm: Regular)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: CTA
+   bilateral : , Diminished: left base), (Sternum: Stable )
+   Abdominal: Soft, Non-distended, Non-tender, Bowel sounds present,
+   hypoactive
+   Left Extremities: (Edema: 1+), (Temperature: Warm), (Pulse - Dorsalis
+   pedis: Present), (Pulse - Posterior tibial: Present)
+   Right Extremities: (Edema: 1+), (Temperature: Warm), (Pulse - Dorsalis
+   pedis: Present), (Pulse - Posterior tibial: Present)
+   Skin: Left EVH
+   Neurologic: Follows simple commands, Moves all extremities
+   Labs / Radiology
+   216 K/uL
+   8.9 g/dL
+   100 mg/dL
+   1.1 mg/dL
+   24 mEq/L
+   4.0 mEq/L
+   18 mg/dL
+   103 mEq/L
+   136 mEq/L
+   24.7 %
+   17.6 K/uL
+        [image002.jpg]
+                             [**2174-4-13**]  12:18 PM
+                             [**2174-4-13**]  02:02 PM
+                             [**2174-4-13**]  03:00 PM
+                             [**2174-4-13**]  04:00 PM
+                             [**2174-4-13**]  04:19 PM
+                             [**2174-4-13**]  06:08 PM
+                             [**2174-4-13**]  09:00 PM
+                             [**2174-4-14**]  02:12 AM
+                             [**2174-4-14**]  02:26 AM
+                             [**2174-4-14**]  06:01 AM
+   WBC
+   17.6
+   Hct
+   28
+   24.7
+   Plt
+   216
+   Creatinine
+   1.1
+   1.1
+   TCO2
+   24
+   23
+   25
+   27
+   28
+   Glucose
+   96
+   92
+   82
+   107
+   160
+   77
+   100
+   Other labs: PT / PTT / INR:18.5/38.9/1.7, Fibrinogen:470 mg/dL, Lactic
+   Acid:1.3 mmol/L, Ca:8.3 mg/dL, Mg:2.0 mg/dL, PO4:3.6 mg/dL
+   Imaging: CXR atelectasis vs infiltrates on left
+   Microbiology: BAL - culture pending - gs with gram neg rods and gram
+   positive cocci
+   urine and mrsa pending
+   Assessment and Plan
+   PNEUMONIA, BACTERIAL, COMMUNITY ACQUIRED (CAP), VALVE REPAIR (ALL
+   VALVES), CORONARY ARTERY BYPASS GRAFT (CABG)
+   Assessment and Plan:
+   Neurologic: Neuro checks Q: 4 hr, dilaudid prn pain will monitor for
+   effect
+   Cardiovascular: Aspirin, Statins, hemodynamically stable, Acute on
+   chronic systolic heart failure, stop milirone, wean levo for MAP > 60,
+   consider starting ace inhibitor and betablocker when levophed weaned
+   off
+   Pulmonary: IS, Extubated, (Ventilator mode: CPAP + PS), extubating, IS
+   and cough and deep breath, neb treatment with chest PT q6h
+   Gastrointestinal / Abdomen: bowel regimen
+   Nutrition: Clear liquids, Advance diet as tolerated
+   Renal: Foley, Adequate UO, continue lasix drip for diuresis with goal
+   1500-[**2165**] negative for 24 hours if cr remains stable
+   Hematology: anemia recheck Hct in afternoon
+   Endocrine: Insulin drip, goal BG < 150
+   Infectious Disease: Cont vanco, cipro and zosyn for presumed pneumonia
+   until sputum culture finalized, WBC remains 17, plan to pan culture if
+   spikes fever, vancomycin dose increased level 11
+   Lines / Tubes / Drains: Foley, OGT, ETT, Chest tube - pleural , Chest
+   tube - mediastinal, Pacing wires, dc ct today
+   Wounds: Dry dressings
+   Imaging: CXR today, s/p ct removal
+   Consults: CT surgery, P.T.
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Insulin infusion
+   Lines:
+   CCO PAC - [**2174-4-12**] 02:33 PM
+   Cordis/Introducer - [**2174-4-12**] 02:33 PM
+   Arterial Line - [**2174-4-12**] 02:33 PM
+   16 Gauge - [**2174-4-12**] 02:33 PM
+   Prophylaxis:
+   DVT: Boots, SQ UF Heparin
+   Stress ulcer: H2 blocker
+   VAP bundle: HOB elevation, Mouth care, Daily wake up, RSBI
+   Comments:
+   Communication: Patient discussed on interdisciplinary rounds , ICU
+   Code status: Full code
+   Disposition: ICU

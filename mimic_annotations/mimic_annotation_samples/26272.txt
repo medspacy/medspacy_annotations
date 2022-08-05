@@ -1,0 +1,166 @@
+Admission Date:  [**2126-11-21**]              Discharge Date:   [**2126-11-27**]
+
+Date of Birth:  [**2065-11-27**]             Sex:   M
+
+Service: CARDIOTHORACIC
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:[**First Name3 (LF) 1505**]
+Chief Complaint:
+Chest Tightness/Postitive ETT
+
+Major Surgical or Invasive Procedure:
+[**2126-11-21**] - CABGx5(LIMA->LAD,SVG->OM1,SVG->OM2,SVG->D1,SVG->PDA)
+
+
+History of Present Illness:
+Splendid 60 year old gentlman who has experienced multiple
+emotional stressors over the past several years. In the past few
+months, he has noted chest heaviness with exertion. He underwent
+an exercise tolerance test which was positive. A cardiac
+catheterization was performed which revealed severe three vessel
+disease.
+
+Past Medical History:
+Hyperlipidemia
+HTN
+Gout
+
+
+Social History:
+Insurance Lawyer. Lives alone. Has 3 alive and well children.
+Daughter passed away 2 months ago and wife passed away 2 years
+ago. Smokes [**12-9**] cigarettes per week..
+
+Family History:
+Father died of MI at age 63
+
+Physical Exam:
+82 regular  BP (R) 138/86 (L) 130/80
+HEENT: NCAT, PERRL, anicteric sclera. OP benign. No JVD. No
+bruits
+HEART: RRR, no murmur
+LUNGS: Clear
+ABD: Benign
+EXT: Warm, no edema, 2+ pulses
+NEURO: nonfocal
+
+Pertinent Results:
+[**2126-11-27**] 07:25AM BLOOD WBC-10.1 RBC-3.06* Hgb-9.5* Hct-26.7*
+MCV-87 MCH-30.9 MCHC-35.3* RDW-13.9 Plt Ct-392
+[**2126-11-27**] 07:25AM BLOOD Plt Ct-392
+[**2126-11-27**] 07:25AM BLOOD Glucose-93 UreaN-20 Creat-1.2 Na-139
+K-3.9 Cl-104 HCO3-27 AnGap-12
+[**2126-11-26**] 06:30AM BLOOD Mg-2.0
+
+[**2126-11-25**] CXR
+The patient is status post median sternotomy. Cardiac and
+mediastinal contours are stable in the [**Month/Day/Year **] period.
+There are persistent small bilateral pleural effusions and
+bibasilar atelectatic changes, left greater than right. Note is
+also made of an apparent air-fluid level in the left mid lung
+zone medially, most likely due to a small loculated
+hydropneumothorax.
+
+[**2126-11-22**] EKG
+Sinus rhythm. Non-diagnostic repolarization abnormalities.
+Compared to the
+previous tracing of [**2126-11-21**] no definite change.
+
+
+Brief Hospital Course:
+Mr. [**Known lastname 65052**] was admitted to the [**Hospital1 18**] on [**2126-11-21**] for surgical
+management of his coronary artery disease. He was taken directly
+to the operating room where he underwent coronary artery bypass
+grafting to five vessels. Postoperatively he was taken to the
+cardiac surgical intensive care unit for monitoring. On
+[**Date Range **] day one, Mr. [**Known lastname 65052**] [**Last Name (Titles) 5058**] neurologically intact
+and was extubated. He was transfused with packed red blood cells
+for [**Last Name (Titles) **] anemia with good effect. Mr. [**Known lastname 65052**] was then
+transferred to the cardiac surgical step down unit for further
+recovery. He was gently diuresed towards his preoperative
+weight. Mr. [**Known lastname 65052**] developed rapid atrial fibrillation which
+converted to normal sinus rhythm with beta blockade and
+amiodarone. The physical therapy service was consulted for
+assistance with Mr. [**Known lastname 65052**] [**Last Name (Titles) **] strength and mobility.
+He continued to make steady progress and was discharged home on
+[**Last Name (Titles) **] day six. He will follow-up with Dr. [**Last Name (STitle) **], his
+cardiologist and his primary care physician as an outpatient.
+
+Medications on Admission:
+Aspirin 325mg daily
+Lipitor 40mg daily
+Atenolol 25mg daily
+
+Discharge Medications:
+1. Potassium Chloride 10 mEq Capsule, Sustained Release Sig: Two
+(2) Capsule, Sustained Release PO Q12H (every 12 hours) for 10
+days: [**Hospital1 **] x 10 day.
+Disp:*40 Capsule, Sustained Release(s)* Refills:*0*
+2. Docusate Sodium 100 mg Capsule Sig: One (1) Capsule PO BID (2
+times a day).
+Disp:*60 Capsule(s)* Refills:*0*
+3. Aspirin 81 mg Tablet, Delayed Release (E.C.) Sig: One (1)
+Tablet, Delayed Release (E.C.) PO DAILY (Daily).
+Disp:*30 Tablet, Delayed Release (E.C.)(s)* Refills:*0*
+4. Oxycodone-Acetaminophen 5-325 mg Tablet Sig: 1-2 Tablets PO
+every 4-6 hours as needed for pain.
+Disp:*40 Tablet(s)* Refills:*0*
+5. Atorvastatin 40 mg Tablet Sig: One (1) Tablet PO DAILY
+(Daily).
+Disp:*30 Tablet(s)* Refills:*0*
+6. Ibuprofen 600 mg Tablet Sig: One (1) Tablet PO Q6H (every 6
+hours) as needed.
+Disp:*30 Tablet(s)* Refills:*0*
+7. Amiodarone 200 mg Tablet Sig: Two (2) Tablet PO twice a day:
+400mg [**Hospital1 **] x 7days then 400mg QD x 7days then 200mg QD.
+Disp:*120 Tablet(s)* Refills:*0*
+8. Furosemide 20 mg Tablet Sig: One (1) Tablet PO BID (2 times a
+day) for 10 days: [**Hospital1 **] x 10 days.
+Disp:*20 Tablet(s)* Refills:*0*
+9. Metoprolol Tartrate 50 mg Tablet Sig: One (1) Tablet PO TID
+(3 times a day).
+Disp:*90 Tablet(s)* Refills:*0*
+10. Zantac 150 mg Tablet Sig: One (1) Tablet PO twice a day for
+1 months.
+Disp:*60 Tablet(s)* Refills:*0*
+11. Ascorbic Acid 500 mg Tablet Sig: One (1) Tablet PO BID (2
+times a day).
+Disp:*60 Tablet(s)* Refills:*0*
+12. Polysaccharide Iron Complex 150 mg Capsule Sig: One (1)
+Capsule PO DAILY (Daily).
+Disp:*30 Capsule(s)* Refills:*0*
+
+
+Discharge Disposition:
+Home With Service
+
+Facility:
+[**Location (un) 1110**] VNA
+
+Discharge Diagnosis:
+HTN, ^chol, Gout
+
+
+Discharge Condition:
+good
+
+
+Discharge Instructions:
+keep wounds clean and dry. OK to shower, no bathing or swimming.
+No lotions, creams or powders to incisions.
+Take all medication as prescribed.
+Call for any fever, redness or drainage from wounds, or weight
+gain more than 2 pounds in one day or five in one week.
+
+Followup Instructions:
+[**Hospital 409**] clinic in 2 weeks
+Dr [**Last Name (STitle) 9960**] in [**2-8**] weeks
+Dr [**First Name8 (NamePattern2) **] [**Last Name (NamePattern1) 1159**] in [**2-8**] weeks
+Dr [**Last Name (STitle) **] in 4 weeks
+
+
+
+Completed by:[**2126-11-27**]
