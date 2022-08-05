@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="669731.txt">
+    <annotation>
+        <mention id="EHOST_Instance_2254" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="47" end="55" />
+        <spannedText>mumbling</spannedText>
+        <creationDate>Thu Aug 04 16:14:26 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2254">
+        <mentionClass id="Symptom">mumbling</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2255" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1185" end="1190" />
+        <spannedText>fever</spannedText>
+        <creationDate>Thu Aug 04 16:16:21 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2255">
+        <mentionClass id="Symptom">fever</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2256" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1195" end="1201" />
+        <spannedText>chills</spannedText>
+        <creationDate>Thu Aug 04 16:16:27 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2256">
+        <mentionClass id="Symptom">chills</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2257" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1203" end="1205" />
+        <spannedText>HA</spannedText>
+        <creationDate>Thu Aug 04 16:16:29 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2257">
+        <mentionClass id="Symptom">HA</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2258" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1207" end="1222" />
+        <spannedText>cardiopulmonary</spannedText>
+        <creationDate>Thu Aug 04 16:16:33 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2258">
+        <mentionClass id="Symptom">cardiopulmonary</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2259" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1236" end="1244" />
+        <spannedText>abd pain</spannedText>
+        <creationDate>Thu Aug 04 16:16:56 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2259">
+        <mentionClass id="Symptom">abd pain</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

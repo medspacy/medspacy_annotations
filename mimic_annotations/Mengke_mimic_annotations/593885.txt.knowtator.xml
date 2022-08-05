@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="593885.txt">
+    <annotation>
+        <mention id="EHOST_Instance_2171" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="231" end="234" />
+        <spannedText>GIB</spannedText>
+        <creationDate>Thu Aug 04 15:33:07 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2171">
+        <mentionClass id="Symptom">GIB</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2172" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="236" end="239" />
+        <spannedText>ARF</spannedText>
+        <creationDate>Thu Aug 04 15:33:10 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2172">
+        <mentionClass id="Symptom">ARF</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2173" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="245" end="264" />
+        <spannedText>respiratory failure</spannedText>
+        <creationDate>Thu Aug 04 15:33:13 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2173">
+        <mentionClass id="Symptom">respiratory failure</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2174" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="741" end="760" />
+        <spannedText>respiratory failure</spannedText>
+        <creationDate>Thu Aug 04 15:33:47 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2174">
+        <mentionClass id="Symptom">respiratory failure</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2175" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="839" end="854" />
+        <spannedText>shallow breaths</spannedText>
+        <creationDate>Thu Aug 04 15:34:00 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2175">
+        <mentionClass id="Symptom">shallow breaths</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2176" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="903" end="910" />
+        <spannedText>wheezes</spannedText>
+        <creationDate>Thu Aug 04 15:34:11 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2176">
+        <mentionClass id="Symptom">wheezes</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2177" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="945" end="950" />
+        <spannedText>cough</spannedText>
+        <creationDate>Thu Aug 04 15:34:18 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2177">
+        <mentionClass id="Symptom">cough</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2178" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1743" end="1751" />
+        <spannedText>Afebrile</spannedText>
+        <creationDate>Thu Aug 04 15:37:18 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2178">
+        <mentionClass id="Symptom">Afebrile</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2179" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1760" end="1764" />
+        <spannedText>pain</spannedText>
+        <creationDate>Thu Aug 04 15:37:21 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2179">
+        <mentionClass id="Symptom">pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2180" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3894" end="3910" />
+        <spannedText>sofsorb dressing</spannedText>
+        <creationDate>Thu Aug 04 15:40:12 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2180">
+        <mentionClass id="Symptom">sofsorb dressing</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2181" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3972" end="3976" />
+        <spannedText>pain</spannedText>
+        <creationDate>Thu Aug 04 15:40:18 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2181">
+        <mentionClass id="Symptom">pain</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

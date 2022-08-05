@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="536291.txt">
+    <annotation>
+        <mention id="EHOST_Instance_2089" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="169" end="182" />
+        <spannedText>chronic cough</spannedText>
+        <creationDate>Thu Aug 04 12:58:45 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2089">
+        <mentionClass id="Symptom">chronic cough</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2090" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="203" end="221" />
+        <spannedText>rectal bleeding</spannedText>
+        <creationDate>Thu Aug 04 12:58:56 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2090">
+        <mentionClass id="Symptom">rectal bleeding</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2091" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6124" end="6135" />
+        <spannedText>tachycardic</spannedText>
+        <creationDate>Thu Aug 04 13:02:03 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2091">
+        <mentionClass id="Symptom">tachycardic</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

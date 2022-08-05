@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="456788.txt">
+    <annotation>
+        <mention id="EHOST_Instance_2016" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="64" end="73" />
+        <spannedText>neck pain</spannedText>
+        <creationDate>Thu Aug 04 11:36:29 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2016">
+        <mentionClass id="Symptom">neck pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2017" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="54" end="62" />
+        <spannedText>headache</spannedText>
+        <creationDate>Thu Aug 04 11:36:34 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2017">
+        <mentionClass id="Symptom">headache</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2018" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5523" end="5527" />
+        <spannedText>Pain</spannedText>
+        <creationDate>Thu Aug 04 11:41:31 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2018">
+        <mentionClass id="Symptom">Pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2019" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6322" end="6341" />
+        <spannedText>Respiratory Failure</spannedText>
+        <creationDate>Thu Aug 04 11:42:10 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2019">
+        <mentionClass id="Symptom">Respiratory Failure</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2020" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6286" end="6296" />
+        <spannedText>Hemorrhage</spannedText>
+        <creationDate>Thu Aug 04 11:42:27 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2020">
+        <mentionClass id="Symptom">Hemorrhage</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+
