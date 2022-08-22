@@ -154,13 +154,7 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent'):
     '''calculate f1 over an entire corpus of documents'''
     corpus_tp, corpus_fp, corpus_fn = (0,0,0)
     
-    if type(docs1[0]) is spacy.tokens.doc.Doc:
-        for i, doc1 in enumerate(docs1):
-            tp,fp,fn = agreement(doc1, docs2[i],loose,labels,ent_or_span)
-            corpus_tp += tp
-            corpus_fp += fp
-            corpus_fn += fn
-    elif type(docs1) is pandas.core.frame.DataFrame:
+    if isinstance(docs1, pd.DataFrame):
         for doc_name in docs1['doc name'].unique():
             docs1_df = docs1[docs1['doc name'] == doc_name]
             docs2_df = docs2[docs2['doc name'] == doc_name]
@@ -169,13 +163,19 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent'):
             corpus_tp += tp
             corpus_fp += fp
             corpus_fn += fn
+    elif type(docs1[0]) is spacy.tokens.doc.Doc:
+        for i, doc1 in enumerate(docs1):
+            tp,fp,fn = agreement(doc1, docs2[i],loose,labels,ent_or_span)
+            corpus_tp += tp
+            corpus_fp += fp
+            corpus_fn += fn
     else:
         #raise error
         print('Input Error: Input must be iterable of spacy documents, or dataframe.')
         return
     
-    data = {'IAA' : [pairwise_f1(corpus_tp,corpus_fp,corpus_fn)], 'Recall' : [tp/float(tp+fp)], 'Precision' : [tp/float(tp+fn)],\
-           'True Positives' : [tp] , 'False Positives' : [fp], 'False Negative' : [fn]}
+    data = {'IAA' : [pairwise_f1(corpus_tp,corpus_fp,corpus_fn)], 'Recall' : [corpus_tp/float(corpus_tp+corpus_fp)], 'Precision' : [corpus_tp/float(corpus_tp+corpus_fn)],\
+           'True Positives' : [corpus_tp] , 'False Positives' : [corpus_fp], 'False Negative' : [corpus_fn]}
     
     return pd.DataFrame(data)
 
