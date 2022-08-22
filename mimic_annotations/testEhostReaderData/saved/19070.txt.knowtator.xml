@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="19070.txt">
+    <annotation>
+        <mention id="EHOST_Instance_1759" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="274" end="282" />
+        <spannedText>Diarrhea</spannedText>
+        <creationDate>Mon Aug 01 15:00:00 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1759">
+        <mentionClass id="Symptom">Diarrhea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1760" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="254" end="255" />
+        <spannedText>:</spannedText>
+        <creationDate>Tue Aug 02 15:14:32 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1760">
+        <mentionClass id="SectionHeader_HasSymptom">:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1761" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="259" end="270" />
+        <spannedText>Hypotension</spannedText>
+        <creationDate>Tue Aug 02 15:14:38 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1761">
+        <mentionClass id="Symptom">Hypotension</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1762" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="258" end="282" />
+        <spannedText>Hypotension 2. Diarrhea</spannedText>
+        <creationDate>Tue Aug 02 15:15:15 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1762">
+        <mentionClass id="Symptom_Section">Hypotension 2. Diarrhea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1763" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="470" end="484" />
+        <spannedText>hypothyroidism</spannedText>
+        <creationDate>Tue Aug 02 15:19:25 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1763">
+        <mentionClass id="Symptom">hypothyroidism</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1764" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1730" end="1738" />
+        <spannedText>diarrhea</spannedText>
+        <creationDate>Tue Aug 02 15:36:29 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1764">
+        <mentionClass id="Symptom">diarrhea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1765" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1790" end="1798" />
+        <spannedText>diarrhea</spannedText>
+        <creationDate>Tue Aug 02 15:36:38 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1765">
+        <mentionClass id="Symptom">diarrhea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1766" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2135" end="2147" />
+        <spannedText>leg weakness</spannedText>
+        <creationDate>Tue Aug 02 15:37:06 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1766">
+        <mentionClass id="Symptom">leg weakness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1767" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2252" end="2260" />
+        <spannedText>lethargy</spannedText>
+        <creationDate>Tue Aug 02 15:37:33 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1767">
+        <mentionClass id="Symptom">lethargy</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1768" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2262" end="2285" />
+        <spannedText>psychomotor retardation</spannedText>
+        <creationDate>Tue Aug 02 15:37:44 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1768">
+        <mentionClass id="Symptom">psychomotor retardation</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1769" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2290" end="2299" />
+        <spannedText>confusion</spannedText>
+        <creationDate>Tue Aug 02 15:37:50 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1769">
+        <mentionClass id="Symptom">confusion</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1770" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2779" end="2798" />
+        <spannedText>viral enterocolitis</spannedText>
+        <creationDate>Tue Aug 02 15:38:44 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1770">
+        <mentionClass id="Symptom">viral enterocolitis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1771" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2819" end="2835" />
+        <spannedText>ischemic colitis</spannedText>
+        <creationDate>Tue Aug 02 15:38:55 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1771">
+        <mentionClass id="Symptom">ischemic colitis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1772" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2850" end="2869" />
+        <spannedText>hypotensive episode</spannedText>
+        <creationDate>Tue Aug 02 15:39:03 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1772">
+        <mentionClass id="Symptom">hypotensive episode</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1773" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2939" end="2950" />
+        <spannedText>hypovolemia</spannedText>
+        <creationDate>Tue Aug 02 15:39:14 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1773">
+        <mentionClass id="Symptom">hypovolemia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1774" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2991" end="3007" />
+        <spannedText>ischemic colitis</spannedText>
+        <creationDate>Tue Aug 02 15:39:47 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1774">
+        <mentionClass id="Symptom">ischemic colitis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1775" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3269" end="3277" />
+        <spannedText>diarrhea</spannedText>
+        <creationDate>Tue Aug 02 15:40:03 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1775">
+        <mentionClass id="Symptom">diarrhea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1776" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5325" end="5345" />
+        <spannedText>extensive ecchymoses</spannedText>
+        <creationDate>Tue Aug 02 15:41:48 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1776">
+        <mentionClass id="Symptom">extensive ecchymoses</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1777" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5350" end="5359" />
+        <spannedText>yellowing</spannedText>
+        <creationDate>Tue Aug 02 15:41:52 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1777">
+        <mentionClass id="Symptom">yellowing</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1778" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5370" end="5380" />
+        <spannedText>laceration</spannedText>
+        <creationDate>Tue Aug 02 15:42:00 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1778">
+        <mentionClass id="Symptom">laceration</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1779" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="11438" end="11459" />
+        <spannedText>adrenal insufficiency</spannedText>
+        <creationDate>Tue Aug 02 15:45:55 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1779">
+        <mentionClass id="Symptom">adrenal insufficiency</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1780" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="12901" end="12915" />
+        <spannedText>abdominal pain</spannedText>
+        <creationDate>Tue Aug 02 15:47:39 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1780">
+        <mentionClass id="Symptom">abdominal pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1781" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="13840" end="13847" />
+        <spannedText>swollen</spannedText>
+        <creationDate>Tue Aug 02 15:49:40 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1781">
+        <mentionClass id="Symptom">swollen</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1782" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="17691" end="17699" />
+        <spannedText>diarrhea</spannedText>
+        <creationDate>Tue Aug 02 15:53:19 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1782">
+        <mentionClass id="Symptom">diarrhea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1783" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="17753" end="17761" />
+        <spannedText>diarrhea</spannedText>
+        <creationDate>Tue Aug 02 15:53:24 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1783">
+        <mentionClass id="Symptom">diarrhea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1784" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="18295" end="18303" />
+        <spannedText>diarrhea</spannedText>
+        <creationDate>Tue Aug 02 15:53:51 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1784">
+        <mentionClass id="Symptom">diarrhea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1785" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="18353" end="18367" />
+        <spannedText>abdominal pain</spannedText>
+        <creationDate>Tue Aug 02 15:53:59 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1785">
+        <mentionClass id="Symptom">abdominal pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1786" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="18249" end="18263" />
+        <spannedText>septic episode</spannedText>
+        <creationDate>Tue Aug 02 15:54:21 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1786">
+        <mentionClass id="Symptom">septic episode</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1787" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="18939" end="18947" />
+        <spannedText>diarrhea</spannedText>
+        <creationDate>Tue Aug 02 15:54:54 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1787">
+        <mentionClass id="Symptom">diarrhea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1788" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="19475" end="19495" />
+        <spannedText>aspiration pneumonia</spannedText>
+        <creationDate>Tue Aug 02 15:55:29 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1788">
+        <mentionClass id="Symptom">aspiration pneumonia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1789" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="19615" end="19624" />
+        <spannedText>pneumonia</spannedText>
+        <creationDate>Tue Aug 02 15:55:40 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1789">
+        <mentionClass id="Symptom">pneumonia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1790" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="20580" end="20588" />
+        <spannedText>diarrhea</spannedText>
+        <creationDate>Tue Aug 02 15:56:33 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1790">
+        <mentionClass id="Symptom">diarrhea</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

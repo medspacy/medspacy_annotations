@@ -1,0 +1,95 @@
+Admission Date:  [**2180-9-25**]     Discharge Date:  [**2180-9-29**]
+
+Date of Birth:                  Sex:  F
+
+Service:  MICU
+
+HISTORY OF PRESENT ILLNESS:  Ms. [**Known lastname 50463**] was an 83-year-old
+female with a history of polymyalgia rheumatica,
+hypercholesterolemia, hypothyroidism, vertigo, postural
+hypotension, and a history of syncope in the past who now is
+on Florinef and presented to [**Hospital1 **] [**Location (un) 620**]
+emergency department on [**2180-9-22**] after a syncopal episode
+at home.  She reported that she passed out after urinating
+while on the toilet.  She awoke and called her primary care
+physician, [**Name10 (NameIs) 1023**] evaluated her in the office and suspected
+dehydration, rehydrated her with fluids, and sent her home.
+At home she continued to feel poorly, and her primary care
+physician told her to return to the Emergency Department.  At
+[**Location (un) 620**] emergency department on [**2180-9-23**] EKG revealed
+polymorphic ventricular tachycardia with rate in the 130s and
+blood pressure in the 140s to 150s/60s.  She was afebrile at
+this time.
+
+Labs in the Emergency Room revealed a potassium of 2.7 and
+magnesium of 1.6.  She was given electrolyte repletion and
+her ventricular tachycardia spontaneously converted to sinus
+rhythm.  She had normal cardiac enzymes and a normal chest
+x-ray.  She was admitted on the morning after admission and
+was seen by Electrophysiology, who recommended a Lidocaine
+drip.  Despite avid electrolyte repletion, her potassium
+remained low, and a right internal jugular central line was
+placed on [**2180-9-23**] for further resuscitation.  Later that
+evening her oxygen saturations dropped to the 60s or 70s, and
+a post central line placement chest x-ray revealed no
+evidence of pneumothorax but evidence of pulmonary edema.
+She was placed on 100% non-rebreather and her sats improved
+to 80 to 100%.  An ABG at this time showed a pH of 7.36, CO2
+of 54, and PA of 53.  Potassium was 3.5 at this time.
+
+A decision was made to give 20 mg of intravenous Lasix, and
+she put out 620 cc of urine, but her sats continued to be 80
+to 100%.  Repeat ABG still revealed persistently low
+oxygenation.  Decision was made to intubate.  The patient was
+placed on AC at the rate of 10 with a tidal volume of 500 and
+FIO2 of 100% and PEEP of 5.  Recheck of an ABG still showed
+poor oxygenation with [**MD Number(3) 50464**], and decision was made to
+transfer her to [**Hospital6 256**] for
+further management due to failure of oxygenation.
+
+She was transferred, intubated, and a Lidocaine drip and
+received 100 mg of Fentanyl and 50 mg of Versed.
+
+BRIEF HOSPITAL COURSE:  Ms. [**Known lastname 50463**] was transferred to [**Hospital1 18**]
+on [**2180-9-25**].  The initial feeling was that she most likely
+was in pulmonary edema, leading to poor oxygenation due to
+aggressive fluid and electrolyte replacement at [**Location (un) 620**].  She
+was ........... diuresed, and was successfully extubated on
+[**2180-9-27**], however, became febrile with known MSSA in her
+sputum, however, was persistently febrile despite treatment
+with Levofloxacin, Vancomycin, and Flagyl.  Call for concern
+of aspiration pneumonia.  She also had an elevated white
+count with evidence of bandemia.
+
+On [**2180-9-29**] she also developed a decreased urine output in
+the setting of febrile illness, and there was concern for
+sepsis.  Her urine output continued to climb despite fluid
+boluses.  Her volume status was unclear but most likely
+representative of total body fluid overload with decreased
+intervascular volume, and plans were made for placement of a
+PA catheter.
+
+Despite concern for sepsis, her mental status continued to
+improve from the time of admission.  However, the house
+officers called on [**2180-9-29**] in the afternoon due to
+decreased mental status, tachypnea, bradycardia, and
+hypotension.  Passed away on [**2180-9-29**] at 15:50.  She had
+been made "Do Not Resuscitate"/ "Do Not Intubate" at the time
+of admission.  No resuscitative measures were done.  Her
+family was immediately [**Name (NI) 653**], and the Attending was
+present.  No autopsy was requested.  Immediate cause of death
+was pneumonia/adult respiratory distress syndrome with other
+causes including renal failure and cardiac arrest.
+
+
+
+
+                          [**First Name8 (NamePattern2) 1176**] [**Name8 (MD) 1177**], M.D.  [**MD Number(1) 1178**]
+
+Dictated By:[**Last Name (NamePattern1) 9820**]
+
+MEDQUIST36
+
+D:  [**2181-1-4**]  12:06
+T:  [**2181-1-4**]  15:18
+JOB#:  [**Job Number 50465**]

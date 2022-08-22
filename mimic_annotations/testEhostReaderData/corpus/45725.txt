@@ -1,0 +1,112 @@
+Admission Date:  [**2182-10-7**]       Discharge Date:  [**2182-10-14**]
+
+Date of Birth:                    Sex:
+
+Service:  NEUROOLOGY
+
+HISTORY OF THE PRESENT ILLNESS:  The patient is a 78-year-old
+woman with advanced dementia with coronary artery disease,
+atrial fibrillation, hypertension, who presents after being
+found unresponsive.  At baseline, she requires assistance
+with feeding and bathing.  She says only one or two words.
+She walks in her home with a cane.  Today, she took a nap
+around 2:00 p.m.  Her husband tried to wake her but couldn't
+and thought that her breathing was irregular.  He called
+9-1-1 and she was taken to [**Hospital3 **] Emergency Room where
+she was intubated and sedated.
+
+PAST MEDICAL HISTORY:
+1.  Atrial fibrillation, INR 3.7 last Thursday.
+2.  Hypertension, long-standing.
+3.  CAD, status post CABG.
+4.  Dementia, followed by Dr. [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) **].
+
+ADMISSION MEDICATIONS:
+1.  Trazodone.
+2.  Coumadin.
+3.  Aspirin.
+4.  Lopressor.
+5.  Procardia.
+6.  Microzide.
+7.  Avapro.
+8.  Wellbutrin.
+9.  Vitamin E.
+
+ALLERGIES:  The patient has no known drug allergies.
+
+SOCIAL HISTORY:  She lives with her husband, as described
+above.  Her daughter is a nurse and health care proxy.
+
+PHYSICAL EXAMINATION ON ADMISSION:  Vital signs:  Blood
+pressure 200/80, heart rate 65.  She appeared comfortable.
+The oropharynx was clear.  No carotid bruits.  No JVD.  No
+thyromegaly.  Cardiac:  Notable for a regular rate and
+rhythm.  Chest: Clear.  Abdomen:  Benign.  Extremities:  She
+had no clubbing, cyanosis or edema.  Neurologic:  She was
+intubated and sedated, not responding to voice or sternal
+rub.  She was moving the right leg spontaneously but not the
+other extremities.  Her dolls eye was positive in a
+horizontal direction.  Pupils were reactive with positive
+corneal reflexes.  Face was symmetric with a positive gag.
+She had increased tone in the left arm and leg.
+Hyperreflexic in the left arm and leg with an extensor
+plantar response on the right, 2+ reflexes with plantar
+response that was flexor.  She grimaces to pain and attempts
+to withdrawal all four extremities.
+
+LABORATORY/RADIOLOGIC DATA:  White count 11, hematocrit 37,
+platelets 294,000.  Sodium 137, potassium 4.3, BUN 20,
+creatinine 1.4, INR 3.2.
+
+She had a CT which showed an old left cerebellar stroke and
+some asymmetry in the right anterior cerebral artery
+territory.
+
+HOSPITAL COURSE:  The patient is a 78-year-old woman who was
+found unresponsive and went into respiratory distress. As
+part of her workup, she had a head CT showing evidence of a
+possible right anterior cerebral artery stroke.  She was
+intubated on arrival to the Emergency Room.  She was admitted
+to the Neurointensive Care Unit.  Initially, her blood
+pressure was allowed to autoregulate.  She eventually was
+started on a labetalol drip for her blood pressure.
+
+She had episodes of seizures during admission treated with
+Ativan.  She reverted on Dilantin.  She was transfused to
+keep her hematocrit elevated.  She was started on
+levofloxacin for pneumonia.  She continued to have fevers
+initially.  She was on anticoagulation for prosthetic heart
+valve.  Over time, she continued to have leukocytosis and
+fever.  She was started on vancomycin which was then
+discontinued after no significant improvement in her care.
+
+They decided to make her DNR/DNI.  The patient began to have
+movement of the right side spontaneously, however, she
+continued to have decerebrate-like posturing on the left.
+Eventually, she was successfully extubated and she was
+discharged to home with hospice care.
+
+DISCHARGE DIAGNOSIS:
+1.  Right anterior cerebral artery stroke.
+2.  Seizures.
+3.  Pneumonia.
+4.  Dementia.
+5.  Coronary artery disease.
+6.  Atrial fibrillation.
+
+
+
+                    DR.[**Last Name (STitle) **],[**First Name3 (LF) **] 13-279
+
+
+Dictated By:[**Last Name (NamePattern1) 1203**]
+MEDQUIST36
+
+D:  [**2183-7-9**]  04:00
+T:  [**2183-7-9**]  17:41
+JOB#:  [**Job Number 97443**]
+
+
+
+
+

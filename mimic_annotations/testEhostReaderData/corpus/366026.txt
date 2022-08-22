@@ -1,0 +1,207 @@
+Chief Complaint: COPD, RSV
+   I saw and examined the patient, and was physically present with the ICU
+   Fellow for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+ ULTRASOUND - At [**2162-1-5**] 12:30 PM
+   Lower and Upper extremity US to r/o clots (from ?HIT): chr superficial
+   thrombosis, no acute DVT in any limb.
+   Developed precipitous anemia and thrombocytopenia x 48 hrs.
+   Guiac neg
+   HIT neg
+   Started on argatroban due to clinical suspicion.
+   Psmear w/o hemolysis, but LDH 1500, hapto < 20.
+   Got solumedrol 125 x 1
+   Bactrim switched to atovaquone.
+   Got 1U PRBC for Hct 22
+   Resp status still tenious, but required bipap only for 4 hrs from 12 am
+   to 4 am
+   Allergies:
+   Albuterol
+   uncomfortable t
+   Last dose of Antibiotics:
+   Ceftriaxone - [**2162-1-4**] 04:00 PM
+   Infusions:
+   Argatroban - 1.25 mcg/Kg/min
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2162-1-6**] 08:58 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.3
+C (97.3
+   Tcurrent: 35.2
+C (95.4
+   HR: 98 (71 - 98) bpm
+   BP: 151/66(85) {86/38(53) - 151/85(89)} mmHg
+   RR: 31 (20 - 31) insp/min
+   SpO2: 92%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 61 Inch
+           Total In:
+                                                                  2,061 mL
+                                                                    472 mL
+   PO:
+                                                                    400 mL
+                                                                     30 mL
+   TF:
+   IVF:
+                                                                    536 mL
+                                                                     92 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                    790 mL
+                                                                    233 mL
+   Urine:
+                                                                    790 mL
+                                                                    233 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,271 mL
+                                                                    239 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 92%
+   ABG: ///26/
+   Physical Examination
+   General Appearance: mild resp distress
+   Eyes / Conjunctiva: PERRL
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: all present
+   Respiratory / Chest: (Expansion: Symmetric), (Percussion: Resonant : ),
+   (Breath Sounds: Rare crackles : , Rhonchorous: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, no HSM
+   Extremities: Right: 2+, Left: 2+
+   Skin:  Not assessed, multiple ecchymoses (upper chest, left lateral
+   thigh) and abd wall hematoma
+   Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+   stimuli, Oriented x 3, Tone: Not assessed
+   Labs / Radiology
+   7.8 g/dL
+   32 K/uL
+   84 mg/dL
+   1.0 mg/dL
+   26 mEq/L
+   4.6 mEq/L
+   56 mg/dL
+   105 mEq/L
+   137 mEq/L
+   22.4 %
+   15.0 K/uL
+        [image002.jpg]
+                             [**2161-12-31**]  04:25 AM
+                             [**2162-1-1**]  05:06 AM
+                             [**2162-1-2**]  05:47 AM
+                             [**2162-1-3**]  09:30 AM
+                             [**2162-1-4**]  04:24 AM
+                             [**2162-1-4**]  12:38 PM
+                             [**2162-1-5**]  03:33 AM
+                             [**2162-1-5**]  06:07 PM
+                             [**2162-1-5**]  09:33 PM
+                             [**2162-1-6**]  04:05 AM
+   WBC
+   23.8
+   17.4
+   15.9
+   21.4
+   18.1
+   16.0
+   16.9
+   15.5
+   15.0
+   Hct
+   36.1
+   35.9
+   33.6
+   34.9
+   31.3
+   27.7
+   24.4
+   25.1
+   22.4
+   Plt
+   329
+   309
+   279
+   301
+   183
+   77
+   41
+   36
+   32
+   Cr
+   0.5
+   0.5
+   0.6
+   0.6
+   0.6
+   0.8
+   1.0
+   TCO2
+   30
+   Glucose
+   130
+   95
+   95
+   75
+   80
+   97
+   84
+   Other labs: PT / PTT / INR:18.3/81.4/1.7, ALT / AST:29/57, Alk Phos / T
+   Bili:67/1.8, D-dimer:359 ng/mL, Fibrinogen:333 mg/dL, Lactic Acid:1.1
+   mmol/L, LDH:1474 IU/L, Ca++:8.7 mg/dL, Mg++:1.9 mg/dL, PO4:3.3 mg/dL
+   Fluid analysis / Other labs: HIT:neg
+   Cold agglutinin:pend
+   Coombs: neg
+   Imaging: All 4 limbs: no DVT, chr thrombus L basilic/cephalic vein
+   Assessment and Plan
+ HEPARIN-INDUCED THROMBOCYTOPENIA
+ IMPAIRED SKIN INTEGRITY
+ TACHYCARDIA, OTHER
+ ANXIETY
+ CHRONIC OBSTRUCTIVE PULMONARY DISEASE (COPD, BRONCHITIS, EMPHYSEMA)
+   WITH ACUTE EXACERBATION
+   74 y/o F with COPD, RSV, slow to come off bipap, now requiring it only
+   at night.
+   New thrombocytopenia with anemia with normal D-dimer and fibrinogen,
+   but e/o hemolysis with high LDH, low Hapto and dropping Hct. HIT neg.
+   Started on stress dose steroids for ? ITP and on argatroban for ? HIT.
+   DD includes ITP and TTP. Off Bactrim, switched to atovaquone, which is
+   also d/ced to minimize meds. F/u Heme recs. Transfusion goals plt 10K,
+   Hct 25. Repeat smear today. Trend labs. Frantionate bili. D/C ASA.
+   Review med list.
+   Acute and chronic respiratory failure: Wean bipap as tolerated.
+   Steroids for COPD + heme process.
+   Needs dynamic airway CT for TBM when stable.
+   ID: On Fluc for yeast in urine and sputum.
+   I/O: keep even, watch BUN
+   ICU Care
+   Nutrition:
+   Advance diet, off PPN
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   Midline - [**2162-1-3**] 08:00 AM
+   Comments: Switch midline to double lumen access today.
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Other, argartoban, take boots off due
+   to ecchymosis on legs
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition : ICU
+   Total time spent:
+   Patient is critically ill

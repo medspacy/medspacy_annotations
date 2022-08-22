@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="5585.txt">
+    <annotation>
+        <mention id="EHOST_Instance_2095" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="155" end="170" />
+        <spannedText>Left chest pain</spannedText>
+        <creationDate>Mon Aug 01 15:39:08 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2095">
+        <mentionClass id="Symptom">Left chest pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2096" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="175" end="194" />
+        <spannedText>left sided weakness</spannedText>
+        <creationDate>Mon Aug 01 15:39:13 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2096">
+        <mentionClass id="Symptom">left sided weakness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2097" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="152" end="153" />
+        <spannedText>:</spannedText>
+        <creationDate>Mon Aug 01 15:39:16 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2097">
+        <mentionClass id="SectionHeader_HasSymptom">:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2098" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="154" end="194" />
+        <spannedText>Left chest pain and left sided weakness</spannedText>
+        <creationDate>Mon Aug 01 15:39:22 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2098">
+        <mentionClass id="Symptom_Section">Left chest pain and left sided weakness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2099" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="390" end="400" />
+        <spannedText>chest pain</spannedText>
+        <creationDate>Mon Aug 01 15:39:42 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2099">
+        <mentionClass id="Symptom">chest pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2100" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="405" end="422" />
+        <spannedText>left arm weakness</spannedText>
+        <creationDate>Mon Aug 01 15:39:45 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2100">
+        <mentionClass id="Symptom">left arm weakness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2101" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="428" end="438" />
+        <spannedText>chest pain</spannedText>
+        <creationDate>Mon Aug 01 15:39:50 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2101">
+        <mentionClass id="Symptom">chest pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2102" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="390" end="438" />
+        <spannedText>chest pain and left arm weakness. The chest pain</spannedText>
+        <creationDate>Thu Aug 04 13:19:51 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2102">
+        <mentionClass id="Symptom_Section">chest pain and left arm weakness. The chest pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2103" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="526" end="540" />
+        <spannedText>radiating pain</spannedText>
+        <creationDate>Thu Aug 04 13:19:59 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2103">
+        <mentionClass id="Symptom">radiating pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2104" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="596" end="613" />
+        <spannedText>left arm weakness</spannedText>
+        <creationDate>Thu Aug 04 13:20:07 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2104">
+        <mentionClass id="Symptom">left arm weakness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2105" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="656" end="673" />
+        <spannedText>left arm weakness</spannedText>
+        <creationDate>Thu Aug 04 13:20:20 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2105">
+        <mentionClass id="Symptom">left arm weakness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2106" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="934" end="941" />
+        <spannedText>episode</spannedText>
+        <creationDate>Thu Aug 04 13:42:24 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2106">
+        <mentionClass id="Symptom">episode</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2107" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1047" end="1054" />
+        <spannedText>episode</spannedText>
+        <creationDate>Thu Aug 04 13:42:35 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2107">
+        <mentionClass id="Symptom">episode</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2108" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1098" end="1102" />
+        <spannedText>pain</spannedText>
+        <creationDate>Thu Aug 04 13:42:54 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2108">
+        <mentionClass id="Symptom">pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2109" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1104" end="1112" />
+        <spannedText>weakness</spannedText>
+        <creationDate>Thu Aug 04 13:42:57 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2109">
+        <mentionClass id="Symptom">weakness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2110" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1117" end="1129" />
+        <spannedText>paresthesias</spannedText>
+        <creationDate>Thu Aug 04 13:43:02 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2110">
+        <mentionClass id="Symptom">paresthesias</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2111" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1181" end="1210" />
+        <spannedText>residual diminished sensation</spannedText>
+        <creationDate>Thu Aug 04 13:43:12 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2111">
+        <mentionClass id="Symptom">residual diminished sensation</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2112" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1231" end="1238" />
+        <spannedText>dyspnea</spannedText>
+        <creationDate>Thu Aug 04 13:43:18 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2112">
+        <mentionClass id="Symptom">dyspnea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2113" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1240" end="1254" />
+        <spannedText>visual changes</spannedText>
+        <creationDate>Thu Aug 04 13:43:23 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2113">
+        <mentionClass id="Symptom">visual changes</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2114" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1256" end="1277" />
+        <spannedText>loss of consciousness</spannedText>
+        <creationDate>Thu Aug 04 13:43:28 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2114">
+        <mentionClass id="Symptom">loss of consciousness</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2115" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1279" end="1286" />
+        <spannedText>aphasia</spannedText>
+        <creationDate>Thu Aug 04 13:44:18 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2115">
+        <mentionClass id="Symptom">aphasia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2116" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1288" end="1297" />
+        <spannedText>hematuria</spannedText>
+        <creationDate>Thu Aug 04 13:44:22 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2116">
+        <mentionClass id="Symptom">hematuria</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2117" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1299" end="1306" />
+        <spannedText>dysuria</spannedText>
+        <creationDate>Thu Aug 04 13:44:26 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2117">
+        <mentionClass id="Symptom">dysuria</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2118" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1308" end="1317" />
+        <spannedText>neck pain</spannedText>
+        <creationDate>Thu Aug 04 13:44:30 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2118">
+        <mentionClass id="Symptom">neck pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2119" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1224" end="1317" />
+        <spannedText>denies dyspnea, visual changes, loss of consciousness, aphasia, hematuria, dysuria, neck pain</spannedText>
+        <creationDate>Thu Aug 04 13:45:48 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2119">
+        <mentionClass id="Symptom_Section">denies dyspnea, visual changes, loss of consciousness, aphasia, hematuria, dysuria, neck pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2120" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5903" end="5928" />
+        <spannedText>peripheral polyneuropathy</spannedText>
+        <creationDate>Thu Aug 04 14:34:56 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2120">
+        <mentionClass id="Symptom">peripheral polyneuropathy</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2121" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="8289" end="8307" />
+        <spannedText>transient ischemic</spannedText>
+        <creationDate>Thu Aug 04 14:37:30 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2121">
+        <mentionClass id="Symptom">transient ischemic</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2122" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="8496" end="8503" />
+        <spannedText>obesity</spannedText>
+        <creationDate>Thu Aug 04 14:37:46 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2122">
+        <mentionClass id="Symptom">obesity</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2123" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="8552" end="8566" />
+        <spannedText>hyperlipidemia</spannedText>
+        <creationDate>Thu Aug 04 14:38:16 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2123">
+        <mentionClass id="Symptom">hyperlipidemia</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

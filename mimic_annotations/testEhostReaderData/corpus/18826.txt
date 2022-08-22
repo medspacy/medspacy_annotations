@@ -1,0 +1,133 @@
+Admission Date:  [**2128-7-13**]     Discharge Date:  [**2128-7-17**]
+
+Date of Birth:   [**2103-8-15**]     Sex:  M
+
+Service:  Medicine, [**Location (un) **] Firm
+
+HISTORY OF PRESENT ILLNESS:  The patient is a 24-year-old
+gentleman with a history of migraine headaches who was found
+unresponsive on [**7-13**].
+
+Four days prior to admission the patient developed cool and
+numb hands.  He then developed fatigue and upper extremity
+weakness two days prior to admission.  Also, roughly two days
+prior to admission, the patient had symptoms of photophobia,
+lightheadedness, and a headache at that time.
+
+On the day of admission, the patient went to bed at 5 a.m.
+and awoke at 1:30 p.m., e-mailed a friend, and went back to
+bed at 3:30 p.m.   Shortly thereafter, his friend found him
+unresponsive to voice and called Emergency Medical Service.
+
+Other history revealed the patient is originally from
+[**State 622**].  He had travelled to [**Hospital3 **] three days prior to
+admission and had been staying with friends.
+
+The patient was admitted to the Medical Intensive Care Unit
+here and intubated for airway protection.  He was also given
+some sedation, ceftriaxone, and acyclovir.  Neurology Service
+and Infectious Disease Service were consulted.  The patient
+was extubated roughly 18 hours later on [**7-14**].
+
+PAST MEDICAL HISTORY:  Other past medical history revealed
+the patient has a history of depression, migraine headaches,
+and a question history of obsessive-compulsive disorder.
+
+MEDICATIONS ON ADMISSION:  His medications included Lexapro
+and Inderal.
+
+ALLERGIES: NKDA
+
+SOCIAL HISTORY:  The patient is a college student at the
+[**State 51538**].  He gives no history of tobacco or
+alcohol.  No recent sexual contacts.  [**Name (NI) **] was born in [**Country 2559**]
+and moved to the United States at the age of eight.
+
+PHYSICAL EXAMINATION ON PRESENTATION:  On physical
+examination on admission the patient's temperature was  99.4
+degrees Fahrenheit, heart rate was 81, and his blood pressure
+was 144/90.  His pupils were equal, round, and reactive to
+light and accommodation.   He had no lymphadenopathy.  He had
+coarse breath sounds bilaterally.  He was somewhat
+tachycardic.  No murmurs were appreciated.  His abdomen was
+soft and nontender.  Bowel sounds were present.  His
+extremities were warm and well perfused.  There was no
+cyanosis, clubbing, or edema.  His skin examination revealed
+he had no petechiae or rashes.
+
+PERTINENT LABORATORY VALUES ON PRESENTATION:   His laboratory
+values were essentially unremarkable.  His white blood cell
+count was 7.2, his hematocrit 47, and his platelets were 278.
+His creatinine was slightly elevated at 1.1.  His liver
+function tests were normal.  His fibrinogen was 250.  His
+serum toxicology was negative.  His urine toxicology was
+negative.  A lumbar puncture was performed and showed 0 white
+blood cells, 3 red blood cells, a protein of 32, a glucose of
+67.  On Gram stain, there were no microorganisms or
+polymorphonuclear leukocytes.
+
+PERTINENT RADIOLOGY/IMAGING:  His chest x-ray was
+unremarkable.
+
+His head computed tomography showed no lesions or bleeding.
+
+CONCISE SUMMARY OF HOSPITAL COURSE:  The impression was for a
+possible meningeal encephalitis, possibly herpes
+encephalitis.  A host of Infectious Disease studies were
+sent; including Lyme titers, West [**Doctor First Name **] antibodies, and
+Eastern equine studies.
+
+The patient was continued on acyclovir and ceftriaxone.  The
+patient's mental status improved over the course of the next
+three days; going from [**Initials (NamePattern4) **] [**Last Name (NamePattern4) 2611**] Coma Scale of 7 to being
+just slightly lethargic.  He was responsive to individual
+voices and commands.  He was fully interactive with Physical
+Therapy.  The patient also had a magnetic resonance imaging
+early in the course of his admission which was also read as
+negative.
+
+Ultimately, all the patient's Infectious Disease workups came
+back negative; including herpes simplex virus PCR.  Acyclovir
+was subsequently stopped.
+
+During the course of his admission, the patient had an
+electroencephalogram performed that was read as low voltage,
+suggestive of wide-spread encephalopathy.  There were no
+areas of focal swelling, and no epileptiform activity was
+appreciated.
+
+Moreover, on hospital day three, more history was obtained
+from the patient suggestive of a bipolar disorder; including
+a history of racing of ideas and periods of writing stories
+in the middle of the night (writing up to 30 pages in one
+sitting).  Psychiatry was consulted and felt that he did not
+have any acute psychiatric conditions.
+
+CONDITION AT DISCHARGE:  The patient was discharged in stable
+condition with an alert mental status.
+
+CODE STATUS:  Full code.
+
+DISCHARGE DIAGNOSIS:
+1.  Delirium, not otherwise specified.
+2.  history of depression
+3.  migraine headaches
+
+MEDICATIONS ON DISCHARGE:  None.
+
+DISCHARGE INSTRUCTIONS/FOLLOWUP:  The patient was to follow
+up with a Dr. [**First Name8 (NamePattern2) **] [**Last Name (NamePattern1) **] on Friday, [**7-23**], at 10:15 a.m.
+
+
+
+
+
+            DR [**First Name8 (NamePattern2) **] [**Doctor First Name **] 12.AHZ
+
+Dictated By:[**Name8 (MD) 51539**]
+
+MEDQUIST36
+
+D:  [**2128-8-12**]  12:17
+T:  [**2128-8-14**]  15:08
+JOB#:  [**Job Number 51541**]

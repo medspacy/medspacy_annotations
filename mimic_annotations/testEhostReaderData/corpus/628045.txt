@@ -1,0 +1,206 @@
+Chief Complaint:
+   HPI: 89 yo Female with minimal past medical history now s/p Left hip
+   replacement on [**2177-4-7**] at NEBH, and transferred to [**Hospital **] rehab on [**4-11**]
+   now presents with hypoxia. Per documentation, patient had uneventful
+   hospital course except for hypertension for which she was transiently
+   on clonidine and now on norvasc, and fluid retention for which she was
+   placed on lasix 40 [**Hospital1 **] and just transitioned to lasix 20 daily
+   yesterday. At rehab today patient was noted to be hypoxic to 70s on RA.
+   EMS was called and she was noted to be saturating in low 80s on RA. She
+   was started on 5L and improved to 93% and transferrred to [**Hospital1 1**].
+   .
+   Patient feels generally well, but noticed some mild SOB at rest this
+   morning. She also reports a nonproductive cough for "several days". She
+   denies Chest pain, fever, nausea, vomitting, palpitations, orthopnea,
+   and PND.
+   .
+   At [**Hospital1 1**] ED, initial vitals were 98.2, 155/73, 85, 16, 87 RA. EKG was
+   unremarkable. CXR showed bilateraly effusions, with a small
+   consolidation on the right. CTA was negative for PE, but did show large
+   effusions. On the way back from CT, patient desaturated to low 90s on
+   5L NC. She received 40 mg of Lasix IV and put out 1.5 L. She was placed
+   on a NRB and saturations improved to the mid 90s. She received
+   Ceftriaxone 1 g IVx1, Azithromycin 500 mg IV x1, and tylenol. On
+   transfer, VS were 86, 135/79, 98 NRB.
+   .
+   In the ICU, patient reports some mild dyspnea at rest but otherwise
+   feels well.
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Celebrex 200 mg daily
+   Omperazole 40 mg daily
+   Coumadin 3mg for 4-6 weeks post op
+   Lasix 20 mg daily (Just decreased from 40 mg [**Hospital1 **] yesterday)
+   Mgoxide 400 mg [**Hospital1 **]
+   MVI
+   Oxycodone 5 mg TID prn
+   Acetaminophen 650 mg TID prn
+   Amlodipine 5 mg daily
+   Artificial tears prn
+   Calcium carbonate 650 mg [**Hospital1 **]
+   Vitamin D 50,000 weekly
+   Potassium Chloride SR 10 meq daily
+   Senna 2 tab daily
+   Simvistatin 20 mg daily
+   Bisacodyl 10 mg PR
+   Zofran 4 mg po TID prn
+   Past medical history:
+   Family history:
+   Social History:
+   NO CARDIAC OR PULMONARY HISTORY
+   Chronic pain
+   Osteoarthritis
+   Hypertension
+   Nicotine dependence
+   Short term memory loss
+   S/p Left hip arthroplasty
+   S/p Right knee arthroplasty
+   S/p Right tibial fracture
+   S/p tonsillectomy
+   S/p bladder suspension
+   Nephew with DM. Mother with CAD ("angina"). No CVA history.
+   Lives with husband on [**Name (NI) **]. Daughter in [**Name2 (NI) 4318**]. Quit smoking 1 week
+   ago, but previously smoked less than 1ppd x 50 years. No illicit drug
+   use or alcohol use.
+   Review of systems:
+   (+) Per HPI
+   (-) Denies fever, chills, night sweats, recent weight loss or gain.
+   Denies headache, sinus tenderness, rhinorrhea or congestion. Denies
+   wheezing. Denies chest pain, chest pressure, palpitations, or weakness.
+   Denies nausea, vomiting, diarrhea, constipation, abdominal pain, or
+   changes in bowel habits. Denies dysuria, frequency, or urgency. Denies
+   arthralgias or myalgias. Denies rashes or skin changes.
+   Flowsheet Data as of [**2177-4-12**] 06:34 PM
+   Vital Signs
+   Hemodynamic monitoring
+   Fluid Balance
+                                                                  24 hours
+                                                               Since [**79**] AM
+   HR: 64 (62 - 74) bpm
+   BP: 164/67(93) {105/62(84) - 164/91(95)} mmHg
+   RR: 12 (12 - 19) insp/min
+   SpO2: 94%
+   Heart rhythm: SR (Sinus Rhythm)
+                  Total In:
+                  300 mL
+   PO:
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                  2,410 mL
+   Urine:
+   710 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                 -2,110 mL
+   Respiratory
+   O2 Delivery Device: Nasal cannula
+   SpO2: 94%
+   Physical Examination
+   Vitals: T: 98.4 BP: 149/62 P: 74 R: 14 O2: 95% 5 L NC
+   General: Alert, oriented, no acute distress
+   HEENT: Sclera anicteric, MMM, oropharynx clear
+   Neck: supple, JVP at clavicle, no LAD
+   Lungs: crackle right base, no wheeze or rhonchi
+   CV: Regular rate and rhythm, normal S1 + S2, 2/6 SEM at RUSB, No r/g
+   Abdomen:  soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly
+   GU: no foley
+   Ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis, well
+   healing wound at left hip, lle swollen compared to rle with 1-2 pitting
+   edema
+   Labs / Radiology
+   194 K/uL
+   11.1 g/dL
+   32.3 %
+   7.3 K/uL
+        [image002.jpg]
+                                  [**2173-1-18**]
+                          2:33 A3/27/[**2177**]  05:34 PM
+                                  [**2173-1-22**]
+                                   10:20 P
+                                  [**2173-1-23**]
+                                   1:20 P
+                                  [**2173-1-24**]
+                                   11:50 P
+                                  [**2173-1-25**]
+                                   1:20 A
+                                  [**2173-1-26**]
+                                   7:20 P
+                                  1//11/006
+                                   1:23 P
+                                  [**2173-2-18**]
+                                   1:20 P
+                                  [**2173-2-18**]
+                                   11:20 P
+                                  [**2173-2-18**]
+                                   4:20 P
+   WBC
+                                     7.3
+   Hct
+                                    32.3
+   Plt
+                                     194
+   Other labs: PT / PTT / INR:16.6/29.0/1.5, CK / CKMB / Troponin-T:78//,
+   Differential-Neuts:80.7 %, Lymph:11.8 %, Mono:5.1 %, Eos:2.2 %
+   Assessment and Plan
+ .H/O HYPOXEMIA
+   Assessment and Plan: 89 yo F with minimal medical history now s/p hip
+   replacement on [**2177-4-7**] now presents with hypoxia.
+   .
+   # Hypoxia/Pleural effusions: Improving on NC after putting out 1.5 L to
+   lasix in ED. CT reveals effusions, but no obvious consolidations. CTA
+   negative for PE. Cardiac workup unrevealing so far. Was given
+   antibiotics in ED, but afebrile and without leukocytosis. Exam without
+   JVP and only mild edema, but does have fluid on CXR. Flash may be in
+   the setting of rapid reduction in lasix yesterday.
+   - F/u BNP
+   - Complete ROMI
+   - IS at bedside Q1H given post op atelectasis on imaging
+   - Lasix prn to goal net negative 1-2 L today
+   - FS aspirin
+   - Continue statin
+   - Repeat CXR in AM
+   - F/u CT chest final read
+   - TTE to evalute EF
+   - Consider thoracentesis if not improving, or febrile
+   .
+   # LLE swelling: Likely swelling related to recent surgery. Unlikely DVT
+   as has been on ppx.
+   - Continue SQH
+   - Consider LENI if does not improve with lasix
+   .
+   # S/p hip replacement: Was on coumadin, but will transition to sqh for
+   now. Continue tylenol, celebrex, oxycodone prn. [**Month (only) 11**] want to consider
+   d/c celebrex if going to anticoagulate long term.
+   .
+   # Hypertension: Continue norvasc with holding parameters
+   .
+   # FEN: No IVF, replete electrolytes, cardiac/low N diet
+   # Prophylaxis: Subcutaneous heparin, ppi, mucomyst x 4 doses since
+   received contrast
+   # Access: peripherals
+   # Communication: Patient, [**Name (NI) 11641**] [**Last Name (NamePattern1) 11642**] (daughter) [**Telephone/Fax (1) 11643**]
+   # Code:  Full (discussed with patient)
+   # Disposition: ICU pending clinical improvement
+   ICU Care
+   Nutrition:
+   Glycemic Control: none
+   Lines:
+   18 Gauge - [**2177-4-12**] 03:39 PM
+   Prophylaxis:
+   DVT: sqh
+   Stress ulcer: ppi
+   VAP:  none
+   Comments:
+   Communication:  Comments:
+   Code status: Full
+   Disposition: ICU for now

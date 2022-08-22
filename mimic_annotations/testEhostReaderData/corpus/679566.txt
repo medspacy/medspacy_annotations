@@ -1,0 +1,171 @@
+Chief Complaint:
+   24 Hour Events:
+   - family meeting regarding goals of care
+   - thoracics placed pneumo stat
+   - repeat evening CXR with worsening PTX so placed on suction
+   - 9 pm repeat evening CXR improved
+   - started bactrim for PNA
+   - d/c'ed all nonessential po meds
+   Allergies:
+   Niacin
+   Unknown;
+   Last dose of Antibiotics:
+   Piperacillin/Tazobactam (Zosyn) - [**2120-6-6**] 10:00 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2120-6-6**] 09:00 AM
+   Pantoprazole (Protonix) - [**2120-6-6**] 11:15 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2120-6-7**] 07:06 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.6
+C (97.8
+   Tcurrent: 36.3
+C (97.4
+   HR: 89 (72 - 94) bpm
+   BP: 103/68(77) {73/40(58) - 118/68(77)} mmHg
+   RR: 31 (17 - 31) insp/min
+   SpO2: 97%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 70 Inch
+             Total In:
+                                                                    980 mL
+                                                                     71 mL
+   PO:
+             TF:
+   IVF:
+                                                                    980 mL
+                                                                     71 mL
+   Blood products:
+   Total out:
+                                                                    850 mL
+                                                                    420 mL
+   Urine:
+                                                                    850 mL
+                                                                    420 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    130 mL
+                                                                   -349 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 97%
+   ABG: ////
+   Physical Examination
+   GEN: elderly pleasant male but slightly anxious appearing
+   HEENT: anicteric, EOMI, no cervical LAD
+   CHEST: diffuse crackles and wheezes
+   CV: tachy
+   ABD: NDNT, soft, NABS
+   EXT: no c/c/e
+   DERM: no rashes
+   NEURO: appropriate
+   Labs / Radiology
+   163 K/uL
+   11.7 g/dL
+   90 mg/dL
+   0.9 mg/dL
+   28 mEq/L
+   4.5 mEq/L
+   24 mg/dL
+   103 mEq/L
+   138 mEq/L
+   33.6 %
+   9.4 K/uL
+        [image002.jpg]
+                             [**2120-6-2**]  04:11 AM
+                             [**2120-6-2**]  04:50 AM
+                             [**2120-6-2**]  05:08 PM
+                             [**2120-6-3**]  03:49 AM
+                             [**2120-6-3**]  03:57 AM
+                             [**2120-6-4**]  03:53 AM
+                             [**2120-6-4**]  04:53 AM
+                             [**2120-6-5**]  03:27 AM
+                             [**2120-6-5**]  03:39 AM
+                             [**2120-6-6**]  04:22 AM
+   WBC
+   11.1
+   15.1
+   10.0
+   9.4
+   Hct
+   32.0
+   37.0
+   34.3
+   33.6
+   Plt
+   152
+   191
+   170
+   163
+   Cr
+   0.6
+   1.0
+   1.0
+   0.9
+   TCO2
+   34
+   30
+   31
+   33
+   34
+   31
+   Glucose
+   143
+   78
+   87
+   90
+   Other labs: PT / PTT / INR:14.8/39.8/1.3, Differential-Neuts:87.3 %,
+   Lymph:8.3 %, Mono:1.3 %, Eos:3.0 %, Ca++:8.4 mg/dL, Mg++:2.4 mg/dL,
+   PO4:2.8 mg/dL
+   Assessment and Plan
+   76 M w/Rheumatoid Arthritis on Humira and Methotrexate, diastolic heart
+   failure, atrial fibrillation with p/w hypoxic respiratory failure s/p
+   VATS and Lingula/LLL biopsy, bx c/w UIP.
+   #. Hypoxic respiratory failure:  continue with 6L NC oxygen, titrate as
+   tolerated.
+   -change liquid bactrim to po
+   -f/u sputum cultures
+   -d/c steroids
+    -uptitrate O2 prior to patient moving
+   -appreciate thoracics involvement; pt with worsening PTX after
+   pneumostat placed
+ thus placed on suction
+ now on water seal with
+   plan to go home on water seal
+   #. Afib:
+   - continue dig for rate control
+   - restart metoprolol 12.5 mg po TID for rate control
+   #. Rheumatoid arthritis:
+   - hold methotrexate and humira
+   #. Macrocytic Anemia: Unclear etiology. Consider anemia of chronic
+   disease. MTX could be contributory. B12 and folate WNL.
+   - trend hct for now
+   - guaiac all stools
+   #. CHF: rate control as above, preserved EF
+   # Nutrition:
+   - pleasure feeds
+   # Dispo: family meeting, d/w palliative care home w/ hospice; plan for
+   home with hospice tomorrow
+   ICU Care
+   Nutrition:  thickened liquids
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2120-6-5**] 04:00 PM
+   Prophylaxis:
+   DVT: pneumoboots
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition: home with hospice tomorrow
