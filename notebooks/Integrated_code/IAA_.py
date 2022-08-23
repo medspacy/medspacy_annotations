@@ -75,7 +75,7 @@ def df_overlaps(docs1_df, docs2_df,labels=1):
                 
     return doc1_matches, doc2_matches
 
-def exact_match(doc1_ents, doc2_ents, labels):
+def exact_match(doc1_ents, doc2_ents, labels=1):
     '''calculate whether two ents have exact overlap
     returns bool
     '''
@@ -97,6 +97,42 @@ def exact_match(doc1_ents, doc2_ents, labels):
             doc2_ent_dict[(ent2.start_char,ent2.end_char,ent2.label_)] = index2
         else:
             doc2_ent_dict[(ent2.start_char,ent2.end_char)] = index2
+        
+    doc1_ent_set = set(doc1_ent_dict.keys())
+    doc2_ent_set = set(doc2_ent_dict.keys())
+    
+    matched_ents = doc1_ent_set.intersection(doc2_ent_set)
+    
+    for match in matched_ents:
+        index1 = doc1_ent_dict[match]
+        index2 = doc2_ent_dict[match]
+        doc1_matches[index1] = [index2]
+        doc2_matches[index2] = [index1]
+        
+    return doc1_matches, doc2_matches
+
+def df_exact_match(docs1_df, docs2_df, labels=1):
+    '''calculate whether two ents have exact overlap
+    returns bool
+    '''
+    
+    doc1_matches = dict()
+    doc2_matches = dict()
+
+    doc1_ent_dict = dict()
+    doc2_ent_dict = dict()
+    
+    for index1,row1 in docs1_df.iterrows():
+        if labels == 1: #If checking for labels, then include this in the tuple's to-be-compared elements
+            doc1_ent_dict[(row1['start loc'],row1['end loc'],row1['Concept Label'])] = index1
+        else:
+            doc1_ent_dict[(row1['start loc'],row1['end loc'])] = index1
+            
+    for index2,row2 in docs2_df.iterrows():
+        if labels == 1: #If checking for labels, then include this in the tuple's to-be-compared elements
+            doc2_ent_dict[(row2['start loc'],row2['end loc'],row2['Concept Label'])] = index2
+        else:
+            doc2_ent_dict[(row2['start loc'],row2['end loc'])] = index2
         
     doc1_ent_set = set(doc1_ent_dict.keys())
     doc2_ent_set = set(doc2_ent_dict.keys())
@@ -158,7 +194,10 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent'):
         for doc_name in docs1['doc name'].unique():
             docs1_df = docs1[docs1['doc name'] == doc_name]
             docs2_df = docs2[docs2['doc name'] == doc_name]
-            doc1_matches,doc2_matches = df_overlaps(docs1_df,docs2_df)
+            if loose==1:
+                doc1_matches,doc2_matches = df_overlaps(docs1_df,docs2_df,labels)
+            else:
+                doc1_matches,doc2_matches = df_exact_match(docs1_df,docs2_df,labels)
             tp,fp,fn = conf_matrix(doc1_matches,doc2_matches,docs1_df.shape[0],docs2_df.shape[0])
             corpus_tp += tp
             corpus_fp += fp
