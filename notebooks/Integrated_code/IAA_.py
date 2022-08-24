@@ -4,23 +4,29 @@ import pandas as pd
 from quicksectx import IntervalNode, IntervalTree, Interval
 import spacy
 
+#Column names (strings) for relevant columns in dataframes
+df_start_char = 'start loc' #column containing starting positions of ents
+df_end_char = 'end loc' #column containing ending positions of ents
+df_concept_label = 'Concept Label' #column containing label of ent
+df_doc_name = 'doc name' #column containing document name/file name
 
 def overlaps(doc1_ents, doc2_ents,labels=1):
     '''Calculates overlapping entities between two spacy documents. Also checks for matching labels if label=1.
+    Resultant dictionaries can be used to calculate true positive, false positive, and false negatives and can consider duplicate matches.
     
     Return:
         Dictionaries with the mapping of matching entity indices:
             keys: entity index from one annotation
             value: matched entity index from other annotation
         
-        Ex: "{1 : [2] , 3 : [4,5]}" means that entity 1 from doc1 matches entity 1 in doc2, and entity 3 in doc1 matches 
+        Ex: "{1 : [2] , 3 : [4,5]}" means that entity 1 from doc1 matches entity 2 in doc2, and entity 3 in doc1 matches 
         entity 4 and 5 from doc2.
     '''
     
     doc1_matches = dict()
     doc2_matches = dict()
     
-    tree = IntervalTree()
+    tree = IntervalTree() #Navigating a tree avoids needing to iterate and compare all ents in doc2 for each doc1 ent (ie. avoids a nested for-loop). This is faster.
     for index2,ent2 in enumerate(doc2_ents):
         tree.add(ent2.start_char,ent2.end_char,index2)
     
@@ -41,15 +47,16 @@ def overlaps(doc1_ents, doc2_ents,labels=1):
     return doc1_matches, doc2_matches
 
 def df_overlaps(docs1_df, docs2_df,labels=1):
-    '''Calculates overlapping entities between two spacy documents. Also checks for matching labels if label=1.
+    '''Calculates overlapping entities between two dataframes containing entity information. Also checks for matching labels if label=1.
+    Works the same as "overlaps" function, but uses dataframes instead of documents.
     
     Return:
         Dictionaries with the mapping of matching entity indices:
-            keys: entity index from one annotation
-            value: matched entity index from other annotation
+            keys: entity index from one dataframe
+            value: matched entity index from other dataframe
         
-        Ex: "{1 : [2] , 3 : [4,5]}" means that entity 1 from doc1 matches entity 1 in doc2, and entity 3 in doc1 matches 
-        entity 4 and 5 from doc2.
+            Ex: "{1 : [2] , 3 : [4,5]}" means that the entity at index 1 from docs1_df matches the entity indexed at 1 in docs2_df, and 
+            entity indexed at 3 in docs1_df matches entity indexed at 4 and 5 from docs2_df.
     '''
     
     doc1_matches = dict()
@@ -57,13 +64,13 @@ def df_overlaps(docs1_df, docs2_df,labels=1):
     
     tree = IntervalTree()
     for index2,row2 in docs2_df.iterrows():
-        tree.add(row2['start loc'],row2['end loc'],index2)
+        tree.add(row2[df_start_char],row2[df_end_char],index2)
     
     for index1,row1 in docs1_df.iterrows():
-        matches = tree.search(row1['start loc'],row1['end loc'])
+        matches = tree.search(row1[df_start_char],row1[df_end_char])
         for match in matches:
             index2 = match.data #match.data is the index of doc2_ents
-            if ((labels == 0) | (docs2_df.loc[index2,'Concept Label'] == row1['Concept Label'])):
+            if ((labels == 0) | (docs2_df.loc[index2,df_concept_label] == row1[df_concept_label])):
                 if index1 not in doc1_matches.keys():
                     doc1_matches[index1] = [index2]
                 else:
@@ -76,8 +83,15 @@ def df_overlaps(docs1_df, docs2_df,labels=1):
     return doc1_matches, doc2_matches
 
 def exact_match(doc1_ents, doc2_ents, labels=1):
-    '''calculate whether two ents have exact overlap
-    returns bool
+    '''Calculates entities in exactly the same position between two spacy documents. Also checks for matching labels if label=1.
+    
+    Return:
+        Dictionaries with the mapping of matching entity indices:
+            keys: entity index from one document annotations
+            value: matched entity index from other document annotations
+        
+        Ex: "{1 : [2] , 3 : [4,5]}" means that entity 1 from doc1 matches entity 2 in doc2, and entity 3 in doc1 matches 
+        entity 4 and 5 from doc2.
     '''
     
     doc1_matches = dict()
@@ -112,9 +126,19 @@ def exact_match(doc1_ents, doc2_ents, labels=1):
     return doc1_matches, doc2_matches
 
 def df_exact_match(docs1_df, docs2_df, labels=1):
-    '''calculate whether two ents have exact overlap
-    returns bool
+    '''Calculates entities in exactly the same position between two dataframes containing entity information.
+    Also checks for matching labels if label=1.
+    Same as "exact_match", but uses dataframes.
+    
+    Return:
+        Dictionaries with the mapping of matching entity indices:
+            keys: entity index from one document's dataframe
+            value: matched entity index from other document's dataframe
+        
+        Ex: "{1 : [2] , 3 : [4,5]}" means that entity 1 from doc1's df matches entity 2 in doc2's df, and entity 3 in doc1's df matches 
+        entity 4 and 5 from doc2's df.
     '''
+    
     
     doc1_matches = dict()
     doc2_matches = dict()
@@ -124,15 +148,15 @@ def df_exact_match(docs1_df, docs2_df, labels=1):
     
     for index1,row1 in docs1_df.iterrows():
         if labels == 1: #If checking for labels, then include this in the tuple's to-be-compared elements
-            doc1_ent_dict[(row1['start loc'],row1['end loc'],row1['Concept Label'])] = index1
+            doc1_ent_dict[(row1[df_start_char],row1[df_end_char],row1[df_concept_label])] = index1
         else:
-            doc1_ent_dict[(row1['start loc'],row1['end loc'])] = index1
+            doc1_ent_dict[(row1[df_start_char],row1[df_end_char])] = index1
             
     for index2,row2 in docs2_df.iterrows():
         if labels == 1: #If checking for labels, then include this in the tuple's to-be-compared elements
-            doc2_ent_dict[(row2['start loc'],row2['end loc'],row2['Concept Label'])] = index2
+            doc2_ent_dict[(row2[df_start_char],row2[df_end_char],row2[df_concept_label])] = index2
         else:
-            doc2_ent_dict[(row2['start loc'],row2['end loc'])] = index2
+            doc2_ent_dict[(row2[df_start_char],row2[df_end_char])] = index2
         
     doc1_ent_set = set(doc1_ent_dict.keys())
     doc2_ent_set = set(doc2_ent_dict.keys())
@@ -148,12 +172,24 @@ def df_exact_match(docs1_df, docs2_df, labels=1):
     return doc1_matches, doc2_matches
 
 def agreement(doc1, doc2, loose=1, labels=1, ent_or_span = 'ent'):
-    '''Calculates confusion matrix for agreement between two documents.
+    '''Establishes entities or span lists based on input. Then calls "overlaps" and "conf_matrix" using relevant arguments.
+    You can also manually call "overlaps", then "conf_matrix" with relevant entities/span lists to get equivalent results to this function.
+    This function is simply to get these arguments from spacy documents conveniently.
     
-       returns true positive, false positive, and false negative
+    Arguments:
+        doc1: Either a spacy document, tuple/list of entities/spans, or spangroup. Considered the golden/correct annotation for fp,fn.
+        doc2: Either a spacy document, tuple/list of entities/spans, or spangroup.
+        loose: Boolean. 1 indicates to consider any overlap. 0 indicates to only consider exact matches.
+        labels: Boolean. 1 indicates to consider labels as matching criteria.
+        ent_or_span: String of either 'ent' or 'span'. 'ent' indicates to compare doc.ents between documents. 'span' indicates to
+            compare doc1's only spangroup (note that doc1 must have only 1 spangroup) with doc2's equivalently named spangroup. This
+            argument is only relevant if passing in spacy document (ie. can be ignored if passing in tuple/list of ents/spans)
+    
+    Return:
+        Tuple of format "(true positive, false positive, false negative)".
     '''
-    if (type(doc1) is tuple) or (type(doc1) is spacy.tokens.span_group.SpanGroup) and \
-    (type(doc2) is tuple) or (type(doc2) is spacy.tokens.span_group.SpanGroup):
+    if (isinstance(doc1,tuple) or isinstance(doc1,list) or isinstance(doc1,spacy.tokens.span_group.SpanGroup)) and \
+    (isinstance(doc2,tuple) or isinstance(doc2,list) or isinstance(doc2,spacy.tokens.span_group.SpanGroup)):
         doc1_ents = doc1
         doc2_ents = doc2
     elif (type(doc1) is spacy.tokens.doc.Doc) and (type(doc2) is spacy.tokens.doc.Doc):
@@ -175,7 +211,7 @@ def agreement(doc1, doc2, loose=1, labels=1, ent_or_span = 'ent'):
             return
     else:
         #raise error
-        print("Error: Input must be of type 'tuples', 'spacy.tokens.span_group.SpanGroup', or 'spacy.tokens.doc.Doc'")
+        print("Error: Input must be of type 'tuples','list', 'spacy.tokens.span_group.SpanGroup', or 'spacy.tokens.doc.Doc'")
         return
         
     if loose:
@@ -187,13 +223,28 @@ def agreement(doc1, doc2, loose=1, labels=1, ent_or_span = 'ent'):
 
 
 def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent'):
-    '''calculate f1 over an entire corpus of documents'''
+    '''Calculates f1 over an entire corpus of documents.
+    
+    Arguments:
+        docs1: Either a list of spacy documents, list containing inner tuples/lists of entities/spans, list of spangroups, or a dataframe. 
+            Considered the golden/correct annotation for fp,fn.
+        docs2: Either a list of spacy documents, list of tuples/lists of entities/spans, list of spangroups, or a dataframe. 
+        loose: Boolean. 1 indicates to consider any overlap. 0 indicates to only consider exact matches.
+        labels: Boolean. 1 indicates to consider labels as matching criteria.
+        ent_or_span: String of either 'ent' or 'span'. 'ent' indicates to compare doc.ents between documents. 'span' indicates to
+            compare doc1's only spangroup (note that doc1 must have only 1 spangroup) with doc2's equivalently named spangroup. This
+            argument is only relevant if passing in a list of spacy documents (ie. can be ignored if passing in a list of
+            tuple/list of ents/spans/spangroups or dataframe)
+            
+    Returns:
+        Simple Dataframe containing IAA, Recall, Precision, true positive count, false positive count, and false negative count.
+    '''
     corpus_tp, corpus_fp, corpus_fn = (0,0,0)
     
     if isinstance(docs1, pd.DataFrame):
-        for doc_name in docs1['doc name'].unique():
-            docs1_df = docs1[docs1['doc name'] == doc_name]
-            docs2_df = docs2[docs2['doc name'] == doc_name]
+        for doc_name in docs1[df_doc_name].unique():
+            docs1_df = docs1[docs1[df_doc_name] == doc_name]
+            docs2_df = docs2[docs2[df_doc_name] == doc_name]
             if loose==1:
                 doc1_matches,doc2_matches = df_overlaps(docs1_df,docs2_df,labels)
             else:
@@ -202,7 +253,8 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent'):
             corpus_tp += tp
             corpus_fp += fp
             corpus_fn += fn
-    elif type(docs1[0]) is spacy.tokens.doc.Doc:
+    elif (type(docs1[0]) is spacy.tokens.doc.Doc) | ((isinstance(docs1[0],tuple) or isinstance(docs1[0],list) or isinstance(docs1[0],spacy.tokens.span_group.SpanGroup)) and \
+    (isinstance(docs2[0],tuple) or isinstance(docs2[0],list) or (isinstance(docs2[0],spacy.tokens.span_group.SpanGroup)))):
         for i, doc1 in enumerate(docs1):
             tp,fp,fn = agreement(doc1, docs2[i],loose,labels,ent_or_span)
             corpus_tp += tp
@@ -219,22 +271,40 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent'):
     return pd.DataFrame(data)
 
 def pairwise_f1(tp,fp,fn):
-    '''calculate f1 given true positive, false positive, and false negative values'''
+    '''Calculates f1 given true positive, false positive, and false negative values
+    
+    Returns:
+        pairwise_f1/IAA float value'''
     
     return (2*tp)/float(2*tp+fp+fn)
 
 def conf_matrix(doc1_matches,doc2_matches,doc1_ent_num,doc2_ent_num):
-
+    '''Calculates true positive, false positive, and false negative counts given mapping dictionary from overlap functions. 
+    Note that duplicate matches (eg. two ents from one doc match one ent in the other) only count as a single tp and do not affect fp,fn.
+    
+    Arguments:
+        doc1_matches: dictionary containing mappings of matched entities/spans. This is the output of the overlap functions.
+        doc2_matches: dictionary containing mappings of matched entities/spans. This is the output of the overlap functions.
+        doc1_ent_num: number of total entities/spans in doc1.
+        doc2_ent_num: number of total entities/spans in doc2.
+    
+    Returns:
+        Tuple of format "(true positive, false positive, false negative)".
+    '''
+                                                     
+                                                     
     doc1_match_num = len(doc1_matches.keys())
     doc2_match_num = len(doc2_matches.keys())
     
     duplicate_matches = 0
     for value in doc2_matches.values():
-        duplicate_matches += len(value) - 1
+        duplicate_matches += len(value) - 1 #Duplicate matches are anytime an ent from doc2 matches more than 1 ent from doc1 (ie. doc2 dictionary value > 1)
     
     tp = doc1_match_num - duplicate_matches #How many entity indices from doc1 matched, minus duplicated matches
     fp = doc2_ent_num - doc2_match_num #How many entities from doc2 that didn't match
     fn = doc1_ent_num - doc1_match_num #How many entities from doc1 that didn't match
+    #Note that for fp, it only considers ents from doc2 that had no match. Therefore if two or more ent from doc2 match one ent from doc1
+    #than none of these ents will be considered a fp (these ents are only counted as a single tp). Same logic applies for fn.
     
     return (tp,fp,fn)
 
