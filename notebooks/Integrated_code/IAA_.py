@@ -47,8 +47,9 @@ def overlaps(doc1_ents, doc2_ents,labels=1):
     return doc1_matches, doc2_matches
 
 def df_overlaps(docs1_df, docs2_df,labels=1):
-    '''Calculates overlapping entities between two dataframes containing entity information. Also checks for matching labels if label=1.
-    Works the same as "overlaps" function, but uses dataframes instead of documents.
+    '''Calculates overlapping entities between two dataframes, each containing entity information for a single document.
+        Also checks for matching labels if label=1.
+        Works the same as "overlaps" function, but uses dataframes instead of documents.
     
     Return:
         Dictionaries with the mapping of matching entity indices:
@@ -307,5 +308,53 @@ def conf_matrix(doc1_matches,doc2_matches,doc1_ent_num,doc2_ent_num):
     #than none of these ents will be considered a fp (these ents are only counted as a single tp). Same logic applies for fn.
     
     return (tp,fp,fn)
+
+def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents):
+    result_dict = {"Index" : [],"Annotation_1" : [],"Annotation_2" : [], "Exact Match?" : [], "Duplicate Matches?" : [], "Overlap?" : []}
+    for index1 in range(doc1_ents.shape[0]): #iterate through all ents inset one
+        if index1 in doc1_matches.keys(): #if ent is in
+            #if another index1 is in doc2_matches.values(), then add it to this row
+            first_index2 = sorted(doc1_matches[index1])[0]
+            first_index1 = sorted(doc2_matches[first_index2])[0]
+            if first_index1 < index1:
+                #Add to index: sorted(doc2_matches[first_index2])[0]
+                duplicate_match_index = result_dict["Index"].index(first_index1)
+                result_dict["Index"][duplicate_match_index] += " || " + doc1_ents.loc[index1,'Span Text']
+                result_dict["Duplicate Matches?"][duplicate_match_index] = 1
+            else:
+                result_dict["Index"].append(index1)
+                result_dict["Annotation_1"].append(doc1_ents.loc[index1,'Span Text'])
+                annot_2 = ""
+                first_time=1
+                for index2 in sorted(doc1_matches[index1]):
+                    if first_time ==1:
+                        annot_2 += doc2_ents.loc[index2,'Span Text']
+                        first_time=0
+                    else:
+                        annot_2 += " || " + doc2_ents.loc[index2,'Span Text']
+                result_dict["Annotation_2"].append(annot_2)
+                result_dict["Exact Match?"].append("")
+                if len(doc1_matches[index1]) > 1:
+                    result_dict["Duplicate Matches?"].append(1)
+                else:
+                    result_dict["Duplicate Matches?"].append(0)
+                result_dict["Overlap?"].append(1)
+        else:
+            result_dict["Index"].append(index1)
+            result_dict["Annotation_1"].append(doc1_ents.loc[index1,'Span Text'])
+            result_dict["Annotation_2"].append("")
+            result_dict["Exact Match?"].append(0)
+            result_dict["Duplicate Matches?"].append(0)
+            result_dict["Overlap?"].append(0)
+    for index2 in range(doc2_ents.shape[0]):
+        if index2 not in doc2_matches.keys():
+            result_dict["Index"].append(index2)
+            result_dict["Annotation_1"].append("")
+            result_dict["Annotation_2"].append(doc1_ents.loc[index2,'Span Text'])
+            result_dict["Exact Match?"].append(0)
+            result_dict["Duplicate Matches?"].append(0)
+            result_dict["Overlap?"].append(0)
+        #Add annotation2
+    return pd.DataFrame.from_dict(result_dict)
 
 
