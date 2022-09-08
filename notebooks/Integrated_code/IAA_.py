@@ -172,7 +172,7 @@ def df_exact_match(docs1_df, docs2_df, labels=1):
         
     return doc1_matches, doc2_matches
 
-def agreement(doc1, doc2, loose=1, labels=1, ent_or_span = 'ent'):
+def extract_ents(doc1, doc2, loose=1, labels=1, ent_or_span = 'ent'):
     '''Establishes entities or span lists based on input. Then calls "overlaps" and "conf_matrix" using relevant arguments.
     You can also manually call "overlaps", then "conf_matrix" with relevant entities/span lists to get equivalent results to this function.
     This function is simply to get these arguments from spacy documents conveniently.
@@ -214,13 +214,8 @@ def agreement(doc1, doc2, loose=1, labels=1, ent_or_span = 'ent'):
         #raise error
         print("Error: Input must be of type 'tuples','list', 'spacy.tokens.span_group.SpanGroup', or 'spacy.tokens.doc.Doc'")
         return
-        
-    if loose:
-        doc1_matches, doc2_matches = overlaps(doc1_ents, doc2_ents, labels)
-    else:
-        doc1_matches, doc2_matches = exact_match(doc1_ents, doc2_ents, labels)
     
-    return conf_matrix(doc1_matches,doc2_matches,len(doc1_ents),len(doc2_ents))
+    return (doc1_ents,doc2_ents)
 
 
 def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent'):
@@ -241,7 +236,7 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent'):
         Simple Dataframe containing IAA, Recall, Precision, true positive count, false positive count, and false negative count.
     '''
     corpus_tp, corpus_fp, corpus_fn = (0,0,0)
-    
+    agreement_df = pd.DataFrame(columns=["doc name","Annotation_1","Annotation_2", "Annot_1_label", "Annot_1_char", "Annot_2_label", "Annot_2_char", "Overall_start_char", "Exact Match?", "Duplicate Matches?", "Overlap?"])
     if isinstance(docs1, pd.DataFrame):
         for doc_name in docs1[df_doc_name].unique():
             docs1_df = docs1[docs1[df_doc_name] == doc_name]
@@ -254,10 +249,18 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent'):
             corpus_tp += tp
             corpus_fp += fp
             corpus_fn += fn
+            agreement_df = pd.concat([agreement_df,create_agreement_df(doc1_matches,doc2_matches,docs1_df,docs2_df)])
+            
+            
     elif (type(docs1[0]) is spacy.tokens.doc.Doc) | ((isinstance(docs1[0],tuple) or isinstance(docs1[0],list) or isinstance(docs1[0],spacy.tokens.span_group.SpanGroup)) and \
     (isinstance(docs2[0],tuple) or isinstance(docs2[0],list) or (isinstance(docs2[0],spacy.tokens.span_group.SpanGroup)))):
         for i, doc1 in enumerate(docs1):
-            tp,fp,fn = agreement(doc1, docs2[i],loose,labels,ent_or_span)
+            doc1_ents,doc2_ents = extract_ents(doc1, docs2[i],loose,labels,ent_or_span)
+            if loose:
+                doc1_matches, doc2_matches = overlaps(doc1_ents, doc2_ents, labels)
+            else:
+                doc1_matches, doc2_matches = exact_match(doc1_ents, doc2_ents, labels)
+            tp,fp,fn = conf_matrix(doc1_matches,doc2_matches,len(doc1_ents),len(doc2_ents))
             corpus_tp += tp
             corpus_fp += fp
             corpus_fn += fn
@@ -269,7 +272,7 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent'):
     data = {'IAA' : [pairwise_f1(corpus_tp,corpus_fp,corpus_fn)], 'Recall' : [corpus_tp/float(corpus_tp+corpus_fp)], 'Precision' : [corpus_tp/float(corpus_tp+corpus_fn)],\
            'True Positives' : [corpus_tp] , 'False Positives' : [corpus_fp], 'False Negative' : [corpus_fn]}
     
-    return pd.DataFrame(data)
+    return (pd.DataFrame(data),agreement_df)
 
 def pairwise_f1(tp,fp,fn):
     '''Calculates f1 given true positive, false positive, and false negative values
@@ -309,52 +312,115 @@ def conf_matrix(doc1_matches,doc2_matches,doc1_ent_num,doc2_ent_num):
     
     return (tp,fp,fn)
 
+#Add doc name,labels,start_char(1&2),end_char(1&2), fix index, get rid of index column
+#fix \n error
+
 def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents):
-    result_dict = {"Index" : [],"Annotation_1" : [],"Annotation_2" : [], "Exact Match?" : [], "Duplicate Matches?" : [], "Overlap?" : []}
-    for index1 in range(doc1_ents.shape[0]): #iterate through all ents inset one
-        if index1 in doc1_matches.keys(): #if ent is in
+    if "Concept Label" in list(doc1_ents.columns) and "Concept Label" in list(doc2_ents.columns):
+        label=1
+    else:
+        label=0
+    result_dict = {"doc name" : [],"Annotation_1" : [],"Annotation_2" : [], "Annot_1_label" : [], "Annot_1_char" : [], "Annot_2_label" : [], "Annot_2_char" : [], "Overall_start_char" : [], "Exact Match?" : [], "Duplicate Matches?" : [], "Overlap?" : [], "Index" : []}
+    doc_name = doc1_ents['doc name'].tolist()[0]
+    print(doc_name)
+    for index1 in doc1_ents.index: #iterate through all ents inset one
+        print(index1)
+        result_dict["Index"].append(index1)
+        if index1 in doc1_matches.keys(): #Cases where the ent has a match
             #if another index1 is in doc2_matches.values(), then add it to this row
             first_index2 = sorted(doc1_matches[index1])[0]
             first_index1 = sorted(doc2_matches[first_index2])[0]
             if first_index1 < index1:
                 #Add to index: sorted(doc2_matches[first_index2])[0]
                 duplicate_match_index = result_dict["Index"].index(first_index1)
-                result_dict["Index"][duplicate_match_index] += " || " + doc1_ents.loc[index1,'Span Text']
+                result_dict["Annotation_1"][duplicate_match_index] += " || " + doc1_ents.loc[index1,'Span Text']
                 result_dict["Duplicate Matches?"][duplicate_match_index] = 1
+                result_dict["Overlap?"][duplicate_match_index] = 1
+                result_dict["Annot_1_char"][duplicate_match_index] += " || " + str(doc1_ents.loc[index1,'start loc']) + "-" + str(doc1_ents.loc[index1,'end loc'])
+                if result_dict["Overall_start_char"][duplicate_match_index] > int(doc1_ents.loc[index1,'start loc']):
+                    result_dict["Overall_start_char"][duplicate_match_index] = doc1_ents.loc[index1,'start loc']
+                if label==1:
+                    result_dict["Annot_1_label"][duplicate_match_index] += " || " + doc1_ents.loc[index1,'Concept Label']
             else:
-                result_dict["Index"].append(index1)
+                result_dict["doc name"].append(doc_name)
                 result_dict["Annotation_1"].append(doc1_ents.loc[index1,'Span Text'])
                 annot_2 = ""
+                annot_2_label = ""
+                annot_2_char = ""
+                overall_start_char = int(doc1_ents.loc[index1,'start loc'])
                 first_time=1
+                annot_2_start_char = -1
+                annot_2_end_char = -1
+                annot_1_start_char = int(doc1_ents.loc[index1,'start loc'])
+                annot_1_end_char = int(doc1_ents.loc[index1,'end loc'])
+                exact_match = 0
                 for index2 in sorted(doc1_matches[index1]):
+                    annot_2_start_char = int(doc2_ents.loc[index2,'start loc'])
+                    annot_2_end_char = int(doc2_ents.loc[index2,'end loc'])
+                    if (annot_1_start_char == annot_2_start_char) and (annot_1_end_char == annot_2_end_char):
+                        exact_match = 1
+                    if annot_2_start_char < overall_start_char:
+                        overall_start_char = annot_2_start_char
                     if first_time ==1:
-                        annot_2 += doc2_ents.loc[index2,'Span Text']
                         first_time=0
+                        annot_2_char = str(annot_2_start_char) + "-" + str(annot_2_end_char)
+                        annot_2 += doc2_ents.loc[index2,'Span Text']
+                        if label==1:
+                            annot_2_label = doc2_ents.loc[index2,'Concept Label']
                     else:
+                        if label==1:
+                            annot_2_label += " || " + doc2_ents.loc[index2,'Concept Label']
                         annot_2 += " || " + doc2_ents.loc[index2,'Span Text']
+                        annot_2_char += " || " + str(annot_2_start_char) + "-" + str(annot_2_end_char)
                 result_dict["Annotation_2"].append(annot_2)
-                result_dict["Exact Match?"].append("")
+                result_dict["Annot_2_label"].append(annot_2_label)
+                result_dict["Annot_2_char"].append(annot_2_char)
+                if label == 1:
+                    result_dict["Annot_1_label"].append(doc1_ents.loc[index1,'Concept Label'])
+                else:
+                    result_dict["Annot_1_label"].append("")
+                result_dict["Annot_1_char"].append(str(annot_1_start_char) + "-" + str(annot_1_end_char))
+                result_dict["Overall_start_char"].append(overall_start_char)
+                result_dict["Exact Match?"].append(exact_match)
                 if len(doc1_matches[index1]) > 1:
                     result_dict["Duplicate Matches?"].append(1)
                 else:
                     result_dict["Duplicate Matches?"].append(0)
                 result_dict["Overlap?"].append(1)
-        else:
-            result_dict["Index"].append(index1)
+        else: #Cases where an ent in doc1 doesn't have a match
+            result_dict["doc name"].append(doc_name)
             result_dict["Annotation_1"].append(doc1_ents.loc[index1,'Span Text'])
             result_dict["Annotation_2"].append("")
+            if label == 1:
+                result_dict["Annot_1_label"].append(doc1_ents.loc[index1,'Concept Label'])
+                result_dict["Annot_2_label"].append("")
+            else:
+                result_dict["Annot_1_label"].append("")
+                result_dict["Annot_2_label"].append("")
+            result_dict["Overall_start_char"].append(int(doc1_ents.loc[index1,'start loc']))
+            result_dict["Annot_1_char"].append(str(doc1_ents.loc[index1,'start loc']) + "-" + str(doc1_ents.loc[index1,'end loc']))
+            result_dict["Annot_2_char"].append("")
             result_dict["Exact Match?"].append(0)
             result_dict["Duplicate Matches?"].append(0)
             result_dict["Overlap?"].append(0)
-    for index2 in range(doc2_ents.shape[0]):
+    del result_dict["Index"] #Only needed to link new index1 with old index1 when there's a duplicate match with the same ent from doc2
+    for index2 in doc2_ents.index: #Cases where an ent in doc2 doesn't have a match
         if index2 not in doc2_matches.keys():
-            result_dict["Index"].append(index2)
+            result_dict["doc name"].append(doc_name)
             result_dict["Annotation_1"].append("")
-            result_dict["Annotation_2"].append(doc1_ents.loc[index2,'Span Text'])
+            result_dict["Annotation_2"].append(doc2_ents.loc[index2,'Span Text'])
+            if label == 1:
+                result_dict["Annot_1_label"].append("")
+                result_dict["Annot_2_label"].append(doc2_ents.loc[index2,'Concept Label'])
+            else:
+                result_dict["Annot_1_label"].append("")
+                result_dict["Annot_2_label"].append("")
+            result_dict["Annot_1_char"].append("")
+            result_dict["Annot_2_char"].append(str(doc2_ents.loc[index2,'start loc']) + "-" + str(doc2_ents.loc[index2,'end loc']))
+            result_dict["Overall_start_char"].append(int(doc2_ents.loc[index2,'start loc']))
             result_dict["Exact Match?"].append(0)
             result_dict["Duplicate Matches?"].append(0)
             result_dict["Overlap?"].append(0)
-        #Add annotation2
-    return pd.DataFrame.from_dict(result_dict)
+    return pd.DataFrame.from_dict(result_dict).sort_values(by=['Overall_start_char'])
 
 
