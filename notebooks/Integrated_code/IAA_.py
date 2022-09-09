@@ -312,8 +312,7 @@ def conf_matrix(doc1_matches,doc2_matches,doc1_ent_num,doc2_ent_num):
     
     return (tp,fp,fn)
 
-#Add doc name,labels,start_char(1&2),end_char(1&2), fix index, get rid of index column
-#fix \n error
+#fix \n error, fix adding index2's, fix index, get rid of 'magic' strings
 
 def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents):
     if "Concept Label" in list(doc1_ents.columns) and "Concept Label" in list(doc2_ents.columns):
@@ -322,10 +321,7 @@ def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents):
         label=0
     result_dict = {"doc name" : [],"Annotation_1" : [],"Annotation_2" : [], "Annot_1_label" : [], "Annot_1_char" : [], "Annot_2_label" : [], "Annot_2_char" : [], "Overall_start_char" : [], "Exact Match?" : [], "Duplicate Matches?" : [], "Overlap?" : [], "Index" : []}
     doc_name = doc1_ents['doc name'].tolist()[0]
-    print(doc_name)
     for index1 in doc1_ents.index: #iterate through all ents inset one
-        print(index1)
-        result_dict["Index"].append(index1)
         if index1 in doc1_matches.keys(): #Cases where the ent has a match
             #if another index1 is in doc2_matches.values(), then add it to this row
             first_index2 = sorted(doc1_matches[index1])[0]
@@ -341,8 +337,13 @@ def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents):
                     result_dict["Overall_start_char"][duplicate_match_index] = doc1_ents.loc[index1,'start loc']
                 if label==1:
                     result_dict["Annot_1_label"][duplicate_match_index] += " || " + doc1_ents.loc[index1,'Concept Label']
+                
+                #take the index2's from doc1_matches[index1] that don't match doc1_matches[first_index1] (or previous index1) and add those
+                
+                
             else:
                 result_dict["doc name"].append(doc_name)
+                result_dict["Index"].append(index1)
                 result_dict["Annotation_1"].append(doc1_ents.loc[index1,'Span Text'])
                 annot_2 = ""
                 annot_2_label = ""
@@ -389,6 +390,7 @@ def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents):
                 result_dict["Overlap?"].append(1)
         else: #Cases where an ent in doc1 doesn't have a match
             result_dict["doc name"].append(doc_name)
+            result_dict["Index"].append(index1)
             result_dict["Annotation_1"].append(doc1_ents.loc[index1,'Span Text'])
             result_dict["Annotation_2"].append("")
             if label == 1:
