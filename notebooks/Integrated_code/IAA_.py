@@ -238,6 +238,10 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent'):
     corpus_tp, corpus_fp, corpus_fn = (0,0,0)
     agreement_df = pd.DataFrame(columns=["doc name","Annotation_1","Annotation_2", "Annot_1_label", "Annot_1_char", "Annot_2_label", "Annot_2_char", "Overall_start_char", "Exact Match?", "Duplicate Matches?", "Overlap?"])
     if isinstance(docs1, pd.DataFrame):
+        docs1['Span Text'] = docs1['Span Text'].str.replace('\n',' ')
+        docs2['Span Text'] = docs2['Span Text'].str.replace('\n',' ')
+        docs1['Span Text'] = docs1['Span Text'].str.replace('\t',' ')
+        docs2['Span Text'] = docs2['Span Text'].str.replace('\t',' ')
         for doc_name in docs1[df_doc_name].unique():
             docs1_df = docs1[docs1[df_doc_name] == doc_name]
             docs2_df = docs2[docs2[df_doc_name] == doc_name]
@@ -249,7 +253,9 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent'):
             corpus_tp += tp
             corpus_fp += fp
             corpus_fn += fn
-            agreement_df = pd.concat([agreement_df,create_agreement_df(doc1_matches,doc2_matches,docs1_df,docs2_df)])
+            new_agreement_df = create_agreement_df(doc1_matches,doc2_matches,docs1_df,docs2_df)
+            new_agreement_df.index += agreement_df.shape[0]
+            agreement_df = pd.concat([agreement_df,new_agreement_df])
             
             
     elif (type(docs1[0]) is spacy.tokens.doc.Doc) | ((isinstance(docs1[0],tuple) or isinstance(docs1[0],list) or isinstance(docs1[0],spacy.tokens.span_group.SpanGroup)) and \
@@ -423,6 +429,6 @@ def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents):
             result_dict["Exact Match?"].append(0)
             result_dict["Duplicate Matches?"].append(0)
             result_dict["Overlap?"].append(0)
-    return pd.DataFrame.from_dict(result_dict).sort_values(by=['Overall_start_char'])
+    return pd.DataFrame.from_dict(result_dict).sort_values(by=['Overall_start_char']).reset_index(drop=True)
 
 
