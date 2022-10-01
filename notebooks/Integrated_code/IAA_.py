@@ -46,7 +46,7 @@ def overlaps(doc1_ents, doc2_ents,labels=1):
                 
     return doc1_matches, doc2_matches
 
-def df_overlaps(docs1_df, docs2_df,labels=1):
+def df_overlaps(docs1_df, docs2_df,labels=1,attributes=[]):
     '''Calculates overlapping entities between two dataframes, each containing entity information for a single document.
         Also checks for matching labels if label=1.
         Works the same as "overlaps" function, but uses dataframes instead of documents.
@@ -71,7 +71,12 @@ def df_overlaps(docs1_df, docs2_df,labels=1):
         matches = tree.search(row1[df_start_char],row1[df_end_char])
         for match in matches:
             index2 = match.data #match.data is the index of doc2_ents
-            if ((labels == 0) | (docs2_df.loc[index2,df_concept_label] == row1[df_concept_label])):
+            attributes_match = 1
+            for attribute in attributes: #check if attributes match
+                if row1[attribute] != docs2_df.loc[index2,attribute]:
+                    attributes_match = 0
+                    break
+            if ((labels == 0) | (docs2_df.loc[index2,df_concept_label] == row1[df_concept_label])) & (attributes_match):
                 if index1 not in doc1_matches.keys():
                     doc1_matches[index1] = [index2]
                 else:
@@ -126,7 +131,7 @@ def exact_match(doc1_ents, doc2_ents, labels=1):
         
     return doc1_matches, doc2_matches
 
-def df_exact_match(docs1_df, docs2_df, labels=1):
+def df_exact_match(docs1_df, docs2_df, labels=1,attributes=[]):
     '''Calculates entities in exactly the same position between two dataframes containing entity information.
     Also checks for matching labels if label=1.
     Same as "exact_match", but uses dataframes.
@@ -148,16 +153,22 @@ def df_exact_match(docs1_df, docs2_df, labels=1):
     doc2_ent_dict = dict()
     
     for index1,row1 in docs1_df.iterrows():
+        key_array = []
+        key_array.extend([row1[df_start_char],row1[df_end_char],row1[df_concept_label]])
+        for attribute in attributes:
+            key_array.append(row1[attribute])
         if labels == 1: #If checking for labels, then include this in the tuple's to-be-compared elements
-            doc1_ent_dict[(row1[df_start_char],row1[df_end_char],row1[df_concept_label])] = index1
-        else:
-            doc1_ent_dict[(row1[df_start_char],row1[df_end_char])] = index1
+            key_array.append(row1[df_concept_label])
+        doc1_ent_dict[tuple(key_array)] = index1
             
     for index2,row2 in docs2_df.iterrows():
+        key_array = []
+        key_array.extend([row2[df_start_char],row2[df_end_char],row2[df_concept_label]])
+        for attribute in attributes:
+            key_array.append(row2[attribute])
         if labels == 1: #If checking for labels, then include this in the tuple's to-be-compared elements
-            doc2_ent_dict[(row2[df_start_char],row2[df_end_char],row2[df_concept_label])] = index2
-        else:
-            doc2_ent_dict[(row2[df_start_char],row2[df_end_char])] = index2
+            key_array.append(row2[df_concept_label])
+        doc2_ent_dict[tuple(key_array)] = index2
         
     doc1_ent_set = set(doc1_ent_dict.keys())
     doc2_ent_set = set(doc2_ent_dict.keys())
@@ -218,7 +229,7 @@ def extract_ents(doc1, doc2, loose=1, labels=1, ent_or_span = 'ent'):
     return (doc1_ents,doc2_ents)
 
 
-def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent'):
+def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent',attributes=[]):
     '''Calculates f1 over an entire corpus of documents.
     
     Arguments:
@@ -246,9 +257,9 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent'):
             docs1_df = docs1[docs1[df_doc_name] == doc_name]
             docs2_df = docs2[docs2[df_doc_name] == doc_name]
             if loose==1:
-                doc1_matches,doc2_matches = df_overlaps(docs1_df,docs2_df,labels)
+                doc1_matches,doc2_matches = df_overlaps(docs1_df,docs2_df,labels,attributes)
             else:
-                doc1_matches,doc2_matches = df_exact_match(docs1_df,docs2_df,labels)
+                doc1_matches,doc2_matches = df_exact_match(docs1_df,docs2_df,labels,attributes)
             tp,fp,fn = conf_matrix(doc1_matches,doc2_matches,docs1_df.shape[0],docs2_df.shape[0])
             corpus_tp += tp
             corpus_fp += fp
