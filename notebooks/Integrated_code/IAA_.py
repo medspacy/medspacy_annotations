@@ -4,49 +4,17 @@ import pandas as pd
 from quicksectx import IntervalNode, IntervalTree, Interval
 import spacy
 
+##TO BE ADDED: ADDING ATTRIBUTES TO DF IN EXTRACT_ENTS() ; ADDING SPANGROUP AS MATCHING CRITERIA ; ADD ATTRIBUTES TO RETURNED DF
+
 #Column names (strings) for relevant columns in dataframes
 df_start_char = 'start loc' #column containing starting positions of ents
 df_end_char = 'end loc' #column containing ending positions of ents
 df_concept_label = 'Concept Label' #column containing label of ent
 df_doc_name = 'doc name' #column containing document name/file name
+df_span_text = "Span Text" #column containing text
 
-def overlaps(doc1_ents, doc2_ents,labels=1):
-    '''Calculates overlapping entities between two spacy documents. Also checks for matching labels if label=1.
-    Resultant dictionaries can be used to calculate true positive, false positive, and false negatives and can consider duplicate matches.
-    
-    Return:
-        Dictionaries with the mapping of matching entity indices:
-            keys: entity index from one annotation
-            value: matched entity index from other annotation
-        
-        Ex: "{1 : [2] , 3 : [4,5]}" means that entity 1 from doc1 matches entity 2 in doc2, and entity 3 in doc1 matches 
-        entity 4 and 5 from doc2.
-    '''
-    
-    doc1_matches = dict()
-    doc2_matches = dict()
-    
-    tree = IntervalTree() #Navigating a tree avoids needing to iterate and compare all ents in doc2 for each doc1 ent (ie. avoids a nested for-loop). This is faster.
-    for index2,ent2 in enumerate(doc2_ents):
-        tree.add(ent2.start_char,ent2.end_char,index2)
-    
-    for index1,ent1 in enumerate(doc1_ents):
-        matches = tree.search(ent1.start_char,ent1.end_char)
-        for match in matches:
-            index2 = match.data #match.data is the index of doc2_ents
-            if ((labels == 0) | (doc2_ents[index2].label_ == ent1.label_)):
-                if index1 not in doc1_matches.keys():
-                    doc1_matches[index1] = [index2]
-                else:
-                    doc1_matches[index1].append(index2)
-                if index2 not in doc2_matches.keys():
-                    doc2_matches[index2] = [index1]
-                else:
-                    doc2_matches[index2].append(index1)
-                
-    return doc1_matches, doc2_matches
 
-def df_overlaps(docs1_df, docs2_df,labels=1,attributes=[]):
+def overlaps(docs1_df, docs2_df,labels=1,attributes=[]):
     '''Calculates overlapping entities between two dataframes, each containing entity information for a single document.
         Also checks for matching labels if label=1.
         Works the same as "overlaps" function, but uses dataframes instead of documents.
@@ -88,50 +56,9 @@ def df_overlaps(docs1_df, docs2_df,labels=1,attributes=[]):
                 
     return doc1_matches, doc2_matches
 
-def exact_match(doc1_ents, doc2_ents, labels=1):
-    '''Calculates entities in exactly the same position between two spacy documents. Also checks for matching labels if label=1.
-    
-    Return:
-        Dictionaries with the mapping of matching entity indices:
-            keys: entity index from one document annotations
-            value: matched entity index from other document annotations
-        
-        Ex: "{1 : [2] , 3 : [4,5]}" means that entity 1 from doc1 matches entity 2 in doc2, and entity 3 in doc1 matches 
-        entity 4 and 5 from doc2.
-    '''
-    
-    doc1_matches = dict()
-    doc2_matches = dict()
 
-    doc1_ent_dict = dict()
-    doc2_ent_dict = dict()
-    
-    for index1,ent1 in enumerate(doc1_ents):
-        if labels == 1: #If checking for labels, then include this in the tuple's to-be-compared elements
-            doc1_ent_dict[(ent1.start_char,ent1.end_char,ent1.label_)] = index1
-        else:
-            doc1_ent_dict[(ent1.start_char,ent1.end_char)] = index1
-            
-    for index2,ent2 in enumerate(doc2_ents):
-        if labels == 1:    
-            doc2_ent_dict[(ent2.start_char,ent2.end_char,ent2.label_)] = index2
-        else:
-            doc2_ent_dict[(ent2.start_char,ent2.end_char)] = index2
-        
-    doc1_ent_set = set(doc1_ent_dict.keys())
-    doc2_ent_set = set(doc2_ent_dict.keys())
-    
-    matched_ents = doc1_ent_set.intersection(doc2_ent_set)
-    
-    for match in matched_ents:
-        index1 = doc1_ent_dict[match]
-        index2 = doc2_ent_dict[match]
-        doc1_matches[index1] = [index2]
-        doc2_matches[index2] = [index1]
-        
-    return doc1_matches, doc2_matches
 
-def df_exact_match(docs1_df, docs2_df, labels=1,attributes=[]):
+def exact_match(docs1_df, docs2_df, labels=1,attributes=[]):
     '''Calculates entities in exactly the same position between two dataframes containing entity information.
     Also checks for matching labels if label=1.
     Same as "exact_match", but uses dataframes.
@@ -183,10 +110,8 @@ def df_exact_match(docs1_df, docs2_df, labels=1,attributes=[]):
         
     return doc1_matches, doc2_matches
 
-def extract_ents(doc1, doc2, loose=1, labels=1, ent_or_span = 'ent'):
-    '''Establishes entities or span lists based on input. Then calls "overlaps" and "conf_matrix" using relevant arguments.
-    You can also manually call "overlaps", then "conf_matrix" with relevant entities/span lists to get equivalent results to this function.
-    This function is simply to get these arguments from spacy documents conveniently.
+def extract_ents(docs1, docs2, labels=1, ent_or_span = 'ent',attributes=[]):
+    '''Establishes type of input and creates corresponding dataframe for entities.
     
     Arguments:
         doc1: Either a spacy document, tuple/list of entities/spans, or spangroup. Considered the golden/correct annotation for fp,fn.
@@ -198,35 +123,100 @@ def extract_ents(doc1, doc2, loose=1, labels=1, ent_or_span = 'ent'):
             argument is only relevant if passing in spacy document (ie. can be ignored if passing in tuple/list of ents/spans)
     
     Return:
-        Tuple of format "(true positive, false positive, false negative)".
+        Dataframe of entities for pair of document lists
     '''
-    if (isinstance(doc1,tuple) or isinstance(doc1,list) or isinstance(doc1,spacy.tokens.span_group.SpanGroup)) and \
-    (isinstance(doc2,tuple) or isinstance(doc2,list) or isinstance(doc2,spacy.tokens.span_group.SpanGroup)):
-        doc1_ents = doc1
-        doc2_ents = doc2
-    elif (type(doc1) is spacy.tokens.doc.Doc) and (type(doc2) is spacy.tokens.doc.Doc):
+    if (isinstance(docs1[0],tuple) or isinstance(docs1[0],list) or isinstance(docs1[0],spacy.tokens.span_group.SpanGroup)) and \
+    (isinstance(docs2[0],tuple) or isinstance(docs2[0],list) or isinstance(docs2[0],spacy.tokens.span_group.SpanGroup)):
+        ent_type = 1
+    elif (type(docs1[0]) is spacy.tokens.doc.Doc) and (type(docs2[0]) is spacy.tokens.doc.Doc):
         if ent_or_span == 'ent':
-            doc1_ents = doc1.ents
-            doc2_ents = doc2.ents
+            ent_type = 2
         elif ent_or_span == 'span':
-            if len(doc1.spans) > 1:
-                #raise error
-                print("Error: cannot distinquish which span group to use from doc1.")
-                return
-            else:
-                span_group = list(doc1.spans.keys())[0]
-                doc1_ents = doc1.spans[span_group]
-                doc2_ents = doc2.spans[span_group]
+            ent_type = 3
         else:
             #raise error
             print("Error: Must select 'span' or 'ent' for ent_or_span option.")
             return
     else:
         #raise error
-        print("Error: Input must be of type 'tuples','list', 'spacy.tokens.span_group.SpanGroup', or 'spacy.tokens.doc.Doc'")
+        print("Error: Input must contain list with type 'tuples','list', 'spacy.tokens.span_group.SpanGroup', or 'spacy.tokens.doc.Doc'")
         return
     
-    return (doc1_ents,doc2_ents)
+    #Future iterations may create a helper function to take care of adding to dictionary. Didn't want to use excess memory for this.
+    ent_dict_1 = {df_doc_name:[],df_span_text:[],df_start_char:[],df_end_char:[],df_concept_label:[]}
+    ent_dict_2 = {df_doc_name:[],df_span_text:[],df_start_char:[],df_end_char:[],df_concept_label:[]}
+    if ent_type == 1:
+        for index,document in enumerate(docs1):
+            for ents in document:
+                ent_dict_1[df_doc_name].append(index)
+                ent_dict_1[df_span_text].append(ents.text)
+                ent_dict_1[df_start_char].append(ents.start_char)
+                ent_dict_1[df_end_char].append(ents.end_char)
+                if labels == 1:
+                    ent_dict_1[df_concept_label].append(ents.label_)
+                else:
+                    ent_dict_1[df_concept_label].append("")
+        for index,document in enumerate(docs2):
+            for ents in document:
+                ent_dict_2[df_doc_name].append(index)
+                ent_dict_2[df_span_text].append(ents.text)
+                ent_dict_2[df_start_char].append(ents.start_char)
+                ent_dict_2[df_end_char].append(ents.end_char)
+                if labels == 1:
+                    ent_dict_2[df_concept_label].append(ents.label_)
+                else:
+                    ent_dict_2[df_concept_label].append("")
+    if ent_type == 2:
+        for index,document in enumerate(docs1):
+            for ents in document.ents:
+                ent_dict_1[df_doc_name].append(index)
+                ent_dict_1[df_span_text].append(ents.text)
+                ent_dict_1[df_start_char].append(ents.start_char)
+                ent_dict_1[df_end_char].append(ents.end_char)
+                if labels == 1:
+                    ent_dict_1[df_concept_label].append(ents.label_)
+                else:
+                    ent_dict_1[df_concept_label].append("")
+        for index,document in enumerate(docs2):
+            for ents in document.ents:
+                ent_dict_2[df_doc_name].append(index)
+                ent_dict_2[df_span_text].append(ents.text)
+                ent_dict_2[df_start_char].append(ents.start_char)
+                ent_dict_2[df_end_char].append(ents.end_char)
+                if labels == 1:
+                    ent_dict_2[df_concept_label].append(ents.label_)
+                else:
+                    ent_dict_2[df_concept_label].append("")
+    if ent_type == 3:
+        ent_dict_1['Span Group key'] = []
+        for index,document in enumerate(docs1):
+            for span_key in list(document.spans.keys()):
+                for span in document.spans[span_key]:
+                    ent_dict_1[df_doc_name].append(index)
+                    ent_dict_1[df_span_text].append(span.text)
+                    ent_dict_1[df_start_char].append(span.start_char)
+                    ent_dict_1[df_end_char].append(span.end_char)
+                    if labels == 1:
+                        ent_dict_1[df_concept_label].append(span.label_)
+                    else:
+                        ent_dict_1[df_concept_label].append("")
+                    ent_dict_1['Span Group key'].append(span_key)
+        ent_dict_2['Span Group key'] = []
+        for index,document in enumerate(docs2):
+            for span_key in list(document.spans.keys()):
+                for span in document.spans[span_key]:
+                    ent_dict_2[df_doc_name].append(index)
+                    ent_dict_2[df_span_text].append(span.text)
+                    ent_dict_2[df_start_char].append(span.start_char)
+                    ent_dict_2[df_end_char].append(span.end_char)
+                    if labels == 1:
+                        ent_dict_2[df_concept_label].append(span.label_)
+                    else:
+                        ent_dict_2[df_concept_label].append("")
+                    ent_dict_2['Span Group key'].append(span_key)
+               
+    
+    return (pd.DataFrame.from_dict(ent_dict_1),pd.DataFrame.from_dict(ent_dict_2))
 
 
 def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent',attributes=[]):
@@ -244,10 +234,24 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent',attribute
             tuple/list of ents/spans/spangroups or dataframe)
             
     Returns:
-        Simple Dataframe containing IAA, Recall, Precision, true positive count, false positive count, and false negative count.
+        Tuple of two items:
+        First item: Simple Dataframe containing IAA, Recall, Precision, true positive count, false positive count, and false negative count.
+        Second item: Dataframe containing all entities with information on entities and matches
     '''
+    
     corpus_tp, corpus_fp, corpus_fn = (0,0,0)
     agreement_df = pd.DataFrame(columns=["doc name","Annotation_1","Annotation_2", "Annot_1_label", "Annot_1_char", "Annot_2_label", "Annot_2_char", "Overall_start_char", "Exact Match?", "Duplicate Matches?", "Overlap?"])
+    
+    if not isinstance(docs1, pd.DataFrame):
+        if (type(docs1[0]) is spacy.tokens.doc.Doc) | ((isinstance(docs1[0],tuple) or isinstance(docs1[0],list) or\
+        isinstance(docs1[0],spacy.tokens.span_group.SpanGroup)) and \
+        (isinstance(docs2[0],tuple) or isinstance(docs2[0],list) or (isinstance(docs2[0],spacy.tokens.span_group.SpanGroup)))):
+            docs1,docs2 = extract_ents(docs1,docs2,labels,ent_or_span,attributes)
+        else:
+            #raise error
+            print('Input Error: Input must be iterable of spacy documents, or dataframe.')
+            return
+
     if isinstance(docs1, pd.DataFrame):
         docs1['Span Text'] = docs1['Span Text'].str.replace('\n',' ')
         docs2['Span Text'] = docs2['Span Text'].str.replace('\n',' ')
@@ -257,9 +261,9 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent',attribute
             docs1_df = docs1[docs1[df_doc_name] == doc_name]
             docs2_df = docs2[docs2[df_doc_name] == doc_name]
             if loose==1:
-                doc1_matches,doc2_matches = df_overlaps(docs1_df,docs2_df,labels,attributes)
+                doc1_matches,doc2_matches = overlaps(docs1_df,docs2_df,labels,attributes)
             else:
-                doc1_matches,doc2_matches = df_exact_match(docs1_df,docs2_df,labels,attributes)
+                doc1_matches,doc2_matches = exact_match(docs1_df,docs2_df,labels,attributes)
             tp,fp,fn = conf_matrix(doc1_matches,doc2_matches,docs1_df.shape[0],docs2_df.shape[0])
             corpus_tp += tp
             corpus_fp += fp
@@ -268,7 +272,13 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent',attribute
             new_agreement_df.index += agreement_df.shape[0]
             agreement_df = pd.concat([agreement_df,new_agreement_df])
             
-            
+
+    data = {'IAA' : [pairwise_f1(corpus_tp,corpus_fp,corpus_fn)], 'Recall' : [corpus_tp/float(corpus_tp+corpus_fp)], 'Precision' : [corpus_tp/float(corpus_tp+corpus_fn)],'True Positives' : [corpus_tp] , 'False Positives' : [corpus_fp], 'False Negative' : [corpus_fn]}
+    
+    return (pd.DataFrame(data),agreement_df)
+
+
+'''
     elif (type(docs1[0]) is spacy.tokens.doc.Doc) | ((isinstance(docs1[0],tuple) or isinstance(docs1[0],list) or isinstance(docs1[0],spacy.tokens.span_group.SpanGroup)) and \
     (isinstance(docs2[0],tuple) or isinstance(docs2[0],list) or (isinstance(docs2[0],spacy.tokens.span_group.SpanGroup)))):
         for i, doc1 in enumerate(docs1):
@@ -281,15 +291,9 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent',attribute
             corpus_tp += tp
             corpus_fp += fp
             corpus_fn += fn
-    else:
-        #raise error
-        print('Input Error: Input must be iterable of spacy documents, or dataframe.')
-        return
-    
-    data = {'IAA' : [pairwise_f1(corpus_tp,corpus_fp,corpus_fn)], 'Recall' : [corpus_tp/float(corpus_tp+corpus_fp)], 'Precision' : [corpus_tp/float(corpus_tp+corpus_fn)],\
-           'True Positives' : [corpus_tp] , 'False Positives' : [corpus_fp], 'False Negative' : [corpus_fn]}
-    
-    return (pd.DataFrame(data),agreement_df)
+'''
+
+
 
 def pairwise_f1(tp,fp,fn):
     '''Calculates f1 given true positive, false positive, and false negative values
@@ -328,8 +332,6 @@ def conf_matrix(doc1_matches,doc2_matches,doc1_ent_num,doc2_ent_num):
     #than none of these ents will be considered a fp (these ents are only counted as a single tp). Same logic applies for fn.
     
     return (tp,fp,fn)
-
-#fix \n error, fix adding index2's, fix index, get rid of 'magic' strings
 
 def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents):
     if "Concept Label" in list(doc1_ents.columns) and "Concept Label" in list(doc2_ents.columns):
@@ -442,4 +444,148 @@ def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents):
             result_dict["Overlap?"].append(0)
     return pd.DataFrame.from_dict(result_dict).sort_values(by=['Overall_start_char']).reset_index(drop=True)
 
+
+
+#################################################################################################
+
+# THE FOLLOWING FUNCTIONS ARE DEPRECATED
+
+#################################################################################################
+
+
+
+def extract_ents_old(doc1, doc2, loose=1, labels=1, ent_or_span = 'ent'):
+    '''THIS FUNCTION IS DEPRECATED
+    
+    
+    
+    Establishes entities or span lists based on input. Then calls "overlaps" and "conf_matrix" using relevant arguments.
+    You can also manually call "overlaps", then "conf_matrix" with relevant entities/span lists to get equivalent results to this function.
+    This function is simply to get these arguments from spacy documents conveniently.
+    
+    Arguments:
+        doc1: Either a spacy document, tuple/list of entities/spans, or spangroup. Considered the golden/correct annotation for fp,fn.
+        doc2: Either a spacy document, tuple/list of entities/spans, or spangroup.
+        loose: Boolean. 1 indicates to consider any overlap. 0 indicates to only consider exact matches.
+        labels: Boolean. 1 indicates to consider labels as matching criteria.
+        ent_or_span: String of either 'ent' or 'span'. 'ent' indicates to compare doc.ents between documents. 'span' indicates to
+            compare doc1's only spangroup (note that doc1 must have only 1 spangroup) with doc2's equivalently named spangroup. This
+            argument is only relevant if passing in spacy document (ie. can be ignored if passing in tuple/list of ents/spans)
+    
+    Return:
+        Tuple of format "(true positive, false positive, false negative)".
+    '''
+    if (isinstance(doc1,tuple) or isinstance(doc1,list) or isinstance(doc1,spacy.tokens.span_group.SpanGroup)) and \
+    (isinstance(doc2,tuple) or isinstance(doc2,list) or isinstance(doc2,spacy.tokens.span_group.SpanGroup)):
+        doc1_ents = doc1
+        doc2_ents = doc2
+    elif (type(doc1) is spacy.tokens.doc.Doc) and (type(doc2) is spacy.tokens.doc.Doc):
+        if ent_or_span == 'ent':
+            doc1_ents = doc1.ents
+            doc2_ents = doc2.ents
+        elif ent_or_span == 'span':
+            if len(doc1.spans) > 1:
+                #raise error
+                print("Error: cannot distinquish which span group to use from doc1.")
+                return
+            else:
+                span_group = list(doc1.spans.keys())[0]
+                doc1_ents = doc1.spans[span_group]
+                doc2_ents = doc2.spans[span_group]
+        else:
+            #raise error
+            print("Error: Must select 'span' or 'ent' for ent_or_span option.")
+            return
+    else:
+        #raise error
+        print("Error: Input must be of type 'tuples','list', 'spacy.tokens.span_group.SpanGroup', or 'spacy.tokens.doc.Doc'")
+        return
+   
+    return (doc1_ents,doc2_ents)
+
+
+def exact_match_old(doc1_ents, doc2_ents, labels=1):
+    ''' THIS FUNCTION IS DEPRECATED
+    
+    Calculates entities in exactly the same position between two spacy documents. Also checks for matching labels if label=1.
+    
+    Return:
+        Dictionaries with the mapping of matching entity indices:
+            keys: entity index from one document annotations
+            value: matched entity index from other document annotations
+        
+        Ex: "{1 : [2] , 3 : [4,5]}" means that entity 1 from doc1 matches entity 2 in doc2, and entity 3 in doc1 matches 
+        entity 4 and 5 from doc2.
+    '''
+    
+    doc1_matches = dict()
+    doc2_matches = dict()
+
+    doc1_ent_dict = dict()
+    doc2_ent_dict = dict()
+    
+    for index1,ent1 in enumerate(doc1_ents):
+        if labels == 1: #If checking for labels, then include this in the tuple's to-be-compared elements
+            doc1_ent_dict[(ent1.start_char,ent1.end_char,ent1.label_)] = index1
+        else:
+            doc1_ent_dict[(ent1.start_char,ent1.end_char)] = index1
+            
+    for index2,ent2 in enumerate(doc2_ents):
+        if labels == 1:    
+            doc2_ent_dict[(ent2.start_char,ent2.end_char,ent2.label_)] = index2
+        else:
+            doc2_ent_dict[(ent2.start_char,ent2.end_char)] = index2
+        
+    doc1_ent_set = set(doc1_ent_dict.keys())
+    doc2_ent_set = set(doc2_ent_dict.keys())
+    
+    matched_ents = doc1_ent_set.intersection(doc2_ent_set)
+    
+    for match in matched_ents:
+        index1 = doc1_ent_dict[match]
+        index2 = doc2_ent_dict[match]
+        doc1_matches[index1] = [index2]
+        doc2_matches[index2] = [index1]
+        
+    return doc1_matches, doc2_matches
+
+
+def overlaps_old(doc1_ents, doc2_ents,labels=1):
+    ''' THIS FUNCTION IS DEPRECATED
+    
+    
+    Calculates overlapping entities between two spacy documents. Also checks for matching labels if label=1.
+    Resultant dictionaries can be used to calculate true positive, false positive, and false negatives and can consider duplicate matches.
+    
+    Return:
+        Dictionaries with the mapping of matching entity indices:
+            keys: entity index from one annotation
+            value: matched entity index from other annotation
+        
+        Ex: "{1 : [2] , 3 : [4,5]}" means that entity 1 from doc1 matches entity 2 in doc2, and entity 3 in doc1 matches 
+        entity 4 and 5 from doc2.
+    '''
+    
+    doc1_matches = dict()
+    doc2_matches = dict()
+    
+    tree = IntervalTree() #Navigating a tree avoids needing to iterate and compare all ents in doc2 for each doc1 ent (ie. avoids a nested for-loop). This is faster.
+    for index2,ent2 in enumerate(doc2_ents):
+        tree.add(ent2.start_char,ent2.end_char,index2)
+    
+    for index1,ent1 in enumerate(doc1_ents):
+        matches = tree.search(ent1.start_char,ent1.end_char)
+        for match in matches:
+            index2 = match.data #match.data is the index of doc2_ents
+            if ((labels == 0) | (doc2_ents[index2].label_ == ent1.label_)):
+                if index1 not in doc1_matches.keys():
+                    doc1_matches[index1] = [index2]
+                else:
+                    doc1_matches[index1].append(index2)
+                if index2 not in doc2_matches.keys():
+                    doc2_matches[index2] = [index1]
+                else:
+                    doc2_matches[index2].append(index1)
+                
+    return doc1_matches, doc2_matches
 
