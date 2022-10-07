@@ -14,7 +14,7 @@ df_doc_name = 'doc name' #column containing document name/file name
 df_span_text = "Span Text" #column containing text
 
 
-def overlaps(docs1_df, docs2_df,labels=1,attributes=[]):
+def overlaps(docs1_df, docs2_df,labels=1,attributes=[],match_on_attributes=1):
     '''Calculates overlapping entities between two dataframes, each containing entity information for a single document.
         Also checks for matching labels if label=1.
         Works the same as "overlaps" function, but uses dataframes instead of documents.
@@ -40,10 +40,11 @@ def overlaps(docs1_df, docs2_df,labels=1,attributes=[]):
         for match in matches:
             index2 = match.data #match.data is the index of doc2_ents
             attributes_match = 1
-            for attribute in attributes: #check if attributes match
-                if row1[attribute] != docs2_df.loc[index2,attribute]:
-                    attributes_match = 0
-                    break
+            if match_on_attributes:
+                for attribute in attributes: #check if attributes match
+                    if row1[attribute] != docs2_df.loc[index2,attribute]:
+                        attributes_match = 0
+                        break
             if ((labels == 0) | (docs2_df.loc[index2,df_concept_label] == row1[df_concept_label])) & (attributes_match):
                 if index1 not in doc1_matches.keys():
                     doc1_matches[index1] = [index2]
@@ -58,7 +59,7 @@ def overlaps(docs1_df, docs2_df,labels=1,attributes=[]):
 
 
 
-def exact_match(docs1_df, docs2_df, labels=1,attributes=[]):
+def exact_match(docs1_df, docs2_df, labels=1,attributes=[],match_on_attributes=1):
     '''Calculates entities in exactly the same position between two dataframes containing entity information.
     Also checks for matching labels if label=1.
     Same as "exact_match", but uses dataframes.
@@ -82,8 +83,9 @@ def exact_match(docs1_df, docs2_df, labels=1,attributes=[]):
     for index1,row1 in docs1_df.iterrows():
         key_array = []
         key_array.extend([row1[df_start_char],row1[df_end_char],row1[df_concept_label]])
-        for attribute in attributes:
-            key_array.append(row1[attribute])
+        if match_on_attributes:
+            for attribute in attributes:
+                key_array.append(row1[attribute])
         if labels == 1: #If checking for labels, then include this in the tuple's to-be-compared elements
             key_array.append(row1[df_concept_label])
         doc1_ent_dict[tuple(key_array)] = index1
@@ -91,8 +93,9 @@ def exact_match(docs1_df, docs2_df, labels=1,attributes=[]):
     for index2,row2 in docs2_df.iterrows():
         key_array = []
         key_array.extend([row2[df_start_char],row2[df_end_char],row2[df_concept_label]])
-        for attribute in attributes:
-            key_array.append(row2[attribute])
+        if match_on_attributes:
+            for attribute in attributes:
+                key_array.append(row2[attribute])
         if labels == 1: #If checking for labels, then include this in the tuple's to-be-compared elements
             key_array.append(row2[df_concept_label])
         doc2_ent_dict[tuple(key_array)] = index2
@@ -110,7 +113,7 @@ def exact_match(docs1_df, docs2_df, labels=1,attributes=[]):
         
     return doc1_matches, doc2_matches
 
-def extract_ents(docs1, docs2, labels=1, ent_or_span = 'ent',attributes=[]):
+def extract_ents(docs1, docs2, labels=1, ent_or_spangroup = 'ent',attributes=[]):
     '''Establishes type of input and creates corresponding dataframe for entities.
     
     Arguments:
@@ -118,9 +121,10 @@ def extract_ents(docs1, docs2, labels=1, ent_or_span = 'ent',attributes=[]):
         doc2: Either a spacy document, tuple/list of entities/spans, or spangroup.
         loose: Boolean. 1 indicates to consider any overlap. 0 indicates to only consider exact matches.
         labels: Boolean. 1 indicates to consider labels as matching criteria.
-        ent_or_span: String of either 'ent' or 'span'. 'ent' indicates to compare doc.ents between documents. 'span' indicates to
-            compare doc1's only spangroup (note that doc1 must have only 1 spangroup) with doc2's equivalently named spangroup. This
-            argument is only relevant if passing in spacy document (ie. can be ignored if passing in tuple/list of ents/spans)
+        ent_or_spangroup: String of either 'ent' or 'spangroup'. 'ent' indicates to compare doc.ents between documents. 'spangroup' 
+        indicates to compare doc1's only spangroup (note that doc1 must have only 1 spangroup) with doc2's equivalently named spangroup.
+        This argument is only relevant if passing in spacy document (ie. can be ignored if passing in tuple/list of ents/spans)
+        attributes: list of attributes to be extracted from ents/spans
     
     Return:
         Dataframe of entities for pair of document lists
@@ -129,13 +133,13 @@ def extract_ents(docs1, docs2, labels=1, ent_or_span = 'ent',attributes=[]):
     (isinstance(docs2[0],tuple) or isinstance(docs2[0],list) or isinstance(docs2[0],spacy.tokens.span_group.SpanGroup)):
         ent_type = 1
     elif (type(docs1[0]) is spacy.tokens.doc.Doc) and (type(docs2[0]) is spacy.tokens.doc.Doc):
-        if ent_or_span == 'ent':
+        if ent_or_spangroup == 'ent':
             ent_type = 2
-        elif ent_or_span == 'span':
+        elif ent_or_spangroup == 'spangroup':
             ent_type = 3
         else:
             #raise error
-            print("Error: Must select 'span' or 'ent' for ent_or_span option.")
+            print("Error: Must select 'spangroup' or 'ent' for ent_or_spangroup option.")
             return
     else:
         #raise error
@@ -260,7 +264,7 @@ def extract_ents(docs1, docs2, labels=1, ent_or_span = 'ent',attributes=[]):
     return (pd.DataFrame.from_dict(ent_dict_1),pd.DataFrame.from_dict(ent_dict_2))
 
 
-def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent',attributes=[]):
+def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_spangroup='ent',attributes=[],match_on_attributes=1):
     '''Calculates f1 over an entire corpus of documents.
     
     Arguments:
@@ -269,10 +273,9 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent',attribute
         docs2: Either a list of spacy documents, list of tuples/lists of entities/spans, list of spangroups, or a dataframe. 
         loose: Boolean. 1 indicates to consider any overlap. 0 indicates to only consider exact matches.
         labels: Boolean. 1 indicates to consider labels as matching criteria.
-        ent_or_span: String of either 'ent' or 'span'. 'ent' indicates to compare doc.ents between documents. 'span' indicates to
-            compare doc1's only spangroup (note that doc1 must have only 1 spangroup) with doc2's equivalently named spangroup. This
-            argument is only relevant if passing in a list of spacy documents (ie. can be ignored if passing in a list of
-            tuple/list of ents/spans/spangroups or dataframe)
+        ent_or_spangroup: String of either 'ent' or 'spangroup'. 'ent' indicates to compare doc.ents between documents. 'spangroup' 
+        indicates to extract doc1's and doc2's spangroups, but will not be compared. This argument is only relevant if passing in a list of
+        spacy documents (ie. can be ignored if passing in a list of tuple/list of ents/spans/spangroups or dataframe)
             
     Returns:
         Tuple of two items:
@@ -291,7 +294,7 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent',attribute
         if (type(docs1[0]) is spacy.tokens.doc.Doc) | ((isinstance(docs1[0],tuple) or isinstance(docs1[0],list) or\
         isinstance(docs1[0],spacy.tokens.span_group.SpanGroup)) and \
         (isinstance(docs2[0],tuple) or isinstance(docs2[0],list) or (isinstance(docs2[0],spacy.tokens.span_group.SpanGroup)))):
-            docs1,docs2 = extract_ents(docs1,docs2,labels,ent_or_span,attributes)
+            docs1,docs2 = extract_ents(docs1,docs2,labels,ent_or_spangroup,attributes)
         else:
             #raise error
             print('Input Error: Input must be iterable of spacy documents, or dataframe.')
@@ -306,9 +309,9 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_span='ent',attribute
             docs1_df = docs1[docs1[df_doc_name] == doc_name]
             docs2_df = docs2[docs2[df_doc_name] == doc_name]
             if loose==1:
-                doc1_matches,doc2_matches = overlaps(docs1_df,docs2_df,labels,attributes)
+                doc1_matches,doc2_matches = overlaps(docs1_df,docs2_df,labels,attributes,match_on_attributes)
             else:
-                doc1_matches,doc2_matches = exact_match(docs1_df,docs2_df,labels,attributes)
+                doc1_matches,doc2_matches = exact_match(docs1_df,docs2_df,labels,attributes,match_on_attributes)
             tp,fp,fn = conf_matrix(doc1_matches,doc2_matches,docs1_df.shape[0],docs2_df.shape[0])
             corpus_tp += tp
             corpus_fp += fp
