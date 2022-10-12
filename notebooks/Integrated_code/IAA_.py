@@ -284,12 +284,15 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_spangroup='ent',attr
     '''
     
     corpus_tp, corpus_fp, corpus_fn = (0,0,0)
-    df_columns=["doc name","Annotation_1","Annotation_2", "Annot_1_label", "Annot_1_char", "Annot_2_label", "Annot_2_char", "Overall_start_char", "Exact Match?", "Duplicate Matches?", "Overlap?"]
+    df_columns=["doc name","Annotation_1","Annotation_2", "Annot_1_label", "Annot_1_char", "Annot_2_label", "Annot_2_char", "Overall_start_char", "Exact Match?", "Duplicate Matches?", "Overlap?","c_value"]
     for attr in attributes:
         df_columns.append("A1_" + attr)
         df_columns.append("A2_" + attr)
     agreement_df = pd.DataFrame(columns=df_columns)
-    
+    m_df_columns=[df_doc_name,df_span_text,df_start_char,df_end_char,df_concept_label,"c_value"]
+    for attr in attributes:
+        m_df_columns.append(attr)
+    complete_merge_df = pd.DataFrame(columns=m_df_columns)
     if not isinstance(docs1, pd.DataFrame):
         if (type(docs1[0]) is spacy.tokens.doc.Doc) | ((isinstance(docs1[0],tuple) or isinstance(docs1[0],list) or\
         isinstance(docs1[0],spacy.tokens.span_group.SpanGroup)) and \
@@ -319,11 +322,14 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_spangroup='ent',attr
             new_agreement_df = create_agreement_df(doc1_matches,doc2_matches,docs1_df,docs2_df,attributes)
             new_agreement_df.index += agreement_df.shape[0]
             agreement_df = pd.concat([agreement_df,new_agreement_df])
+            new_merge_df = merge_df(doc1_matches,doc2_matches,docs1_df,docs2_df,attributes)
+            new_merge_df.index += complete_merge_df.shape[0]
+            complete_merge_df = pd.concat([complete_merge_df,new_merge_df])
             
 
     data = {'IAA' : [pairwise_f1(corpus_tp,corpus_fp,corpus_fn)], 'Recall' : [corpus_tp/float(corpus_tp+corpus_fp)], 'Precision' : [corpus_tp/float(corpus_tp+corpus_fn)],'True Positives' : [corpus_tp] , 'False Positives' : [corpus_fp], 'False Negative' : [corpus_fn]}
     
-    return (pd.DataFrame(data),agreement_df)
+    return (pd.DataFrame(data),agreement_df,complete_merge_df)
 
 
 '''
@@ -382,11 +388,11 @@ def conf_matrix(doc1_matches,doc2_matches,doc1_ent_num,doc2_ent_num):
     return (tp,fp,fn)
 
 def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents,attributes=[]):
-    if "Concept Label" in list(doc1_ents.columns) and "Concept Label" in list(doc2_ents.columns):
+    if df_concept_label in list(doc1_ents.columns) and df_concept_label in list(doc2_ents.columns):
         label=1
     else:
         label=0
-    result_dict = {"doc name" : [],"Annotation_1" : [],"Annotation_2" : [], "Annot_1_label" : [], "Annot_1_char" : [], "Annot_2_label" : [], "Annot_2_char" : [], "Overall_start_char" : [], "Exact Match?" : [], "Duplicate Matches?" : [], "Overlap?" : [], "Index" : []}
+    result_dict = {"doc name" : [],"Annotation_1" : [],"Annotation_2" : [], "Annot_1_label" : [], "Annot_1_char" : [], "Annot_2_label" : [], "Annot_2_char" : [], "Overall_start_char" : [], "Exact Match?" : [], "Duplicate Matches?" : [], "Overlap?" : [], "Index" : [],"c_value":[]}
     for attr in attributes:
         result_dict["A1_" + attr] = []
         result_dict["A2_" + attr] = []
@@ -406,7 +412,7 @@ def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents,attributes
                 if result_dict["Overall_start_char"][duplicate_match_index] > int(doc1_ents.loc[index1,'start loc']):
                     result_dict["Overall_start_char"][duplicate_match_index] = doc1_ents.loc[index1,'start loc']
                 if label==1:
-                    result_dict["Annot_1_label"][duplicate_match_index] += " || " + doc1_ents.loc[index1,'Concept Label']
+                    result_dict["Annot_1_label"][duplicate_match_index] += " || " + doc1_ents.loc[index1,df_concept_label]
                 for attr in attributes:
                     result_dict["A1_" + attr][duplicate_match_index] += " || " + doc1_ents.loc[index1,attr]
                 
@@ -416,6 +422,7 @@ def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents,attributes
             else:
                 result_dict["doc name"].append(doc_name)
                 result_dict["Index"].append(index1)
+                result_dict["c_value"].append("TP")
                 result_dict["Annotation_1"].append(doc1_ents.loc[index1,'Span Text'])
                 annot_2 = ""
                 annot_2_label = ""
@@ -440,12 +447,12 @@ def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents,attributes
                         annot_2_char = str(annot_2_start_char) + "-" + str(annot_2_end_char)
                         annot_2 += doc2_ents.loc[index2,'Span Text']
                         if label==1:
-                            annot_2_label = doc2_ents.loc[index2,'Concept Label']
+                            annot_2_label = doc2_ents.loc[index2,df_concept_label]
                         for attr in attributes:
                             annot_2_attr_dict[attr] = doc2_ents.loc[index2,attr]
                     else:
                         if label==1:
-                            annot_2_label += " || " + doc2_ents.loc[index2,'Concept Label']
+                            annot_2_label += " || " + doc2_ents.loc[index2,df_concept_label]
                         annot_2 += " || " + doc2_ents.loc[index2,'Span Text']
                         annot_2_char += " || " + str(annot_2_start_char) + "-" + str(annot_2_end_char)
                         for attr in attributes:
@@ -454,7 +461,7 @@ def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents,attributes
                 result_dict["Annot_2_label"].append(annot_2_label)
                 result_dict["Annot_2_char"].append(annot_2_char)
                 if label == 1:
-                    result_dict["Annot_1_label"].append(doc1_ents.loc[index1,'Concept Label'])
+                    result_dict["Annot_1_label"].append(doc1_ents.loc[index1,df_concept_label])
                 else:
                     result_dict["Annot_1_label"].append("")
                 result_dict["Annot_1_char"].append(str(annot_1_start_char) + "-" + str(annot_1_end_char))
@@ -471,10 +478,11 @@ def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents,attributes
         else: #Cases where an ent in doc1 doesn't have a match
             result_dict["doc name"].append(doc_name)
             result_dict["Index"].append(index1)
+            result_dict["c_value"].append("FN")
             result_dict["Annotation_1"].append(doc1_ents.loc[index1,'Span Text'])
             result_dict["Annotation_2"].append("")
             if label == 1:
-                result_dict["Annot_1_label"].append(doc1_ents.loc[index1,'Concept Label'])
+                result_dict["Annot_1_label"].append(doc1_ents.loc[index1,df_concept_label])
                 result_dict["Annot_2_label"].append("")
             else:
                 result_dict["Annot_1_label"].append("")
@@ -492,11 +500,12 @@ def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents,attributes
     for index2 in doc2_ents.index: #Cases where an ent in doc2 doesn't have a match
         if index2 not in doc2_matches.keys():
             result_dict["doc name"].append(doc_name)
+            result_dict["c_value"].append("FP")
             result_dict["Annotation_1"].append("")
             result_dict["Annotation_2"].append(doc2_ents.loc[index2,'Span Text'])
             if label == 1:
                 result_dict["Annot_1_label"].append("")
-                result_dict["Annot_2_label"].append(doc2_ents.loc[index2,'Concept Label'])
+                result_dict["Annot_2_label"].append(doc2_ents.loc[index2,df_concept_label])
             else:
                 result_dict["Annot_1_label"].append("")
                 result_dict["Annot_2_label"].append("")
@@ -510,6 +519,123 @@ def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents,attributes
                 result_dict["A1_" + attr].append("")
                 result_dict["A2_" + attr].append(doc2_ents.loc[index2,attr])
     return pd.DataFrame.from_dict(result_dict).sort_values(by=['Overall_start_char']).reset_index(drop=True)
+
+'''
+ent_dict_1[df_doc_name].append(index)
+                ent_dict_1[df_span_text].append(ents.text)
+                ent_dict_1[df_start_char].append(ents.start_char)
+                ent_dict_1[df_end_char].append(ents.end_char)
+                for attr in attributes:
+                    try:
+                        val = getattr(ents, attr)
+                    except AttributeError:
+                        val = getattr(ents._, attr)
+                    ent_dict_1[attr].append(val)
+                if labels == 1:
+                    ent_dict_1[df_concept_label].append(ents.label_)
+                else:
+                    ent_dict_1[df_concept_label].append("")
+                    
+'''
+
+def merge_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents,attributes=[]):
+    if df_concept_label in list(doc1_ents.columns) and df_concept_label in list(doc2_ents.columns):
+        label=1
+    else:
+        label=0
+        
+    merge_dict = {df_doc_name:[],df_span_text:[],df_start_char:[],df_end_char:[],df_concept_label:[],"Index" : [],"c_value":[]}
+    for attr in attributes:
+        merge_dict[attr] = []
+        
+    doc_name = doc1_ents['doc name'].tolist()[0]
+    for index1 in doc1_ents.index: #iterate through all ents in set one
+        if index1 in doc1_matches.keys(): #Cases where the ent has a match
+            #if another index1 is in doc2_matches.values(), then add it to this row
+            first_index2 = sorted(doc1_matches[index1])[0]
+            first_index1 = sorted(doc2_matches[first_index2])[0]
+            if first_index1 < index1: #Cases where the entity in doc2 already matched a previous doc1 ent
+                #Add to index: sorted(doc2_matches[first_index2])[0]
+                duplicate_match_index = merge_dict["Index"].index(first_index1)
+                merge_dict[df_span_text][duplicate_match_index] = doc2_ents.loc[first_index2,'Span Text']
+                merge_dict[df_start_char][duplicate_match_index] = int(doc2_ents.loc[first_index2,'start loc'])
+                merge_dict[df_end_char][duplicate_match_index] = int(doc2_ents.loc[first_index2,'end loc'])
+                for attr in attributes:
+                    merge_dict[attr][duplicate_match_index] = (doc2_ents.loc[first_index2,attr])
+                if label==1:
+                    merge_dict[df_concept_label][duplicate_match_index] = doc2_ents.loc[first_index2,'Concept Label']
+            else:
+                if len(doc1_matches[index1]) == 1:
+                    index2 = doc1_matches[index1][0]
+                    if len(doc1_ents.loc[index1,'Span Text']) >= len(doc2_ents.loc[index2,'Span Text']):
+                        merge_dict[df_doc_name].append(doc_name)
+                        merge_dict["Index"].append(index1)
+                        merge_dict["c_value"].append("TP")
+                        merge_dict[df_span_text].append(doc1_ents.loc[index1,'Span Text'])
+                        merge_dict[df_start_char].append(int(doc1_ents.loc[index1,'start loc']))
+                        merge_dict[df_end_char].append(int(doc1_ents.loc[index1,'end loc']))
+                        for attr in attributes:
+                            merge_dict[attr].append(doc1_ents.loc[index1,attr])
+                        if label == 1:
+                            merge_dict[df_concept_label].append(doc1_ents.loc[index1,df_concept_label])
+                        else:
+                            merge_dict[df_concept_label].append("")
+                    else:
+                        merge_dict[df_doc_name].append(doc_name)
+                        merge_dict["Index"].append(index1)
+                        merge_dict["c_value"].append("TP")
+                        merge_dict[df_span_text].append(doc2_ents.loc[index2,'Span Text'])
+                        merge_dict[df_start_char].append(int(doc2_ents.loc[index2,'start loc']))
+                        merge_dict[df_end_char].append(int(doc2_ents.loc[index2,'end loc']))
+                        for attr in attributes:
+                            merge_dict[attr].append(doc2_ents.loc[index2,attr])
+                        if label == 1:
+                            merge_dict[df_concept_label].append(doc2_ents.loc[index2,df_concept_label])
+                        else:
+                            merge_dict[df_concept_label].append("")
+                else:
+                    merge_dict[df_doc_name].append(doc_name)
+                    merge_dict["Index"].append(index1)
+                    merge_dict["c_value"].append("TP")
+                    merge_dict[df_span_text].append(doc1_ents.loc[index1,'Span Text'])
+                    merge_dict[df_start_char].append(int(doc1_ents.loc[index1,'start loc']))
+                    merge_dict[df_end_char].append(int(doc1_ents.loc[index1,'end loc']))
+                    for attr in attributes:
+                        merge_dict[attr].append(doc1_ents.loc[index1,attr])
+                    if label == 1:
+                        merge_dict[df_concept_label].append(doc1_ents.loc[index1,df_concept_label])
+                    else:
+                        merge_dict[df_concept_label].append("")
+        else: #Cases where an ent in doc1 doesn't have a match
+            merge_dict[df_doc_name].append(doc_name)
+            merge_dict["Index"].append(index1)
+            merge_dict["c_value"].append("FN")
+            merge_dict[df_span_text].append(doc1_ents.loc[index1,'Span Text'])
+            merge_dict[df_start_char].append(int(doc1_ents.loc[index1,'start loc']))
+            merge_dict[df_end_char].append(int(doc1_ents.loc[index1,'end loc']))
+            for attr in attributes:
+                merge_dict[attr].append(doc1_ents.loc[index1,attr])
+            if label == 1:
+                merge_dict[df_concept_label].append(doc1_ents.loc[index1,df_concept_label])
+            else:
+                merge_dict[df_concept_label].append("")
+
+    del merge_dict["Index"] #Only needed to link new index1 with old index1 when there's a duplicate match with the same ent from doc2
+    for index2 in doc2_ents.index: #Cases where an ent in doc2 doesn't have a match
+        if index2 not in doc2_matches.keys():
+            merge_dict[df_doc_name].append(doc_name)
+            merge_dict[df_span_text].append(doc2_ents.loc[index2,'Span Text'])
+            merge_dict["c_value"].append("FP")
+            merge_dict[df_start_char].append(int(doc2_ents.loc[index2,'start loc']))
+            merge_dict[df_end_char].append(int(doc2_ents.loc[index2,'end loc']))
+            for attr in attributes:
+                merge_dict[attr].append(doc2_ents.loc[index2,attr])
+            if label == 1:
+                merge_dict[df_concept_label].append(doc2_ents.loc[index2,df_concept_label])
+            else:
+                merge_dict[df_concept_label].append("")
+            
+    return pd.DataFrame.from_dict(merge_dict).sort_values(by=['start loc']).reset_index(drop=True)
 
 
 
