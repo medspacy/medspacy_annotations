@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="655523.txt">
+    <annotation>
+        <mention id="EHOST_Instance_24467" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="463" end="471" />
+        <spannedText>agitated</spannedText>
+        <creationDate>Fri Aug 05 09:10:50 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24467">
+        <mentionClass id="Symptom">agitated</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24468" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6037" end="6068" />
+        <spannedText>rectus hematoma and bleeding</spannedText>
+        <creationDate>Fri Aug 05 09:13:12 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24468">
+        <mentionClass id="Symptom">rectus hematoma and bleeding</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24469" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6193" end="6201" />
+        <spannedText>hematoma</spannedText>
+        <creationDate>Fri Aug 05 09:14:34 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24469">
+        <mentionClass id="Symptom">hematoma</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24470" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6208" end="6230" />
+        <spannedText>Rectus sheath hematoma</spannedText>
+        <creationDate>Fri Aug 05 09:14:36 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24470">
+        <mentionClass id="Symptom">Rectus sheath hematoma</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24471" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="7633" end="7646" />
+        <spannedText>Scrotal Edema</spannedText>
+        <creationDate>Fri Aug 05 09:15:31 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24471">
+        <mentionClass id="Symptom">Scrotal Edema</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24472" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="7669" end="7682" />
+        <spannedText>scrotal edema</spannedText>
+        <creationDate>Fri Aug 05 09:15:33 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24472">
+        <mentionClass id="Symptom">scrotal edema</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24473" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="30" end="45" />
+        <spannedText>24 Hour Events:</spannedText>
+        <creationDate>Fri Aug 05 09:15:46 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24473">
+        <mentionClass id="SectionHeader_HasSymptom">24 Hour Events:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24474" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="49" end="879" />
+        <spannedText>- Given new liver lesions on the abd CT from yesterday, a family meeting will be held on [**2-19**] at 11am to discuss code status and goals of care. An interpreter will be present. - The fentanyl gtt was weaned down from 35 mg/hr to 25, however the patient became agitated and required a few boluses of fentanyl. - C.diff was sent and is pending. - His PEEP was weaned down to 5, but he became agitated and it was placed back at 8. Allergies: No Known Drug Allergies Last dose of Antibiotics: Piperacillin/Tazobactam (Zosyn) - [**2164-2-17**] 12:32 PM Piperacillin - [**2164-2-18**] 06:00 PM Infusions: Fentanyl - 25 mcg/hour Other ICU medications: Other medications: Changes to medical and family history: Review of systems is unchanged from admission except as noted below</spannedText>
+        <creationDate>Fri Aug 05 09:15:55 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24474">
+        <mentionClass id="Symptom_Section">- Given new liver lesions on the abd CT from yesterday, a family meeting will be held on [**2-19**] at 11am to discuss code status and goals of care. An interpreter will be present. - The fentanyl gtt was weaned down from 35 mg/hr to 25, however the patient became agitated and required a few boluses of fentanyl. - C.diff was sent and is pending. - His PEEP was weaned down to 5, but he became agitated and it was placed back at 8. Allergies: No Known Drug Allergies Last dose of Antibiotics: Piperacillin/Tazobactam (Zosyn) - [**2164-2-17**] 12:32 PM Piperacillin - [**2164-2-18**] 06:00 PM Infusions: Fentanyl - 25 mcg/hour Other ICU medications: Other medications: Changes to medical and family history: Review of systems is unchanged from admission except as noted below</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

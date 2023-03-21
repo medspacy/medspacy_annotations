@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="537108.txt">
+    <annotation>
+        <mention id="EHOST_Instance_24246" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="320" end="324" />
+        <spannedText>afib</spannedText>
+        <creationDate>Thu Aug 04 15:07:11 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24246">
+        <mentionClass id="Symptom">afib</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24247" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="665" end="671" />
+        <spannedText>emesis</spannedText>
+        <creationDate>Thu Aug 04 15:07:58 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24247">
+        <mentionClass id="Symptom">emesis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24248" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2727" end="2741" />
+        <spannedText>acute distress</spannedText>
+        <creationDate>Thu Aug 04 15:08:18 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24248">
+        <mentionClass id="Symptom">acute distress</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24249" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2933" end="2938" />
+        <spannedText>Obese</spannedText>
+        <creationDate>Thu Aug 04 15:08:26 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24249">
+        <mentionClass id="Symptom">Obese</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24250" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3040" end="3073" />
+        <spannedText>Right Extremities: (Edema: Trace)</spannedText>
+        <creationDate>Thu Aug 04 15:10:05 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24250">
+        <mentionClass id="Symptom">Right Extremities: (Edema: Trace)</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24251" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4153" end="4159" />
+        <spannedText>fevers</spannedText>
+        <creationDate>Thu Aug 04 15:10:55 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24251">
+        <mentionClass id="Symptom">fevers</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24252" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="9" end="13" />
+        <spannedText>HPI:</spannedText>
+        <creationDate>Thu Aug 04 15:11:05 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24252">
+        <mentionClass id="SectionHeader_HasSymptom">HPI:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24253" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="17" end="499" />
+        <spannedText>[**8-10**] POD 7 R TMA / [**Doctor First Name **] AB: Vanc, aztreonam, flagyl AC: [**Last Name (LF) 751**], [**First Name3 (LF) **] 81 BB/S: metoprolol, - Cr: 1.3 76 y/o M with non-healing diabetic R foot ulcer now s/p R TMA and tendo Achilles lengthening PMH: DM type 2, CAD, CHF, afib, pacemaker, htn, hyperlipidemia PSH: L TMA Chief complaint: PMHx: Current medications: Aztreonam Insulin MetRONIDAZOLE (FLagyl) Pantoprazole Vancomycin</spannedText>
+        <creationDate>Thu Aug 04 15:11:14 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24253">
+        <mentionClass id="Symptom_Section">[**8-10**] POD 7 R TMA / [**Doctor First Name **] AB: Vanc, aztreonam, flagyl AC: [**Last Name (LF) 751**], [**First Name3 (LF) **] 81 BB/S: metoprolol, - Cr: 1.3 76 y/o M with non-healing diabetic R foot ulcer now s/p R TMA and tendo Achilles lengthening PMH: DM type 2, CAD, CHF, afib, pacemaker, htn, hyperlipidemia PSH: L TMA Chief complaint: PMHx: Current medications: Aztreonam Insulin MetRONIDAZOLE (FLagyl) Pantoprazole Vancomycin</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24254" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="503" end="518" />
+        <spannedText>24 Hour Events:</spannedText>
+        <creationDate>Thu Aug 04 15:11:18 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24254">
+        <mentionClass id="SectionHeader_HasSymptom">24 Hour Events:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24255" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="520" end="1310" />
+        <spannedText>ENDOSCOPY - At [**2189-8-9**] 03:30 PM endoscopy done by GI team. Versed given for sedation, ulcer found-&gt; injected with epi. Patient with emesis at end of procedure Post operative day: POD 7 from TMA/[**Doctor First Name **] admitted to CVICU for endoscope, found to have Duodenal ulcer Allergies: Augmentin (Oral) (Amox Tr/Potassium Clavulanate) Unknown; Cipro (Oral) (Ciprofloxacin Hcl) Rash; Keflex (Oral) (Cephalexin Monohydrate) Rash; Insulins Rash; humulin/b Last dose of Antibiotics: Metronidazole - [**2189-8-10**] 02:00 AM Aztreonam - [**2189-8-10**] 04:00 AM Infusions: Other ICU medications: Other medications: Flowsheet Data as of [**2189-8-10**] 08:20 AM Vital signs Hemodynamic monitoring Fluid balance</spannedText>
+        <creationDate>Thu Aug 04 15:11:24 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24255">
+        <mentionClass id="Symptom_Section">ENDOSCOPY - At [**2189-8-9**] 03:30 PM endoscopy done by GI team. Versed given for sedation, ulcer found-&gt; injected with epi. Patient with emesis at end of procedure Post operative day: POD 7 from TMA/[**Doctor First Name **] admitted to CVICU for endoscope, found to have Duodenal ulcer Allergies: Augmentin (Oral) (Amox Tr/Potassium Clavulanate) Unknown; Cipro (Oral) (Ciprofloxacin Hcl) Rash; Keflex (Oral) (Cephalexin Monohydrate) Rash; Insulins Rash; humulin/b Last dose of Antibiotics: Metronidazole - [**2189-8-10**] 02:00 AM Aztreonam - [**2189-8-10**] 04:00 AM Infusions: Other ICU medications: Other medications: Flowsheet Data as of [**2189-8-10**] 08:20 AM Vital signs Hemodynamic monitoring Fluid balance</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24256" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2680" end="2700" />
+        <spannedText>Physical Examination</spannedText>
+        <creationDate>Thu Aug 04 15:11:33 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24256">
+        <mentionClass id="SectionHeader_HasSymptom">Physical Examination</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24257" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2704" end="3264" />
+        <spannedText>General Appearance: No acute distress Cardiovascular: (Rhythm: Regular) Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: CTA bilateral : ) Abdominal: Soft, Non-distended, Non-tender, Bowel sounds present, Obese Left Extremities: (Edema: Trace), (Temperature: Warm), (Pulse - Dorsalis pedis: Diminished) Right Extremities: (Edema: Trace), (Temperature: Warm), (Pulse - Dorsalis pedis: Diminished) Neurologic: (Awake / Alert / Oriented: x 3), Follows simple commands, (Responds to: Verbal stimuli), Moves all extremities</spannedText>
+        <creationDate>Thu Aug 04 15:11:44 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24257">
+        <mentionClass id="Symptom_Section">General Appearance: No acute distress Cardiovascular: (Rhythm: Regular) Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: CTA bilateral : ) Abdominal: Soft, Non-distended, Non-tender, Bowel sounds present, Obese Left Extremities: (Edema: Trace), (Temperature: Warm), (Pulse - Dorsalis pedis: Diminished) Right Extremities: (Edema: Trace), (Temperature: Warm), (Pulse - Dorsalis pedis: Diminished) Neurologic: (Awake / Alert / Oriented: x 3), Follows simple commands, (Responds to: Verbal stimuli), Moves all extremities</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

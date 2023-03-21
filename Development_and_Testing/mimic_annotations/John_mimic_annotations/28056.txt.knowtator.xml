@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="28056.txt">
+    <annotation>
+        <mention id="EHOST_Instance_23656" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="277" end="292" />
+        <spannedText>gross hematuria</spannedText>
+        <creationDate>Wed Aug 03 10:27:25 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23656">
+        <mentionClass id="Symptom">gross hematuria</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23657" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="494" end="509" />
+        <spannedText>gross hematuria</spannedText>
+        <creationDate>Wed Aug 03 10:27:35 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23657">
+        <mentionClass id="Symptom">gross hematuria</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23658" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="659" end="731" />
+        <spannedText>extensive glandular involvement of the prostate with no stromal invasion</spannedText>
+        <creationDate>Wed Aug 03 10:29:04 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23658">
+        <mentionClass id="Symptom">extensive glandular involvement of the prostate with no stromal invasion</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23659" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1648" end="1663" />
+        <spannedText>pulmonary edema</spannedText>
+        <creationDate>Wed Aug 03 10:30:20 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23659">
+        <mentionClass id="Symptom">pulmonary edema</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23660" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1860" end="1896" />
+        <spannedText>opacification in the left lower lobe</spannedText>
+        <creationDate>Wed Aug 03 10:30:39 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23660">
+        <mentionClass id="Symptom">opacification in the left lower lobe</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23661" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2109" end="2141" />
+        <spannedText>mediastinal vascular engorgement</spannedText>
+        <creationDate>Wed Aug 03 10:30:53 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23661">
+        <mentionClass id="Symptom">mediastinal vascular engorgement</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23662" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2143" end="2177" />
+        <spannedText>appreciable increase in heart size</spannedText>
+        <creationDate>Wed Aug 03 10:31:01 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23662">
+        <mentionClass id="Symptom">appreciable increase in heart size</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23663" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2195" end="2223" />
+        <spannedText>substantial pleural effusion</spannedText>
+        <creationDate>Wed Aug 03 10:31:08 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23663">
+        <mentionClass id="Symptom">substantial pleural effusion</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23664" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2383" end="2398" />
+        <spannedText>pulmonary edema</spannedText>
+        <creationDate>Wed Aug 03 10:31:16 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23664">
+        <mentionClass id="Symptom">pulmonary edema</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23665" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2722" end="2737" />
+        <spannedText>pulmonary edema</spannedText>
+        <creationDate>Wed Aug 03 10:31:25 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23665">
+        <mentionClass id="Symptom">pulmonary edema</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23666" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2881" end="2902" />
+        <spannedText>interstitial markings</spannedText>
+        <creationDate>Wed Aug 03 10:31:40 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23666">
+        <mentionClass id="Symptom">interstitial markings</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23667" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2962" end="2992" />
+        <spannedText>opacification at the left base</spannedText>
+        <creationDate>Wed Aug 03 10:31:52 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23667">
+        <mentionClass id="Symptom">opacification at the left base</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23668" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3010" end="3021" />
+        <spannedText>atelectasis</spannedText>
+        <creationDate>Wed Aug 03 10:31:59 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23668">
+        <mentionClass id="Symptom">atelectasis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23669" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3025" end="3034" />
+        <spannedText>pneumonia</spannedText>
+        <creationDate>Wed Aug 03 10:32:01 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23669">
+        <mentionClass id="Symptom">pneumonia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23670" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3097" end="3117" />
+        <spannedText>inflammatory disease</spannedText>
+        <creationDate>Wed Aug 03 10:34:02 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23670">
+        <mentionClass id="Symptom">inflammatory disease</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23671" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3487" end="3491" />
+        <spannedText>pain</spannedText>
+        <creationDate>Wed Aug 03 10:34:33 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23671">
+        <mentionClass id="Symptom">pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23672" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4144" end="4147" />
+        <spannedText>CHF</spannedText>
+        <creationDate>Wed Aug 03 10:35:42 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23672">
+        <mentionClass id="Symptom">CHF</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23673" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4151" end="4180" />
+        <spannedText>worsening pulmonary processes</spannedText>
+        <creationDate>Wed Aug 03 10:35:46 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23673">
+        <mentionClass id="Symptom">worsening pulmonary processes</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23674" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4639" end="4649" />
+        <spannedText>chest pain</spannedText>
+        <creationDate>Wed Aug 03 10:36:10 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23674">
+        <mentionClass id="Symptom">chest pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23675" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4651" end="4663" />
+        <spannedText>palpitations</spannedText>
+        <creationDate>Wed Aug 03 10:36:12 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23675">
+        <mentionClass id="Symptom">palpitations</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23676" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="222" end="292" />
+        <spannedText>Attending:[**First Name3 (LF) 1232**] Chief Complaint: gross hematuria</spannedText>
+        <creationDate>Wed Aug 03 10:47:31 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23676">
+        <mentionClass id="Symptom_Section">Attending:[**First Name3 (LF) 1232**] Chief Complaint: gross hematuria</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23677" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="222" end="232" />
+        <spannedText>Attending:</spannedText>
+        <creationDate>Wed Aug 03 10:47:38 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23677">
+        <mentionClass id="SectionHeader_HasSymptom">Attending:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23678" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="403" end="902" />
+        <spannedText>History of Present Illness: The patient is a 75-year-old male who presented initially with gross hematuria, was found to have bladder cancer which was found to be T1 high grade with CIS. He was restaged which showed invasion to the lamina propria but also extensive glandular involvement of the prostate with no stromal invasion. Due to his history, he presented for surgical management. He has been followed by pulmonary for pulmonary fibrosis which previously had shown BOOP in the past on biopsy.</spannedText>
+        <creationDate>Wed Aug 03 10:47:43 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23678">
+        <mentionClass id="Symptom_Section">History of Present Illness: The patient is a 75-year-old male who presented initially with gross hematuria, was found to have bladder cancer which was found to be T1 high grade with CIS. He was restaged which showed invasion to the lamina propria but also extensive glandular involvement of the prostate with no stromal invasion. Due to his history, he presented for surgical management. He has been followed by pulmonary for pulmonary fibrosis which previously had shown BOOP in the past on biopsy.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23679" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="403" end="430" />
+        <spannedText>History of Present Illness:</spannedText>
+        <creationDate>Wed Aug 03 10:47:46 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23679">
+        <mentionClass id="SectionHeader_HasSymptom">History of Present Illness:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23680" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1624" end="1664" />
+        <spannedText>HISTORY: BOOP. Rule out pulmonary edema.</spannedText>
+        <creationDate>Wed Aug 03 10:48:01 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23680">
+        <mentionClass id="Symptom_Section">HISTORY: BOOP. Rule out pulmonary edema.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23681" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1624" end="1632" />
+        <spannedText>HISTORY:</spannedText>
+        <creationDate>Wed Aug 03 10:48:19 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23681">
+        <mentionClass id="SectionHeader_HasSymptom">HISTORY:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23682" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1666" end="2298" />
+        <spannedText>IMPRESSION: AP chest compared to [**2158-11-25**] and [**2159-10-17**]: Chronic interstitial pulmonary disease accounts for the bulk of pulmonary abnormalities, but there is slight increase in opacification in the left lower lobe, which could represent pneumonia or aspiration and an increase in the background density of the lungs, which may be a function of differing radiologic technique or mild pulmonary edema. Nevertheless, there is no mediastinal vascular engorgement, appreciable increase in heart size or indication of substantial pleural effusion to suggest congestive heart failure. Nasogastric tube ends in the stomach.</spannedText>
+        <creationDate>Wed Aug 03 10:48:25 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23682">
+        <mentionClass id="Symptom_Section">IMPRESSION: AP chest compared to [**2158-11-25**] and [**2159-10-17**]: Chronic interstitial pulmonary disease accounts for the bulk of pulmonary abnormalities, but there is slight increase in opacification in the left lower lobe, which could represent pneumonia or aspiration and an increase in the background density of the lungs, which may be a function of differing radiologic technique or mild pulmonary edema. Nevertheless, there is no mediastinal vascular engorgement, appreciable increase in heart size or indication of substantial pleural effusion to suggest congestive heart failure. Nasogastric tube ends in the stomach.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23683" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1666" end="1677" />
+        <spannedText>IMPRESSION:</spannedText>
+        <creationDate>Wed Aug 03 10:48:29 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23683">
+        <mentionClass id="SectionHeader_HasSymptom">IMPRESSION:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23684" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2375" end="2457" />
+        <spannedText>Reason: pulmonary edema? ***pt will be on [**Hospital Ward Name **] in the afterno</spannedText>
+        <creationDate>Wed Aug 03 10:48:35 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23684">
+        <mentionClass id="Symptom_Section">Reason: pulmonary edema? ***pt will be on [**Hospital Ward Name **] in the afterno</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23685" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2375" end="2382" />
+        <spannedText>Reason:</spannedText>
+        <creationDate>Wed Aug 03 10:48:38 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23685">
+        <mentionClass id="SectionHeader_HasSymptom">Reason:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23686" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2459" end="2738" />
+        <spannedText>[**Hospital 93**] MEDICAL CONDITION: 75M IPF, s/p radical cystoprostatectomy, ileal loop, POD1 REASON FOR THIS EXAMINATION: pulmonary edema? ***pt will be on [**Hospital Ward Name **] in the afternoon*** HISTORY: Postoperative with shortness of breath suggesting pulmonary edema.</spannedText>
+        <creationDate>Wed Aug 03 10:48:44 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23686">
+        <mentionClass id="Symptom_Section">[**Hospital 93**] MEDICAL CONDITION: 75M IPF, s/p radical cystoprostatectomy, ileal loop, POD1 REASON FOR THIS EXAMINATION: pulmonary edema? ***pt will be on [**Hospital Ward Name **] in the afternoon*** HISTORY: Postoperative with shortness of breath suggesting pulmonary edema.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23687" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2459" end="2495" />
+        <spannedText>[**Hospital 93**] MEDICAL CONDITION:</spannedText>
+        <creationDate>Wed Aug 03 10:48:54 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23687">
+        <mentionClass id="SectionHeader_HasSymptom">[**Hospital 93**] MEDICAL CONDITION:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23688" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2740" end="3296" />
+        <spannedText>FINDINGS: In comparison with the study of [**12-10**], the patient has taken a much poorer inspiration. There is again diffuse prominence of interstitial markings consistent with chronic pulmonary disease. Some increasing opacification at the left base may reflect some atelectasis or pneumonia or be a manifestation of bronchiectatic changes from previous inflammatory disease. The right IJ catheter again lies in the upper superior vena cava. The nasogastric tube extends at least to the upper stomach, though it is difficult to follow beyond this point.</spannedText>
+        <creationDate>Wed Aug 03 10:48:59 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23688">
+        <mentionClass id="Symptom_Section">FINDINGS: In comparison with the study of [**12-10**], the patient has taken a much poorer inspiration. There is again diffuse prominence of interstitial markings consistent with chronic pulmonary disease. Some increasing opacification at the left base may reflect some atelectasis or pneumonia or be a manifestation of bronchiectatic changes from previous inflammatory disease. The right IJ catheter again lies in the upper superior vena cava. The nasogastric tube extends at least to the upper stomach, though it is difficult to follow beyond this point.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23689" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2740" end="2749" />
+        <spannedText>FINDINGS:</spannedText>
+        <creationDate>Wed Aug 03 10:49:02 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23689">
+        <mentionClass id="SectionHeader_HasSymptom">FINDINGS:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23690" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3335" end="3920" />
+        <spannedText>Brief Hospital Course: GU: Pt admitted postoperatively after prostacystectomy with ileal loop and ileostomy creation. The night of admission, the pt's pain was well controlled with an epidural, and he was monitored in the PACU without any complications. On POD1, the pt was transferred to the floor, where he remained hemodynamically stable with good urine output from the ileostomy, which appeared well vascularized and pink in color. POD1, the pt was bolused on a few occasions for marginal urine output, but by POD2, the pt was making adequate urine without any additional fluids.</spannedText>
+        <creationDate>Wed Aug 03 10:49:07 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23690">
+        <mentionClass id="Symptom_Section">Brief Hospital Course: GU: Pt admitted postoperatively after prostacystectomy with ileal loop and ileostomy creation. The night of admission, the pt's pain was well controlled with an epidural, and he was monitored in the PACU without any complications. On POD1, the pt was transferred to the floor, where he remained hemodynamically stable with good urine output from the ileostomy, which appeared well vascularized and pink in color. POD1, the pt was bolused on a few occasions for marginal urine output, but by POD2, the pt was making adequate urine without any additional fluids.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23691" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3335" end="3357" />
+        <spannedText>Brief Hospital Course:</spannedText>
+        <creationDate>Wed Aug 03 10:49:09 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23691">
+        <mentionClass id="SectionHeader_HasSymptom">Brief Hospital Course:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23692" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3922" end="4443" />
+        <spannedText>Pulm: Preop diagnosis of pulmonary fibrosis, so pulmonology was intimately involved in the pt's postoperative plan. POD1, IV fluids were held to keep the pt dry and breathing comfortably. CXRs demonstrated no evidence of CHF or worsening pulmonary processes. By POD1, the pt was weaned to room air while maintaining a saturation of 96%. Intraoperatively, the pt received stress dose steroids, which were weaned over the course of his 6 day hospitalization, on discharge, the pt was transitioned to prednisone 15 mg qd.</spannedText>
+        <creationDate>Wed Aug 03 10:49:14 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23692">
+        <mentionClass id="Symptom_Section">Pulm: Preop diagnosis of pulmonary fibrosis, so pulmonology was intimately involved in the pt's postoperative plan. POD1, IV fluids were held to keep the pt dry and breathing comfortably. CXRs demonstrated no evidence of CHF or worsening pulmonary processes. By POD1, the pt was weaned to room air while maintaining a saturation of 96%. Intraoperatively, the pt received stress dose steroids, which were weaned over the course of his 6 day hospitalization, on discharge, the pt was transitioned to prednisone 15 mg qd.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23693" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3922" end="3927" />
+        <spannedText>Pulm:</spannedText>
+        <creationDate>Wed Aug 03 10:49:17 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23693">
+        <mentionClass id="SectionHeader_HasSymptom">Pulm:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23694" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4445" end="4688" />
+        <spannedText>CV: The pt remained cardiovascularly stable throughout his hospitalization. He received IV lopressor periop and was transitioned to his home dose of atenolol prior to discharge. No episodes of chest pain, palpitations or other cardiac events.</spannedText>
+        <creationDate>Wed Aug 03 10:49:21 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23694">
+        <mentionClass id="Symptom_Section">CV: The pt remained cardiovascularly stable throughout his hospitalization. He received IV lopressor periop and was transitioned to his home dose of atenolol prior to discharge. No episodes of chest pain, palpitations or other cardiac events.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23695" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4445" end="4448" />
+        <spannedText>CV:</spannedText>
+        <creationDate>Wed Aug 03 10:49:25 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23695">
+        <mentionClass id="SectionHeader_HasSymptom">CV:</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

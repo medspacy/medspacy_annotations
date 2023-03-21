@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="330814.txt">
+    <annotation>
+        <mention id="EHOST_Instance_23747" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="368" end="375" />
+        <spannedText>dyspnea</spannedText>
+        <creationDate>Wed Aug 03 11:26:39 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23747">
+        <mentionClass id="Symptom">dyspnea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23748" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="387" end="390" />
+        <spannedText>SVT</spannedText>
+        <creationDate>Wed Aug 03 11:26:41 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23748">
+        <mentionClass id="Symptom">SVT</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23749" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="558" end="574" />
+        <spannedText>resp distress</spannedText>
+        <creationDate>Wed Aug 03 11:28:35 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23749">
+        <mentionClass id="Symptom">resp distress</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23750" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="672" end="680" />
+        <spannedText>somnlent</spannedText>
+        <creationDate>Wed Aug 03 11:28:46 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23750">
+        <mentionClass id="Symptom">somnlent</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23751" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1841" end="1859" />
+        <spannedText>Conjunctival edema</spannedText>
+        <creationDate>Wed Aug 03 11:29:54 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23751">
+        <mentionClass id="Symptom">Conjunctival edema</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23752" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1820" end="1833" />
+        <spannedText>Blurry vision</spannedText>
+        <creationDate>Wed Aug 03 11:29:56 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23752">
+        <mentionClass id="Symptom">Blurry vision</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23753" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1764" end="1771" />
+        <spannedText>Fatigue</spannedText>
+        <creationDate>Wed Aug 03 11:29:57 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23753">
+        <mentionClass id="Symptom">Fatigue</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23754" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1779" end="1784" />
+        <spannedText>Fever</spannedText>
+        <creationDate>Wed Aug 03 11:30:03 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23754">
+        <mentionClass id="Symptom">Fever</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23755" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1792" end="1803" />
+        <spannedText>Weight loss</spannedText>
+        <creationDate>Wed Aug 03 11:30:06 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23755">
+        <mentionClass id="Symptom">Weight loss</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23756" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1888" end="1897" />
+        <spannedText>Dry mouth</spannedText>
+        <creationDate>Wed Aug 03 11:30:10 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23756">
+        <mentionClass id="Symptom">Dry mouth</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23757" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1905" end="1914" />
+        <spannedText>Epistaxis</spannedText>
+        <creationDate>Wed Aug 03 11:30:12 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23757">
+        <mentionClass id="Symptom">Epistaxis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23758" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1951" end="1958" />
+        <spannedText>Dyspnea</spannedText>
+        <creationDate>Wed Aug 03 11:30:18 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23758">
+        <mentionClass id="Symptom">Dyspnea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23759" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1986" end="2000" />
+        <spannedText>Abdominal pain</spannedText>
+        <creationDate>Wed Aug 03 11:30:23 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23759">
+        <mentionClass id="Symptom">Abdominal pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23760" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2008" end="2014" />
+        <spannedText>Nausea</spannedText>
+        <creationDate>Wed Aug 03 11:30:25 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23760">
+        <mentionClass id="Symptom">Nausea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23761" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2022" end="2028" />
+        <spannedText>Emesis</spannedText>
+        <creationDate>Wed Aug 03 11:30:27 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23761">
+        <mentionClass id="Symptom">Emesis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23762" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2039" end="2047" />
+        <spannedText>Diarrhea</spannedText>
+        <creationDate>Wed Aug 03 11:30:28 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23762">
+        <mentionClass id="Symptom">Diarrhea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23763" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2055" end="2067" />
+        <spannedText>Constipation</spannedText>
+        <creationDate>Wed Aug 03 11:30:30 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23763">
+        <mentionClass id="Symptom">Constipation</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23764" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2092" end="2099" />
+        <spannedText>Dysuria</spannedText>
+        <creationDate>Wed Aug 03 11:30:33 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23764">
+        <mentionClass id="Symptom">Dysuria</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23765" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4377" end="4400" />
+        <spannedText>obesity hypoventilation</spannedText>
+        <creationDate>Wed Aug 03 11:31:16 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23765">
+        <mentionClass id="Symptom">obesity hypoventilation</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23766" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4989" end="4999" />
+        <spannedText>parenchyma</spannedText>
+        <creationDate>Wed Aug 03 11:32:34 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23766">
+        <mentionClass id="Symptom">parenchyma</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23767" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="0" end="1115" />
+        <spannedText>Chief Complaint: hypercarbic resp failure I saw and examined the patient, and was physically present with the ICU Resident for key portions of the services provided. I agree with his / her note above, including assessment and plan. HPI: 47 yr old woman with obesity and asthma went to [**Hospital1 **] [**Location (un) 1415**] [**2130-7-11**] with dyspnea, new onset SVT, and was Rx'd for SVT with Amio, then Dig, then cardioversion [**2130-7-19**] which was sucessful. In terms of resp distress, at admit ABG was 7.42/ 80/50 - Her resp distress was felt to be cor pulmonale - diuresed 36 pounds. On evening of [**2130-7-19**] - she became somnlent, ? related to meds from cardioversion, or primary CNS event, ABG was 7.27/129/ 80 and started on BIPAP 7.39/102/32 (?vbg), Of note with diuresis, bicarb went to greater than assay. Felt a transfer to [**Hospital1 54**] was on order for possible need for fiberoptic intubation. ABG on leaving was 7.48/77/47 Patient admitted from: Transfer from other hospital History obtained from [**Hospital 85**] Medical records</spannedText>
+        <creationDate>Wed Aug 03 11:33:04 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23767">
+        <mentionClass id="Symptom_Section">Chief Complaint: hypercarbic resp failure I saw and examined the patient, and was physically present with the ICU Resident for key portions of the services provided. I agree with his / her note above, including assessment and plan. HPI: 47 yr old woman with obesity and asthma went to [**Hospital1 **] [**Location (un) 1415**] [**2130-7-11**] with dyspnea, new onset SVT, and was Rx'd for SVT with Amio, then Dig, then cardioversion [**2130-7-19**] which was sucessful. In terms of resp distress, at admit ABG was 7.42/ 80/50 - Her resp distress was felt to be cor pulmonale - diuresed 36 pounds. On evening of [**2130-7-19**] - she became somnlent, ? related to meds from cardioversion, or primary CNS event, ABG was 7.27/129/ 80 and started on BIPAP 7.39/102/32 (?vbg), Of note with diuresis, bicarb went to greater than assay. Felt a transfer to [**Hospital1 54**] was on order for possible need for fiberoptic intubation. ABG on leaving was 7.48/77/47 Patient admitted from: Transfer from other hospital History obtained from [**Hospital 85**] Medical records</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23768" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="0" end="16" />
+        <spannedText>Chief Complaint:</spannedText>
+        <creationDate>Wed Aug 03 11:33:09 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23768">
+        <mentionClass id="SectionHeader_HasSymptom">Chief Complaint:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23769" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1726" end="2253" />
+        <spannedText>Review of systems: Constitutional: Fatigue, No(t) Fever, No(t) Weight loss Eyes: No(t) Blurry vision, No(t) Conjunctival edema Ear, Nose, Throat: No(t) Dry mouth, No(t) Epistaxis, No(t) OG / NG tube Respiratory: Dyspnea Gastrointestinal: No(t) Abdominal pain, No(t) Nausea, No(t) Emesis, No(t) Diarrhea, No(t) Constipation Genitourinary: No(t) Dysuria, Foley, No(t) Dialysis Heme / Lymph: Anemia Flowsheet Data as of [**2130-7-21**] 12:52 AM Vital Signs Hemodynamic monitoring Fluid Balance</spannedText>
+        <creationDate>Wed Aug 03 11:33:48 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23769">
+        <mentionClass id="Symptom_Section">Review of systems: Constitutional: Fatigue, No(t) Fever, No(t) Weight loss Eyes: No(t) Blurry vision, No(t) Conjunctival edema Ear, Nose, Throat: No(t) Dry mouth, No(t) Epistaxis, No(t) OG / NG tube Respiratory: Dyspnea Gastrointestinal: No(t) Abdominal pain, No(t) Nausea, No(t) Emesis, No(t) Diarrhea, No(t) Constipation Genitourinary: No(t) Dysuria, Foley, No(t) Dialysis Heme / Lymph: Anemia Flowsheet Data as of [**2130-7-21**] 12:52 AM Vital Signs Hemodynamic monitoring Fluid Balance</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23770" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1726" end="1744" />
+        <spannedText>Review of systems:</spannedText>
+        <creationDate>Wed Aug 03 11:33:52 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23770">
+        <mentionClass id="SectionHeader_HasSymptom">Review of systems:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23771" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4309" end="5612" />
+        <spannedText>Assessment and Plan 47 yr old woman with morbid obesity, OSA and obesity hypoventilation, presents to OSH with Afib and ?decompensated systolic heart failure s/p diuresis at OSH complicated by acute resp decoimpensation at [**Hospital1 **] [**Location (un) 1415**] today 1. Hypercarbic and Hypoxemic Resp Failure: etiology likely OSA, hypoventilation, but possible component of reactive airways. Plan- BIPAP 15/5 as trial and wean FIO2- current ABG looks good 7.33. Need to assess chem 7 here as she has a significantly elevated HCo3 in setting of retention and diuresis. Convert Medrol to 40 prednisone, alb/atrovent nebs. Check CXR to assess parenchyma as right greater than left sided wheezes. 2. SVT: converted with cardioversion and sent over on both Amio and Digoxin. Check Dig level, clarify how many days of Amio 400 TID as may be able to taper. 3. Right Arm Pain s/p PICC: check US to rule out clot ICU Care Nutrition: NPO Glycemic Control: Lines / Intubation: 1 PIV Comments: Prophylaxis: DVT: (Systemic anticoagulation: Coumadin Stress ulcer: PPI Communication: her, sister is HCP [**Name (NI) 66**] status: Full code Disposition: ICU Total time spent: 60 minutes Patient is critically ill</spannedText>
+        <creationDate>Wed Aug 03 11:34:10 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23771">
+        <mentionClass id="Symptom_Section">Assessment and Plan 47 yr old woman with morbid obesity, OSA and obesity hypoventilation, presents to OSH with Afib and ?decompensated systolic heart failure s/p diuresis at OSH complicated by acute resp decoimpensation at [**Hospital1 **] [**Location (un) 1415**] today 1. Hypercarbic and Hypoxemic Resp Failure: etiology likely OSA, hypoventilation, but possible component of reactive airways. Plan- BIPAP 15/5 as trial and wean FIO2- current ABG looks good 7.33. Need to assess chem 7 here as she has a significantly elevated HCo3 in setting of retention and diuresis. Convert Medrol to 40 prednisone, alb/atrovent nebs. Check CXR to assess parenchyma as right greater than left sided wheezes. 2. SVT: converted with cardioversion and sent over on both Amio and Digoxin. Check Dig level, clarify how many days of Amio 400 TID as may be able to taper. 3. Right Arm Pain s/p PICC: check US to rule out clot ICU Care Nutrition: NPO Glycemic Control: Lines / Intubation: 1 PIV Comments: Prophylaxis: DVT: (Systemic anticoagulation: Coumadin Stress ulcer: PPI Communication: her, sister is HCP [**Name (NI) 66**] status: Full code Disposition: ICU Total time spent: 60 minutes Patient is critically ill</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23772" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4309" end="4328" />
+        <spannedText>Assessment and Plan</spannedText>
+        <creationDate>Wed Aug 03 11:34:15 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23772">
+        <mentionClass id="SectionHeader_HasSymptom">Assessment and Plan</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="595179.txt">
+    <annotation>
+        <mention id="EHOST_Instance_24396" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="215" end="222" />
+        <spannedText>dyspnea</spannedText>
+        <creationDate>Thu Aug 04 16:43:03 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24396">
+        <mentionClass id="Symptom">dyspnea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24397" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="223" end="231" />
+        <spannedText>wheezing</spannedText>
+        <creationDate>Thu Aug 04 16:43:04 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24397">
+        <mentionClass id="Symptom">wheezing</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24398" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2789" end="2803" />
+        <spannedText>acute distress</spannedText>
+        <creationDate>Thu Aug 04 16:43:44 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24398">
+        <mentionClass id="Symptom">acute distress</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24399" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2814" end="2839" />
+        <spannedText>diffuseexpiratory wheezes</spannedText>
+        <creationDate>Thu Aug 04 16:43:47 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24399">
+        <mentionClass id="Symptom">diffuseexpiratory wheezes</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24400" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2949" end="2956" />
+        <spannedText>murmurs</spannedText>
+        <creationDate>Thu Aug 04 16:43:57 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24400">
+        <mentionClass id="Symptom">murmurs</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24401" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2985" end="2990" />
+        <spannedText>obese</spannedText>
+        <creationDate>Thu Aug 04 16:43:59 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24401">
+        <mentionClass id="Symptom">obese</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24402" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3137" end="3145" />
+        <spannedText>cyanosis</spannedText>
+        <creationDate>Thu Aug 04 16:44:03 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24402">
+        <mentionClass id="Symptom">cyanosis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24403" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3127" end="3135" />
+        <spannedText>clubbing</spannedText>
+        <creationDate>Thu Aug 04 16:44:05 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24403">
+        <mentionClass id="Symptom">clubbing</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24404" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3149" end="3154" />
+        <spannedText>edema</spannedText>
+        <creationDate>Thu Aug 04 16:44:06 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24404">
+        <mentionClass id="Symptom">edema</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24405" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4462" end="4469" />
+        <spannedText>hypoxia</spannedText>
+        <creationDate>Thu Aug 04 16:44:27 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24405">
+        <mentionClass id="Symptom">hypoxia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24406" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4470" end="4490" />
+        <spannedText>respiratory distress</spannedText>
+        <creationDate>Thu Aug 04 16:44:28 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24406">
+        <mentionClass id="Symptom">respiratory distress</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24407" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4502" end="4522" />
+        <spannedText>Respiratory distress</spannedText>
+        <creationDate>Thu Aug 04 16:44:30 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24407">
+        <mentionClass id="Symptom">Respiratory distress</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24408" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4523" end="4530" />
+        <spannedText>hypoxia</spannedText>
+        <creationDate>Thu Aug 04 16:44:31 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24408">
+        <mentionClass id="Symptom">hypoxia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24409" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5731" end="5741" />
+        <spannedText>pulm edema</spannedText>
+        <creationDate>Thu Aug 04 16:45:04 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24409">
+        <mentionClass id="Symptom">pulm edema</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24410" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6212" end="6222" />
+        <spannedText>Chest pain</spannedText>
+        <creationDate>Thu Aug 04 16:45:17 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24410">
+        <mentionClass id="Symptom">Chest pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24411" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6044" end="6054" />
+        <spannedText>Depression</spannedText>
+        <creationDate>Thu Aug 04 16:45:21 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24411">
+        <mentionClass id="Symptom">Depression</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24412" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="20" end="35" />
+        <spannedText>24 Hour Events:</spannedText>
+        <creationDate>Thu Aug 04 16:45:48 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24412">
+        <mentionClass id="SectionHeader_HasSymptom">24 Hour Events:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24413" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="39" end="945" />
+        <spannedText>- added singulair - changed MethylPREDNISolone Sodium Succ from 100mg q6h to 80 mg IV Q8 - increased the frequency of beta-blocker, Xopenex Neb *NF* 0.63 mg Other q3H dyspnea/wheezing but per RT Xopenex is long-acting so changed to q4-6h - continued atrovent Neb Q6H, flovent 110mcg 2 PUFF [**Hospital1 **], advair(250/50) 1 INH [**Hospital1 **] - continued on Levoquin for possible CAP vs atypical pna - URINE CULTURE from [**10-7**] showed GRAM POSITIVE BACTERIA. 10,000-100,000 ORGANISMS/ML.. Alpha hemolytic colonies consistent with alpha streptococcus or Lactobacillus sp. - pt reported to nurse that she was found to have a pituitary mass and thyroid dysfunction in the past, gained lots of wt despite small PO intakes, was seen by endocrinologist but had no regular followup. TSH and T4 were added to morning lab, but one month ago TSH was normal at 1.4</spannedText>
+        <creationDate>Thu Aug 04 16:45:56 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24413">
+        <mentionClass id="Symptom_Section">- added singulair - changed MethylPREDNISolone Sodium Succ from 100mg q6h to 80 mg IV Q8 - increased the frequency of beta-blocker, Xopenex Neb *NF* 0.63 mg Other q3H dyspnea/wheezing but per RT Xopenex is long-acting so changed to q4-6h - continued atrovent Neb Q6H, flovent 110mcg 2 PUFF [**Hospital1 **], advair(250/50) 1 INH [**Hospital1 **] - continued on Levoquin for possible CAP vs atypical pna - URINE CULTURE from [**10-7**] showed GRAM POSITIVE BACTERIA. 10,000-100,000 ORGANISMS/ML.. Alpha hemolytic colonies consistent with alpha streptococcus or Lactobacillus sp. - pt reported to nurse that she was found to have a pituitary mass and thyroid dysfunction in the past, gained lots of wt despite small PO intakes, was seen by endocrinologist but had no regular followup. TSH and T4 were added to morning lab, but one month ago TSH was normal at 1.4</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

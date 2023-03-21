@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="346854.txt">
+    <annotation>
+        <mention id="EHOST_Instance_23850" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="122" end="130" />
+        <spannedText>myalgias</spannedText>
+        <creationDate>Wed Aug 03 12:08:33 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23850">
+        <mentionClass id="Symptom">myalgias</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23851" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="132" end="138" />
+        <spannedText>nausea</spannedText>
+        <creationDate>Wed Aug 03 12:08:34 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23851">
+        <mentionClass id="Symptom">nausea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23852" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="140" end="146" />
+        <spannedText>emesis</spannedText>
+        <creationDate>Wed Aug 03 12:08:36 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23852">
+        <mentionClass id="Symptom">emesis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23853" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="151" end="189" />
+        <spannedText>severe anion gap metabolic acidosis</spannedText>
+        <creationDate>Wed Aug 03 12:08:55 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23853">
+        <mentionClass id="Symptom">severe anion gap metabolic acidosis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23854" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="191" end="210" />
+        <spannedText>acute renal failure</spannedText>
+        <creationDate>Wed Aug 03 12:09:00 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23854">
+        <mentionClass id="Symptom">acute renal failure</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23855" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="212" end="224" />
+        <spannedText>hypoglycemia</spannedText>
+        <creationDate>Wed Aug 03 12:09:05 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23855">
+        <mentionClass id="Symptom">hypoglycemia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23856" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="237" end="252" />
+        <spannedText>lactic acidosis</spannedText>
+        <creationDate>Wed Aug 03 12:09:13 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23856">
+        <mentionClass id="Symptom">lactic acidosis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23857" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="281" end="297" />
+        <spannedText>productive cough</spannedText>
+        <creationDate>Wed Aug 03 12:09:16 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23857">
+        <mentionClass id="Symptom">productive cough</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23858" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="439" end="457" />
+        <spannedText>dull chest pain</spannedText>
+        <creationDate>Wed Aug 03 12:09:27 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23858">
+        <mentionClass id="Symptom">dull chest pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23859" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="531" end="539" />
+        <spannedText>ischemia</spannedText>
+        <creationDate>Wed Aug 03 12:09:34 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23859">
+        <mentionClass id="Symptom">ischemia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23860" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2632" end="2641" />
+        <spannedText>effusions</spannedText>
+        <creationDate>Wed Aug 03 12:09:58 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23860">
+        <mentionClass id="Symptom">effusions</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23861" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2646" end="2658" />
+        <spannedText>cardiomegaly</spannedText>
+        <creationDate>Wed Aug 03 12:10:01 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23861">
+        <mentionClass id="Symptom">cardiomegaly</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23862" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2846" end="2857" />
+        <spannedText>feel poorly</spannedText>
+        <creationDate>Wed Aug 03 12:10:29 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23862">
+        <mentionClass id="Symptom">feel poorly</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23863" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3056" end="3067" />
+        <spannedText>tachycardic</spannedText>
+        <creationDate>Wed Aug 03 12:10:40 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23863">
+        <mentionClass id="Symptom">tachycardic</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23864" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3077" end="3088" />
+        <spannedText>hypovolemic</spannedText>
+        <creationDate>Wed Aug 03 12:10:42 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23864">
+        <mentionClass id="Symptom">hypovolemic</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23865" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3638" end="3650" />
+        <spannedText>leukocytosis</spannedText>
+        <creationDate>Wed Aug 03 12:11:09 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23865">
+        <mentionClass id="Symptom">leukocytosis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23866" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3889" end="3900" />
+        <spannedText>dehydration</spannedText>
+        <creationDate>Wed Aug 03 12:11:20 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23866">
+        <mentionClass id="Symptom">dehydration</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23867" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3901" end="3912" />
+        <spannedText>hypovolemia</spannedText>
+        <creationDate>Wed Aug 03 12:11:21 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23867">
+        <mentionClass id="Symptom">hypovolemia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23868" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3943" end="3956" />
+        <spannedText>hyperglycemia</spannedText>
+        <creationDate>Wed Aug 03 12:11:24 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23868">
+        <mentionClass id="Symptom">hyperglycemia</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23869" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="0" end="540" />
+        <spannedText>24 Hour Events: 46F admitted overnight with stageIIIb melanoma on adjuvant chemotherapy with IFN therapy; developed myalgias, nausea, emesis and severe anion gap metabolic acidosis, acute renal failure, hypoglycemia of 1000, lactic acidosis of 5.6. Also complained of productive cough. Overnight, she was treated with fluid resucitation and insulin gtt with improvement in her blood sugar and anion gap. Complained of dull chest pain that resolved spontaneoulsy. EKG checked and was without evidence of ischemia.</spannedText>
+        <creationDate>Wed Aug 03 15:09:12 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23869">
+        <mentionClass id="Symptom_Section">24 Hour Events: 46F admitted overnight with stageIIIb melanoma on adjuvant chemotherapy with IFN therapy; developed myalgias, nausea, emesis and severe anion gap metabolic acidosis, acute renal failure, hypoglycemia of 1000, lactic acidosis of 5.6. Also complained of productive cough. Overnight, she was treated with fluid resucitation and insulin gtt with improvement in her blood sugar and anion gap. Complained of dull chest pain that resolved spontaneoulsy. EKG checked and was without evidence of ischemia.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23870" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="0" end="15" />
+        <spannedText>24 Hour Events:</spannedText>
+        <creationDate>Wed Aug 03 15:09:14 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23870">
+        <mentionClass id="SectionHeader_HasSymptom">24 Hour Events:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23871" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1906" end="1911" />
+        <spannedText>edema</spannedText>
+        <creationDate>Wed Aug 03 16:28:22 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23871">
+        <mentionClass id="Symptom">edema</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

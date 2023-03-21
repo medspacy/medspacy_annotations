@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="problem_doc.txt">
+    <annotation>
+        <mention id="EHOST_Instance_264" />
+        <annotator id="01">Tiffany</annotator>
+        <span start="76" end="84" />
+        <spannedText>nauseous</spannedText>
+        <creationDate>Fri Jul 15 16:46:51 CDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_264">
+        <mentionClass id="Symptom">nauseous</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_265" />
+        <annotator id="01">Tiffany</annotator>
+        <span start="45" end="49" />
+        <spannedText>2010</spannedText>
+        <creationDate>Fri Jul 15 16:47:00 CDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_265">
+        <mentionClass id="SectionHeader_HasSymptom">2010</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_266" />
+        <annotator id="01">Tiffany</annotator>
+        <span start="50" end="104" />
+        <spannedText>Veteran states that he is nauseous, provider informed</spannedText>
+        <creationDate>Fri Jul 15 16:47:05 CDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_266">
+        <mentionClass id="Symptom_Section">Veteran states that he is nauseous, provider informed</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

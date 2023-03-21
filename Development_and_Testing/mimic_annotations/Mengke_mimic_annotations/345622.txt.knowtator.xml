@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="345622.txt">
+    <annotation>
+        <mention id="EHOST_Instance_1911" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="371" end="377" />
+        <spannedText>Nausea</spannedText>
+        <creationDate>Wed Aug 03 16:05:33 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1911">
+        <mentionClass id="Symptom">Nausea</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1912" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="378" end="386" />
+        <spannedText>Vomiting</spannedText>
+        <creationDate>Wed Aug 03 16:05:35 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1912">
+        <mentionClass id="Symptom">Vomiting</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1913" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="419" end="426" />
+        <spannedText>fatigue</spannedText>
+        <creationDate>Wed Aug 03 16:05:43 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1913">
+        <mentionClass id="Symptom">fatigue</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1914" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="1021" end="1028" />
+        <spannedText>Fatigue</spannedText>
+        <creationDate>Wed Aug 03 16:06:04 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1914">
+        <mentionClass id="Symptom">Fatigue</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1915" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2983" end="3015" />
+        <spannedText>decreased breath sounds on right</spannedText>
+        <creationDate>Wed Aug 03 16:06:34 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1915">
+        <mentionClass id="Symptom">decreased breath sounds on right</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

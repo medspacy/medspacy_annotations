@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="537108.txt">
+    <annotation>
+        <mention id="EHOST_Instance_2092" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="0" end="5" />
+        <spannedText>CVICU</spannedText>
+        <creationDate>Mon Aug 01 15:38:46 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2092">
+        <mentionClass id="Doc_reviewed_no_symptoms">CVICU</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2093" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="665" end="671" />
+        <spannedText>emesis</spannedText>
+        <creationDate>Thu Aug 04 13:06:35 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2093">
+        <mentionClass id="Symptom">emesis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2094" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4210" end="4215" />
+        <spannedText>wound</spannedText>
+        <creationDate>Thu Aug 04 13:10:45 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2094">
+        <mentionClass id="Symptom">wound</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

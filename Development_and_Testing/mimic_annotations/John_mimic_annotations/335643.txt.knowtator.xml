@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="335643.txt">
+    <annotation>
+        <mention id="EHOST_Instance_23817" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="124" end="140" />
+        <spannedText>Low grade fevers</spannedText>
+        <creationDate>Wed Aug 03 11:57:02 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23817">
+        <mentionClass id="Symptom">Low grade fevers</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23818" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2781" end="2795" />
+        <spannedText>acute distress</spannedText>
+        <creationDate>Wed Aug 03 11:57:42 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23818">
+        <mentionClass id="Symptom">acute distress</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23819" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3273" end="3278" />
+        <spannedText>edema</spannedText>
+        <creationDate>Wed Aug 03 11:58:06 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23819">
+        <mentionClass id="Symptom">edema</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23820" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="3336" end="3340" />
+        <spannedText>Rash</spannedText>
+        <creationDate>Wed Aug 03 11:58:12 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23820">
+        <mentionClass id="Symptom">Rash</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23821" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4980" end="4999" />
+        <spannedText>shortness of breath</spannedText>
+        <creationDate>Wed Aug 03 11:58:35 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23821">
+        <mentionClass id="Symptom">shortness of breath</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23822" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5002" end="5009" />
+        <spannedText>stridor</spannedText>
+        <creationDate>Wed Aug 03 11:58:37 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23822">
+        <mentionClass id="Symptom">stridor</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23823" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5034" end="5070" />
+        <spannedText>fluid collection in anterior neck</spannedText>
+        <creationDate>Wed Aug 03 11:58:43 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23823">
+        <mentionClass id="Symptom">fluid collection in anterior neck</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23824" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5131" end="5146" />
+        <spannedText>multi-focal PNA</spannedText>
+        <creationDate>Wed Aug 03 11:58:51 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23824">
+        <mentionClass id="Symptom">multi-focal PNA</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23825" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5259" end="5266" />
+        <spannedText>stridor</spannedText>
+        <creationDate>Wed Aug 03 11:58:59 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23825">
+        <mentionClass id="Symptom">stridor</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23826" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5590" end="5609" />
+        <spannedText>subglottic swelling</spannedText>
+        <creationDate>Wed Aug 03 11:59:29 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23826">
+        <mentionClass id="Symptom">subglottic swelling</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23827" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="5906" end="5911" />
+        <spannedText>edema</spannedText>
+        <creationDate>Wed Aug 03 11:59:44 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23827">
+        <mentionClass id="Symptom">edema</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23828" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="6091" end="6104" />
+        <spannedText>neck swelling</spannedText>
+        <creationDate>Wed Aug 03 12:00:18 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23828">
+        <mentionClass id="Symptom">neck swelling</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23829" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="8256" end="8260" />
+        <spannedText>afib</spannedText>
+        <creationDate>Wed Aug 03 12:01:55 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23829">
+        <mentionClass id="Symptom">afib</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23830" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="8444" end="8464" />
+        <spannedText>respiratory distress</spannedText>
+        <creationDate>Wed Aug 03 12:02:47 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23830">
+        <mentionClass id="Symptom">respiratory distress</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23831" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="8472" end="8479" />
+        <spannedText>stridor</spannedText>
+        <creationDate>Wed Aug 03 12:02:50 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23831">
+        <mentionClass id="Symptom">stridor</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23832" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="9168" end="9186" />
+        <spannedText>supraglottic edema</spannedText>
+        <creationDate>Wed Aug 03 12:03:10 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23832">
+        <mentionClass id="Symptom">supraglottic edema</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23833" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="0" end="236" />
+        <spannedText>Chief Complaint: 24 Hour Events: OGT placed Had Mini-Bal yesterday; antibiotics changed to Vanc/Zosyn + clinda. Low grade fevers 100.1. Coreg was restarted (at lower dose) b/c having mult episodes of NSVT on telemetry.</spannedText>
+        <creationDate>Wed Aug 03 12:03:54 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23833">
+        <mentionClass id="Symptom_Section">Chief Complaint: 24 Hour Events: OGT placed Had Mini-Bal yesterday; antibiotics changed to Vanc/Zosyn + clinda. Low grade fevers 100.1. Coreg was restarted (at lower dose) b/c having mult episodes of NSVT on telemetry.</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23834" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="0" end="16" />
+        <spannedText>Chief Complaint:</spannedText>
+        <creationDate>Wed Aug 03 12:03:56 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23834">
+        <mentionClass id="SectionHeader_HasSymptom">Chief Complaint:</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23835" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2718" end="4408" />
+        <spannedText>Physical Examination General Appearance: Well nourished, No acute distress, Overweight / Obese Eyes / Conjunctiva: PERRL Head, Ears, Nose, Throat: Normocephalic, Nasotracheal tube Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Systolic) Peripheral Vascular: (Right DP pulse: Present), (Left DP pulse: Present) Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Bronchial: , Wheezes : ), Vent sounds Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended Extremities: Right: Trace, Left: Trace edema Musculoskeletal: No Muscle wasting Skin: Warm, No Rash: Neurologic: Responds to: Not assessed, Movement: Not assessed, respond to questions by nodding/shaking head, responds to pain. Also, writing down questions. Labs / Radiology 201 K/uL 11.6 g/dL 329 mg/dL 1.3 mg/dL 25 mEq/L 3.7 mEq/L 30 mg/dL 104 mEq/L 141 mEq/L 35.9 % 13.5 K/uL [image002.jpg] [**2178-7-30**] 10:23 PM [**2178-7-30**] 10:46 PM [**2178-7-31**] 04:56 AM [**2178-7-31**] 05:41 AM [**2178-7-31**] 06:30 AM [**2178-7-31**] 07:13 AM [**2178-8-1**] 02:51 AM [**2178-8-1**] 01:14 PM [**2178-8-2**] 04:19 AM WBC 9.0 7.4 13.5 15.1 13.5 Hct 28.0 26.6 36.4 36.5 38.3 35.9 Plt 124 113 174 187 201 Cr 0.9 0.7 1.1 1.3 1.3 Glucose 166 193 264 216 329</spannedText>
+        <creationDate>Wed Aug 03 12:04:15 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23835">
+        <mentionClass id="Symptom_Section">Physical Examination General Appearance: Well nourished, No acute distress, Overweight / Obese Eyes / Conjunctiva: PERRL Head, Ears, Nose, Throat: Normocephalic, Nasotracheal tube Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Systolic) Peripheral Vascular: (Right DP pulse: Present), (Left DP pulse: Present) Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Bronchial: , Wheezes : ), Vent sounds Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended Extremities: Right: Trace, Left: Trace edema Musculoskeletal: No Muscle wasting Skin: Warm, No Rash: Neurologic: Responds to: Not assessed, Movement: Not assessed, respond to questions by nodding/shaking head, responds to pain. Also, writing down questions. Labs / Radiology 201 K/uL 11.6 g/dL 329 mg/dL 1.3 mg/dL 25 mEq/L 3.7 mEq/L 30 mg/dL 104 mEq/L 141 mEq/L 35.9 % 13.5 K/uL [image002.jpg] [**2178-7-30**] 10:23 PM [**2178-7-30**] 10:46 PM [**2178-7-31**] 04:56 AM [**2178-7-31**] 05:41 AM [**2178-7-31**] 06:30 AM [**2178-7-31**] 07:13 AM [**2178-8-1**] 02:51 AM [**2178-8-1**] 01:14 PM [**2178-8-2**] 04:19 AM WBC 9.0 7.4 13.5 15.1 13.5 Hct 28.0 26.6 36.4 36.5 38.3 35.9 Plt 124 113 174 187 201 Cr 0.9 0.7 1.1 1.3 1.3 Glucose 166 193 264 216 329</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23836" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="2718" end="2738" />
+        <spannedText>Physical Examination</spannedText>
+        <creationDate>Wed Aug 03 12:04:21 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23836">
+        <mentionClass id="SectionHeader_HasSymptom">Physical Examination</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23837" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4751" end="10172" />
+        <spannedText>Assessment and Plan 57-year-old man with history of DM, hypertension, status post CABG complicated by CVA and subglottic stenosis (after multiple intubations), CHF with the EF of 35%-40%, who presented to the ED with shortness of breath &amp; stridor and was found to have a fluid collection in anterior neck s/p tracheal dilation two days prior as well as possible multi-focal PNA. # Airway compromise/Anterior Neck Collection: H/o subglottic stenosis s/p multiple intubations. Has h/o stridor. Underwent tracheal dilation at Mass Eye &amp; Ear on [**7-27**] w/ Dr. [**First Name4 (NamePattern1) 3066**] [**Last Name (NamePattern1) 4326**]. Suspect acute compromise in airway is related to procedure; however, no clear findings on fiberoptic imaging while intubating. Per ENT, pt's sridor could be rebound subglottic swelling from recent procedure, however this usually doesn't happen in this time frame. Anterior neck collection may be related to airway compromise given its size. Again, suspect that this collection is related to recent procedure. [**Month (only) 60**] be early infectious collection vs. edema. Not drainable at present. - Continue empiric treatment with clindamycin as well as vanc and Zosyn - brief course of increased steroids to attempt to decrease extent of neck swelling - keep intubated for now; will d/w ENT &amp; anesthesia to coordinate possible extubation today/tomorrow - Monitor neck for increasing size of mass - ENT following # Fevers: Low grade temps overnight. Ddx includes infected neck fluid collection (though does not appear infected on CT scan) versus PNA seen on CT. WBC rising. Pt not currently showing signs of sepsis. - Con t expanded antibiotic coverage as above - culture today - mini BAL # Drop in HCT: pt s Hct was 42 on admission (baseline high 30s), then dropped to 27 after getting IVF. Also, question of blood being drawn proximal to IV being run, possibly causing significant hemodilution. No e/o gross hemorrhage at present, although pt could have blood in ant neck collection. Hct now stable - Trend HCT, appears stable - Guaiac stools # CAD: s/p 5 vessel CABG. CE negative x2 since presentation. No CP. - Restarted coreg, aspirin, will resume statin as well since pt has OGT # CHF/Cardiomyopathy: last TTE in [**6-23**] w/ EF 35-40%. - restart lasix - Con t Coreg; restart lisinopril; hold spironolactone for today #Afib/CVA: in sinus at present. Rate 70s. INR 1.4. Coumadin had been on hold peri-procedure (trach dilation). - holding Coumadin for possible procedure - on decreased dose of Coreg # H/o postoperative polymorphic VT: tx d mexiletine - hold mexiletine for now #DM II: RISS plus lantus (will increase lantus dose to home dose of 32u QHS) # Contact/HCP: Wife ICU [**Name (NI) **] Nutrition: OGT Lines: 18 Gauge - [**2178-7-30**] 07:00 PM 20 Gauge - [**2178-7-31**] 12:00 AM Prophylaxis: DVT: Boots, SQ UF Heparin Communication: spoke w/ wife today about pt s care Code status: Full code Disposition: ICU ------ Protected Section ------ MICU ATTENDING ADDENDUM I saw and examined the patient, and was physically present with the ICU team for the key portions of the services provided. I agree with the note above, including the assessment and plan. I would emphasize and add the following points: 57 yo man with afib, CAD sp CABG complicated by CVA requiring recurrent intubations and subglottic stenosis. Recent tracheal dilation [**7-27**] at [**Hospital 3414**]. Presented [**7-30**] with respiratory distress and stridor requiring fiberoptic nasal intubation. CT neck showed anterior fluid collection. 24 hour events: -steroids increased to decadron 4mg IV q6hr -cuff leak this morning meds: clindamycin 900mg IV q8, vancomycin 1gm IV q12hr, Zosyn 3.375 gm IV q8hr, Decadron 10mg IV q8r, propofol gtt, Exam notable for Tm 100.1 99.2 BP 147/97 HR 65 RR 15 with sat 100% on AC 600/16/5/35% I/O 1700/1600 over 24 hrs Intubated, sedated. Lungs clear anteriorly. RRR, no m/r/g. +BS, soft. No LE edema. Labs notable for WBC 13.5K, HCT 35.9, K+ 3.7, Cr stable today at 1.3. INR 1.6 micro: NGTD CXR with improving LLL infiltrate Neck CT [**7-31**] with persistent supraglottic edema Agree with plan to 1) tracheal stenosis with recent dilation procedure, now with subglottic edema -continue dexamethasone at current dose for now -with cuff leak so likely ready for extubation but will need to have anesthesia (and if available, ENT) services present 2) rising WBC count with fevers -continue zosyn, vancomycin, and clindamycin for now -deep tracheal aspirate and urine culture, blood culture 3) rising Cr 0.7(may be spuriously low) to 1.3 -Cr is actually stable as Cr 0.7 was from diluted sample -resume lasix at home dose today 4) afib with CVA in past -can hold coumadin for now as may need procedures, can resume if successful extubation 5) access -PICC to be placed today FULL CODE Remainder of plan as outlined above. Patient is critically ill Total time: 70 min ------ Protected Section Addendum Entered By:[**Name (NI) **] [**Last Name (NamePattern1) 619**], MD on:[**2178-8-2**] 17:02 ------</spannedText>
+        <creationDate>Wed Aug 03 12:04:35 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23837">
+        <mentionClass id="Symptom_Section">Assessment and Plan 57-year-old man with history of DM, hypertension, status post CABG complicated by CVA and subglottic stenosis (after multiple intubations), CHF with the EF of 35%-40%, who presented to the ED with shortness of breath &amp; stridor and was found to have a fluid collection in anterior neck s/p tracheal dilation two days prior as well as possible multi-focal PNA. # Airway compromise/Anterior Neck Collection: H/o subglottic stenosis s/p multiple intubations. Has h/o stridor. Underwent tracheal dilation at Mass Eye &amp; Ear on [**7-27**] w/ Dr. [**First Name4 (NamePattern1) 3066**] [**Last Name (NamePattern1) 4326**]. Suspect acute compromise in airway is related to procedure; however, no clear findings on fiberoptic imaging while intubating. Per ENT, pt's sridor could be rebound subglottic swelling from recent procedure, however this usually doesn't happen in this time frame. Anterior neck collection may be related to airway compromise given its size. Again, suspect that this collection is related to recent procedure. [**Month (only) 60**] be early infectious collection vs. edema. Not drainable at present. - Continue empiric treatment with clindamycin as well as vanc and Zosyn - brief course of increased steroids to attempt to decrease extent of neck swelling - keep intubated for now; will d/w ENT &amp; anesthesia to coordinate possible extubation today/tomorrow - Monitor neck for increasing size of mass - ENT following # Fevers: Low grade temps overnight. Ddx includes infected neck fluid collection (though does not appear infected on CT scan) versus PNA seen on CT. WBC rising. Pt not currently showing signs of sepsis. - Con t expanded antibiotic coverage as above - culture today - mini BAL # Drop in HCT: pt s Hct was 42 on admission (baseline high 30s), then dropped to 27 after getting IVF. Also, question of blood being drawn proximal to IV being run, possibly causing significant hemodilution. No e/o gross hemorrhage at present, although pt could have blood in ant neck collection. Hct now stable - Trend HCT, appears stable - Guaiac stools # CAD: s/p 5 vessel CABG. CE negative x2 since presentation. No CP. - Restarted coreg, aspirin, will resume statin as well since pt has OGT # CHF/Cardiomyopathy: last TTE in [**6-23**] w/ EF 35-40%. - restart lasix - Con t Coreg; restart lisinopril; hold spironolactone for today #Afib/CVA: in sinus at present. Rate 70s. INR 1.4. Coumadin had been on hold peri-procedure (trach dilation). - holding Coumadin for possible procedure - on decreased dose of Coreg # H/o postoperative polymorphic VT: tx d mexiletine - hold mexiletine for now #DM II: RISS plus lantus (will increase lantus dose to home dose of 32u QHS) # Contact/HCP: Wife ICU [**Name (NI) **] Nutrition: OGT Lines: 18 Gauge - [**2178-7-30**] 07:00 PM 20 Gauge - [**2178-7-31**] 12:00 AM Prophylaxis: DVT: Boots, SQ UF Heparin Communication: spoke w/ wife today about pt s care Code status: Full code Disposition: ICU ------ Protected Section ------ MICU ATTENDING ADDENDUM I saw and examined the patient, and was physically present with the ICU team for the key portions of the services provided. I agree with the note above, including the assessment and plan. I would emphasize and add the following points: 57 yo man with afib, CAD sp CABG complicated by CVA requiring recurrent intubations and subglottic stenosis. Recent tracheal dilation [**7-27**] at [**Hospital 3414**]. Presented [**7-30**] with respiratory distress and stridor requiring fiberoptic nasal intubation. CT neck showed anterior fluid collection. 24 hour events: -steroids increased to decadron 4mg IV q6hr -cuff leak this morning meds: clindamycin 900mg IV q8, vancomycin 1gm IV q12hr, Zosyn 3.375 gm IV q8hr, Decadron 10mg IV q8r, propofol gtt, Exam notable for Tm 100.1 99.2 BP 147/97 HR 65 RR 15 with sat 100% on AC 600/16/5/35% I/O 1700/1600 over 24 hrs Intubated, sedated. Lungs clear anteriorly. RRR, no m/r/g. +BS, soft. No LE edema. Labs notable for WBC 13.5K, HCT 35.9, K+ 3.7, Cr stable today at 1.3. INR 1.6 micro: NGTD CXR with improving LLL infiltrate Neck CT [**7-31**] with persistent supraglottic edema Agree with plan to 1) tracheal stenosis with recent dilation procedure, now with subglottic edema -continue dexamethasone at current dose for now -with cuff leak so likely ready for extubation but will need to have anesthesia (and if available, ENT) services present 2) rising WBC count with fevers -continue zosyn, vancomycin, and clindamycin for now -deep tracheal aspirate and urine culture, blood culture 3) rising Cr 0.7(may be spuriously low) to 1.3 -Cr is actually stable as Cr 0.7 was from diluted sample -resume lasix at home dose today 4) afib with CVA in past -can hold coumadin for now as may need procedures, can resume if successful extubation 5) access -PICC to be placed today FULL CODE Remainder of plan as outlined above. Patient is critically ill Total time: 70 min ------ Protected Section Addendum Entered By:[**Name (NI) **] [**Last Name (NamePattern1) 619**], MD on:[**2178-8-2**] 17:02 ------</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23838" />
+        <annotator id="eHOST_2010">sjl</annotator>
+        <span start="4751" end="4770" />
+        <spannedText>Assessment and Plan</spannedText>
+        <creationDate>Wed Aug 03 12:04:39 MDT 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23838">
+        <mentionClass id="SectionHeader_HasSymptom">Assessment and Plan</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+
