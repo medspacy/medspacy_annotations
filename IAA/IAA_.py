@@ -302,12 +302,13 @@ def corpus_agreement(docs1, docs2, loose=1, labels=1,ent_or_spangroup='ent',attr
             print('Input Error: Input must be iterable of spacy documents, or dataframe.')
             return
 
-    if isinstance(docs1, pd.DataFrame):
+    if isinstance(docs1, pd.DataFrame) & isinstance(docs2, pd.DataFrame):
         docs1['Span Text'] = docs1['Span Text'].str.replace('\n',' ')
         docs2['Span Text'] = docs2['Span Text'].str.replace('\n',' ')
         docs1['Span Text'] = docs1['Span Text'].str.replace('\t',' ')
         docs2['Span Text'] = docs2['Span Text'].str.replace('\t',' ')
-        for doc_name in docs1[df_doc_name].unique():
+        unique_doc_names = list(set(docs1[df_doc_name].unique().tolist() + docs2[df_doc_name].unique().tolist()))
+        for doc_name in unique_doc_names:
             docs1_df = docs1[docs1[df_doc_name] == doc_name]
             docs2_df = docs2[docs2[df_doc_name] == doc_name]
             if loose==1:
@@ -398,7 +399,10 @@ def create_agreement_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents,attributes
     for attr in attributes:
         result_dict["A1_" + attr] = []
         result_dict["A2_" + attr] = []
-    doc_name = doc1_ents['doc name'].tolist()[0]
+    if len(doc1_ents['doc name'].tolist()) > 0:
+        doc_name = doc1_ents['doc name'].tolist()[0]
+    elif len(doc2_ents['doc name'].tolist()) > 0:
+        doc_name = doc2_ents['doc name'].tolist()[0]
     for index1 in doc1_ents.index: #iterate through all ents inset one
         if index1 in doc1_matches.keys(): #Cases where the ent has a match
             #if another index1 is in doc2_matches.values(), then add it to this row
@@ -570,7 +574,10 @@ def merge_df(doc1_matches,doc2_matches,doc1_ents,doc2_ents,attributes=[]):
     for attr in attributes:
         merge_dict[attr] = []
         
-    doc_name = doc1_ents['doc name'].tolist()[0]
+    if len(doc1_ents['doc name'].tolist()) > 0:
+        doc_name = doc1_ents['doc name'].tolist()[0]
+    elif len(doc2_ents['doc name'].tolist()) > 0:
+        doc_name = doc2_ents['doc name'].tolist()[0]
     for index1 in doc1_ents.index: #iterate through all ents in set one
         if index1 in doc1_matches.keys(): #Cases where the ent has a match
             #if another index1 is in doc2_matches.values(), then add it to this row
