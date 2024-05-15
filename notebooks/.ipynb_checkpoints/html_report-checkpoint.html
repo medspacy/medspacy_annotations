@@ -1,0 +1,422 @@
+
+            <html>
+                <head>
+                    <title>Annotation Report</title>
+                </head>
+                <body>
+            <h1>spacyDoc_set1-ehost_import_df</h1>
+            <h2>Span Matching</h2>
+            <p>Explanation here</p>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>TP</th>
+      <th>FP</th>
+      <th>FN</th>
+      <th>Recall</th>
+      <th>Precision</th>
+      <th>F1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Span Matching</th>
+      <td>8</td>
+      <td>6</td>
+      <td>1</td>
+      <td>0.889</td>
+      <td>0.571</td>
+      <td>0.696</td>
+    </tr>
+  </tbody>
+</table>
+            <h2>Token level Matching</h2>
+            <p>Explanation here</p>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>TP</th>
+      <th>FP</th>
+      <th>FN</th>
+      <th>TN</th>
+      <th>F1</th>
+      <th>Token-level Cohens Kappa</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Token Level Matching</th>
+      <td>9</td>
+      <td>7</td>
+      <td>1</td>
+      <td>60</td>
+      <td>0.692</td>
+      <td>0.634</td>
+    </tr>
+  </tbody>
+</table>
+            <h2>Token-level Density of annotations</h2>
+            <img src=spacyDoc_set1-ehost_import_df_pi.png width="700">
+            <h2>Label Matching</h2>
+            <p>Explanation here</p>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>TP</th>
+      <th>FP</th>
+      <th>FN</th>
+      <th>Recall</th>
+      <th>Precision</th>
+      <th>F1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Gastrointestinal_and_Genitourinary</th>
+      <td>3</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0.75</td>
+      <td>0.750</td>
+      <td>0.750</td>
+    </tr>
+    <tr>
+      <th>Anatomical_Location</th>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>1.00</td>
+      <td>0.333</td>
+      <td>0.500</td>
+    </tr>
+    <tr>
+      <th>Pain</th>
+      <td>4</td>
+      <td>3</td>
+      <td>0</td>
+      <td>1.00</td>
+      <td>0.571</td>
+      <td>0.727</td>
+    </tr>
+  </tbody>
+</table>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>TP</th>
+      <th>FP</th>
+      <th>FN</th>
+      <th>Recall</th>
+      <th>Precision</th>
+      <th>F1 (Micro)</th>
+      <th>F1 (Macro)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Overall Label Metrics</th>
+      <td>8</td>
+      <td>6</td>
+      <td>1</td>
+      <td>0.889</td>
+      <td>0.571</td>
+      <td>0.696</td>
+      <td>0.659</td>
+    </tr>
+  </tbody>
+</table>
+            <h2>Attribute Matching (Label Dependent)</h2>
+            <p>Explanation here</p>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>TP</th>
+      <th>FP</th>
+      <th>FN</th>
+      <th>Recall</th>
+      <th>Precision</th>
+      <th>F1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="5" valign="top">Gastrointestinal_and_Genitourinary</th>
+      <th rowspan="2" valign="top">Negation</th>
+      <th>Affirmed</th>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.5</td>
+      <td>1.0</td>
+      <td>0.667</td>
+    </tr>
+    <tr>
+      <th>Negated</th>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>0.5</td>
+      <td>0.667</td>
+    </tr>
+    <tr>
+      <th rowspan="3" valign="top">Temporality</th>
+      <th>Past</th>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>Und</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <th>Present</th>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.000</td>
+    </tr>
+    <tr>
+      <th>Hypothetical</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>Und</td>
+      <td>0.0</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">Anatomical_Location</th>
+      <th>Negation</th>
+      <th>Affirmed</th>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>Und</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <th>Temporality</th>
+      <th>Present</th>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>Und</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <th rowspan="4" valign="top">Pain</th>
+      <th rowspan="2" valign="top">Negation</th>
+      <th>Affirmed</th>
+      <td>2</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.667</td>
+      <td>1.0</td>
+      <td>0.800</td>
+    </tr>
+    <tr>
+      <th>Negated</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>Und</td>
+      <td>0.0</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">Temporality</th>
+      <th>Past</th>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <th>Present</th>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.000</td>
+    </tr>
+  </tbody>
+</table>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>TP</th>
+      <th>FP</th>
+      <th>FN</th>
+      <th>Recall</th>
+      <th>Precision</th>
+      <th>F1 (Micro)</th>
+      <th>F1 (Macro)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Overall Attribute Metrics (label dependent)</th>
+      <td>6</td>
+      <td>6</td>
+      <td>8</td>
+      <td>0.429</td>
+      <td>0.5</td>
+      <td>0.462</td>
+      <td>0.285</td>
+    </tr>
+  </tbody>
+</table>
+            <h2>Attribute Matching (Label Independent)</h2>
+            <p>Explanation here</p>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>TP</th>
+      <th>FP</th>
+      <th>FN</th>
+      <th>Recall</th>
+      <th>Precision</th>
+      <th>F1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="4" valign="top">Negation</th>
+      <th></th>
+      <td>0</td>
+      <td>1</td>
+      <td>6</td>
+      <td>0.0</td>
+      <td>0.000</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <th>Affirmed</th>
+      <td>3</td>
+      <td>4</td>
+      <td>3</td>
+      <td>0.5</td>
+      <td>0.429</td>
+      <td>0.462</td>
+    </tr>
+    <tr>
+      <th>NA</th>
+      <td>0</td>
+      <td>3</td>
+      <td>0</td>
+      <td>Und</td>
+      <td>0.000</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <th>Negated</th>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.667</td>
+      <td>0.500</td>
+      <td>0.571</td>
+    </tr>
+    <tr>
+      <th rowspan="5" valign="top">Temporality</th>
+      <th></th>
+      <td>0</td>
+      <td>1</td>
+      <td>6</td>
+      <td>0.0</td>
+      <td>0.000</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <th>Past</th>
+      <td>0</td>
+      <td>1</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>0.000</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <th>Present</th>
+      <td>2</td>
+      <td>4</td>
+      <td>5</td>
+      <td>0.286</td>
+      <td>0.333</td>
+      <td>0.308</td>
+    </tr>
+    <tr>
+      <th>NA</th>
+      <td>0</td>
+      <td>4</td>
+      <td>0</td>
+      <td>Und</td>
+      <td>0.000</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <th>Hypothetical</th>
+      <td>0</td>
+      <td>4</td>
+      <td>0</td>
+      <td>Und</td>
+      <td>0.000</td>
+      <td>0.000</td>
+    </tr>
+  </tbody>
+</table>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>TP</th>
+      <th>FP</th>
+      <th>FN</th>
+      <th>Recall</th>
+      <th>Precision</th>
+      <th>F1 (Micro)</th>
+      <th>F1 (Macro)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Overall Attribute Metrics (label independent)</th>
+      <td>7</td>
+      <td>24</td>
+      <td>24</td>
+      <td>0.226</td>
+      <td>0.226</td>
+      <td>0.226</td>
+      <td>0.149</td>
+    </tr>
+  </tbody>
+</table>
+            <h2>Relationship Matching</h2>
+            
+            <h2>Mismatched spans</h2>
+            <h3>Annotator 1 Misses</h3>
+            <img src=spacyDoc_set1-ehost_import_dfAnnotator2_mismatches.png width="1000">
+            <h3>Annotator 2 Misses</h3>
+            <img src=spacyDoc_set1-ehost_import_dfAnnotator1_mismatches.png width="1000">
+            
+                </body>
+            </html>
+            

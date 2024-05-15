@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="Example_3.txt">
+    <annotation>
+        <mention id="EHOST_Instance_23" />
+        <annotator id="eHOST_2010">John</annotator>
+        <span start="29" end="33" />
+        <spannedText>pain</spannedText>
+        <creationDate>Wed May 15 13:39:15 CDT 2024</creationDate>
+    </annotation>
+    <stringSlotMention id="EHOST_Instance_30">
+        <mentionSlot id="Temporality" />
+        <stringSlotMentionValue value="Present" />
+    </stringSlotMention>
+    <stringSlotMention id="EHOST_Instance_31">
+        <mentionSlot id="Negation" />
+        <stringSlotMentionValue value="Negated" />
+    </stringSlotMention>
+    <classMention id="EHOST_Instance_23">
+        <hasSlotMention id="EHOST_Instance_30" />
+        <hasSlotMention id="EHOST_Instance_31" />
+        <mentionClass id="Pain">pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24" />
+        <annotator id="eHOST_2010">John</annotator>
+        <span start="20" end="24" />
+        <spannedText>Eyes</spannedText>
+        <creationDate>Wed May 15 13:39:17 CDT 2024</creationDate>
+    </annotation>
+    <complexSlotMention id="EHOST_Instance_32">
+        <mentionSlot id="Anatomy_to_Pain" />
+        <complexSlotMentionValue value="EHOST_Instance_23" />
+    </complexSlotMention>
+    <classMention id="EHOST_Instance_24">
+        <hasSlotMention id="EHOST_Instance_32" />
+        <mentionClass id="Anatomical_Location">Eyes</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_25" />
+        <annotator id="eHOST_2010">John</annotator>
+        <span start="62" end="66" />
+        <spannedText>pain</spannedText>
+        <creationDate>Wed May 15 13:39:28 CDT 2024</creationDate>
+    </annotation>
+    <stringSlotMention id="EHOST_Instance_33">
+        <mentionSlot id="Temporality" />
+        <stringSlotMentionValue value="Hypothetical" />
+    </stringSlotMention>
+    <stringSlotMention id="EHOST_Instance_34">
+        <mentionSlot id="Negation" />
+        <stringSlotMentionValue value="Affirmed" />
+    </stringSlotMention>
+    <classMention id="EHOST_Instance_25">
+        <hasSlotMention id="EHOST_Instance_33" />
+        <hasSlotMention id="EHOST_Instance_34" />
+        <mentionClass id="Pain">pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_26" />
+        <annotator id="eHOST_2010">John</annotator>
+        <span start="57" end="61" />
+        <spannedText>Back</spannedText>
+        <creationDate>Wed May 15 13:39:31 CDT 2024</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_26">
+        <mentionClass id="Anatomical_Location">Back</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_27" />
+        <annotator id="eHOST_2010">John</annotator>
+        <span start="82" end="86" />
+        <spannedText>pain</spannedText>
+        <creationDate>Wed May 15 13:40:09 CDT 2024</creationDate>
+    </annotation>
+    <stringSlotMention id="EHOST_Instance_35">
+        <mentionSlot id="Temporality" />
+        <stringSlotMentionValue value="Past" />
+    </stringSlotMention>
+    <stringSlotMention id="EHOST_Instance_36">
+        <mentionSlot id="Negation" />
+        <stringSlotMentionValue value="Affirmed" />
+    </stringSlotMention>
+    <classMention id="EHOST_Instance_27">
+        <hasSlotMention id="EHOST_Instance_35" />
+        <hasSlotMention id="EHOST_Instance_36" />
+        <mentionClass id="Pain">pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_28" />
+        <annotator id="eHOST_2010">John</annotator>
+        <span start="98" end="114" />
+        <spannedText>Gastrointestinal</spannedText>
+        <creationDate>Wed May 15 13:40:57 CDT 2024</creationDate>
+    </annotation>
+    <stringSlotMention id="EHOST_Instance_37">
+        <mentionSlot id="Temporality" />
+        <stringSlotMentionValue value="Hypothetical" />
+    </stringSlotMention>
+    <stringSlotMention id="EHOST_Instance_38">
+        <mentionSlot id="Negation" />
+        <stringSlotMentionValue value="Affirmed" />
+    </stringSlotMention>
+    <classMention id="EHOST_Instance_28">
+        <hasSlotMention id="EHOST_Instance_37" />
+        <hasSlotMention id="EHOST_Instance_38" />
+        <mentionClass id="Gastrointestinal_and_Genitourinary">Gastrointestinal</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_29" />
+        <annotator id="eHOST_2010">John</annotator>
+        <span start="119" end="125" />
+        <spannedText>nausea</spannedText>
+        <creationDate>Wed May 15 13:41:19 CDT 2024</creationDate>
+    </annotation>
+    <stringSlotMention id="EHOST_Instance_39">
+        <mentionSlot id="Temporality" />
+        <stringSlotMentionValue value="Present" />
+    </stringSlotMention>
+    <stringSlotMention id="EHOST_Instance_40">
+        <mentionSlot id="Negation" />
+        <stringSlotMentionValue value="Negated" />
+    </stringSlotMention>
+    <classMention id="EHOST_Instance_29">
+        <hasSlotMention id="EHOST_Instance_39" />
+        <hasSlotMention id="EHOST_Instance_40" />
+        <mentionClass id="Gastrointestinal_and_Genitourinary">nausea</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

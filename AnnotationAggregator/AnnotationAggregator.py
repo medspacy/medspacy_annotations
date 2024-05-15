@@ -15,16 +15,16 @@ class AnnotationAggregator(object):
     def __init__(
         self,
         annot = dict(),#:dict,
-        doc_col = None,#:str,
-        span_col = None,#:str,
-        label_col = None,#:str,
+        doc_col = 'DocID',#:str,
+        span_col = 'annotatedSpan',#:str,
+        label_col = 'spanLabel',#:str,
         attr = None,#:object,
         label_ind_attr = None,
         label_dep_attr = None,
         rel_source_col = None,
         rel_target_col = None,
-        span_start_col = None,#:str,
-        span_end_col = None,#:str,
+        span_start_col = 'spanStartChar',#:str,
+        span_end_col = 'spanEndChar',#:str,
         text = None#:dict or filepath
     ):
         """
@@ -114,13 +114,16 @@ class AnnotationAggregator(object):
                                                         
         #self.annot = annot_df_list
         
-        self.annot = annot #For now lets just assume the input type is correct
+        if isinstance(annot,dict):
+            self.annot = annot #For now lets just assume the input type is correctct
 
         try:
             self.text = self.extract_txt(text)
         except:
-            print('Error importing txt files')
-            self.text = text         
+            print('Error importing txt files from file, will try to use dictionary or spacy text if provided.')
+            if isinstance(text,dict):
+                self.text = text
+            
                 
     def calculate_agreement(self):
         
@@ -187,32 +190,6 @@ class AnnotationAggregator(object):
         
         return collect_documents(folder_path)
                                                              
-        
-    def extract_ent_span(self,ann,doc_id):
-        #Check if first instance is actually an ent or span, otherwise throw error
-        ent_dict = {self.doc_col:[],self.span_col:[],self.span_start_col:[],self.span_end_col:[],self.label_col:[]}
-    
-        for attr in self.attr:
-            ent_dict[attr] = []
-
-        for ents in ann:
-            ent_dict[self.doc_col].append(doc_id)
-            ent_dict[self.span_col].append(ents.text)
-            ent_dict[self.span_start_col].append(ents.start_char)
-            ent_dict[self.span_end_col].append(ents.end_char)
-            for attr in self.attr:
-                try:
-                    val = getattr(ents, attr)
-                except AttributeError:
-                    val = getattr(ents._, attr)
-                ent_dict[attr].append(val)
-            try:
-                ent_dict[self.label_col].append(ents.label_)
-            except:
-                ent_dict[self.label_col].append("")
-                       
-        #return pd.DataFrame.from_dict(ent_dict)
-        return None
     
     def add_ehost_files(self,annot_dirs,schema_file=None):
         try:
@@ -221,7 +198,8 @@ class AnnotationAggregator(object):
             from spacy.lang.en import English
             import os
         except:
-            print('Error: MedspaCy, ehost_reader, spacy.lang.en library failed to import. Pleast ensure your sys paths are set to the appropriate directories')
+            print('MedspaCy, ehost_reader, spacy.lang.en library failed to import. Pleast ensure your sys paths are set to the appropriate directories')
+            raise RuntimeError("Error occurred with import")
         attr_list = set()
         if not isinstance(annot_dirs,list):
             annot_dirs = [annot_dirs]
@@ -250,6 +228,8 @@ class AnnotationAggregator(object):
             flat1_df = long_df.pivot_table(index=['DocID','annotatedSpan','spanStartChar','spanEndChar','spanLabel','relLabel','relID','spanID'],columns='attrName',values='attrVal',aggfunc='first').reset_index()
             flat1_df.replace('NULL','NA',inplace=True)
             flat1_df.fillna('NA',inplace=True)
+            if 'NA' in flat1_df.columns:
+                flat1_df.drop('NA',axis=1,inplace=True)
             rels = flat1_df['relLabel'].unique().tolist()
             try:
                 rels.remove('NA')
@@ -259,6 +239,8 @@ class AnnotationAggregator(object):
                 flat1_df = flat1_df.pivot_table(index=['DocID','annotatedSpan','spanStartChar','spanEndChar','spanLabel','spanID']+attrs,columns='relLabel',values='relID',aggfunc='first').reset_index()
                 flat1_df.replace('NULL','NA',inplace=True)
                 flat1_df.fillna('NA',inplace=True)
+                if 'NA' in flat1_df.columns:
+                    flat1_df.drop('NA',axis=1,inplace=True)
                 self.rel_target_col = ['spanID']
                 rel_update = set(self.rel_source_col)
                 rel_update.update(rels)
@@ -283,7 +265,7 @@ class AnnotationAggregator(object):
             elif isinstance(self.text,dict):
                 self.text.update(self.extract_txt(os.path.join(annot_dir,'corpus')))
         except:
-            print('Error importing txt files')    
+            print('Error trying to import txt files from ehost \'corpus\' directory.')    
         
     
     def dir_extract(self,docs,attribute_list):
@@ -397,18 +379,15 @@ class AnnotationAggregator(object):
         return(pd.DataFrame(data=d, ))
           
         
-    def add_spacyDocs(self,docs1,name=None, labels=1, ent_or_spangroup = 'ent',attributes=[]):
+    def add_spacyDocs(self,docs1,name=None,id_list=[], labels=1, ent_or_spangroup = 'ent',attributes=[]):
         '''Establishes type of input and creates corresponding dataframe for entities.
 
         Arguments:
-            doc1: Either a spacy document, tuple/list of entities/spans, or spangroup. Considered the golden/correct annotation for fp,fn.
-            doc2: Either a spacy document, tuple/list of entities/spans, or spangroup.
-            loose: Boolean. 1 indicates to consider any overlap. 0 indicates to only consider exact matches.
-            labels: Boolean. 1 indicates to consider labels as matching criteria.
+            docs1: Either a spacy document, tuple/list of entities/spans, or spangroup.
             ent_or_spangroup: String of either 'ent' or 'spangroup'. 'ent' indicates to compare doc.ents between documents. 'spangroup' 
-            indicates to compare doc1's only spangroup (note that doc1 must have only 1 spangroup) with doc2's equivalently named spangroup.
-            This argument is only relevant if passing in spacy document (ie. can be ignored if passing in tuple/list of ents/spans)
-            attributes: list of attributes to be extracted from ents/spans
+                indicates to compare doc1's only spangroup (note that doc1 must have only 1 spangroup) with doc2's equivalently named spangroup.
+                This argument is only relevant if passing in spacy document (ie. can be ignored if passing in tuple/list of ents/spans)
+                attributes: list of attributes to be extracted from ents/spans
 
         Return:
             Dataframe of entities for document lists
@@ -452,11 +431,17 @@ class AnnotationAggregator(object):
 
         for attr in attributes:
             ent_dict_1[attr] = []
+        attr_update = set(self.attr)
+        attr_update.update(attributes)
+        self.attr = list(attr_update)
 
         if ent_type == 1:
             for index,document in enumerate(docs1):
                 for ents in document:
-                    ent_dict_1[df_doc_name].append(str(index))
+                    try:
+                        ent_dict_1[df_doc_name].append(str(id_list[index]))
+                    except:
+                        ent_dict_1[df_doc_name].append(str(index))
                     ent_dict_1[df_span_text].append(ents.text)
                     ent_dict_1[df_start_char].append(ents.start_char)
                     ent_dict_1[df_end_char].append(ents.end_char)
@@ -470,11 +455,17 @@ class AnnotationAggregator(object):
                         ent_dict_1[df_concept_label].append(ents.label_)
                     else:
                         ent_dict_1[df_concept_label].append("")
-                self.spacy_docs[name][str(index)] = document
+                try:
+                    self.spacy_docs[name][str(id_list[index])] = document
+                except:
+                    self.spacy_docs[name][str(index)] = document
         if ent_type == 2:
             for index,document in enumerate(docs1):
                 for ents in document.ents:
-                    ent_dict_1[df_doc_name].append(str(index))
+                    try:
+                        ent_dict_1[df_doc_name].append(str(id_list[index]))
+                    except:
+                        ent_dict_1[df_doc_name].append(str(index))
                     ent_dict_1[df_span_text].append(ents.text)
                     ent_dict_1[df_start_char].append(ents.start_char)
                     ent_dict_1[df_end_char].append(ents.end_char)
@@ -488,14 +479,21 @@ class AnnotationAggregator(object):
                         ent_dict_1[df_concept_label].append(ents.label_)
                     else:
                         ent_dict_1[df_concept_label].append("")
-                self.text[str(index)] = document.text
-                self.spacy_docs[name][str(index)] = document
+                try:
+                    self.text[str(id_list[index])] = document.text
+                    self.spacy_docs[name][str(id_list[index])] = document
+                except:
+                    self.text[str(index)] = document.text
+                    self.spacy_docs[name][str(index)] = document
         if ent_type == 3:
             ent_dict_1['Span Group key'] = []
             for index,document in enumerate(docs1):
                 for span_key in list(document.spans.keys()):
                     for span in document.spans[span_key]:
-                        ent_dict_1[df_doc_name].append(index)
+                        try:
+                            ent_dict_1[df_doc_name].append(str(id_list[index]))
+                        except:
+                            ent_dict_1[df_doc_name].append(str(index))
                         ent_dict_1[df_span_text].append(span.text)
                         ent_dict_1[df_start_char].append(span.start_char)
                         ent_dict_1[df_end_char].append(span.end_char)
@@ -510,8 +508,12 @@ class AnnotationAggregator(object):
                         else:
                             ent_dict_1[df_concept_label].append("")
                         ent_dict_1['Span Group key'].append(span_key)
-                self.text[str(index)] = document.text
-                self.spacy_docs[name][str(index)] = document
+                try:
+                    self.text[str(id_list[index])] = document.text
+                    self.spacy_docs[name][str(id_list[index])] = document
+                except:
+                    self.text[str(index)] = document.text
+                    self.spacy_docs[name][str(index)] = document
         
         self.annot[name] = pd.DataFrame.from_dict(ent_dict_1)
         self.doc_col = 'DocID'
@@ -520,7 +522,25 @@ class AnnotationAggregator(object):
         self.span_start_col = 'spanStartChar'
         self.span_end_col = 'spanEndChar'
     
-
+    def add_dataframe(self,df_dict):
+        for key in df_dict.keys():
+            self.annot[key] = df_dict[key]
+            
+    def remove_annotation_set(self,name):
+        if not isinstance(name,list):
+            name = [name]
+        for n in name:
+            try:
+                del self.annot[n]
+                print('Removed dataframe: ',n)
+            except:
+                pass
+            try:
+                del self.spacy_docs[n]
+                print('Removed set of spacy documents: ',n)
+            except:
+                pass
+        
                                                              
     def overlaps(self,df1, df2, labels:bool,match_on_attr:bool):
         '''Calculates overlapping entities between two dataframes, each containing entity information for a single document.

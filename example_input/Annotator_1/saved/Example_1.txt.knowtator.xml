@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="Example_1.txt">
+    <annotation>
+        <mention id="EHOST_Instance_1" />
+        <annotator id="eHOST_2010">John</annotator>
+        <span start="24" end="28" />
+        <spannedText>pain</spannedText>
+        <creationDate>Wed May 15 13:36:41 CDT 2024</creationDate>
+    </annotation>
+    <stringSlotMention id="EHOST_Instance_4">
+        <mentionSlot id="Temporality" />
+        <stringSlotMentionValue value="Present" />
+    </stringSlotMention>
+    <stringSlotMention id="EHOST_Instance_5">
+        <mentionSlot id="Negation" />
+        <stringSlotMentionValue value="Affirmed" />
+    </stringSlotMention>
+    <classMention id="EHOST_Instance_1">
+        <hasSlotMention id="EHOST_Instance_4" />
+        <hasSlotMention id="EHOST_Instance_5" />
+        <mentionClass id="Pain">pain</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2" />
+        <annotator id="eHOST_2010">John</annotator>
+        <span start="19" end="23" />
+        <spannedText>back</spannedText>
+        <creationDate>Wed May 15 13:37:03 CDT 2024</creationDate>
+    </annotation>
+    <complexSlotMention id="EHOST_Instance_6">
+        <mentionSlot id="Anatomy_to_Pain" />
+        <complexSlotMentionValue value="EHOST_Instance_1" />
+    </complexSlotMention>
+    <classMention id="EHOST_Instance_2">
+        <hasSlotMention id="EHOST_Instance_6" />
+        <mentionClass id="Anatomical_Location">back</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3" />
+        <annotator id="eHOST_2010">John</annotator>
+        <span start="65" end="73" />
+        <spannedText>headache</spannedText>
+        <creationDate>Wed May 15 13:37:25 CDT 2024</creationDate>
+    </annotation>
+    <stringSlotMention id="EHOST_Instance_7">
+        <mentionSlot id="Temporality" />
+        <stringSlotMentionValue value="Present" />
+    </stringSlotMention>
+    <stringSlotMention id="EHOST_Instance_8">
+        <mentionSlot id="Negation" />
+        <stringSlotMentionValue value="Affirmed" />
+    </stringSlotMention>
+    <classMention id="EHOST_Instance_3">
+        <hasSlotMention id="EHOST_Instance_7" />
+        <hasSlotMention id="EHOST_Instance_8" />
+        <mentionClass id="Pain">headache</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+
