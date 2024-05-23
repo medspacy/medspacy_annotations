@@ -1297,7 +1297,7 @@ class AnnotationAggregator(object):
         agreement_type_dict['overall_label_metrics'] = pd.DataFrame.from_dict({"Overall Label Metrics":[overall_tp,overall_fp,overall_fn,self.recall(overall_tp,overall_fp,overall_fn),self.precision(overall_tp,overall_fp,overall_fn),self.pairwise_f1(overall_tp,overall_fp,overall_fn),overall_f1/count]},columns=['TP','FP','FN','Recall','Precision',"F1 (Micro)", "F1 (Macro)"],orient='index')
         
         
-        if (self.label_ind_attr == None) and (self.label_dep_attr == None) and (self.attr == None):
+        if (self.label_ind_attr == None) and (self.label_dep_attr == None) and (self.attr == []):
             agreement_type_dict['attr_metrics'] = pd.DataFrame()
             agreement_type_dict['overall_attr_metrics'] = pd.DataFrame()
             agreement_type_dict['attr_metrics_hier'] = pd.DataFrame()
