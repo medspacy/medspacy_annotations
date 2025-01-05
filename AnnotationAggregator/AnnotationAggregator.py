@@ -1,6 +1,7 @@
 import pandas as pd
 from quicksectx import IntervalNode, IntervalTree, Interval
 import numpy as np
+from pathlib import Path
 
 class AnnotationAggregator(object):
     """
@@ -117,12 +118,17 @@ class AnnotationAggregator(object):
         if isinstance(annot,dict):
             self.annot = annot #For now lets just assume the input type is correctct
 
-        try:
-            self.text = self.extract_txt(text)
-        except:
-            print('Error importing txt files from file, will try to use dictionary or spacy text if provided.')
-            if isinstance(text,dict):
-                self.text = text
+        if text is None:
+            try:
+                if isinstance(text, str) or isinstance(text, Path):
+                    if Path(text).exists():
+                        self.text = self.extract_txt(text)
+                    else:
+                        print(f'Path {Path(text)} does not exist. ')
+            except:
+                print('Error importing txt files from file, will try to use dictionary or spacy text if provided.')
+        elif isinstance(text,dict):
+            self.text = text
             
                 
     def calculate_agreement(self):
